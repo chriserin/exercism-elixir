@@ -235,3 +235,16 @@ Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
 [32m3 tests, 0 failures[0m
 
 Randomized with seed 0
+Excluding tags: [:pending]
+
+
+DiamondTest
+  * test letter A[32m  * test letter A (2.6ms)[0m
+  * test letter C[32m  * test letter C (0.8ms)[0m
+  * test letter E[32m  * test letter E (0.06ms)[0m
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[32m3 tests, 0 failures[0m
+
+Randomized with seed 0
