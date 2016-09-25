@@ -1,0 +1,237 @@
+** (CompileError) diamond.exs:8: unhandled operator ->
+    (elixir) expanding macro: Kernel.|>/2
+    diamond.exs:15: Diamond.build_shape/1
+    (elixir) lib/code.ex:321: Code.load_file/2
+
+Excluding tags: [:pending]
+
+
+DiamondTest
+  * test letter A[31m  * test letter A (6.4ms)[0m
+
+  1) test letter A (DiamondTest)
+     [1m[30mdiamond_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mshape == "A\n"
+     [36mlhs:  [0m"65"
+     [36mrhs:  [0m"A\n"
+     [36mstacktrace:[0m
+       diamond_test.exs:13: (test)
+
+  * test letter C  * test letter C (skipped)
+  * test letter E  * test letter E (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[31m3 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+DiamondTest
+  * test letter A[31m  * test letter A (5.4ms)[0m
+
+  1) test letter A (DiamondTest)
+     [1m[30mdiamond_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mshape == "A\n"
+     [36mlhs:  [0m"A"
+     [36mrhs:  [0m"A[32m\n[0m"
+     [36mstacktrace:[0m
+       diamond_test.exs:13: (test)
+
+  * test letter C  * test letter C (skipped)
+  * test letter E  * test letter E (skipped)
+
+
+Finished in 0.03 seconds (0.03s on load, 0.00s on tests)
+[31m3 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+** (SyntaxError) diamond.exs:16: syntax error before: '<>'
+    (elixir) lib/code.ex:321: Code.load_file/2
+    diamond_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) diamond.exs:16: syntax error before: '<>'
+    (elixir) lib/code.ex:321: Code.load_file/2
+    diamond_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+Excluding tags: [:pending]
+
+
+DiamondTest
+  * test letter A[32m  * test letter A (3.9ms)[0m
+  * test letter C  * test letter C (skipped)
+  * test letter E  * test letter E (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m3 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+DiamondTest
+  * test letter A[32m  * test letter A (3.2ms)[0m
+  * test letter C[31m  * test letter C (3.4ms)[0m
+
+  1) test letter C (DiamondTest)
+     [1m[30mdiamond_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mshape == "  A  \n B B \nC   C\n B B \n  A  \n"
+     [36mlhs:  [0m"  [31mC67[0m \n [31mC[0m  [31m67[0m\nC    \n"
+     [36mrhs:  [0m"  [32mA[0m [32m [0m\n [32mB[0m [32mB[0m \nC   [32mC\n[0m [32mB B [0m\n[32m  A  \n[0m"
+     [36mstacktrace:[0m
+       diamond_test.exs:18: (test)
+
+  * test letter E  * test letter E (skipped)
+
+
+Finished in 0.03 seconds (0.03s on load, 0.00s on tests)
+[31m3 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+DiamondTest
+  * test letter A[32m  * test letter A (2.2ms)[0m
+  * test letter C[31m  * test letter C (3.0ms)[0m
+
+  1) test letter C (DiamondTest)
+     [1m[30mdiamond_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mshape == "  A  \n B B \nC   C\n B B \n  A  \n"
+     [36mlhs:  [0m"  A[31mA[0m \n B [31m [0mB\nC    \n"
+     [36mrhs:  [0m"  A [32m [0m\n B B[32m [0m\nC   [32mC\n[0m [32mB B [0m\n[32m  A  \n[0m"
+     [36mstacktrace:[0m
+       diamond_test.exs:18: (test)
+
+  * test letter E  * test letter E (skipped)
+
+
+Finished in 0.03 seconds (0.03s on load, 0.00s on tests)
+[31m3 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+DiamondTest
+  * test letter A[32m  * test letter A (2.4ms)[0m
+  * test letter C[31m  * test letter C (2.6ms)[0m
+
+  1) test letter C (DiamondTest)
+     [1m[30mdiamond_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mshape == "  A  \n B B \nC   C\n B B \n  A  \n"
+     [36mlhs:  [0m"  A [31mA[0m\n B  [31m [0m\nC    \n"
+     [36mrhs:  [0m"  A [32m [0m\n B [32mB[0m \nC   [32mC\n[0m [32mB B [0m\n[32m  A  \n[0m"
+     [36mstacktrace:[0m
+       diamond_test.exs:18: (test)
+
+  * test letter E  * test letter E (skipped)
+
+
+Finished in 0.03 seconds (0.03s on load, 0.00s on tests)
+[31m3 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+DiamondTest
+  * test letter A[32m  * test letter A (2.6ms)[0m
+  * test letter C[31m  * test letter C (2.8ms)[0m
+
+  1) test letter C (DiamondTest)
+     [1m[30mdiamond_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mshape == "  A  \n B B \nC   C\n B B \n  A  \n"
+     [36mlhs:  [0m"  A  \n B B \nC   C\n"
+     [36mrhs:  [0m"  A  \n B B \nC   C\n[32m B B \n  A  \n[0m"
+     [36mstacktrace:[0m
+       diamond_test.exs:18: (test)
+
+  * test letter E  * test letter E (skipped)
+
+
+Finished in 0.03 seconds (0.03s on load, 0.00s on tests)
+[31m3 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+** (ArgumentError) cannot pipe for(row_letter <- 65..letter) do
+  diamond_width = (letter - 65) * 2 + 1
+  List.duplicate(" ", diamond_width) |> List.replace_at(letter - row_letter, to_string([row_letter])) |> List.replace_at(diamond_width - (letter - row_letter + 1), to_string([row_letter])) |> Enum.join()
+end into Enum.join("\n") <> "\n", the :<> operator can only take two arguments
+    (elixir) lib/macro.ex:163: Macro.pipe/3
+    (stdlib) lists.erl:1262: :lists.foldl/3
+    (elixir) expanding macro: Kernel.|>/2
+    diamond.exs:15: Diamond.build_shape/1
+
+Excluding tags: [:pending]
+
+
+DiamondTest
+  * test letter A[32m  * test letter A (3.8ms)[0m
+  * test letter C[31m  * test letter C (3.2ms)[0m
+
+  1) test letter C (DiamondTest)
+     [1m[30mdiamond_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mshape == "  A  \n B B \nC   C\n B B \n  A  \n"
+     [36mlhs:  [0m"  A  \n B B \nC   C\n"
+     [36mrhs:  [0m"  A  \n B B \nC   C\n[32m B B \n  A  \n[0m"
+     [36mstacktrace:[0m
+       diamond_test.exs:18: (test)
+
+  * test letter E  * test letter E (skipped)
+
+
+Finished in 0.03 seconds (0.03s on load, 0.00s on tests)
+[31m3 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+DiamondTest
+  * test letter A[32m  * test letter A (2.4ms)[0m
+  * test letter C[32m  * test letter C (0.8ms)[0m
+  * test letter E  * test letter E (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[32m3 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+DiamondTest
+  * test letter A[32m  * test letter A (4.3ms)[0m
+  * test letter C[32m  * test letter C (0.9ms)[0m
+  * test letter E[32m  * test letter E (0.3ms)[0m
+
+
+Finished in 0.03 seconds (0.03s on load, 0.00s on tests)
+[32m3 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+DiamondTest
+  * test letter A[32m  * test letter A (2.4ms)[0m
+  * test letter C[32m  * test letter C (0.7ms)[0m
+  * test letter E[32m  * test letter E (0.1ms)[0m
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[32m3 tests, 0 failures[0m
+
+Randomized with seed 0
