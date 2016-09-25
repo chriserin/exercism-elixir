@@ -1,0 +1,920 @@
+** (SyntaxError) hexadecimal.exs:25: unexpected token: ")". "fn" starting at line 25 is missing terminator "end"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    hexadecimal_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (TokenMissingError) hexadecimal.exs:35: missing terminator: end (for "do" starting at line 1)
+    (elixir) lib/code.ex:321: Code.load_file/2
+    hexadecimal_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (CompileError) hexadecimal.exs:19: cannot invoke remote function Kernel.=~/2 inside guard
+** (CompileError) hexadecimal.exs:19: cannot invoke remote function Kernel.=~/2 inside guard
+[33mwarning: [0mfunction hex_2_dec/1 is unused
+  hexadecimal.exs:34
+
+[33mwarning: [0mvariable h is unused
+  hexadecimal.exs:31
+
+** (CompileError) hexadecimal.exs:31: undefined function hex_2_dec/0
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[31m  * test returns 1 when hex is 1 (4.1ms)[0m
+
+  1) test returns 1 when hex is 1 (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:11[0m
+     [31m** (CondClauseError) no cond clause evaluated to a true value[0m
+     [36mstacktrace:[0m
+       Hexadecimal.hex_2_dec/1
+       hexadecimal.exs:31: anonymous fn/1 in Hexadecimal.to_dec/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       hexadecimal_test.exs:12: (test)
+
+  * test returns 12 when hex is c[31m  * test returns 12 when hex is c (2.0ms)[0m
+
+  2) test returns 12 when hex is c (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("c") == 12
+     [36mlhs:  [0m'\f'
+     [36mrhs:  [0m12
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:16: (test)
+
+  * test hexadecimal is case insensitive  * test hexadecimal is case insensitive (skipped)
+  * test returns 16 when hex is 10  * test returns 16 when hex is 10 (skipped)
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m11 tests, 2 failures, 9 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[31m  * test returns 1 when hex is 1 (2.1ms)[0m
+
+  1) test returns 1 when hex is 1 (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("1") == 1
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m1[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:12: (test)
+
+  * test returns 12 when hex is c[31m  * test returns 12 when hex is c (0.02ms)[0m
+
+  2) test returns 12 when hex is c (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("c") == 12
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m12[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:16: (test)
+
+  * test hexadecimal is case insensitive  * test hexadecimal is case insensitive (skipped)
+  * test returns 16 when hex is 10  * test returns 16 when hex is 10 (skipped)
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m11 tests, 2 failures, 9 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[31m  * test returns 1 when hex is 1 (1.9ms)[0m
+
+  1) test returns 1 when hex is 1 (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("1") == 1
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m1[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:12: (test)
+
+  * test returns 12 when hex is c[31m  * test returns 12 when hex is c (0.02ms)[0m
+
+  2) test returns 12 when hex is c (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("c") == 12
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m12[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:16: (test)
+
+  * test hexadecimal is case insensitive  * test hexadecimal is case insensitive (skipped)
+  * test returns 16 when hex is 10  * test returns 16 when hex is 10 (skipped)
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m11 tests, 2 failures, 9 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[31m  * test returns 1 when hex is 1 (3.1ms)[0m
+
+  1) test returns 1 when hex is 1 (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:11[0m
+     [31m** (CondClauseError) no cond clause evaluated to a true value[0m
+     [36mstacktrace:[0m
+       Hexadecimal.hex_2_dec/1
+       hexadecimal.exs:31: anonymous fn/1 in Hexadecimal.to_dec/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       hexadecimal_test.exs:12: (test)
+
+  * test returns 12 when hex is c[31m  * test returns 12 when hex is c (0.7ms)[0m
+
+  2) test returns 12 when hex is c (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("c") == 12
+     [36mlhs:  [0m'\f'
+     [36mrhs:  [0m12
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:16: (test)
+
+  * test hexadecimal is case insensitive  * test hexadecimal is case insensitive (skipped)
+  * test returns 16 when hex is 10  * test returns 16 when hex is 10 (skipped)
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m11 tests, 2 failures, 9 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[31m  * test returns 1 when hex is 1 (2.8ms)[0m
+
+  1) test returns 1 when hex is 1 (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:11[0m
+     [31m** (CondClauseError) no cond clause evaluated to a true value[0m
+     [36mstacktrace:[0m
+       Hexadecimal.hex_2_dec/1
+       hexadecimal.exs:31: anonymous fn/1 in Hexadecimal.to_dec/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       hexadecimal_test.exs:12: (test)
+
+  * test returns 12 when hex is c[31m  * test returns 12 when hex is c (1.4ms)[0m
+
+  2) test returns 12 when hex is c (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("c") == 12
+     [36mlhs:  [0m'\f'
+     [36mrhs:  [0m12
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:16: (test)
+
+  * test hexadecimal is case insensitive  * test hexadecimal is case insensitive (skipped)
+  * test returns 16 when hex is 10  * test returns 16 when hex is 10 (skipped)
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m11 tests, 2 failures, 9 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[31m  * test returns 1 when hex is 1 (2.8ms)[0m
+
+  1) test returns 1 when hex is 1 (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:11[0m
+     [31m** (CondClauseError) no cond clause evaluated to a true value[0m
+     [36mstacktrace:[0m
+       Hexadecimal.hex_2_dec/1
+       hexadecimal.exs:31: anonymous fn/1 in Hexadecimal.to_dec/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       hexadecimal_test.exs:12: (test)
+
+  * test returns 12 when hex is c[31m  * test returns 12 when hex is c (1.6ms)[0m
+
+  2) test returns 12 when hex is c (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("c") == 12
+     [36mlhs:  [0m'\f'
+     [36mrhs:  [0m12
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:16: (test)
+
+  * test hexadecimal is case insensitive  * test hexadecimal is case insensitive (skipped)
+  * test returns 16 when hex is 10  * test returns 16 when hex is 10 (skipped)
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m11 tests, 2 failures, 9 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[31m  * test returns 1 when hex is 1 (2.8ms)[0m
+
+  1) test returns 1 when hex is 1 (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("1") == 1
+     [36mlhs:  [0m[0]
+     [36mrhs:  [0m1
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:12: (test)
+
+  * test returns 12 when hex is c[31m  * test returns 12 when hex is c (0.6ms)[0m
+
+  2) test returns 12 when hex is c (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("c") == 12
+     [36mlhs:  [0m'\f'
+     [36mrhs:  [0m12
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:16: (test)
+
+  * test hexadecimal is case insensitive  * test hexadecimal is case insensitive (skipped)
+  * test returns 16 when hex is 10  * test returns 16 when hex is 10 (skipped)
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m11 tests, 2 failures, 9 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[31m  * test returns 1 when hex is 1 (2.8ms)[0m
+
+  1) test returns 1 when hex is 1 (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("1") == 1
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m1[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:12: (test)
+
+  * test returns 12 when hex is c[32m  * test returns 12 when hex is c (0.8ms)[0m
+  * test hexadecimal is case insensitive  * test hexadecimal is case insensitive (skipped)
+  * test returns 16 when hex is 10  * test returns 16 when hex is 10 (skipped)
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m11 tests, 1 failure, 9 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[32m  * test returns 1 when hex is 1 (1.1ms)[0m
+  * test returns 12 when hex is c[32m  * test returns 12 when hex is c (0.9ms)[0m
+  * test hexadecimal is case insensitive  * test hexadecimal is case insensitive (skipped)
+  * test returns 16 when hex is 10  * test returns 16 when hex is 10 (skipped)
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 9 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[32m  * test returns 1 when hex is 1 (0.9ms)[0m
+  * test returns 12 when hex is c[32m  * test returns 12 when hex is c (0.7ms)[0m
+  * test hexadecimal is case insensitive[31m  * test hexadecimal is case insensitive (2.2ms)[0m
+
+  1) test hexadecimal is case insensitive (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:19[0m
+     [31m** (CondClauseError) no cond clause evaluated to a true value[0m
+     [36mstacktrace:[0m
+       Hexadecimal.hex_2_dec/1
+       hexadecimal.exs:31: anonymous fn/1 in Hexadecimal.to_dec/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       hexadecimal.exs:31: Hexadecimal.to_dec/1
+       hexadecimal_test.exs:20: (test)
+
+  * test returns 16 when hex is 10  * test returns 16 when hex is 10 (skipped)
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m11 tests, 1 failure, 8 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[32m  * test returns 1 when hex is 1 (9.8ms)[0m
+  * test returns 12 when hex is c[32m  * test returns 12 when hex is c (0.7ms)[0m
+  * test hexadecimal is case insensitive[32m  * test hexadecimal is case insensitive (0.03ms)[0m
+  * test returns 16 when hex is 10  * test returns 16 when hex is 10 (skipped)
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m11 tests, 0 failures, 8 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[32m  * test returns 1 when hex is 1 (8.0ms)[0m
+  * test returns 12 when hex is c[32m  * test returns 12 when hex is c (0.7ms)[0m
+  * test hexadecimal is case insensitive[32m  * test hexadecimal is case insensitive (0.02ms)[0m
+  * test returns 16 when hex is 10[31m  * test returns 16 when hex is 10 (2.1ms)[0m
+
+  1) test returns 16 when hex is 10 (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:23[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("10") == 16
+     [36mlhs:  [0m1[31m7[0m
+     [36mrhs:  [0m1[32m6[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:24: (test)
+
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m11 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[32m  * test returns 1 when hex is 1 (7.9ms)[0m
+  * test returns 12 when hex is c[31m  * test returns 12 when hex is c (3.0ms)[0m
+
+  1) test returns 12 when hex is c (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("c") == 12
+     [36mlhs:  [0m1[31m1[0m
+     [36mrhs:  [0m1[32m2[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:16: (test)
+
+  * test hexadecimal is case insensitive[31m  * test hexadecimal is case insensitive (0.06ms)[0m
+
+  2) test hexadecimal is case insensitive (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:19[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("C") == 12
+     [36mlhs:  [0m1[31m1[0m
+     [36mrhs:  [0m1[32m2[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:20: (test)
+
+  * test returns 16 when hex is 10[31m  * test returns 16 when hex is 10 (0.03ms)[0m
+
+  3) test returns 16 when hex is 10 (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:23[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("10") == 16
+     [36mlhs:  [0m1[31m7[0m
+     [36mrhs:  [0m1[32m6[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:24: (test)
+
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m11 tests, 3 failures, 7 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[31m  * test returns 1 when hex is 1 (10.6ms)[0m
+
+  1) test returns 1 when hex is 1 (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("1") == 1
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m1[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:12: (test)
+
+  * test returns 12 when hex is c[32m  * test returns 12 when hex is c (1.3ms)[0m
+  * test hexadecimal is case insensitive[32m  * test hexadecimal is case insensitive (0.04ms)[0m
+  * test returns 16 when hex is 10[31m  * test returns 16 when hex is 10 (0.04ms)[0m
+
+  2) test returns 16 when hex is 10 (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:23[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("10") == 16
+     [36mlhs:  [0m1[31m5[0m
+     [36mrhs:  [0m1[32m6[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:24: (test)
+
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m11 tests, 2 failures, 7 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[32m  * test returns 1 when hex is 1 (8.0ms)[0m
+  * test returns 12 when hex is c[32m  * test returns 12 when hex is c (0.6ms)[0m
+  * test hexadecimal is case insensitive[32m  * test hexadecimal is case insensitive (0.02ms)[0m
+  * test returns 16 when hex is 10[31m  * test returns 16 when hex is 10 (2.0ms)[0m
+
+  1) test returns 16 when hex is 10 (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:23[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("10") == 16
+     [36mlhs:  [0m1[31m7[0m
+     [36mrhs:  [0m1[32m6[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:24: (test)
+
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m11 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[31m  * test returns 1 when hex is 1 (13.6ms)[0m
+
+  1) test returns 1 when hex is 1 (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("1") == 1
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m1[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:12: (test)
+
+  * test returns 12 when hex is c[31m  * test returns 12 when hex is c (1.2ms)[0m
+
+  2) test returns 12 when hex is c (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("c") == 12
+     [36mlhs:  [0m1[31m1[0m
+     [36mrhs:  [0m1[32m2[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:16: (test)
+
+  * test hexadecimal is case insensitive[31m  * test hexadecimal is case insensitive (0.06ms)[0m
+
+  3) test hexadecimal is case insensitive (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:19[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("C") == 12
+     [36mlhs:  [0m1[31m1[0m
+     [36mrhs:  [0m1[32m2[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:20: (test)
+
+  * test returns 16 when hex is 10[31m  * test returns 16 when hex is 10 (0.08ms)[0m
+
+  4) test returns 16 when hex is 10 (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:23[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("10") == 16
+     [36mlhs:  [0m1[31m5[0m
+     [36mrhs:  [0m1[32m6[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:24: (test)
+
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m11 tests, 4 failures, 7 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[32m  * test returns 1 when hex is 1 (8.2ms)[0m
+  * test returns 12 when hex is c[32m  * test returns 12 when hex is c (0.6ms)[0m
+  * test hexadecimal is case insensitive[32m  * test hexadecimal is case insensitive (0.03ms)[0m
+  * test returns 16 when hex is 10[31m  * test returns 16 when hex is 10 (2.2ms)[0m
+
+  1) test returns 16 when hex is 10 (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:23[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("10") == 16
+     [36mlhs:  [0m1[31m7[0m
+     [36mrhs:  [0m1[32m6[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:24: (test)
+
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m11 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[32m  * test returns 1 when hex is 1 (8.1ms)[0m
+  * test returns 12 when hex is c[32m  * test returns 12 when hex is c (0.6ms)[0m
+  * test hexadecimal is case insensitive[32m  * test hexadecimal is case insensitive (0.03ms)[0m
+  * test returns 16 when hex is 10[32m  * test returns 16 when hex is 10 (0.01ms)[0m
+  * test returns 175 when hex is af  * test returns 175 when hex is af (skipped)
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[32m  * test returns 1 when hex is 1 (8.1ms)[0m
+  * test returns 12 when hex is c[32m  * test returns 12 when hex is c (0.7ms)[0m
+  * test hexadecimal is case insensitive[32m  * test hexadecimal is case insensitive (0.02ms)[0m
+  * test returns 16 when hex is 10[32m  * test returns 16 when hex is 10 (0.01ms)[0m
+  * test returns 175 when hex is af[31m  * test returns 175 when hex is af (2.1ms)[0m
+
+  1) test returns 175 when hex is af (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:27[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("af") == 175
+     [36mlhs:  [0m[31m40[0m
+     [36mrhs:  [0m[32m175[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:28: (test)
+
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m11 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[31m  * test returns 1 when hex is 1 (9.7ms)[0m
+
+  1) test returns 1 when hex is 1 (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("1") == 1
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m1[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:12: (test)
+
+  * test returns 12 when hex is c[31m  * test returns 12 when hex is c (0.8ms)[0m
+
+  2) test returns 12 when hex is c (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("c") == 12
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m12[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:16: (test)
+
+  * test hexadecimal is case insensitive[31m  * test hexadecimal is case insensitive (0.04ms)[0m
+
+  3) test hexadecimal is case insensitive (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:19[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("C") == 12
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m12[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:20: (test)
+
+  * test returns 16 when hex is 10[32m  * test returns 16 when hex is 10 (0.02ms)[0m
+  * test returns 175 when hex is af[31m  * test returns 175 when hex is af (0.07ms)[0m
+
+  4) test returns 175 when hex is af (HexadecimalTest)
+     [1m[30mhexadecimal_test.exs:27[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHexadecimal.to_decimal("af") == 175
+     [36mlhs:  [0m1[31m60[0m
+     [36mrhs:  [0m1[32m75[0m
+     [36mstacktrace:[0m
+       hexadecimal_test.exs:28: (test)
+
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m11 tests, 4 failures, 6 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[32m  * test returns 1 when hex is 1 (8.0ms)[0m
+  * test returns 12 when hex is c[32m  * test returns 12 when hex is c (0.7ms)[0m
+  * test hexadecimal is case insensitive[32m  * test hexadecimal is case insensitive (0.03ms)[0m
+  * test returns 16 when hex is 10[32m  * test returns 16 when hex is 10 (0.01ms)[0m
+  * test returns 175 when hex is af[32m  * test returns 175 when hex is af (0.09ms)[0m
+  * test returns 256 when hex is 100  * test returns 256 when hex is 100 (skipped)
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[32m  * test returns 1 when hex is 1 (8.2ms)[0m
+  * test returns 12 when hex is c[32m  * test returns 12 when hex is c (0.7ms)[0m
+  * test hexadecimal is case insensitive[32m  * test hexadecimal is case insensitive (0.04ms)[0m
+  * test returns 16 when hex is 10[32m  * test returns 16 when hex is 10 (0.01ms)[0m
+  * test returns 175 when hex is af[32m  * test returns 175 when hex is af (0.03ms)[0m
+  * test returns 256 when hex is 100[32m  * test returns 256 when hex is 100 (0.03ms)[0m
+  * test returns 105_166 when hex is 19ace  * test returns 105_166 when hex is 19ace (skipped)
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[32m  * test returns 1 when hex is 1 (12.8ms)[0m
+  * test returns 12 when hex is c[32m  * test returns 12 when hex is c (1.4ms)[0m
+  * test hexadecimal is case insensitive[32m  * test hexadecimal is case insensitive (0.07ms)[0m
+  * test returns 16 when hex is 10[32m  * test returns 16 when hex is 10 (0.03ms)[0m
+  * test returns 175 when hex is af[32m  * test returns 175 when hex is af (0.07ms)[0m
+  * test returns 256 when hex is 100[32m  * test returns 256 when hex is 100 (0.05ms)[0m
+  * test returns 105_166 when hex is 19ace[32m  * test returns 105_166 when hex is 19ace (0.03ms)[0m
+  * test returns 0 when hex is invalid  * test returns 0 when hex is invalid (skipped)
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m11 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[32m  * test returns 1 when hex is 1 (9.3ms)[0m
+  * test returns 12 when hex is c[32m  * test returns 12 when hex is c (0.8ms)[0m
+  * test hexadecimal is case insensitive[32m  * test hexadecimal is case insensitive (0.04ms)[0m
+  * test returns 16 when hex is 10[32m  * test returns 16 when hex is 10 (0.01ms)[0m
+  * test returns 175 when hex is af[32m  * test returns 175 when hex is af (0.03ms)[0m
+  * test returns 256 when hex is 100[32m  * test returns 256 when hex is 100 (0.03ms)[0m
+  * test returns 105_166 when hex is 19ace[32m  * test returns 105_166 when hex is 19ace (0.03ms)[0m
+  * test returns 0 when hex is invalid[32m  * test returns 0 when hex is invalid (0.00ms)[0m
+  * test returns 0 when hex represents black  * test returns 0 when hex represents black (skipped)
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m11 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[32m  * test returns 1 when hex is 1 (8.1ms)[0m
+  * test returns 12 when hex is c[32m  * test returns 12 when hex is c (0.7ms)[0m
+  * test hexadecimal is case insensitive[32m  * test hexadecimal is case insensitive (0.03ms)[0m
+  * test returns 16 when hex is 10[32m  * test returns 16 when hex is 10 (0.01ms)[0m
+  * test returns 175 when hex is af[32m  * test returns 175 when hex is af (0.03ms)[0m
+  * test returns 256 when hex is 100[32m  * test returns 256 when hex is 100 (0.02ms)[0m
+  * test returns 105_166 when hex is 19ace[32m  * test returns 105_166 when hex is 19ace (0.03ms)[0m
+  * test returns 0 when hex is invalid[32m  * test returns 0 when hex is invalid (0.01ms)[0m
+  * test returns 0 when hex represents black[32m  * test returns 0 when hex represents black (0.03ms)[0m
+  * test returns 16_777_215 when hex represents white  * test returns 16_777_215 when hex represents white (skipped)
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[32m  * test returns 1 when hex is 1 (8.7ms)[0m
+  * test returns 12 when hex is c[32m  * test returns 12 when hex is c (0.7ms)[0m
+  * test hexadecimal is case insensitive[32m  * test hexadecimal is case insensitive (0.03ms)[0m
+  * test returns 16 when hex is 10[32m  * test returns 16 when hex is 10 (0.01ms)[0m
+  * test returns 175 when hex is af[32m  * test returns 175 when hex is af (0.02ms)[0m
+  * test returns 256 when hex is 100[32m  * test returns 256 when hex is 100 (0.02ms)[0m
+  * test returns 105_166 when hex is 19ace[32m  * test returns 105_166 when hex is 19ace (0.04ms)[0m
+  * test returns 0 when hex is invalid[32m  * test returns 0 when hex is invalid (0.00ms)[0m
+  * test returns 0 when hex represents black[32m  * test returns 0 when hex represents black (0.05ms)[0m
+  * test returns 16_777_215 when hex represents white[32m  * test returns 16_777_215 when hex represents white (0.03ms)[0m
+  * test returns 16_776_960 when hex represents yellow  * test returns 16_776_960 when hex represents yellow (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m11 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HexadecimalTest
+  * test returns 1 when hex is 1[32m  * test returns 1 when hex is 1 (8.0ms)[0m
+  * test returns 12 when hex is c[32m  * test returns 12 when hex is c (0.6ms)[0m
+  * test hexadecimal is case insensitive[32m  * test hexadecimal is case insensitive (0.04ms)[0m
+  * test returns 16 when hex is 10[32m  * test returns 16 when hex is 10 (0.02ms)[0m
+  * test returns 175 when hex is af[32m  * test returns 175 when hex is af (0.02ms)[0m
+  * test returns 256 when hex is 100[32m  * test returns 256 when hex is 100 (0.07ms)[0m
+  * test returns 105_166 when hex is 19ace[32m  * test returns 105_166 when hex is 19ace (0.07ms)[0m
+  * test returns 0 when hex is invalid[32m  * test returns 0 when hex is invalid (0.01ms)[0m
+  * test returns 0 when hex represents black[32m  * test returns 0 when hex represents black (0.04ms)[0m
+  * test returns 16_777_215 when hex represents white[32m  * test returns 16_777_215 when hex represents white (0.03ms)[0m
+  * test returns 16_776_960 when hex represents yellow[32m  * test returns 16_776_960 when hex represents yellow (0.02ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m11 tests, 0 failures[0m
+
+Randomized with seed 0
