@@ -12,8 +12,8 @@ defmodule Luhn do
     |> Enum.sum
   end
 
-  def double({number, i}) when rem(i, 2) == 0, do: String.to_integer(number)
-  def double({number, i}) do
+  defp double({number, i}) when rem(i, 2) == 0, do: String.to_integer(number)
+  defp double({number, i}) do
     num = String.to_integer(number) * 2
 
     cond do
