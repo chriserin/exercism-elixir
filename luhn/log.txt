@@ -1,0 +1,572 @@
+[33mwarning: [0mvariable number is unused
+  luhn.exs:6
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:18
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:26
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[31m  * test checksum (3.4ms)[0m
+
+  1) test checksum (LuhnTest)
+     [1m[30mluhn_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mLuhn.checksum("4913") == 22
+     [36mlhs:  [0mnil
+     [36mrhs:  [0m22
+     [36mstacktrace:[0m
+       luhn_test.exs:12: (test)
+
+  * test checksum again  * test checksum again (skipped)
+  * test invalid number  * test invalid number (skipped)
+  * test valid number  * test valid number (skipped)
+  * test create valid number  * test create valid number (skipped)
+  * test create other valid number  * test create other valid number (skipped)
+  * test create yet another valid number  * test create yet another valid number (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+** (SyntaxError) luhn.exs:12: syntax error before: '>'
+    (elixir) lib/code.ex:321: Code.load_file/2
+    luhn_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) luhn.exs:12: syntax error before: '>'
+    (elixir) lib/code.ex:321: Code.load_file/2
+    luhn_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:23
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:31
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[31m  * test checksum (2.1ms)[0m
+
+  1) test checksum (LuhnTest)
+     [1m[30mluhn_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mLuhn.checksum("4913") == 22
+     [36mlhs:  [0m[31m9817[0m
+     [36mrhs:  [0m[32m22[0m
+     [36mstacktrace:[0m
+       luhn_test.exs:12: (test)
+
+  * test checksum again  * test checksum again (skipped)
+  * test invalid number  * test invalid number (skipped)
+  * test valid number  * test valid number (skipped)
+  * test create valid number  * test create valid number (skipped)
+  * test create other valid number  * test create other valid number (skipped)
+  * test create yet another valid number  * test create yet another valid number (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  luhn.exs:17
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:30
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:38
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[31m  * test checksum (5.4ms)[0m
+
+  1) test checksum (LuhnTest)
+     [1m[30mluhn_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mLuhn.checksum("4913") == 22
+     [36mlhs:  [0m"8923"
+     [36mrhs:  [0m22
+     [36mstacktrace:[0m
+       luhn_test.exs:12: (test)
+
+  * test checksum again  * test checksum again (skipped)
+  * test invalid number  * test invalid number (skipped)
+  * test valid number  * test valid number (skipped)
+  * test create valid number  * test create valid number (skipped)
+  * test create other valid number  * test create other valid number (skipped)
+  * test create yet another valid number  * test create yet another valid number (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  luhn.exs:17
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:30
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:38
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[31m  * test checksum (5.5ms)[0m
+
+  1) test checksum (LuhnTest)
+     [1m[30mluhn_test.exs:11[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       :erlang.+("9", 8)
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       luhn_test.exs:12: (test)
+
+  * test checksum again  * test checksum again (skipped)
+  * test invalid number  * test invalid number (skipped)
+  * test valid number  * test valid number (skipped)
+  * test create valid number  * test create valid number (skipped)
+  * test create other valid number  * test create other valid number (skipped)
+  * test create yet another valid number  * test create yet another valid number (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  luhn.exs:18
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:31
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:39
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[31m  * test checksum (4.3ms)[0m
+
+  1) test checksum (LuhnTest)
+     [1m[30mluhn_test.exs:11[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.binary_to_integer(8)
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       luhn.exs:13: Luhn.checksum/1
+       luhn_test.exs:12: (test)
+
+  * test checksum again  * test checksum again (skipped)
+  * test invalid number  * test invalid number (skipped)
+  * test valid number  * test valid number (skipped)
+  * test create valid number  * test create valid number (skipped)
+  * test create other valid number  * test create other valid number (skipped)
+  * test create yet another valid number  * test create yet another valid number (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  luhn.exs:13
+
+[33mwarning: [0mvariable i is unused
+  luhn.exs:18
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:31
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:39
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[31m  * test checksum (4.1ms)[0m
+
+  1) test checksum (LuhnTest)
+     [1m[30mluhn_test.exs:11[0m
+     [31m** (UndefinedFunctionError) function String.to_integer/0 is undefined or private. Did you mean one of:
+     
+           * to_integer/1
+           * to_integer/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.to_integer()
+       luhn.exs:13: anonymous fn/1 in Luhn.checksum/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       luhn.exs:13: Luhn.checksum/1
+       luhn_test.exs:12: (test)
+
+  * test checksum again  * test checksum again (skipped)
+  * test invalid number  * test invalid number (skipped)
+  * test valid number  * test valid number (skipped)
+  * test create valid number  * test create valid number (skipped)
+  * test create other valid number  * test create other valid number (skipped)
+  * test create yet another valid number  * test create yet another valid number (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  luhn.exs:18
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:31
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:39
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[31m  * test checksum (5.7ms)[0m
+
+  1) test checksum (LuhnTest)
+     [1m[30mluhn_test.exs:11[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.binary_to_integer(8)
+       luhn.exs:13: anonymous fn/1 in Luhn.checksum/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       luhn.exs:13: Luhn.checksum/1
+       luhn_test.exs:12: (test)
+
+  * test checksum again  * test checksum again (skipped)
+  * test invalid number  * test invalid number (skipped)
+  * test valid number  * test valid number (skipped)
+  * test create valid number  * test create valid number (skipped)
+  * test create other valid number  * test create other valid number (skipped)
+  * test create yet another valid number  * test create yet another valid number (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  luhn.exs:17
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:30
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:38
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[32m  * test checksum (1.9ms)[0m
+  * test checksum again  * test checksum again (skipped)
+  * test invalid number  * test invalid number (skipped)
+  * test valid number  * test valid number (skipped)
+  * test create valid number  * test create valid number (skipped)
+  * test create other valid number  * test create other valid number (skipped)
+  * test create yet another valid number  * test create yet another valid number (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  luhn.exs:17
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:30
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:38
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[32m  * test checksum (1.9ms)[0m
+  * test checksum again[32m  * test checksum again (0.01ms)[0m
+  * test invalid number  * test invalid number (skipped)
+  * test valid number  * test valid number (skipped)
+  * test create valid number  * test create valid number (skipped)
+  * test create other valid number  * test create other valid number (skipped)
+  * test create yet another valid number  * test create yet another valid number (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  luhn.exs:17
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:30
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:38
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[32m  * test checksum (2.5ms)[0m
+  * test checksum again[32m  * test checksum again (0.01ms)[0m
+  * test invalid number[31m  * test invalid number (3.7ms)[0m
+
+  1) test invalid number (LuhnTest)
+     [1m[30mluhn_test.exs:19[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mLuhn.valid?("738") == false
+     [36mlhs:  [0mnil
+     [36mrhs:  [0mfalse
+     [36mstacktrace:[0m
+       luhn_test.exs:20: (test)
+
+  * test valid number  * test valid number (skipped)
+  * test create valid number  * test create valid number (skipped)
+  * test create other valid number  * test create other valid number (skipped)
+  * test create yet another valid number  * test create yet another valid number (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  luhn.exs:17
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:39
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[32m  * test checksum (2.3ms)[0m
+  * test checksum again[32m  * test checksum again (0.01ms)[0m
+  * test invalid number[32m  * test invalid number (0.01ms)[0m
+  * test valid number  * test valid number (skipped)
+  * test create valid number  * test create valid number (skipped)
+  * test create other valid number  * test create other valid number (skipped)
+  * test create yet another valid number  * test create yet another valid number (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  luhn.exs:17
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:39
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[32m  * test checksum (2.0ms)[0m
+  * test checksum again[32m  * test checksum again (0.01ms)[0m
+  * test invalid number[32m  * test invalid number (0.00ms)[0m
+  * test valid number[32m  * test valid number (0.00ms)[0m
+  * test create valid number  * test create valid number (skipped)
+  * test create other valid number  * test create other valid number (skipped)
+  * test create yet another valid number  * test create yet another valid number (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  luhn.exs:17
+
+[33mwarning: [0mvariable number is unused
+  luhn.exs:39
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[32m  * test checksum (2.3ms)[0m
+  * test checksum again[32m  * test checksum again (0.01ms)[0m
+  * test invalid number[32m  * test invalid number (0.02ms)[0m
+  * test valid number[32m  * test valid number (0.01ms)[0m
+  * test create valid number[31m  * test create valid number (2.6ms)[0m
+
+  1) test create valid number (LuhnTest)
+     [1m[30mluhn_test.exs:27[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mLuhn.create("123") == "1230"
+     [36mlhs:  [0mnil
+     [36mrhs:  [0m"1230"
+     [36mstacktrace:[0m
+       luhn_test.exs:28: (test)
+
+  * test create other valid number  * test create other valid number (skipped)
+  * test create yet another valid number  * test create yet another valid number (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  luhn.exs:17
+
+[33mwarning: [0mvariable correcting_num is unused
+  luhn.exs:40
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[32m  * test checksum (3.1ms)[0m
+  * test checksum again[32m  * test checksum again (0.02ms)[0m
+  * test invalid number[32m  * test invalid number (0.02ms)[0m
+  * test valid number[32m  * test valid number (0.02ms)[0m
+  * test create valid number[32m  * test create valid number (5.2ms)[0m
+  * test create other valid number  * test create other valid number (skipped)
+  * test create yet another valid number  * test create yet another valid number (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  luhn.exs:17
+
+[33mwarning: [0mvariable correcting_num is unused
+  luhn.exs:40
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[32m  * test checksum (2.9ms)[0m
+  * test checksum again[32m  * test checksum again (0.01ms)[0m
+  * test invalid number[32m  * test invalid number (0.01ms)[0m
+  * test valid number[32m  * test valid number (0.00ms)[0m
+  * test create valid number[32m  * test create valid number (2.5ms)[0m
+  * test create other valid number[32m  * test create other valid number (0.1ms)[0m
+  * test create yet another valid number  * test create yet another valid number (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  luhn.exs:17
+
+[33mwarning: [0mvariable correcting_num is unused
+  luhn.exs:40
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[32m  * test checksum (2.0ms)[0m
+  * test checksum again[32m  * test checksum again (0.01ms)[0m
+  * test invalid number[32m  * test invalid number (0.00ms)[0m
+  * test valid number[32m  * test valid number (0.00ms)[0m
+  * test create valid number[32m  * test create valid number (2.9ms)[0m
+  * test create other valid number[32m  * test create other valid number (0.1ms)[0m
+  * test create yet another valid number[32m  * test create yet another valid number (0.1ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m7 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  luhn.exs:17
+
+[33mwarning: [0mvariable correcting_num is unused
+  luhn.exs:40
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[32m  * test checksum (2.9ms)[0m
+  * test checksum again[32m  * test checksum again (0.01ms)[0m
+  * test invalid number[32m  * test invalid number (0.00ms)[0m
+  * test valid number[32m  * test valid number (0.00ms)[0m
+  * test create valid number[32m  * test create valid number (3.3ms)[0m
+  * test create other valid number[32m  * test create other valid number (0.07ms)[0m
+  * test create yet another valid number[32m  * test create yet another valid number (0.1ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m7 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  luhn.exs:17
+
+[33mwarning: [0mvariable correcting_num is unused
+  luhn.exs:33
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[32m  * test checksum (3.2ms)[0m
+  * test checksum again[32m  * test checksum again (0.01ms)[0m
+  * test invalid number[32m  * test invalid number (0.00ms)[0m
+  * test valid number[32m  * test valid number (0.00ms)[0m
+  * test create valid number[32m  * test create valid number (4.1ms)[0m
+  * test create other valid number[32m  * test create other valid number (0.1ms)[0m
+  * test create yet another valid number[32m  * test create yet another valid number (0.1ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m7 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  luhn.exs:16
+
+[33mwarning: [0mvariable correcting_num is unused
+  luhn.exs:32
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[32m  * test checksum (3.1ms)[0m
+  * test checksum again[32m  * test checksum again (0.01ms)[0m
+  * test invalid number[32m  * test invalid number (0.00ms)[0m
+  * test valid number[32m  * test valid number (0.00ms)[0m
+  * test create valid number[32m  * test create valid number (3.6ms)[0m
+  * test create other valid number[32m  * test create other valid number (0.1ms)[0m
+  * test create yet another valid number[32m  * test create yet another valid number (0.1ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m7 tests, 0 failures[0m
+
+Randomized with seed 0

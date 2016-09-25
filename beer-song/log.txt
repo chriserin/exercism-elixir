@@ -1,0 +1,865 @@
+** (CompileError) beer_song.exs:25: invalid args for &, expected an expression in the format of &Mod.fun/arity, &local/arity or a capture containing at least one argument as &1, got: verse
+    (elixir) expanding macro: Kernel.|>/2
+    beer_song.exs:26: BeerSong.lyrics/1
+    (elixir) lib/code.ex:321: Code.load_file/2
+
+[33mwarning: [0mthis clause cannot match because a previous clause at line 6 always matches
+  beer_song.exs:13
+
+Excluding tags: [:pending]
+
+
+BeerSongTest
+  * test getting just the 100th verse[32m  * test getting just the 100th verse (0.9ms)[0m
+  * test getting just the 99th verse  * test getting just the 99th verse (skipped)
+  * test getting just the 2nd verse  * test getting just the 2nd verse (skipped)
+  * test getting just the 1st verse  * test getting just the 1st verse (skipped)
+  * test getting the last 4 verses  * test getting the last 4 verses (skipped)
+  * test getting the whole song  * test getting the whole song (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mthis clause cannot match because a previous clause at line 6 always matches
+  beer_song.exs:13
+
+Excluding tags: [:pending]
+
+
+BeerSongTest
+  * test getting just the 100th verse[32m  * test getting just the 100th verse (0.7ms)[0m
+  * test getting just the 99th verse[32m  * test getting just the 99th verse (0.02ms)[0m
+  * test getting just the 2nd verse[31m  * test getting just the 2nd verse (1.9ms)[0m
+
+  1) test getting just the 2nd verse (BeerSongTest)
+     [1m[30mbeer_song_test.exs:25[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.verse(2) == "1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n"
+     [36mlhs:  [0m"1 bottle[31ms[0m of beer on the wall, 1 bottle[31ms[0m of beer.\nTake [31mone[0m down and pass it around, [31m0[0m bottles of beer on the wall.\n"
+     [36mrhs:  [0m"1 bottle of beer on the wall, 1 bottle of beer.\nTake [32mit[0m down and pass it around, [32mno[0m [32mmore [0mbottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:26: (test)
+
+  * test getting just the 1st verse[31m  * test getting just the 1st verse (0.05ms)[0m
+
+  2) test getting just the 1st verse (BeerSongTest)
+     [1m[30mbeer_song_test.exs:32[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.verse(1) == "No more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"[31m0[0m bottles of beer on the wall, [31m0[0m bottles of beer.\n[31mTake[0m o[31mn[0me [31md[0mo[31mwn[0m and [31mpa[0ms[31ms[0m [31mit ar[0mo[31mund[0m, [31m-1[0m bottles of beer on the wall.\n"
+     [36mrhs:  [0m"[32mNo[0m [32mmore [0mbottles of beer on the wall, [32mno[0m [32mmore [0mbottles of beer.\n[32mGo[0m [32mt[0mo[32m th[0me [32mst[0mo[32mre[0m and [32mbuy [0ms[32mome[0m [32mm[0mo[32mre[0m, [32m99[0m bottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:33: (test)
+
+  * test getting the last 4 verses[31m  * test getting the last 4 verses (3.6ms)[0m
+
+  3) test getting the last 4 verses (BeerSongTest)
+     [1m[30mbeer_song_test.exs:39[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.lyrics(4..1) == "3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle[31ms[0m of beer on the wall.\n\n1 bottle[31ms[0m of beer on the wall, 1 bottle[31ms[0m of beer.\nTake [31mone[0m down and pass it around, [31m0[0m bottles of beer on the wall.\n\n[31m0[0m bottles of beer on the wall, [31m0[0m bottles of beer.\n[31mTake[0m o[31mn[0me [31md[0mo[31mwn[0m and [31mpa[0ms[31ms[0m [31mit ar[0mo[31mund[0m, [31m-1[0m bottles of beer on the wall.\n"
+     [36mrhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake [32mit[0m down and pass it around, [32mno[0m [32mmore [0mbottles of beer on the wall.\n\n[32mNo[0m [32mmore [0mbottles of beer on the wall, [32mno[0m [32mmore [0mbottles of beer.\n[32mGo[0m [32mt[0mo[32m th[0me [32mst[0mo[32mre[0m and [32mbuy [0ms[32mome[0m [32mm[0mo[32mre[0m, [32m99[0m bottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:40: (test)
+
+  * test getting the whole song[31m  * test getting the whole song (5.9ms)[0m
+
+  4) test getting the whole song (BeerSongTest)
+     [1m[30mbeer_song_test.exs:55[0m
+     [31m** (UndefinedFunctionError) function BeerSong.lyrics/0 is undefined or private. Did you mean one of:
+     
+           * lyrics/1
+     [0m
+     [36mstacktrace:[0m
+       BeerSong.lyrics()
+       beer_song_test.exs:56: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m6 tests, 4 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mthis clause cannot match because a previous clause at line 6 always matches
+  beer_song.exs:13
+
+Excluding tags: [:pending]
+
+
+BeerSongTest
+  * test getting just the 100th verse[32m  * test getting just the 100th verse (0.9ms)[0m
+  * test getting just the 99th verse[32m  * test getting just the 99th verse (0.02ms)[0m
+  * test getting just the 2nd verse[31m  * test getting just the 2nd verse (2.0ms)[0m
+
+  1) test getting just the 2nd verse (BeerSongTest)
+     [1m[30mbeer_song_test.exs:25[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.verse(2) == "1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n"
+     [36mlhs:  [0m"1 bottle[31ms[0m of beer on the wall, 1 bottle[31ms[0m of beer.\nTake [31mone[0m down and pass it around, [31m0[0m bottles of beer on the wall.\n"
+     [36mrhs:  [0m"1 bottle of beer on the wall, 1 bottle of beer.\nTake [32mit[0m down and pass it around, [32mno[0m [32mmore [0mbottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:26: (test)
+
+  * test getting just the 1st verse[31m  * test getting just the 1st verse (0.1ms)[0m
+
+  2) test getting just the 1st verse (BeerSongTest)
+     [1m[30mbeer_song_test.exs:32[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.verse(1) == "No more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"[31m0[0m bottles of beer on the wall, [31m0[0m bottles of beer.\n[31mTake[0m o[31mn[0me [31md[0mo[31mwn[0m and [31mpa[0ms[31ms[0m [31mit ar[0mo[31mund[0m, [31m-1[0m bottles of beer on the wall.\n"
+     [36mrhs:  [0m"[32mNo[0m [32mmore [0mbottles of beer on the wall, [32mno[0m [32mmore [0mbottles of beer.\n[32mGo[0m [32mt[0mo[32m th[0me [32mst[0mo[32mre[0m and [32mbuy [0ms[32mome[0m [32mm[0mo[32mre[0m, [32m99[0m bottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:33: (test)
+
+  * test getting the last 4 verses[31m  * test getting the last 4 verses (3.7ms)[0m
+
+  3) test getting the last 4 verses (BeerSongTest)
+     [1m[30mbeer_song_test.exs:39[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.lyrics(4..1) == "3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle[31ms[0m of beer on the wall.\n\n1 bottle[31ms[0m of beer on the wall, 1 bottle[31ms[0m of beer.\nTake [31mone[0m down and pass it around, [31m0[0m bottles of beer on the wall.\n\n[31m0[0m bottles of beer on the wall, [31m0[0m bottles of beer.\n[31mTake[0m o[31mn[0me [31md[0mo[31mwn[0m and [31mpa[0ms[31ms[0m [31mit ar[0mo[31mund[0m, [31m-1[0m bottles of beer on the wall.\n"
+     [36mrhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake [32mit[0m down and pass it around, [32mno[0m [32mmore [0mbottles of beer on the wall.\n\n[32mNo[0m [32mmore [0mbottles of beer on the wall, [32mno[0m [32mmore [0mbottles of beer.\n[32mGo[0m [32mt[0mo[32m th[0me [32mst[0mo[32mre[0m and [32mbuy [0ms[32mome[0m [32mm[0mo[32mre[0m, [32m99[0m bottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:40: (test)
+
+  * test getting the whole song[31m  * test getting the whole song (1.9ms)[0m
+
+  4) test getting the whole song (BeerSongTest)
+     [1m[30mbeer_song_test.exs:55[0m
+     [31m** (UndefinedFunctionError) function BeerSong.lyrics/0 is undefined or private. Did you mean one of:
+     
+           * lyrics/1
+     [0m
+     [36mstacktrace:[0m
+       BeerSong.lyrics()
+       beer_song_test.exs:56: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m6 tests, 4 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mthis clause cannot match because a previous clause at line 6 always matches
+  beer_song.exs:13
+
+[33mwarning: [0mthis clause cannot match because a previous clause at line 6 always matches
+  beer_song.exs:20
+
+Excluding tags: [:pending]
+
+
+BeerSongTest
+  * test getting just the 100th verse[32m  * test getting just the 100th verse (0.8ms)[0m
+  * test getting just the 99th verse[32m  * test getting just the 99th verse (0.02ms)[0m
+  * test getting just the 2nd verse[31m  * test getting just the 2nd verse (2.0ms)[0m
+
+  1) test getting just the 2nd verse (BeerSongTest)
+     [1m[30mbeer_song_test.exs:25[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.verse(2) == "1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n"
+     [36mlhs:  [0m"1 bottle[31ms[0m of beer on the wall, 1 bottle[31ms[0m of beer.\nTake [31mone[0m down and pass it around, [31m0[0m bottles of beer on the wall.\n"
+     [36mrhs:  [0m"1 bottle of beer on the wall, 1 bottle of beer.\nTake [32mit[0m down and pass it around, [32mno[0m [32mmore [0mbottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:26: (test)
+
+  * test getting just the 1st verse[31m  * test getting just the 1st verse (0.03ms)[0m
+
+  2) test getting just the 1st verse (BeerSongTest)
+     [1m[30mbeer_song_test.exs:32[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.verse(1) == "No more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"[31m0[0m bottles of beer on the wall, [31m0[0m bottles of beer.\n[31mTake[0m o[31mn[0me [31md[0mo[31mwn[0m and [31mpa[0ms[31ms[0m [31mit ar[0mo[31mund[0m, [31m-1[0m bottles of beer on the wall.\n"
+     [36mrhs:  [0m"[32mNo[0m [32mmore [0mbottles of beer on the wall, [32mno[0m [32mmore [0mbottles of beer.\n[32mGo[0m [32mt[0mo[32m th[0me [32mst[0mo[32mre[0m and [32mbuy [0ms[32mome[0m [32mm[0mo[32mre[0m, [32m99[0m bottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:33: (test)
+
+  * test getting the last 4 verses[31m  * test getting the last 4 verses (6.9ms)[0m
+
+  3) test getting the last 4 verses (BeerSongTest)
+     [1m[30mbeer_song_test.exs:39[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.lyrics(4..1) == "3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle[31ms[0m of beer on the wall.\n\n1 bottle[31ms[0m of beer on the wall, 1 bottle[31ms[0m of beer.\nTake [31mone[0m down and pass it around, [31m0[0m bottles of beer on the wall.\n\n[31m0[0m bottles of beer on the wall, [31m0[0m bottles of beer.\n[31mTake[0m o[31mn[0me [31md[0mo[31mwn[0m and [31mpa[0ms[31ms[0m [31mit ar[0mo[31mund[0m, [31m-1[0m bottles of beer on the wall.\n"
+     [36mrhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake [32mit[0m down and pass it around, [32mno[0m [32mmore [0mbottles of beer on the wall.\n\n[32mNo[0m [32mmore [0mbottles of beer on the wall, [32mno[0m [32mmore [0mbottles of beer.\n[32mGo[0m [32mt[0mo[32m th[0me [32mst[0mo[32mre[0m and [32mbuy [0ms[32mome[0m [32mm[0mo[32mre[0m, [32m99[0m bottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:40: (test)
+
+  * test getting the whole song[31m  * test getting the whole song (0.9ms)[0m
+
+  4) test getting the whole song (BeerSongTest)
+     [1m[30mbeer_song_test.exs:55[0m
+     [31m** (UndefinedFunctionError) function BeerSong.lyrics/0 is undefined or private. Did you mean one of:
+     
+           * lyrics/1
+     [0m
+     [36mstacktrace:[0m
+       BeerSong.lyrics()
+       beer_song_test.exs:56: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m6 tests, 4 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mthis clause cannot match because a previous clause at line 6 always matches
+  beer_song.exs:13
+
+[33mwarning: [0mthis clause cannot match because a previous clause at line 6 always matches
+  beer_song.exs:20
+
+Excluding tags: [:pending]
+
+
+BeerSongTest
+  * test getting just the 100th verse[32m  * test getting just the 100th verse (0.7ms)[0m
+  * test getting just the 99th verse[32m  * test getting just the 99th verse (0.02ms)[0m
+  * test getting just the 2nd verse[31m  * test getting just the 2nd verse (2.0ms)[0m
+
+  1) test getting just the 2nd verse (BeerSongTest)
+     [1m[30mbeer_song_test.exs:25[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.verse(2) == "1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n"
+     [36mlhs:  [0m"1 bottle[31ms[0m of beer on the wall, 1 bottle[31ms[0m of beer.\nTake [31mone[0m down and pass it around, [31m0[0m bottles of beer on the wall.\n"
+     [36mrhs:  [0m"1 bottle of beer on the wall, 1 bottle of beer.\nTake [32mit[0m down and pass it around, [32mno[0m [32mmore [0mbottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:26: (test)
+
+  * test getting just the 1st verse[31m  * test getting just the 1st verse (0.05ms)[0m
+
+  2) test getting just the 1st verse (BeerSongTest)
+     [1m[30mbeer_song_test.exs:32[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.verse(1) == "No more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"[31m0[0m bottles of beer on the wall, [31m0[0m bottles of beer.\n[31mTake[0m o[31mn[0me [31md[0mo[31mwn[0m and [31mpa[0ms[31ms[0m [31mit ar[0mo[31mund[0m, [31m-1[0m bottles of beer on the wall.\n"
+     [36mrhs:  [0m"[32mNo[0m [32mmore [0mbottles of beer on the wall, [32mno[0m [32mmore [0mbottles of beer.\n[32mGo[0m [32mt[0mo[32m th[0me [32mst[0mo[32mre[0m and [32mbuy [0ms[32mome[0m [32mm[0mo[32mre[0m, [32m99[0m bottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:33: (test)
+
+  * test getting the last 4 verses[31m  * test getting the last 4 verses (9.6ms)[0m
+
+  3) test getting the last 4 verses (BeerSongTest)
+     [1m[30mbeer_song_test.exs:39[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.lyrics(4..1) == "3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle[31ms[0m of beer on the wall.\n\n1 bottle[31ms[0m of beer on the wall, 1 bottle[31ms[0m of beer.\nTake [31mone[0m down and pass it around, [31m0[0m bottles of beer on the wall.\n\n[31m0[0m bottles of beer on the wall, [31m0[0m bottles of beer.\n[31mTake[0m o[31mn[0me [31md[0mo[31mwn[0m and [31mpa[0ms[31ms[0m [31mit ar[0mo[31mund[0m, [31m-1[0m bottles of beer on the wall.\n"
+     [36mrhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake [32mit[0m down and pass it around, [32mno[0m [32mmore [0mbottles of beer on the wall.\n\n[32mNo[0m [32mmore [0mbottles of beer on the wall, [32mno[0m [32mmore [0mbottles of beer.\n[32mGo[0m [32mt[0mo[32m th[0me [32mst[0mo[32mre[0m and [32mbuy [0ms[32mome[0m [32mm[0mo[32mre[0m, [32m99[0m bottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:40: (test)
+
+  * test getting the whole song[31m  * test getting the whole song (1.1ms)[0m
+
+  4) test getting the whole song (BeerSongTest)
+     [1m[30mbeer_song_test.exs:55[0m
+     [31m** (UndefinedFunctionError) function BeerSong.lyrics/0 is undefined or private. Did you mean one of:
+     
+           * lyrics/1
+     [0m
+     [36mstacktrace:[0m
+       BeerSong.lyrics()
+       beer_song_test.exs:56: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m6 tests, 4 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mthis clause cannot match because a previous clause at line 6 always matches
+  beer_song.exs:13
+
+[33mwarning: [0mthis clause cannot match because a previous clause at line 6 always matches
+  beer_song.exs:20
+
+Excluding tags: [:pending]
+
+
+BeerSongTest
+  * test getting just the 100th verse[32m  * test getting just the 100th verse (0.7ms)[0m
+  * test getting just the 99th verse[32m  * test getting just the 99th verse (0.01ms)[0m
+  * test getting just the 2nd verse[31m  * test getting just the 2nd verse (2.1ms)[0m
+
+  1) test getting just the 2nd verse (BeerSongTest)
+     [1m[30mbeer_song_test.exs:25[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.verse(2) == "1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n"
+     [36mlhs:  [0m"1 bottle[31ms[0m of beer on the wall, 1 bottle[31ms[0m of beer.\nTake [31mone[0m down and pass it around, [31m0[0m bottles of beer on the wall.\n"
+     [36mrhs:  [0m"1 bottle of beer on the wall, 1 bottle of beer.\nTake [32mit[0m down and pass it around, [32mno[0m [32mmore [0mbottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:26: (test)
+
+  * test getting just the 1st verse[31m  * test getting just the 1st verse (0.05ms)[0m
+
+  2) test getting just the 1st verse (BeerSongTest)
+     [1m[30mbeer_song_test.exs:32[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.verse(1) == "No more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"[31m0[0m bottles of beer on the wall, [31m0[0m bottles of beer.\n[31mTake[0m o[31mn[0me [31md[0mo[31mwn[0m and [31mpa[0ms[31ms[0m [31mit ar[0mo[31mund[0m, [31m-1[0m bottles of beer on the wall.\n"
+     [36mrhs:  [0m"[32mNo[0m [32mmore [0mbottles of beer on the wall, [32mno[0m [32mmore [0mbottles of beer.\n[32mGo[0m [32mt[0mo[32m th[0me [32mst[0mo[32mre[0m and [32mbuy [0ms[32mome[0m [32mm[0mo[32mre[0m, [32m99[0m bottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:33: (test)
+
+  * test getting the last 4 verses[31m  * test getting the last 4 verses (2.7ms)[0m
+
+  3) test getting the last 4 verses (BeerSongTest)
+     [1m[30mbeer_song_test.exs:39[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.lyrics(4..1) == "3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle[31ms[0m of beer on the wall.\n\n1 bottle[31ms[0m of beer on the wall, 1 bottle[31ms[0m of beer.\nTake [31mone[0m down and pass it around, [31m0[0m bottles of beer on the wall.\n\n[31m0[0m bottles of beer on the wall, [31m0[0m bottles of beer.\n[31mTake[0m o[31mn[0me [31md[0mo[31mwn[0m and [31mpa[0ms[31ms[0m [31mit ar[0mo[31mund[0m, [31m-1[0m bottles of beer on the wall.\n"
+     [36mrhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake [32mit[0m down and pass it around, [32mno[0m [32mmore [0mbottles of beer on the wall.\n\n[32mNo[0m [32mmore [0mbottles of beer on the wall, [32mno[0m [32mmore [0mbottles of beer.\n[32mGo[0m [32mt[0mo[32m th[0me [32mst[0mo[32mre[0m and [32mbuy [0ms[32mome[0m [32mm[0mo[32mre[0m, [32m99[0m bottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:40: (test)
+
+  * test getting the whole song[31m  * test getting the whole song (3.0ms)[0m
+
+  4) test getting the whole song (BeerSongTest)
+     [1m[30mbeer_song_test.exs:55[0m
+     [31m** (UndefinedFunctionError) function BeerSong.lyrics/0 is undefined or private. Did you mean one of:
+     
+           * lyrics/1
+     [0m
+     [36mstacktrace:[0m
+       BeerSong.lyrics()
+       beer_song_test.exs:56: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m6 tests, 4 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BeerSongTest
+  * test getting just the 100th verse[32m  * test getting just the 100th verse (0.9ms)[0m
+  * test getting just the 99th verse[32m  * test getting just the 99th verse (0.03ms)[0m
+  * test getting just the 2nd verse[32m  * test getting just the 2nd verse (0.00ms)[0m
+  * test getting just the 1st verse[32m  * test getting just the 1st verse (0.00ms)[0m
+  * test getting the last 4 verses[31m  * test getting the last 4 verses (3.9ms)[0m
+
+  1) test getting the last 4 verses (BeerSongTest)
+     [1m[30mbeer_song_test.exs:39[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.lyrics(4..1) == "3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle[31ms[0m of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mrhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:40: (test)
+
+  * test getting the whole song[31m  * test getting the whole song (0.9ms)[0m
+
+  2) test getting the whole song (BeerSongTest)
+     [1m[30mbeer_song_test.exs:55[0m
+     [31m** (UndefinedFunctionError) function BeerSong.lyrics/0 is undefined or private. Did you mean one of:
+     
+           * lyrics/1
+     [0m
+     [36mstacktrace:[0m
+       BeerSong.lyrics()
+       beer_song_test.exs:56: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m6 tests, 2 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BeerSongTest
+  * test getting just the 100th verse[32m  * test getting just the 100th verse (0.9ms)[0m
+  * test getting just the 99th verse[32m  * test getting just the 99th verse (0.02ms)[0m
+  * test getting just the 2nd verse[32m  * test getting just the 2nd verse (0.00ms)[0m
+  * test getting just the 1st verse[32m  * test getting just the 1st verse (0.00ms)[0m
+  * test getting the last 4 verses[31m  * test getting the last 4 verses (4.3ms)[0m
+
+  1) test getting the last 4 verses (BeerSongTest)
+     [1m[30mbeer_song_test.exs:39[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.lyrics(4..1) == "3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle[31ms[0m of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mrhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:40: (test)
+
+  * test getting the whole song[31m  * test getting the whole song (1.4ms)[0m
+
+  2) test getting the whole song (BeerSongTest)
+     [1m[30mbeer_song_test.exs:55[0m
+     [31m** (UndefinedFunctionError) function BeerSong.lyrics/0 is undefined or private. Did you mean one of:
+     
+           * lyrics/1
+     [0m
+     [36mstacktrace:[0m
+       BeerSong.lyrics()
+       beer_song_test.exs:56: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m6 tests, 2 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BeerSongTest
+  * test getting just the 100th verse[32m  * test getting just the 100th verse (0.8ms)[0m
+  * test getting just the 99th verse[32m  * test getting just the 99th verse (0.05ms)[0m
+  * test getting just the 2nd verse[32m  * test getting just the 2nd verse (0.00ms)[0m
+  * test getting just the 1st verse4
+[32m  * test getting just the 1st verse (0.00ms)[0m
+  * test getting the last 4 verses3
+2
+1
+[31m  * test getting the last 4 verses (4.8ms)[0m
+
+  1) test getting the last 4 verses (BeerSongTest)
+     [1m[30mbeer_song_test.exs:39[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.lyrics(4..1) == "3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle[31ms[0m of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mrhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:40: (test)
+
+  * test getting the whole song[31m  * test getting the whole song (1.0ms)[0m
+
+  2) test getting the whole song (BeerSongTest)
+     [1m[30mbeer_song_test.exs:55[0m
+     [31m** (UndefinedFunctionError) function BeerSong.lyrics/0 is undefined or private. Did you mean one of:
+     
+           * lyrics/1
+     [0m
+     [36mstacktrace:[0m
+       BeerSong.lyrics()
+       beer_song_test.exs:56: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m6 tests, 2 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mthe variable "s" is unsafe as it has been set inside a case/cond/receive/if/&&/||. Please explicitly return the variable value instead. For example:
+
+    case int do
+      1 -> atom = :one
+      2 -> atom = :two
+    end
+
+should be written as
+
+    atom =
+      case int do
+        1 -> :one
+        2 -> :two
+      end
+
+Unsafe variable found at:
+  beer_song.exs:27
+
+Excluding tags: [:pending]
+
+
+BeerSongTest
+  * test getting just the 100th verse[32m  * test getting just the 100th verse (0.8ms)[0m
+  * test getting just the 99th verse[32m  * test getting just the 99th verse (0.03ms)[0m
+  * test getting just the 2nd verse[32m  * test getting just the 2nd verse (0.00ms)[0m
+  * test getting just the 1st verse[32m  * test getting just the 1st verse (0.00ms)[0m
+  * test getting the last 4 verses4
+3
+2
+1
+[32m  * test getting the last 4 verses (2.6ms)[0m
+  * test getting the whole song[31m  * test getting the whole song (2.0ms)[0m
+
+  1) test getting the whole song (BeerSongTest)
+     [1m[30mbeer_song_test.exs:55[0m
+     [31m** (UndefinedFunctionError) function BeerSong.lyrics/0 is undefined or private. Did you mean one of:
+     
+           * lyrics/1
+     [0m
+     [36mstacktrace:[0m
+       BeerSong.lyrics()
+       beer_song_test.exs:56: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m6 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mthe variable "s" is unsafe as it has been set inside a case/cond/receive/if/&&/||. Please explicitly return the variable value instead. For example:
+
+    case int do
+      1 -> atom = :one
+      2 -> atom = :two
+    end
+
+should be written as
+
+    atom =
+      case int do
+        1 -> :one
+        2 -> :two
+      end
+
+Unsafe variable found at:
+  beer_song.exs:27
+
+Excluding tags: [:pending]
+
+
+BeerSongTest
+  * test getting just the 100th verse[32m  * test getting just the 100th verse (0.7ms)[0m
+  * test getting just the 99th verse[32m  * test getting just the 99th verse (0.01ms)[0m
+  * test getting just the 2nd verse5
+[32m  * test getting just the 2nd verse (0.00ms)[0m
+  * test getting just the 1st verse4
+[32m  * test getting just the 1st verse (0.00ms)[0m
+3
+  * test getting the last 4 verses2
+[31m  * test getting the last 4 verses (4.7ms)[0m
+
+  1) test getting the last 4 verses (BeerSongTest)
+     [1m[30mbeer_song_test.exs:39[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.lyrics(4..1) == "3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"[31m4[0m bottles of beer on the wall, [31m4[0m bottles of beer.\nTake one down and pass it around, [31m3[0m bottles of beer on the wall.\n\n[31m3[0m bottles of beer on the wall, [31m3[0m bottles of beer.\nTake one down and pass it around, [31m2[0m bottle[31ms[0m of beer on the wall.\n\n[31m2[0m bottle[31ms[0m of beer on the wall, [31m2[0m bottle[31ms[0m of beer.\nTake [31mone[0m down and pass it around, [31m1[0m bottle of beer on the wall.\n\n[31m1[0m bottle of beer on the wall, [31m1[0m bottle of beer.\n[31mTake[0m [31mi[0mt[31m d[0mo[31mwn[0m [31mand[0m [31mpa[0ms[31ms i[0mt a[31mrou[0mnd[31m,[0m [31mn[0mo more bottles of beer on the wall.\n"
+     [36mrhs:  [0m"[32m3[0m bottles of beer on the wall, [32m3[0m bottles of beer.\nTake one down and pass it around, [32m2[0m bottles of beer on the wall.\n\n[32m2[0m bottles of beer on the wall, [32m2[0m bottles of beer.\nTake one down and pass it around, [32m1[0m bottle of beer on the wall.\n\n[32m1[0m bottle of beer on the wall, [32m1[0m bottle of beer.\nTake [32mit[0m down and pass it around, [32mno[0m [32mmore [0mbottle[32ms[0m of beer on the wall.\n\n[32mNo[0m [32mmore [0mbottle[32ms[0m of beer on the wall, [32mno[0m [32mmore [0mbottle[32ms[0m of beer.\n[32mGo[0m to [32mthe[0m st[32more[0m and [32mbuy s[0mo[32mme[0m more[32m,[0m [32m99 [0mbottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:40: (test)
+
+  * test getting the whole song[31m  * test getting the whole song (0.9ms)[0m
+
+  2) test getting the whole song (BeerSongTest)
+     [1m[30mbeer_song_test.exs:55[0m
+     [31m** (UndefinedFunctionError) function BeerSong.lyrics/0 is undefined or private. Did you mean one of:
+     
+           * lyrics/1
+     [0m
+     [36mstacktrace:[0m
+       BeerSong.lyrics()
+       beer_song_test.exs:56: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m6 tests, 2 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mthe variable "s" is unsafe as it has been set inside a case/cond/receive/if/&&/||. Please explicitly return the variable value instead. For example:
+
+    case int do
+      1 -> atom = :one
+      2 -> atom = :two
+    end
+
+should be written as
+
+    atom =
+      case int do
+        1 -> :one
+        2 -> :two
+      end
+
+Unsafe variable found at:
+  beer_song.exs:27
+
+Excluding tags: [:pending]
+
+
+BeerSongTest
+  * test getting just the 100th verse[32m  * test getting just the 100th verse (0.7ms)[0m
+  * test getting just the 99th verse[32m  * test getting just the 99th verse (0.01ms)[0m
+  * test getting just the 2nd verse4
+[32m  * test getting just the 2nd verse (0.00ms)[0m
+  * test getting just the 1st verse3
+[32m  * test getting just the 1st verse (0.00ms)[0m
+2
+  * test getting the last 4 verses1
+[32m  * test getting the last 4 verses (2.6ms)[0m
+  * test getting the whole song[31m  * test getting the whole song (2.4ms)[0m
+
+  1) test getting the whole song (BeerSongTest)
+     [1m[30mbeer_song_test.exs:55[0m
+     [31m** (UndefinedFunctionError) function BeerSong.lyrics/0 is undefined or private. Did you mean one of:
+     
+           * lyrics/1
+     [0m
+     [36mstacktrace:[0m
+       BeerSong.lyrics()
+       beer_song_test.exs:56: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m6 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mthe variable "s" is unsafe as it has been set inside a case/cond/receive/if/&&/||. Please explicitly return the variable value instead. For example:
+
+    case int do
+      1 -> atom = :one
+      2 -> atom = :two
+    end
+
+should be written as
+
+    atom =
+      case int do
+        1 -> :one
+        2 -> :two
+      end
+
+Unsafe variable found at:
+  beer_song.exs:27
+
+Excluding tags: [:pending]
+
+
+BeerSongTest
+  * test getting just the 100th verse[32m  * test getting just the 100th verse (0.8ms)[0m
+  * test getting just the 99th verse[32m  * test getting just the 99th verse (0.01ms)[0m
+  * test getting just the 2nd verse4
+[32m  * test getting just the 2nd verse (0.00ms)[0m
+  * test getting just the 1st verse3
+[32m  * test getting just the 1st verse (0.00ms)[0m
+  * test getting the last 4 verses2
+1
+[32m  * test getting the last 4 verses (2.5ms)[0m
+100
+  * test getting the whole song99
+98
+97
+96
+95
+94
+93
+92
+91
+90
+89
+88
+87
+86
+85
+84
+83
+82
+81
+80
+79
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+45
+44
+43
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+[32m  * test getting the whole song (2.4ms)[0m
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m6 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mthe variable "s" is unsafe as it has been set inside a case/cond/receive/if/&&/||. Please explicitly return the variable value instead. For example:
+
+    case int do
+      1 -> atom = :one
+      2 -> atom = :two
+    end
+
+should be written as
+
+    atom =
+      case int do
+        1 -> :one
+        2 -> :two
+      end
+
+Unsafe variable found at:
+  beer_song.exs:27
+
+Excluding tags: [:pending]
+
+
+BeerSongTest
+  * test getting just the 100th verse[32m  * test getting just the 100th verse (0.8ms)[0m
+  * test getting just the 99th verse[32m  * test getting just the 99th verse (0.01ms)[0m
+  * test getting just the 2nd verse[32m  * test getting just the 2nd verse (0.00ms)[0m
+  * test getting just the 1st verse[32m  * test getting just the 1st verse (0.00ms)[0m
+  * test getting the last 4 verses[32m  * test getting the last 4 verses (1.8ms)[0m
+  * test getting the whole song[32m  * test getting the whole song (0.6ms)[0m
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m6 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BeerSongTest
+  * test getting just the 100th verse[31m  * test getting just the 100th verse (3.9ms)[0m
+
+  1) test getting just the 100th verse (BeerSongTest)
+     [1m[30mbeer_song_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.verse(100) == "99 bottles of beer on the wall, 99 bottles of beer.\nTake one down and pass it around, 98 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"99 bottles of beer on the wall, 99 bottles of beer.\nTake one down and pass it around, 98 bottle of beer on the wall.\n"
+     [36mrhs:  [0m"99 bottles of beer on the wall, 99 bottles of beer.\nTake one down and pass it around, 98 bottle[32ms[0m of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:12: (test)
+
+  * test getting just the 99th verse[31m  * test getting just the 99th verse (0.05ms)[0m
+
+  2) test getting just the 99th verse (BeerSongTest)
+     [1m[30mbeer_song_test.exs:18[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.verse(99) == "98 bottles of beer on the wall, 98 bottles of beer.\nTake one down and pass it around, 97 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"98 bottles of beer on the wall, 98 bottles of beer.\nTake one down and pass it around, 97 bottle of beer on the wall.\n"
+     [36mrhs:  [0m"98 bottles of beer on the wall, 98 bottles of beer.\nTake one down and pass it around, 97 bottle[32ms[0m of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:19: (test)
+
+  * test getting just the 2nd verse[32m  * test getting just the 2nd verse (0.00ms)[0m
+  * test getting just the 1st verse[32m  * test getting just the 1st verse (0.00ms)[0m
+  * test getting the last 4 verses[31m  * test getting the last 4 verses (3.2ms)[0m
+
+  3) test getting the last 4 verses (BeerSongTest)
+     [1m[30mbeer_song_test.exs:39[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.lyrics(4..1) == "3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottle of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle[31ms[0m of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mrhs:  [0m"3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottle[32ms[0m of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:40: (test)
+
+  * test getting the whole song[31m  * test getting the whole song (15.5ms)[0m
+
+  4) test getting the whole song (BeerSongTest)
+     [1m[30mbeer_song_test.exs:55[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBeerSong.lyrics() == "99 bottles of beer on the wall, 99 bottles of beer.\nTake one down and pass it around, 98 bottles of beer on the wall.\n\n98 bottles of beer on the wall, 98 bottles of beer.\nTake one down and pass it around, 97 bottles of beer on the wall.\n\n97 bottles of beer on the wall, 97 bottles of beer.\nTake one down and pass it around, 96 bottles of beer on the wall.\n\n96 bottles of beer on the wall, 96 bottles of beer.\nTake one down and pass it around, 95 bottles of beer on the wall.\n\n95 bottles of beer on the wall, 95 bottles of beer.\nTake one down and pass it around, 94 bottles of beer on the wall.\n\n94 bottles of beer on the wall, 94 bottles of beer.\nTake one down and pass it around, 93 bottles of beer on the wall.\n\n93 bottles of beer on the wall, 93 bottles of beer.\nTake one down and pass it around, 92 bottles of beer on the wall.\n\n92 bottles of beer on the wall, 92 bottles of beer.\nTake one down and pass it around, 91 bottles of beer on the wall.\n\n91 bottles of beer on the wall, 91 bottles of beer.\nTake one down and pass it around, 90 bottles of beer on the wall.\n\n90 bottles of beer on the wall, 90 bottles of beer.\nTake one down and pass it around, 89 bottles of beer on the wall.\n\n89 bottles of beer on the wall, 89 bottles of beer.\nTake one down and pass it around, 88 bottles of beer on the wall.\n\n88 bottles of beer on the wall, 88 bottles of beer.\nTake one down and pass it around, 87 bottles of beer on the wall.\n\n87 bottles of beer on the wall, 87 bottles of beer.\nTake one down and pass it around, 86 bottles of beer on the wall.\n\n86 bottles of beer on the wall, 86 bottles of beer.\nTake one down and pass it around, 85 bottles of beer on the wall.\n\n85 bottles of beer on the wall, 85 bottles of beer.\nTake one down and pass it around, 84 bottles of beer on the wall.\n\n84 bottles of beer on the wall, 84 bottles of beer.\nTake one down and pass it around, 83 bottles of beer on the wall.\n\n83 bottles of beer on the wall, 83 bottles of beer.\nTake one down and pass it around, 82 bottles of beer on the wall.\n\n82 bottles of beer on the wall, 82 bottles of beer.\nTake one down and pass it around, 81 bottles of beer on the wall.\n\n81 bottles of beer on the wall, 81 bottles of beer.\nTake one down and pass it around, 80 bottles of beer on the wall.\n\n80 bottles of beer on the wall, 80 bottles of beer.\nTake one down and pass it around, 79 bottles of beer on the wall.\n\n79 bottles of beer on the wall, 79 bottles of beer.\nTake one down and pass it around, 78 bottles of beer on the wall.\n\n78 bottles of beer on the wall, 78 bottles of beer.\nTake one down and pass it around, 77 bottles of beer on the wall.\n\n77 bottles of beer on the wall, 77 bottles of beer.\nTake one down and pass it around, 76 bottles of beer on the wall.\n\n76 bottles of beer on the wall, 76 bottles of beer.\nTake one down and pass it around, 75 bottles of beer on the wall.\n\n75 bottles of beer on the wall, 75 bottles of beer.\nTake one down and pass it around, 74 bottles of beer on the wall.\n\n74 bottles of beer on the wall, 74 bottles of beer.\nTake one down and pass it around, 73 bottles of beer on the wall.\n\n73 bottles of beer on the wall, 73 bottles of beer.\nTake one down and pass it around, 72 bottles of beer on the wall.\n\n72 bottles of beer on the wall, 72 bottles of beer.\nTake one down and pass it around, 71 bottles of beer on the wall.\n\n71 bottles of beer on the wall, 71 bottles of beer.\nTake one down and pass it around, 70 bottles of beer on the wall.\n\n70 bottles of beer on the wall, 70 bottles of beer.\nTake one down and pass it around, 69 bottles of beer on the wall.\n\n69 bottles of beer on the wall, 69 bottles of beer.\nTake one down and pass it around, 68 bottles of beer on the wall.\n\n68 bottles of beer on the wall, 68 bottles of beer.\nTake one down and pass it around, 67 bottles of beer on the wall.\n\n67 bottles of beer on the wall, 67 bottles of beer.\nTake one down and pass it around, 66 bottles of beer on the wall.\n\n66 bottles of beer on the wall, 66 bottles of beer.\nTake one down and pass it around, 65 bottles of beer on the wall.\n\n65 bottles of beer on the wall, 65 bottles of beer.\nTake one down and pass it around, 64 bottles of beer on the wall.\n\n64 bottles of beer on the wall, 64 bottles of beer.\nTake one down and pass it around, 63 bottles of beer on the wall.\n\n63 bottles of beer on the wall, 63 bottles of beer.\nTake one down and pass it around, 62 bottles of beer on the wall.\n\n62 bottles of beer on the wall, 62 bottles of beer.\nTake one down and pass it around, 61 bottles of beer on the wall.\n\n61 bottles of beer on the wall, 61 bottles of beer.\nTake one down and pass it around, 60 bottles of beer on the wall.\n\n60 bottles of beer on the wall, 60 bottles of beer.\nTake one down and pass it around, 59 bottles of beer on the wall.\n\n59 bottles of beer on the wall, 59 bottles of beer.\nTake one down and pass it around, 58 bottles of beer on the wall.\n\n58 bottles of beer on the wall, 58 bottles of beer.\nTake one down and pass it around, 57 bottles of beer on the wall.\n\n57 bottles of beer on the wall, 57 bottles of beer.\nTake one down and pass it around, 56 bottles of beer on the wall.\n\n56 bottles of beer on the wall, 56 bottles of beer.\nTake one down and pass it around, 55 bottles of beer on the wall.\n\n55 bottles of beer on the wall, 55 bottles of beer.\nTake one down and pass it around, 54 bottles of beer on the wall.\n\n54 bottles of beer on the wall, 54 bottles of beer.\nTake one down and pass it around, 53 bottles of beer on the wall.\n\n53 bottles of beer on the wall, 53 bottles of beer.\nTake one down and pass it around, 52 bottles of beer on the wall.\n\n52 bottles of beer on the wall, 52 bottles of beer.\nTake one down and pass it around, 51 bottles of beer on the wall.\n\n51 bottles of beer on the wall, 51 bottles of beer.\nTake one down and pass it around, 50 bottles of beer on the wall.\n\n50 bottles of beer on the wall, 50 bottles of beer.\nTake one down and pass it around, 49 bottles of beer on the wall.\n\n49 bottles of beer on the wall, 49 bottles of beer.\nTake one down and pass it around, 48 bottles of beer on the wall.\n\n48 bottles of beer on the wall, 48 bottles of beer.\nTake one down and pass it around, 47 bottles of beer on the wall.\n\n47 bottles of beer on the wall, 47 bottles of beer.\nTake one down and pass it around, 46 bottles of beer on the wall.\n\n46 bottles of beer on the wall, 46 bottles of beer.\nTake one down and pass it around, 45 bottles of beer on the wall.\n\n45 bottles of beer on the wall, 45 bottles of beer.\nTake one down and pass it around, 44 bottles of beer on the wall.\n\n44 bottles of beer on the wall, 44 bottles of beer.\nTake one down and pass it around, 43 bottles of beer on the wall.\n\n43 bottles of beer on the wall, 43 bottles of beer.\nTake one down and pass it around, 42 bottles of beer on the wall.\n\n42 bottles of beer on the wall, 42 bottles of beer.\nTake one down and pass it around, 41 bottles of beer on the wall.\n\n41 bottles of beer on the wall, 41 bottles of beer.\nTake one down and pass it around, 40 bottles of beer on the wall.\n\n40 bottles of beer on the wall, 40 bottles of beer.\nTake one down and pass it around, 39 bottles of beer on the wall.\n\n39 bottles of beer on the wall, 39 bottles of beer.\nTake one down and pass it around, 38 bottles of beer on the wall.\n\n38 bottles of beer on the wall, 38 bottles of beer.\nTake one down and pass it around, 37 bottles of beer on the wall.\n\n37 bottles of beer on the wall, 37 bottles of beer.\nTake one down and pass it around, 36 bottles of beer on the wall.\n\n36 bottles of beer on the wall, 36 bottles of beer.\nTake one down and pass it around, 35 bottles of beer on the wall.\n\n35 bottles of beer on the wall, 35 bottles of beer.\nTake one down and pass it around, 34 bottles of beer on the wall.\n\n34 bottles of beer on the wall, 34 bottles of beer.\nTake one down and pass it around, 33 bottles of beer on the wall.\n\n33 bottles of beer on the wall, 33 bottles of beer.\nTake one down and pass it around, 32 bottles of beer on the wall.\n\n32 bottles of beer on the wall, 32 bottles of beer.\nTake one down and pass it around, 31 bottles of beer on the wall.\n\n31 bottles of beer on the wall, 31 bottles of beer.\nTake one down and pass it around, 30 bottles of beer on the wall.\n\n30 bottles of beer on the wall, 30 bottles of beer.\nTake one down and pass it around, 29 bottles of beer on the wall.\n\n29 bottles of beer on the wall, 29 bottles of beer.\nTake one down and pass it around, 28 bottles of beer on the wall.\n\n28 bottles of beer on the wall, 28 bottles of beer.\nTake one down and pass it around, 27 bottles of beer on the wall.\n\n27 bottles of beer on the wall, 27 bottles of beer.\nTake one down and pass it around, 26 bottles of beer on the wall.\n\n26 bottles of beer on the wall, 26 bottles of beer.\nTake one down and pass it around, 25 bottles of beer on the wall.\n\n25 bottles of beer on the wall, 25 bottles of beer.\nTake one down and pass it around, 24 bottles of beer on the wall.\n\n24 bottles of beer on the wall, 24 bottles of beer.\nTake one down and pass it around, 23 bottles of beer on the wall.\n\n23 bottles of beer on the wall, 23 bottles of beer.\nTake one down and pass it around, 22 bottles of beer on the wall.\n\n22 bottles of beer on the wall, 22 bottles of beer.\nTake one down and pass it around, 21 bottles of beer on the wall.\n\n21 bottles of beer on the wall, 21 bottles of beer.\nTake one down and pass it around, 20 bottles of beer on the wall.\n\n20 bottles of beer on the wall, 20 bottles of beer.\nTake one down and pass it around, 19 bottles of beer on the wall.\n\n19 bottles of beer on the wall, 19 bottles of beer.\nTake one down and pass it around, 18 bottles of beer on the wall.\n\n18 bottles of beer on the wall, 18 bottles of beer.\nTake one down and pass it around, 17 bottles of beer on the wall.\n\n17 bottles of beer on the wall, 17 bottles of beer.\nTake one down and pass it around, 16 bottles of beer on the wall.\n\n16 bottles of beer on the wall, 16 bottles of beer.\nTake one down and pass it around, 15 bottles of beer on the wall.\n\n15 bottles of beer on the wall, 15 bottles of beer.\nTake one down and pass it around, 14 bottles of beer on the wall.\n\n14 bottles of beer on the wall, 14 bottles of beer.\nTake one down and pass it around, 13 bottles of beer on the wall.\n\n13 bottles of beer on the wall, 13 bottles of beer.\nTake one down and pass it around, 12 bottles of beer on the wall.\n\n12 bottles of beer on the wall, 12 bottles of beer.\nTake one down and pass it around, 11 bottles of beer on the wall.\n\n11 bottles of beer on the wall, 11 bottles of beer.\nTake one down and pass it around, 10 bottles of beer on the wall.\n\n10 bottles of beer on the wall, 10 bottles of beer.\nTake one down and pass it around, 9 bottles of beer on the wall.\n\n9 bottles of beer on the wall, 9 bottles of beer.\nTake one down and pass it around, 8 bottles of beer on the wall.\n\n8 bottles of beer on the wall, 8 bottles of beer.\nTake one down and pass it around, 7 bottles of beer on the wall.\n\n7 bottles of beer on the wall, 7 bottles of beer.\nTake one down and pass it around, 6 bottles of beer on the wall.\n\n6 bottles of beer on the wall, 6 bottles of beer.\nTake one down and pass it around, 5 bottles of beer on the wall.\n\n5 bottles of beer on the wall, 5 bottles of beer.\nTake one down and pass it around, 4 bottles of beer on the wall.\n\n4 bottles of beer on the wall, 4 bottles of beer.\nTake one down and pass it around, 3 bottles of beer on the wall.\n\n3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mlhs:  [0m"99 bottles of beer on the wall, 99 bottles of beer.\nTake one down and pass it around, 98 bottle of beer on the wall.\n\n98 bottles of beer on the wall, 98 bottles of beer.\nTake one down and pass it around, 97 bottle of beer on the wall.\n\n97 bottles of beer on the wall, 97 bottles of beer.\nTake one down and pass it around, 96 bottle of beer on the wall.\n\n96 bottles of beer on the wall, 96 bottles of beer.\nTake one down and pass it around, 95 bottle of beer on the wall.\n\n95 bottles of beer on the wall, 95 bottles of beer.\nTake one down and pass it around, 94 bottle of beer on the wall.\n\n94 bottles of beer on the wall, 94 bottles of beer.\nTake one down and pass it around, 93 bottle of beer on the wall.\n\n93 bottles of beer on the wall, 93 bottles of beer.\nTake one down and pass it around, 92 bottle of beer on the wall.\n\n92 bottles of beer on the wall, 92 bottles of beer.\nTake one down and pass it around, 91 bottle of beer on the wall.\n\n91 bottles of beer on the wall, 91 bottles of beer.\nTake one down and pass it around, 90 bottle of beer on the wall.\n\n90 bottles of beer on the wall, 90 bottles of beer.\nTake one down and pass it around, 89 bottle of beer on the wall.\n\n89 bottles of beer on the wall, 89 bottles of beer.\nTake one down and pass it around, 88 bottle of beer on the wall.\n\n88 bottles of beer on the wall, 88 bottles of beer.\nTake one down and pass it around, 87 bottle of beer on the wall.\n\n87 bottles of beer on the wall, 87 bottles of beer.\nTake one down and pass it around, 86 bottle of beer on the wall.\n\n86 bottles of beer on the wall, 86 bottles of beer.\nTake one down and pass it around, 85 bottle of beer on the wall.\n\n85 bottles of beer on the wall, 85 bottles of beer.\nTake one down and pass it around, 84 bottle of beer on the wall.\n\n84 bottles of beer on the wall, 84 bottles of beer.\nTake one down and pass it around, 83 bottle of beer on the wall.\n\n83 bottles of beer on the wall, 83 bottles of beer.\nTake one down and pass it around, 82 bottle of beer on the wall.\n\n82 bottles of beer on the wall, 82 bottles of beer.\nTake one down and pass it around, 81 bottle of beer on the wall.\n\n81 bottles of beer on the wall, 81 bottles of beer.\nTake one down and pass it around, 80 bottle of beer on the wall.\n\n80 bottles of beer on the wall, 80 bottles of beer.\nTake one down and pass it around, 79 bottle of beer on the wall.\n\n79 bottles of beer on the wall, 79 bottles of beer.\nTake one down and pass it around, 78 bottle of beer on the wall.\n\n78 bottles of beer on the wall, 78 bottles of beer.\nTake one down and pass it around, 77 bottle of beer on the wall.\n\n77 bottles of beer on the wall, 77 bottles of beer.\nTake one down and pass it around, 76 bottle of beer on the wall.\n\n76 bottles of beer on the wall, 76 bottles of beer.\nTake one down and pass it around, 75 bottle of beer on the wall.\n\n75 bottles of beer on the wall, 75 bottles of beer.\nTake one down and pass it around, 74 bottle of beer on the wall.\n\n74 bottles of beer on the wall, 74 bottles of beer.\nTake one down and pass it around, 73 bottle of beer on the wall.\n\n73 bottles of beer on the wall, 73 bottles of beer.\nTake one down and pass it around, 72 bottle of beer on the wall.\n\n72 bottles of beer on the wall, 72 bottles of beer.\nTake one down and pass it around, 71 bottle of beer on the wall.\n\n71 bottles of beer on the wall, 71 bottles of beer.\nTake one down and pass it around, 70 bottle of beer on the wall.\n\n70 bottles of beer on the wall, 70 bottles of beer.\nTake one down and pass it around, 69 bottle of beer on the wall.\n\n69 bottles of beer on the wall, 69 bottles of beer.\nTake one down and pass it around, 68 bottle of beer on the wall.\n\n68 bottles of beer on the wall, 68 bottles of beer.\nTake one down and pass it around, 67 bottle of beer on the wall.\n\n67 bottles of beer on the wall, 67 bottles of beer.\nTake one down and pass it around, 66 bottle of beer on the wall.\n\n66 bottles of beer on the wall, 66 bottles of beer.\nTake one down and pass it around, 65 bottle of beer on the wall.\n\n65 bottles of beer on the wall, 65 bottles of beer.\nTake one down and pass it around, 64 bottle of beer on the wall.\n\n64 bottles of beer on the wall, 64 bottles of beer.\nTake one down and pass it around, 63 bottle of beer on the wall.\n\n63 bottles of beer on the wall, 63 bottles of beer.\nTake one down and pass it around, 62 bottle of beer on the wall.\n\n62 bottles of beer on the wall, 62 bottles of beer.\nTake one down and pass it around, 61 bottle of beer on the wall.\n\n61 bottles of beer on the wall, 61 bottles of beer.\nTake one down and pass it around, 60 bottle of beer on the wall.\n\n60 bottles of beer on the wall, 60 bottles of beer.\nTake one down and pass it around, 59 bottle of beer on the wall.\n\n59 bottles of beer on the wall, 59 bottles of beer.\nTake one down and pass it around, 58 bottle of beer on the wall.\n\n58 bottles of beer on the wall, 58 bottles of beer.\nTake one down and pass it around, 57 bottle of beer on the wall.\n\n57 bottles of beer on the wall, 57 bottles of beer.\nTake one down and pass it around, 56 bottle of beer on the wall.\n\n56 bottles of beer on the wall, 56 bottles of beer.\nTake one down and pass it around, 55 bottle of beer on the wall.\n\n55 bottles of beer on the wall, 55 bottles of beer.\nTake one down and pass it around, 54 bottle of beer on the wall.\n\n54 bottles of beer on the wall, 54 bottles of beer.\nTake one down and pass it around, 53 bottle of beer on the wall.\n\n53 bottles of beer on the wall, 53 bottles of beer.\nTake one down and pass it around, 52 bottle of beer on the wall.\n\n52 bottles of beer on the wall, 52 bottles of beer.\nTake one down and pass it around, 51 bottle of beer on the wall.\n\n51 bottles of beer on the wall, 51 bottles of beer.\nTake one down and pass it around, 50 bottle of beer on the wall.\n\n50 bottles of beer on the wall, 50 bottles of beer.\nTake one down and pass it around, 49 bottle of beer on the wall.\n\n49 bottles of beer on the wall, 49 bottles of beer.\nTake one down and pass it around, 48 bottle of beer on the wall.\n\n48 bottles of beer on the wall, 48 bottles of beer.\nTake one down and pass it around, 47 bottle of beer on the wall.\n\n47 bottles of beer on the wall, 47 bottles of beer.\nTake one down and pass it around, 46 bottle of beer on the wall.\n\n46 bottles of beer on the wall, 46 bottles of beer.\nTake one down and pass it around, 45 bottle of beer on the wall.\n\n45 bottles of beer on the wall, 45 bottles of beer.\nTake one down and pass it around, 44 bottle of beer on the wall.\n\n44 bottles of beer on the wall, 44 bottles of beer.\nTake one down and pass it around, 43 bottle of beer on the wall.\n\n43 bottles of beer on the wall, 43 bottles of beer.\nTake one down and pass it around, 42 bottle of beer on the wall.\n\n42 bottles of beer on the wall, 42 bottles of beer.\nTake one down and pass it around, 41 bottle of beer on the wall.\n\n41 bottles of beer on the wall, 41 bottles of beer.\nTake one down and pass it around, 40 bottle of beer on the wall.\n\n40 bottles of beer on the wall, 40 bottles of beer.\nTake one down and pass it around, 39 bottle of beer on the wall.\n\n39 bottles of beer on the wall, 39 bottles of beer.\nTake one down and pass it around, 38 bottle of beer on the wall.\n\n38 bottles of beer on the wall, 38 bottles of beer.\nTake one down and pass it around, 37 bottle of beer on the wall.\n\n37 bottles of beer on the wall, 37 bottles of beer.\nTake one down and pass it around, 36 bottle of beer on the wall.\n\n36 bottles of beer on the wall, 36 bottles of beer.\nTake one down and pass it around, 35 bottle of beer on the wall.\n\n35 bottles of beer on the wall, 35 bottles of beer.\nTake one down and pass it around, 34 bottle of beer on the wall.\n\n34 bottles of beer on the wall, 34 bottles of beer.\nTake one down and pass it around, 33 bottle of beer on the wall.\n\n33 bottles of beer on the wall, 33 bottles of beer.\nTake one down and pass it around, 32 bottle of beer on the wall.\n\n32 bottles of beer on the wall, 32 bottles of beer.\nTake one down and pass it around, 31 bottle of beer on the wall.\n\n31 bottles of beer on the wall, 31 bottles of beer.\nTake one down and pass it around, 30 bottle of beer on the wall.\n\n30 bottles of beer on the wall, 30 bottles of beer.\nTake one down and pass it around, 29 bottle of beer on the wall.\n\n29 bottles of beer on the wall, 29 bottles of beer.\nTake one down and pass it around, 28 bottle of beer on the wall.\n\n28 bottles of beer on the wall, 28 bottles of beer.\nTake one down and pass it around, 27 bottle of beer on the wall.\n\n27 bottles of beer on the wall, 27 bottles of beer.\nTake one down and pass it around, 26 bottle of beer on the wall.\n\n26 bottles of beer on the wall, 26 bottles of beer.\nTake one down and pass it around, 25 bottle of beer on the wall.\n\n25 bottles of beer on the wall, 25 bottles of beer.\nTake one down and pass it around, 24 bottle of beer on the wall.\n\n24 bottles of beer on the wall, 24 bottles of beer.\nTake one down and pass it around, 23 bottle of beer on the wall.\n\n23 bottles of beer on the wall, 23 bottles of beer.\nTake one down and pass it around, 22 bottle of beer on the wall.\n\n22 bottles of beer on the wall, 22 bottles of beer.\nTake one down and pass it around, 21 bottle of beer on the wall.\n\n21 bottles of beer on the wall, 21 bottles of beer.\nTake one down and pass it around, 20 bottle of beer on the wall.\n\n20 bottles of beer on the wall, 20 bottles of beer.\nTake one down and pass it around, 19 bottle of beer on the wall.\n\n19 bottles of beer on the wall, 19 bottles of beer.\nTake one down and pass it around, 18 bottle of beer on the wall.\n\n18 bottles of beer on the wall, 18 bottles of beer.\nTake one down and pass it around, 17 bottle of beer on the wall.\n\n17 bottles of beer on the wall, 17 bottles of beer.\nTake one down and pass it around, 16 bottle of beer on the wall.\n\n16 bottles of beer on the wall, 16 bottles of beer.\nTake one down and pass it around, 15 bottle of beer on the wall.\n\n15 bottles of beer on the wall, 15 bottles of beer.\nTake one down and pass it around, 14 bottle of beer on the wall.\n\n14 bottles of beer on the wall, 14 bottles of beer.\nTake one down and pass it around, 13 bottle of beer on the wall.\n\n13 bottles of beer on the wall, 13 bottles of beer.\nTake one down and pass it around, 12 bottle of beer on the wall.\n\n12 bottles of beer on the wall, 12 bottles of beer.\nTake one down and pass it around, 11 bottle of beer on the wall.\n\n11 bottles of beer on the wall, 11 bottles of beer.\nTake one down and pass it around, 10 bottle of beer on the wall.\n\n10 bottles of beer on the wall, 10 bottles of beer.\nTake one down and pass it around, 9 bottle of beer on the wall.\n\n9 bottles of beer on the wall, 9 bottles of beer.\nTake one down and pass it around, 8 bottle of beer on the wall.\n\n8 bottles of beer on the wall, 8 bottles of beer.\nTake one down and pass it around, 7 bottle of beer on the wall.\n\n7 bottles of beer on the wall, 7 bottles of beer.\nTake one down and pass it around, 6 bottle of beer on the wall.\n\n6 bottles of beer on the wall, 6 bottles of beer.\nTake one down and pass it around, 5 bottle of beer on the wall.\n\n5 bottles of beer on the wall, 5 bottles of beer.\nTake one down and pass it around, 4 bottle of beer on the wall.\n\n4 bottles of beer on the wall, 4 bottles of beer.\nTake one down and pass it around, 3 bottle of beer on the wall.\n\n3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottle of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle[31ms[0m of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mrhs:  [0m"99 bottles of beer on the wall, 99 bottles of beer.\nTake one down and pass it around, 98 bottle[32ms[0m of beer on the wall.\n\n98 bottles of beer on the wall, 98 bottles of beer.\nTake one down and pass it around, 97 bottle[32ms[0m of beer on the wall.\n\n97 bottles of beer on the wall, 97 bottles of beer.\nTake one down and pass it around, 96 bottle[32ms[0m of beer on the wall.\n\n96 bottles of beer on the wall, 96 bottles of beer.\nTake one down and pass it around, 95 bottle[32ms[0m of beer on the wall.\n\n95 bottles of beer on the wall, 95 bottles of beer.\nTake one down and pass it around, 94 bottle[32ms[0m of beer on the wall.\n\n94 bottles of beer on the wall, 94 bottles of beer.\nTake one down and pass it around, 93 bottle[32ms[0m of beer on the wall.\n\n93 bottles of beer on the wall, 93 bottles of beer.\nTake one down and pass it around, 92 bottle[32ms[0m of beer on the wall.\n\n92 bottles of beer on the wall, 92 bottles of beer.\nTake one down and pass it around, 91 bottle[32ms[0m of beer on the wall.\n\n91 bottles of beer on the wall, 91 bottles of beer.\nTake one down and pass it around, 90 bottle[32ms[0m of beer on the wall.\n\n90 bottles of beer on the wall, 90 bottles of beer.\nTake one down and pass it around, 89 bottle[32ms[0m of beer on the wall.\n\n89 bottles of beer on the wall, 89 bottles of beer.\nTake one down and pass it around, 88 bottle[32ms[0m of beer on the wall.\n\n88 bottles of beer on the wall, 88 bottles of beer.\nTake one down and pass it around, 87 bottle[32ms[0m of beer on the wall.\n\n87 bottles of beer on the wall, 87 bottles of beer.\nTake one down and pass it around, 86 bottle[32ms[0m of beer on the wall.\n\n86 bottles of beer on the wall, 86 bottles of beer.\nTake one down and pass it around, 85 bottle[32ms[0m of beer on the wall.\n\n85 bottles of beer on the wall, 85 bottles of beer.\nTake one down and pass it around, 84 bottle[32ms[0m of beer on the wall.\n\n84 bottles of beer on the wall, 84 bottles of beer.\nTake one down and pass it around, 83 bottle[32ms[0m of beer on the wall.\n\n83 bottles of beer on the wall, 83 bottles of beer.\nTake one down and pass it around, 82 bottle[32ms[0m of beer on the wall.\n\n82 bottles of beer on the wall, 82 bottles of beer.\nTake one down and pass it around, 81 bottle[32ms[0m of beer on the wall.\n\n81 bottles of beer on the wall, 81 bottles of beer.\nTake one down and pass it around, 80 bottle[32ms[0m of beer on the wall.\n\n80 bottles of beer on the wall, 80 bottles of beer.\nTake one down and pass it around, 79 bottle[32ms[0m of beer on the wall.\n\n79 bottles of beer on the wall, 79 bottles of beer.\nTake one down and pass it around, 78 bottle[32ms[0m of beer on the wall.\n\n78 bottles of beer on the wall, 78 bottles of beer.\nTake one down and pass it around, 77 bottle[32ms[0m of beer on the wall.\n\n77 bottles of beer on the wall, 77 bottles of beer.\nTake one down and pass it around, 76 bottle[32ms[0m of beer on the wall.\n\n76 bottles of beer on the wall, 76 bottles of beer.\nTake one down and pass it around, 75 bottle[32ms[0m of beer on the wall.\n\n75 bottles of beer on the wall, 75 bottles of beer.\nTake one down and pass it around, 74 bottle[32ms[0m of beer on the wall.\n\n74 bottles of beer on the wall, 74 bottles of beer.\nTake one down and pass it around, 73 bottle[32ms[0m of beer on the wall.\n\n73 bottles of beer on the wall, 73 bottles of beer.\nTake one down and pass it around, 72 bottle[32ms[0m of beer on the wall.\n\n72 bottles of beer on the wall, 72 bottles of beer.\nTake one down and pass it around, 71 bottle[32ms[0m of beer on the wall.\n\n71 bottles of beer on the wall, 71 bottles of beer.\nTake one down and pass it around, 70 bottle[32ms[0m of beer on the wall.\n\n70 bottles of beer on the wall, 70 bottles of beer.\nTake one down and pass it around, 69 bottle[32ms[0m of beer on the wall.\n\n69 bottles of beer on the wall, 69 bottles of beer.\nTake one down and pass it around, 68 bottle[32ms[0m of beer on the wall.\n\n68 bottles of beer on the wall, 68 bottles of beer.\nTake one down and pass it around, 67 bottle[32ms[0m of beer on the wall.\n\n67 bottles of beer on the wall, 67 bottles of beer.\nTake one down and pass it around, 66 bottle[32ms[0m of beer on the wall.\n\n66 bottles of beer on the wall, 66 bottles of beer.\nTake one down and pass it around, 65 bottle[32ms[0m of beer on the wall.\n\n65 bottles of beer on the wall, 65 bottles of beer.\nTake one down and pass it around, 64 bottle[32ms[0m of beer on the wall.\n\n64 bottles of beer on the wall, 64 bottles of beer.\nTake one down and pass it around, 63 bottle[32ms[0m of beer on the wall.\n\n63 bottles of beer on the wall, 63 bottles of beer.\nTake one down and pass it around, 62 bottle[32ms[0m of beer on the wall.\n\n62 bottles of beer on the wall, 62 bottles of beer.\nTake one down and pass it around, 61 bottle[32ms[0m of beer on the wall.\n\n61 bottles of beer on the wall, 61 bottles of beer.\nTake one down and pass it around, 60 bottle[32ms[0m of beer on the wall.\n\n60 bottles of beer on the wall, 60 bottles of beer.\nTake one down and pass it around, 59 bottle[32ms[0m of beer on the wall.\n\n59 bottles of beer on the wall, 59 bottles of beer.\nTake one down and pass it around, 58 bottle[32ms[0m of beer on the wall.\n\n58 bottles of beer on the wall, 58 bottles of beer.\nTake one down and pass it around, 57 bottle[32ms[0m of beer on the wall.\n\n57 bottles of beer on the wall, 57 bottles of beer.\nTake one down and pass it around, 56 bottle[32ms[0m of beer on the wall.\n\n56 bottles of beer on the wall, 56 bottles of beer.\nTake one down and pass it around, 55 bottle[32ms[0m of beer on the wall.\n\n55 bottles of beer on the wall, 55 bottles of beer.\nTake one down and pass it around, 54 bottle[32ms[0m of beer on the wall.\n\n54 bottles of beer on the wall, 54 bottles of beer.\nTake one down and pass it around, 53 bottle[32ms[0m of beer on the wall.\n\n53 bottles of beer on the wall, 53 bottles of beer.\nTake one down and pass it around, 52 bottle[32ms[0m of beer on the wall.\n\n52 bottles of beer on the wall, 52 bottles of beer.\nTake one down and pass it around, 51 bottle[32ms[0m of beer on the wall.\n\n51 bottles of beer on the wall, 51 bottles of beer.\nTake one down and pass it around, 50 bottle[32ms[0m of beer on the wall.\n\n50 bottles of beer on the wall, 50 bottles of beer.\nTake one down and pass it around, 49 bottle[32ms[0m of beer on the wall.\n\n49 bottles of beer on the wall, 49 bottles of beer.\nTake one down and pass it around, 48 bottle[32ms[0m of beer on the wall.\n\n48 bottles of beer on the wall, 48 bottles of beer.\nTake one down and pass it around, 47 bottle[32ms[0m of beer on the wall.\n\n47 bottles of beer on the wall, 47 bottles of beer.\nTake one down and pass it around, 46 bottle[32ms[0m of beer on the wall.\n\n46 bottles of beer on the wall, 46 bottles of beer.\nTake one down and pass it around, 45 bottle[32ms[0m of beer on the wall.\n\n45 bottles of beer on the wall, 45 bottles of beer.\nTake one down and pass it around, 44 bottle[32ms[0m of beer on the wall.\n\n44 bottles of beer on the wall, 44 bottles of beer.\nTake one down and pass it around, 43 bottle[32ms[0m of beer on the wall.\n\n43 bottles of beer on the wall, 43 bottles of beer.\nTake one down and pass it around, 42 bottle[32ms[0m of beer on the wall.\n\n42 bottles of beer on the wall, 42 bottles of beer.\nTake one down and pass it around, 41 bottle[32ms[0m of beer on the wall.\n\n41 bottles of beer on the wall, 41 bottles of beer.\nTake one down and pass it around, 40 bottle[32ms[0m of beer on the wall.\n\n40 bottles of beer on the wall, 40 bottles of beer.\nTake one down and pass it around, 39 bottle[32ms[0m of beer on the wall.\n\n39 bottles of beer on the wall, 39 bottles of beer.\nTake one down and pass it around, 38 bottle[32ms[0m of beer on the wall.\n\n38 bottles of beer on the wall, 38 bottles of beer.\nTake one down and pass it around, 37 bottle[32ms[0m of beer on the wall.\n\n37 bottles of beer on the wall, 37 bottles of beer.\nTake one down and pass it around, 36 bottle[32ms[0m of beer on the wall.\n\n36 bottles of beer on the wall, 36 bottles of beer.\nTake one down and pass it around, 35 bottle[32ms[0m of beer on the wall.\n\n35 bottles of beer on the wall, 35 bottles of beer.\nTake one down and pass it around, 34 bottle[32ms[0m of beer on the wall.\n\n34 bottles of beer on the wall, 34 bottles of beer.\nTake one down and pass it around, 33 bottle[32ms[0m of beer on the wall.\n\n33 bottles of beer on the wall, 33 bottles of beer.\nTake one down and pass it around, 32 bottle[32ms[0m of beer on the wall.\n\n32 bottles of beer on the wall, 32 bottles of beer.\nTake one down and pass it around, 31 bottle[32ms[0m of beer on the wall.\n\n31 bottles of beer on the wall, 31 bottles of beer.\nTake one down and pass it around, 30 bottle[32ms[0m of beer on the wall.\n\n30 bottles of beer on the wall, 30 bottles of beer.\nTake one down and pass it around, 29 bottle[32ms[0m of beer on the wall.\n\n29 bottles of beer on the wall, 29 bottles of beer.\nTake one down and pass it around, 28 bottle[32ms[0m of beer on the wall.\n\n28 bottles of beer on the wall, 28 bottles of beer.\nTake one down and pass it around, 27 bottle[32ms[0m of beer on the wall.\n\n27 bottles of beer on the wall, 27 bottles of beer.\nTake one down and pass it around, 26 bottle[32ms[0m of beer on the wall.\n\n26 bottles of beer on the wall, 26 bottles of beer.\nTake one down and pass it around, 25 bottle[32ms[0m of beer on the wall.\n\n25 bottles of beer on the wall, 25 bottles of beer.\nTake one down and pass it around, 24 bottle[32ms[0m of beer on the wall.\n\n24 bottles of beer on the wall, 24 bottles of beer.\nTake one down and pass it around, 23 bottle[32ms[0m of beer on the wall.\n\n23 bottles of beer on the wall, 23 bottles of beer.\nTake one down and pass it around, 22 bottle[32ms[0m of beer on the wall.\n\n22 bottles of beer on the wall, 22 bottles of beer.\nTake one down and pass it around, 21 bottle[32ms[0m of beer on the wall.\n\n21 bottles of beer on the wall, 21 bottles of beer.\nTake one down and pass it around, 20 bottle[32ms[0m of beer on the wall.\n\n20 bottles of beer on the wall, 20 bottles of beer.\nTake one down and pass it around, 19 bottle[32ms[0m of beer on the wall.\n\n19 bottles of beer on the wall, 19 bottles of beer.\nTake one down and pass it around, 18 bottle[32ms[0m of beer on the wall.\n\n18 bottles of beer on the wall, 18 bottles of beer.\nTake one down and pass it around, 17 bottle[32ms[0m of beer on the wall.\n\n17 bottles of beer on the wall, 17 bottles of beer.\nTake one down and pass it around, 16 bottle[32ms[0m of beer on the wall.\n\n16 bottles of beer on the wall, 16 bottles of beer.\nTake one down and pass it around, 15 bottle[32ms[0m of beer on the wall.\n\n15 bottles of beer on the wall, 15 bottles of beer.\nTake one down and pass it around, 14 bottle[32ms[0m of beer on the wall.\n\n14 bottles of beer on the wall, 14 bottles of beer.\nTake one down and pass it around, 13 bottle[32ms[0m of beer on the wall.\n\n13 bottles of beer on the wall, 13 bottles of beer.\nTake one down and pass it around, 12 bottle[32ms[0m of beer on the wall.\n\n12 bottles of beer on the wall, 12 bottles of beer.\nTake one down and pass it around, 11 bottle[32ms[0m of beer on the wall.\n\n11 bottles of beer on the wall, 11 bottles of beer.\nTake one down and pass it around, 10 bottle[32ms[0m of beer on the wall.\n\n10 bottles of beer on the wall, 10 bottles of beer.\nTake one down and pass it around, 9 bottle[32ms[0m of beer on the wall.\n\n9 bottles of beer on the wall, 9 bottles of beer.\nTake one down and pass it around, 8 bottle[32ms[0m of beer on the wall.\n\n8 bottles of beer on the wall, 8 bottles of beer.\nTake one down and pass it around, 7 bottle[32ms[0m of beer on the wall.\n\n7 bottles of beer on the wall, 7 bottles of beer.\nTake one down and pass it around, 6 bottle[32ms[0m of beer on the wall.\n\n6 bottles of beer on the wall, 6 bottles of beer.\nTake one down and pass it around, 5 bottle[32ms[0m of beer on the wall.\n\n5 bottles of beer on the wall, 5 bottles of beer.\nTake one down and pass it around, 4 bottle[32ms[0m of beer on the wall.\n\n4 bottles of beer on the wall, 4 bottles of beer.\nTake one down and pass it around, 3 bottle[32ms[0m of beer on the wall.\n\n3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottle[32ms[0m of beer on the wall.\n\n2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"
+     [36mstacktrace:[0m
+       beer_song_test.exs:56: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.02s on tests)
+[31m6 tests, 4 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BeerSongTest
+  * test getting just the 100th verse[32m  * test getting just the 100th verse (0.9ms)[0m
+  * test getting just the 99th verse[32m  * test getting just the 99th verse (0.02ms)[0m
+  * test getting just the 2nd verse[32m  * test getting just the 2nd verse (0.00ms)[0m
+  * test getting just the 1st verse[32m  * test getting just the 1st verse (0.00ms)[0m
+  * test getting the last 4 verses[32m  * test getting the last 4 verses (1.6ms)[0m
+  * test getting the whole song[32m  * test getting the whole song (0.6ms)[0m
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m6 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BeerSongTest
+  * test getting just the 100th verse[32m  * test getting just the 100th verse (0.8ms)[0m
+  * test getting just the 99th verse[32m  * test getting just the 99th verse (0.02ms)[0m
+  * test getting just the 2nd verse[32m  * test getting just the 2nd verse (0.00ms)[0m
+  * test getting just the 1st verse[32m  * test getting just the 1st verse (0.00ms)[0m
+  * test getting the last 4 verses[32m  * test getting the last 4 verses (1.8ms)[0m
+  * test getting the whole song[32m  * test getting the whole song (0.6ms)[0m
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m6 tests, 0 failures[0m
+
+Randomized with seed 0

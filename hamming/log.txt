@@ -1,0 +1,196 @@
+Excluding tags: [:pending]
+
+
+HammingTest
+  * test no difference between empty strands[31m  * test no difference between empty strands (1.4ms)[0m
+
+  1) test no difference between empty strands (HammingTest)
+     [1m[30mhamming_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mHamming.hamming_distance([], []) == {:ok, 0}
+     [36mlhs:  [0m0
+     [36mrhs:  [0m{:ok, 0}
+     [36mstacktrace:[0m
+       hamming_test.exs:12: (test)
+
+  * test small hamming distance in middle somewhere  * test small hamming distance in middle somewhere (skipped)
+  * test distance with same nucleotides in different locations  * test distance with same nucleotides in different locations (skipped)
+  * test no difference between identical strands  * test no difference between identical strands (skipped)
+  * test hamming distance is undefined for strands of different lengths  * test hamming distance is undefined for strands of different lengths (skipped)
+  * test larger distance  * test larger distance (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 5 skipped[0m
+
+Randomized with seed 496691
+Excluding tags: [:pending]
+
+
+HammingTest
+  * test no difference between empty strands[32m  * test no difference between empty strands (0.00ms)[0m
+  * test no difference between identical strands  * test no difference between identical strands (skipped)
+  * test small hamming distance in middle somewhere  * test small hamming distance in middle somewhere (skipped)
+  * test distance with same nucleotides in different locations  * test distance with same nucleotides in different locations (skipped)
+  * test larger distance  * test larger distance (skipped)
+  * test hamming distance is undefined for strands of different lengths  * test hamming distance is undefined for strands of different lengths (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HammingTest
+  * test no difference between empty strands[32m  * test no difference between empty strands (0.00ms)[0m
+  * test no difference between identical strands[31m  * test no difference between identical strands (4.0ms)[0m
+
+  1) test no difference between identical strands (HammingTest)
+     [1m[30mhamming_test.exs:15[0m
+     [31m** (UndefinedFunctionError) function Enum.min/2 is undefined or private. Did you mean one of:
+     
+           * min/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.min(0, 1)
+       hamming.exs:17: Hamming.reduce_strands/3
+       hamming_test.exs:16: (test)
+
+  * test small hamming distance in middle somewhere  * test small hamming distance in middle somewhere (skipped)
+  * test distance with same nucleotides in different locations  * test distance with same nucleotides in different locations (skipped)
+  * test larger distance  * test larger distance (skipped)
+  * test hamming distance is undefined for strands of different lengths  * test hamming distance is undefined for strands of different lengths (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HammingTest
+  * test no difference between empty strands[32m  * test no difference between empty strands (0.00ms)[0m
+  * test no difference between identical strands[32m  * test no difference between identical strands (0.00ms)[0m
+  * test small hamming distance in middle somewhere  * test small hamming distance in middle somewhere (skipped)
+  * test distance with same nucleotides in different locations  * test distance with same nucleotides in different locations (skipped)
+  * test larger distance  * test larger distance (skipped)
+  * test hamming distance is undefined for strands of different lengths  * test hamming distance is undefined for strands of different lengths (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HammingTest
+  * test no difference between empty strands[32m  * test no difference between empty strands (0.01ms)[0m
+  * test no difference between identical strands[32m  * test no difference between identical strands (0.00ms)[0m
+  * test small hamming distance in middle somewhere[32m  * test small hamming distance in middle somewhere (0.00ms)[0m
+  * test distance with same nucleotides in different locations  * test distance with same nucleotides in different locations (skipped)
+  * test larger distance  * test larger distance (skipped)
+  * test hamming distance is undefined for strands of different lengths  * test hamming distance is undefined for strands of different lengths (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HammingTest
+  * test no difference between empty strands[32m  * test no difference between empty strands (0.00ms)[0m
+  * test no difference between identical strands[32m  * test no difference between identical strands (0.00ms)[0m
+  * test small hamming distance in middle somewhere[32m  * test small hamming distance in middle somewhere (0.00ms)[0m
+  * test distance with same nucleotides in different locations[32m  * test distance with same nucleotides in different locations (0.00ms)[0m
+  * test larger distance  * test larger distance (skipped)
+  * test hamming distance is undefined for strands of different lengths  * test hamming distance is undefined for strands of different lengths (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HammingTest
+  * test no difference between empty strands[32m  * test no difference between empty strands (0.00ms)[0m
+  * test no difference between identical strands[32m  * test no difference between identical strands (0.00ms)[0m
+  * test small hamming distance in middle somewhere[32m  * test small hamming distance in middle somewhere (0.00ms)[0m
+  * test distance with same nucleotides in different locations[32m  * test distance with same nucleotides in different locations (0.00ms)[0m
+  * test larger distance[32m  * test larger distance (0.00ms)[0m
+  * test hamming distance is undefined for strands of different lengths  * test hamming distance is undefined for strands of different lengths (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+HammingTest
+  * test no difference between empty strands[32m  * test no difference between empty strands (0.00ms)[0m
+  * test no difference between identical strands[32m  * test no difference between identical strands (0.00ms)[0m
+  * test small hamming distance in middle somewhere[32m  * test small hamming distance in middle somewhere (0.00ms)[0m
+  * test distance with same nucleotides in different locations[32m  * test distance with same nucleotides in different locations (0.00ms)[0m
+  * test larger distance[32m  * test larger distance (0.00ms)[0m
+  * test hamming distance is undefined for strands of different lengths[31m  * test hamming distance is undefined for strands of different lengths (2.8ms)[0m
+
+  1) test hamming distance is undefined for strands of different lengths (HammingTest)
+     [1m[30mhamming_test.exs:31[0m
+     [31m** (FunctionClauseError) no function clause matching in Hamming.reduce_strands/3[0m
+     [36mstacktrace:[0m
+       hamming.exs:15: Hamming.reduce_strands([], 'GGAGGCTAGCGGTAGGAC', 3)
+       hamming_test.exs:32: (test)
+
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m6 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable acc is unused
+  hamming.exs:15
+
+Excluding tags: [:pending]
+
+
+HammingTest
+  * test no difference between empty strands[32m  * test no difference between empty strands (0.00ms)[0m
+  * test no difference between identical strands[32m  * test no difference between identical strands (0.00ms)[0m
+  * test small hamming distance in middle somewhere[32m  * test small hamming distance in middle somewhere (0.00ms)[0m
+  * test distance with same nucleotides in different locations[32m  * test distance with same nucleotides in different locations (0.00ms)[0m
+  * test larger distance[32m  * test larger distance (0.00ms)[0m
+  * test hamming distance is undefined for strands of different lengths[32m  * test hamming distance is undefined for strands of different lengths (0.00ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m6 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable acc is unused
+  hamming.exs:15
+
+Excluding tags: [:pending]
+
+
+HammingTest
+  * test no difference between empty strands[32m  * test no difference between empty strands (0.00ms)[0m
+  * test no difference between identical strands[32m  * test no difference between identical strands (0.00ms)[0m
+  * test small hamming distance in middle somewhere[32m  * test small hamming distance in middle somewhere (0.00ms)[0m
+  * test distance with same nucleotides in different locations[32m  * test distance with same nucleotides in different locations (0.00ms)[0m
+  * test larger distance[32m  * test larger distance (0.00ms)[0m
+  * test hamming distance is undefined for strands of different lengths[32m  * test hamming distance is undefined for strands of different lengths (0.00ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m6 tests, 0 failures[0m
+
+Randomized with seed 0

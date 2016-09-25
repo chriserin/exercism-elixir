@@ -1,0 +1,899 @@
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (3.0ms)[0m
+  * test binary 10 is decimal 2  * test binary 10 is decimal 2 (skipped)
+  * test binary 11 is decimal 3  * test binary 11 is decimal 3 (skipped)
+  * test binary 100 is decimal 4  * test binary 100 is decimal 4 (skipped)
+  * test binary 1001 is decimal 9  * test binary 1001 is decimal 9 (skipped)
+  * test binary 11010 is decimal 26  * test binary 11010 is decimal 26 (skipped)
+  * test binary 10001101000 is decimal 1128  * test binary 10001101000 is decimal 1128 (skipped)
+  * test invalid binary is decimal 0  * test invalid binary is decimal 0 (skipped)
+  * test invalid binary is decimal 0 II  * test invalid binary is decimal 0 II (skipped)
+  * test invalid binary is decimal 0 III  * test invalid binary is decimal 0 III (skipped)
+  * test invalid binary is decimal 0 IV  * test invalid binary is decimal 0 IV (skipped)
+  * test 22 is not a binary number  * test 22 is not a binary number (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 11 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (3.3ms)[0m
+  * test binary 10 is decimal 2[31m  * test binary 10 is decimal 2 (4.6ms)[0m
+
+  1) test binary 10 is decimal 2 (BinaryTest)
+     [1m[30mbinary_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBinary.to_decimal("10") == 2
+     [36mlhs:  [0m1.0
+     [36mrhs:  [0m2
+     [36mstacktrace:[0m
+       binary_test.exs:16: (test)
+
+  * test binary 11 is decimal 3  * test binary 11 is decimal 3 (skipped)
+  * test binary 100 is decimal 4  * test binary 100 is decimal 4 (skipped)
+  * test binary 1001 is decimal 9  * test binary 1001 is decimal 9 (skipped)
+  * test binary 11010 is decimal 26  * test binary 11010 is decimal 26 (skipped)
+  * test binary 10001101000 is decimal 1128  * test binary 10001101000 is decimal 1128 (skipped)
+  * test invalid binary is decimal 0  * test invalid binary is decimal 0 (skipped)
+  * test invalid binary is decimal 0 II  * test invalid binary is decimal 0 II (skipped)
+  * test invalid binary is decimal 0 III  * test invalid binary is decimal 0 III (skipped)
+  * test invalid binary is decimal 0 IV  * test invalid binary is decimal 0 IV (skipped)
+  * test 22 is not a binary number  * test 22 is not a binary number (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m12 tests, 1 failure, 10 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (1.9ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.01ms)[0m
+  * test binary 11 is decimal 3  * test binary 11 is decimal 3 (skipped)
+  * test binary 100 is decimal 4  * test binary 100 is decimal 4 (skipped)
+  * test binary 1001 is decimal 9  * test binary 1001 is decimal 9 (skipped)
+  * test binary 11010 is decimal 26  * test binary 11010 is decimal 26 (skipped)
+  * test binary 10001101000 is decimal 1128  * test binary 10001101000 is decimal 1128 (skipped)
+  * test invalid binary is decimal 0  * test invalid binary is decimal 0 (skipped)
+  * test invalid binary is decimal 0 II  * test invalid binary is decimal 0 II (skipped)
+  * test invalid binary is decimal 0 III  * test invalid binary is decimal 0 III (skipped)
+  * test invalid binary is decimal 0 IV  * test invalid binary is decimal 0 IV (skipped)
+  * test 22 is not a binary number  * test 22 is not a binary number (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 10 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (2.0ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.00ms)[0m
+  * test binary 11 is decimal 3[32m  * test binary 11 is decimal 3 (0.00ms)[0m
+  * test binary 100 is decimal 4  * test binary 100 is decimal 4 (skipped)
+  * test binary 1001 is decimal 9  * test binary 1001 is decimal 9 (skipped)
+  * test binary 11010 is decimal 26  * test binary 11010 is decimal 26 (skipped)
+  * test binary 10001101000 is decimal 1128  * test binary 10001101000 is decimal 1128 (skipped)
+  * test invalid binary is decimal 0  * test invalid binary is decimal 0 (skipped)
+  * test invalid binary is decimal 0 II  * test invalid binary is decimal 0 II (skipped)
+  * test invalid binary is decimal 0 III  * test invalid binary is decimal 0 III (skipped)
+  * test invalid binary is decimal 0 IV  * test invalid binary is decimal 0 IV (skipped)
+  * test 22 is not a binary number  * test 22 is not a binary number (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 9 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (2.0ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.00ms)[0m
+  * test binary 11 is decimal 3[32m  * test binary 11 is decimal 3 (0.00ms)[0m
+  * test binary 100 is decimal 4[32m  * test binary 100 is decimal 4 (0.00ms)[0m
+  * test binary 1001 is decimal 9  * test binary 1001 is decimal 9 (skipped)
+  * test binary 11010 is decimal 26  * test binary 11010 is decimal 26 (skipped)
+  * test binary 10001101000 is decimal 1128  * test binary 10001101000 is decimal 1128 (skipped)
+  * test invalid binary is decimal 0  * test invalid binary is decimal 0 (skipped)
+  * test invalid binary is decimal 0 II  * test invalid binary is decimal 0 II (skipped)
+  * test invalid binary is decimal 0 III  * test invalid binary is decimal 0 III (skipped)
+  * test invalid binary is decimal 0 IV  * test invalid binary is decimal 0 IV (skipped)
+  * test 22 is not a binary number  * test 22 is not a binary number (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 8 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (1.9ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.00ms)[0m
+  * test binary 11 is decimal 3[32m  * test binary 11 is decimal 3 (0.00ms)[0m
+  * test binary 100 is decimal 4[32m  * test binary 100 is decimal 4 (0.00ms)[0m
+  * test binary 1001 is decimal 9[32m  * test binary 1001 is decimal 9 (0.00ms)[0m
+  * test binary 11010 is decimal 26  * test binary 11010 is decimal 26 (skipped)
+  * test binary 10001101000 is decimal 1128  * test binary 10001101000 is decimal 1128 (skipped)
+  * test invalid binary is decimal 0  * test invalid binary is decimal 0 (skipped)
+  * test invalid binary is decimal 0 II  * test invalid binary is decimal 0 II (skipped)
+  * test invalid binary is decimal 0 III  * test invalid binary is decimal 0 III (skipped)
+  * test invalid binary is decimal 0 IV  * test invalid binary is decimal 0 IV (skipped)
+  * test 22 is not a binary number  * test 22 is not a binary number (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (2.6ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.01ms)[0m
+  * test binary 11 is decimal 3[32m  * test binary 11 is decimal 3 (0.01ms)[0m
+  * test binary 100 is decimal 4[32m  * test binary 100 is decimal 4 (0.01ms)[0m
+  * test binary 1001 is decimal 9[32m  * test binary 1001 is decimal 9 (0.00ms)[0m
+  * test binary 11010 is decimal 26[32m  * test binary 11010 is decimal 26 (0.01ms)[0m
+  * test binary 10001101000 is decimal 1128  * test binary 10001101000 is decimal 1128 (skipped)
+  * test invalid binary is decimal 0  * test invalid binary is decimal 0 (skipped)
+  * test invalid binary is decimal 0 II  * test invalid binary is decimal 0 II (skipped)
+  * test invalid binary is decimal 0 III  * test invalid binary is decimal 0 III (skipped)
+  * test invalid binary is decimal 0 IV  * test invalid binary is decimal 0 IV (skipped)
+  * test 22 is not a binary number  * test 22 is not a binary number (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (1.9ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.00ms)[0m
+  * test binary 11 is decimal 3[32m  * test binary 11 is decimal 3 (0.00ms)[0m
+  * test binary 100 is decimal 4[32m  * test binary 100 is decimal 4 (0.00ms)[0m
+  * test binary 1001 is decimal 9[32m  * test binary 1001 is decimal 9 (0.01ms)[0m
+  * test binary 11010 is decimal 26[32m  * test binary 11010 is decimal 26 (0.01ms)[0m
+  * test binary 10001101000 is decimal 1128[32m  * test binary 10001101000 is decimal 1128 (0.01ms)[0m
+  * test invalid binary is decimal 0  * test invalid binary is decimal 0 (skipped)
+  * test invalid binary is decimal 0 II  * test invalid binary is decimal 0 II (skipped)
+  * test invalid binary is decimal 0 III  * test invalid binary is decimal 0 III (skipped)
+  * test invalid binary is decimal 0 IV  * test invalid binary is decimal 0 IV (skipped)
+  * test 22 is not a binary number  * test 22 is not a binary number (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (2.3ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.00ms)[0m
+  * test binary 11 is decimal 3[32m  * test binary 11 is decimal 3 (0.00ms)[0m
+  * test binary 100 is decimal 4[32m  * test binary 100 is decimal 4 (0.00ms)[0m
+  * test binary 1001 is decimal 9[32m  * test binary 1001 is decimal 9 (0.00ms)[0m
+  * test binary 11010 is decimal 26[32m  * test binary 11010 is decimal 26 (0.01ms)[0m
+  * test binary 10001101000 is decimal 1128[32m  * test binary 10001101000 is decimal 1128 (0.01ms)[0m
+  * test invalid binary is decimal 0[31m  * test invalid binary is decimal 0 (3.7ms)[0m
+
+  1) test invalid binary is decimal 0 (BinaryTest)
+     [1m[30mbinary_test.exs:39[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.binary_to_integer("t")
+       binary.exs:13: anonymous fn/1 in Binary.to_decimal/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       binary.exs:13: Binary.to_decimal/1
+       binary_test.exs:40: (test)
+
+  * test invalid binary is decimal 0 II  * test invalid binary is decimal 0 II (skipped)
+  * test invalid binary is decimal 0 III  * test invalid binary is decimal 0 III (skipped)
+  * test invalid binary is decimal 0 IV  * test invalid binary is decimal 0 IV (skipped)
+  * test 22 is not a binary number  * test 22 is not a binary number (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m12 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[31m  * test binary 1 is decimal 1 (4.0ms)[0m
+
+  1) test binary 1 is decimal 1 (BinaryTest)
+     [1m[30mbinary_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBinary.to_decimal("1") == 1
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m1[0m
+     [36mstacktrace:[0m
+       binary_test.exs:12: (test)
+
+  * test binary 10 is decimal 2[31m  * test binary 10 is decimal 2 (0.03ms)[0m
+
+  2) test binary 10 is decimal 2 (BinaryTest)
+     [1m[30mbinary_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBinary.to_decimal("10") == 2
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m2[0m
+     [36mstacktrace:[0m
+       binary_test.exs:16: (test)
+
+  * test binary 11 is decimal 3[31m  * test binary 11 is decimal 3 (0.02ms)[0m
+
+  3) test binary 11 is decimal 3 (BinaryTest)
+     [1m[30mbinary_test.exs:19[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBinary.to_decimal("11") == 3
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m3[0m
+     [36mstacktrace:[0m
+       binary_test.exs:20: (test)
+
+  * test binary 100 is decimal 4[31m  * test binary 100 is decimal 4 (0.02ms)[0m
+
+  4) test binary 100 is decimal 4 (BinaryTest)
+     [1m[30mbinary_test.exs:23[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBinary.to_decimal("100") == 4
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m4[0m
+     [36mstacktrace:[0m
+       binary_test.exs:24: (test)
+
+  * test binary 1001 is decimal 9[31m  * test binary 1001 is decimal 9 (0.02ms)[0m
+
+  5) test binary 1001 is decimal 9 (BinaryTest)
+     [1m[30mbinary_test.exs:27[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBinary.to_decimal("1001") == 9
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m9[0m
+     [36mstacktrace:[0m
+       binary_test.exs:28: (test)
+
+  * test binary 11010 is decimal 26[31m  * test binary 11010 is decimal 26 (0.02ms)[0m
+
+  6) test binary 11010 is decimal 26 (BinaryTest)
+     [1m[30mbinary_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBinary.to_decimal("11010") == 26
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m26[0m
+     [36mstacktrace:[0m
+       binary_test.exs:32: (test)
+
+  * test binary 10001101000 is decimal 1128[31m  * test binary 10001101000 is decimal 1128 (0.03ms)[0m
+
+  7) test binary 10001101000 is decimal 1128 (BinaryTest)
+     [1m[30mbinary_test.exs:35[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBinary.to_decimal("10001101000") == 1128
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m1128[0m
+     [36mstacktrace:[0m
+       binary_test.exs:36: (test)
+
+  * test invalid binary is decimal 0[32m  * test invalid binary is decimal 0 (0.02ms)[0m
+  * test invalid binary is decimal 0 II  * test invalid binary is decimal 0 II (skipped)
+  * test invalid binary is decimal 0 III  * test invalid binary is decimal 0 III (skipped)
+  * test invalid binary is decimal 0 IV  * test invalid binary is decimal 0 IV (skipped)
+  * test 22 is not a binary number  * test 22 is not a binary number (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m12 tests, 7 failures, 4 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (2.0ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.01ms)[0m
+  * test binary 11 is decimal 3[32m  * test binary 11 is decimal 3 (0.01ms)[0m
+  * test binary 100 is decimal 4[32m  * test binary 100 is decimal 4 (0.01ms)[0m
+  * test binary 1001 is decimal 9[32m  * test binary 1001 is decimal 9 (0.01ms)[0m
+  * test binary 11010 is decimal 26[32m  * test binary 11010 is decimal 26 (0.01ms)[0m
+  * test binary 10001101000 is decimal 1128[32m  * test binary 10001101000 is decimal 1128 (0.01ms)[0m
+  * test invalid binary is decimal 0[32m  * test invalid binary is decimal 0 (0.02ms)[0m
+  * test invalid binary is decimal 0 II  * test invalid binary is decimal 0 II (skipped)
+  * test invalid binary is decimal 0 III  * test invalid binary is decimal 0 III (skipped)
+  * test invalid binary is decimal 0 IV  * test invalid binary is decimal 0 IV (skipped)
+  * test 22 is not a binary number  * test 22 is not a binary number (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[31m  * test binary 1 is decimal 1 (2.1ms)[0m
+
+  1) test binary 1 is decimal 1 (BinaryTest)
+     [1m[30mbinary_test.exs:11[0m
+     [31m** (BadFunctionError) expected a function, got: ~r/^[01]*$/[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:12: (test)
+
+  * test binary 10 is decimal 2[31m  * test binary 10 is decimal 2 (0.01ms)[0m
+
+  2) test binary 10 is decimal 2 (BinaryTest)
+     [1m[30mbinary_test.exs:15[0m
+     [31m** (BadFunctionError) expected a function, got: ~r/^[01]*$/[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:16: (test)
+
+  * test binary 11 is decimal 3[31m  * test binary 11 is decimal 3 (0.00ms)[0m
+
+  3) test binary 11 is decimal 3 (BinaryTest)
+     [1m[30mbinary_test.exs:19[0m
+     [31m** (BadFunctionError) expected a function, got: ~r/^[01]*$/[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:20: (test)
+
+  * test binary 100 is decimal 4[31m  * test binary 100 is decimal 4 (0.00ms)[0m
+
+  4) test binary 100 is decimal 4 (BinaryTest)
+     [1m[30mbinary_test.exs:23[0m
+     [31m** (BadFunctionError) expected a function, got: ~r/^[01]*$/[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:24: (test)
+
+  * test binary 1001 is decimal 9[31m  * test binary 1001 is decimal 9 (0.00ms)[0m
+
+  5) test binary 1001 is decimal 9 (BinaryTest)
+     [1m[30mbinary_test.exs:27[0m
+     [31m** (BadFunctionError) expected a function, got: ~r/^[01]*$/[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:28: (test)
+
+  * test binary 11010 is decimal 26[31m  * test binary 11010 is decimal 26 (0.00ms)[0m
+
+  6) test binary 11010 is decimal 26 (BinaryTest)
+     [1m[30mbinary_test.exs:31[0m
+     [31m** (BadFunctionError) expected a function, got: ~r/^[01]*$/[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:32: (test)
+
+  * test binary 10001101000 is decimal 1128[31m  * test binary 10001101000 is decimal 1128 (0.00ms)[0m
+
+  7) test binary 10001101000 is decimal 1128 (BinaryTest)
+     [1m[30mbinary_test.exs:35[0m
+     [31m** (BadFunctionError) expected a function, got: ~r/^[01]*$/[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:36: (test)
+
+  * test invalid binary is decimal 0[31m  * test invalid binary is decimal 0 (0.00ms)[0m
+
+  8) test invalid binary is decimal 0 (BinaryTest)
+     [1m[30mbinary_test.exs:39[0m
+     [31m** (BadFunctionError) expected a function, got: ~r/^[01]*$/[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:40: (test)
+
+  * test invalid binary is decimal 0 II[31m  * test invalid binary is decimal 0 II (0.00ms)[0m
+
+  9) test invalid binary is decimal 0 II (BinaryTest)
+     [1m[30mbinary_test.exs:43[0m
+     [31m** (BadFunctionError) expected a function, got: ~r/^[01]*$/[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:44: (test)
+
+  * test invalid binary is decimal 0 III  * test invalid binary is decimal 0 III (skipped)
+  * test invalid binary is decimal 0 IV  * test invalid binary is decimal 0 IV (skipped)
+  * test 22 is not a binary number  * test 22 is not a binary number (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m12 tests, 9 failures, 3 skipped[0m
+
+Randomized with seed 0
+** (SyntaxError) binary.exs:10: unexpected token: ")". "fn" starting at line 10 is missing terminator "end"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    binary_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[31m  * test binary 1 is decimal 1 (2.3ms)[0m
+
+  1) test binary 1 is decimal 1 (BinaryTest)
+     [1m[30mbinary_test.exs:11[0m
+     [31m** (UndefinedFunctionError) function String.match/2 is undefined or private. Did you mean one of:
+     
+           * at/2
+           * match?/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.match("1", ~r/^[01]*$/)
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:12: (test)
+
+  * test binary 10 is decimal 2[31m  * test binary 10 is decimal 2 (0.7ms)[0m
+
+  2) test binary 10 is decimal 2 (BinaryTest)
+     [1m[30mbinary_test.exs:15[0m
+     [31m** (UndefinedFunctionError) function String.match/2 is undefined or private. Did you mean one of:
+     
+           * at/2
+           * match?/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.match("10", ~r/^[01]*$/)
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:16: (test)
+
+  * test binary 11 is decimal 3[31m  * test binary 11 is decimal 3 (0.03ms)[0m
+
+  3) test binary 11 is decimal 3 (BinaryTest)
+     [1m[30mbinary_test.exs:19[0m
+     [31m** (UndefinedFunctionError) function String.match/2 is undefined or private. Did you mean one of:
+     
+           * at/2
+           * match?/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.match("11", ~r/^[01]*$/)
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:20: (test)
+
+  * test binary 100 is decimal 4[31m  * test binary 100 is decimal 4 (0.02ms)[0m
+
+  4) test binary 100 is decimal 4 (BinaryTest)
+     [1m[30mbinary_test.exs:23[0m
+     [31m** (UndefinedFunctionError) function String.match/2 is undefined or private. Did you mean one of:
+     
+           * at/2
+           * match?/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.match("100", ~r/^[01]*$/)
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:24: (test)
+
+  * test binary 1001 is decimal 9[31m  * test binary 1001 is decimal 9 (0.02ms)[0m
+
+  5) test binary 1001 is decimal 9 (BinaryTest)
+     [1m[30mbinary_test.exs:27[0m
+     [31m** (UndefinedFunctionError) function String.match/2 is undefined or private. Did you mean one of:
+     
+           * at/2
+           * match?/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.match("1001", ~r/^[01]*$/)
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:28: (test)
+
+  * test binary 11010 is decimal 26[31m  * test binary 11010 is decimal 26 (2.1ms)[0m
+
+  6) test binary 11010 is decimal 26 (BinaryTest)
+     [1m[30mbinary_test.exs:31[0m
+     [31m** (UndefinedFunctionError) function String.match/2 is undefined or private. Did you mean one of:
+     
+           * at/2
+           * match?/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.match("11010", ~r/^[01]*$/)
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:32: (test)
+
+  * test binary 10001101000 is decimal 1128[31m  * test binary 10001101000 is decimal 1128 (1.9ms)[0m
+
+  7) test binary 10001101000 is decimal 1128 (BinaryTest)
+     [1m[30mbinary_test.exs:35[0m
+     [31m** (UndefinedFunctionError) function String.match/2 is undefined or private. Did you mean one of:
+     
+           * at/2
+           * match?/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.match("10001101000", ~r/^[01]*$/)
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:36: (test)
+
+  * test invalid binary is decimal 0[31m  * test invalid binary is decimal 0 (0.01ms)[0m
+
+  8) test invalid binary is decimal 0 (BinaryTest)
+     [1m[30mbinary_test.exs:39[0m
+     [31m** (UndefinedFunctionError) function String.match/2 is undefined or private. Did you mean one of:
+     
+           * at/2
+           * match?/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.match("carrot", ~r/^[01]*$/)
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:40: (test)
+
+  * test invalid binary is decimal 0 II[31m  * test invalid binary is decimal 0 II (0.01ms)[0m
+
+  9) test invalid binary is decimal 0 II (BinaryTest)
+     [1m[30mbinary_test.exs:43[0m
+     [31m** (UndefinedFunctionError) function String.match/2 is undefined or private. Did you mean one of:
+     
+           * at/2
+           * match?/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.match("convert01", ~r/^[01]*$/)
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       binary.exs:10: Binary.to_decimal/1
+       binary_test.exs:44: (test)
+
+  * test invalid binary is decimal 0 III  * test invalid binary is decimal 0 III (skipped)
+  * test invalid binary is decimal 0 IV  * test invalid binary is decimal 0 IV (skipped)
+  * test 22 is not a binary number  * test 22 is not a binary number (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m12 tests, 9 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (2.0ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.01ms)[0m
+  * test binary 11 is decimal 3[32m  * test binary 11 is decimal 3 (0.01ms)[0m
+  * test binary 100 is decimal 4[32m  * test binary 100 is decimal 4 (0.01ms)[0m
+  * test binary 1001 is decimal 9[32m  * test binary 1001 is decimal 9 (0.01ms)[0m
+  * test binary 11010 is decimal 26[32m  * test binary 11010 is decimal 26 (0.01ms)[0m
+  * test binary 10001101000 is decimal 1128[32m  * test binary 10001101000 is decimal 1128 (0.01ms)[0m
+  * test invalid binary is decimal 0[32m  * test invalid binary is decimal 0 (0.01ms)[0m
+  * test invalid binary is decimal 0 II[32m  * test invalid binary is decimal 0 II (0.00ms)[0m
+  * test invalid binary is decimal 0 III  * test invalid binary is decimal 0 III (skipped)
+  * test invalid binary is decimal 0 IV  * test invalid binary is decimal 0 IV (skipped)
+  * test 22 is not a binary number  * test 22 is not a binary number (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (2.1ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.01ms)[0m
+  * test binary 11 is decimal 3[32m  * test binary 11 is decimal 3 (0.01ms)[0m
+  * test binary 100 is decimal 4[32m  * test binary 100 is decimal 4 (0.00ms)[0m
+  * test binary 1001 is decimal 9[32m  * test binary 1001 is decimal 9 (0.01ms)[0m
+  * test binary 11010 is decimal 26[32m  * test binary 11010 is decimal 26 (0.01ms)[0m
+  * test binary 10001101000 is decimal 1128[32m  * test binary 10001101000 is decimal 1128 (0.02ms)[0m
+  * test invalid binary is decimal 0[32m  * test invalid binary is decimal 0 (0.01ms)[0m
+  * test invalid binary is decimal 0 II[32m  * test invalid binary is decimal 0 II (0.00ms)[0m
+  * test invalid binary is decimal 0 III[32m  * test invalid binary is decimal 0 III (0.00ms)[0m
+  * test invalid binary is decimal 0 IV  * test invalid binary is decimal 0 IV (skipped)
+  * test 22 is not a binary number  * test 22 is not a binary number (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (1.9ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.01ms)[0m
+  * test binary 11 is decimal 3[32m  * test binary 11 is decimal 3 (0.01ms)[0m
+  * test binary 100 is decimal 4[32m  * test binary 100 is decimal 4 (0.01ms)[0m
+  * test binary 1001 is decimal 9[32m  * test binary 1001 is decimal 9 (0.01ms)[0m
+  * test binary 11010 is decimal 26[32m  * test binary 11010 is decimal 26 (0.01ms)[0m
+  * test binary 10001101000 is decimal 1128[32m  * test binary 10001101000 is decimal 1128 (0.02ms)[0m
+  * test invalid binary is decimal 0[32m  * test invalid binary is decimal 0 (0.01ms)[0m
+  * test invalid binary is decimal 0 II[32m  * test invalid binary is decimal 0 II (0.00ms)[0m
+  * test invalid binary is decimal 0 III[32m  * test invalid binary is decimal 0 III (0.00ms)[0m
+  * test invalid binary is decimal 0 IV[32m  * test invalid binary is decimal 0 IV (0.00ms)[0m
+  * test 22 is not a binary number  * test 22 is not a binary number (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (2.0ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.01ms)[0m
+  * test binary 11 is decimal 3[32m  * test binary 11 is decimal 3 (0.00ms)[0m
+  * test binary 100 is decimal 4[32m  * test binary 100 is decimal 4 (0.01ms)[0m
+  * test binary 1001 is decimal 9[32m  * test binary 1001 is decimal 9 (0.00ms)[0m
+  * test binary 11010 is decimal 26[32m  * test binary 11010 is decimal 26 (0.01ms)[0m
+  * test binary 10001101000 is decimal 1128[32m  * test binary 10001101000 is decimal 1128 (0.01ms)[0m
+  * test invalid binary is decimal 0[32m  * test invalid binary is decimal 0 (0.01ms)[0m
+  * test invalid binary is decimal 0 II[32m  * test invalid binary is decimal 0 II (0.00ms)[0m
+  * test invalid binary is decimal 0 III[32m  * test invalid binary is decimal 0 III (0.00ms)[0m
+  * test invalid binary is decimal 0 IV[32m  * test invalid binary is decimal 0 IV (0.00ms)[0m
+  * test 22 is not a binary number[32m  * test 22 is not a binary number (0.00ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m12 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable counter is unused
+  binary.exs:7
+
+[33mwarning: [0mvariable acc is unused
+  binary.exs:10
+
+[33mwarning: [0mvariable counter is unused
+  binary.exs:10
+
+[33mwarning: [0mvariable h is unused
+  binary.exs:10
+
+[33mwarning: [0mvariable t is unused
+  binary.exs:10
+
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (1.9ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.00ms)[0m
+  * test binary 11 is decimal 3[32m  * test binary 11 is decimal 3 (0.00ms)[0m
+  * test binary 100 is decimal 4[32m  * test binary 100 is decimal 4 (0.00ms)[0m
+  * test binary 1001 is decimal 9[32m  * test binary 1001 is decimal 9 (0.00ms)[0m
+  * test binary 11010 is decimal 26[32m  * test binary 11010 is decimal 26 (0.00ms)[0m
+  * test binary 10001101000 is decimal 1128[32m  * test binary 10001101000 is decimal 1128 (0.01ms)[0m
+  * test invalid binary is decimal 0[32m  * test invalid binary is decimal 0 (0.00ms)[0m
+  * test invalid binary is decimal 0 II[32m  * test invalid binary is decimal 0 II (0.00ms)[0m
+  * test invalid binary is decimal 0 III[32m  * test invalid binary is decimal 0 III (0.00ms)[0m
+  * test invalid binary is decimal 0 IV[32m  * test invalid binary is decimal 0 IV (0.00ms)[0m
+  * test 22 is not a binary number[32m  * test 22 is not a binary number (0.00ms)[0m
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m12 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable counter is unused
+  binary.exs:7
+
+[33mwarning: [0mvariable acc is unused
+  binary.exs:12
+
+[33mwarning: [0mvariable counter is unused
+  binary.exs:12
+
+[33mwarning: [0mvariable h is unused
+  binary.exs:12
+
+[33mwarning: [0mvariable t is unused
+  binary.exs:12
+
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (1.9ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.00ms)[0m
+  * test binary 11 is decimal 3[32m  * test binary 11 is decimal 3 (0.00ms)[0m
+  * test binary 100 is decimal 4[32m  * test binary 100 is decimal 4 (0.00ms)[0m
+  * test binary 1001 is decimal 9[32m  * test binary 1001 is decimal 9 (0.00ms)[0m
+  * test binary 11010 is decimal 26[32m  * test binary 11010 is decimal 26 (0.00ms)[0m
+  * test binary 10001101000 is decimal 1128[32m  * test binary 10001101000 is decimal 1128 (0.00ms)[0m
+  * test invalid binary is decimal 0[32m  * test invalid binary is decimal 0 (0.00ms)[0m
+  * test invalid binary is decimal 0 II[32m  * test invalid binary is decimal 0 II (0.01ms)[0m
+  * test invalid binary is decimal 0 III[32m  * test invalid binary is decimal 0 III (0.00ms)[0m
+  * test invalid binary is decimal 0 IV[32m  * test invalid binary is decimal 0 IV (0.00ms)[0m
+  * test 22 is not a binary number[32m  * test 22 is not a binary number (0.00ms)[0m
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m12 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable counter is unused
+  binary.exs:7
+
+[33mwarning: [0mvariable acc is unused
+  binary.exs:13
+
+[33mwarning: [0mvariable counter is unused
+  binary.exs:13
+
+[33mwarning: [0mvariable h is unused
+  binary.exs:13
+
+[33mwarning: [0mvariable t is unused
+  binary.exs:13
+
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (2.0ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.00ms)[0m
+  * test binary 11 is decimal 3[32m  * test binary 11 is decimal 3 (0.00ms)[0m
+  * test binary 100 is decimal 4[32m  * test binary 100 is decimal 4 (0.00ms)[0m
+  * test binary 1001 is decimal 9[32m  * test binary 1001 is decimal 9 (0.00ms)[0m
+  * test binary 11010 is decimal 26[32m  * test binary 11010 is decimal 26 (0.00ms)[0m
+  * test binary 10001101000 is decimal 1128[32m  * test binary 10001101000 is decimal 1128 (0.00ms)[0m
+  * test invalid binary is decimal 0[32m  * test invalid binary is decimal 0 (0.00ms)[0m
+  * test invalid binary is decimal 0 II[32m  * test invalid binary is decimal 0 II (0.00ms)[0m
+  * test invalid binary is decimal 0 III[32m  * test invalid binary is decimal 0 III (0.00ms)[0m
+  * test invalid binary is decimal 0 IV[32m  * test invalid binary is decimal 0 IV (0.00ms)[0m
+  * test 22 is not a binary number[32m  * test 22 is not a binary number (0.00ms)[0m
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m12 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable h is unused
+  binary.exs:13
+
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (1.9ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.00ms)[0m
+  * test binary 11 is decimal 3[32m  * test binary 11 is decimal 3 (0.00ms)[0m
+  * test binary 100 is decimal 4[32m  * test binary 100 is decimal 4 (0.00ms)[0m
+  * test binary 1001 is decimal 9[32m  * test binary 1001 is decimal 9 (0.00ms)[0m
+  * test binary 11010 is decimal 26[32m  * test binary 11010 is decimal 26 (0.01ms)[0m
+  * test binary 10001101000 is decimal 1128[32m  * test binary 10001101000 is decimal 1128 (0.01ms)[0m
+  * test invalid binary is decimal 0[32m  * test invalid binary is decimal 0 (0.00ms)[0m
+  * test invalid binary is decimal 0 II[32m  * test invalid binary is decimal 0 II (0.00ms)[0m
+  * test invalid binary is decimal 0 III[32m  * test invalid binary is decimal 0 III (0.00ms)[0m
+  * test invalid binary is decimal 0 IV[32m  * test invalid binary is decimal 0 IV (0.00ms)[0m
+  * test 22 is not a binary number[32m  * test 22 is not a binary number (0.00ms)[0m
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m12 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable h is unused
+  binary.exs:16
+
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (2.0ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.00ms)[0m
+  * test binary 11 is decimal 3[32m  * test binary 11 is decimal 3 (0.00ms)[0m
+  * test binary 100 is decimal 4[32m  * test binary 100 is decimal 4 (0.00ms)[0m
+  * test binary 1001 is decimal 9[32m  * test binary 1001 is decimal 9 (0.01ms)[0m
+  * test binary 11010 is decimal 26[32m  * test binary 11010 is decimal 26 (0.00ms)[0m
+  * test binary 10001101000 is decimal 1128[32m  * test binary 10001101000 is decimal 1128 (0.01ms)[0m
+  * test invalid binary is decimal 0[32m  * test invalid binary is decimal 0 (0.00ms)[0m
+  * test invalid binary is decimal 0 II[32m  * test invalid binary is decimal 0 II (0.00ms)[0m
+  * test invalid binary is decimal 0 III[32m  * test invalid binary is decimal 0 III (0.00ms)[0m
+  * test invalid binary is decimal 0 IV[32m  * test invalid binary is decimal 0 IV (0.00ms)[0m
+  * test 22 is not a binary number[32m  * test 22 is not a binary number (0.00ms)[0m
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m12 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable h is unused
+  binary.exs:16
+
+Excluding tags: [:pending]
+
+
+BinaryTest
+  * test binary 1 is decimal 1[32m  * test binary 1 is decimal 1 (3.3ms)[0m
+  * test binary 10 is decimal 2[32m  * test binary 10 is decimal 2 (0.00ms)[0m
+  * test binary 11 is decimal 3[32m  * test binary 11 is decimal 3 (0.00ms)[0m
+  * test binary 100 is decimal 4[32m  * test binary 100 is decimal 4 (0.00ms)[0m
+  * test binary 1001 is decimal 9[32m  * test binary 1001 is decimal 9 (0.00ms)[0m
+  * test binary 11010 is decimal 26[32m  * test binary 11010 is decimal 26 (0.00ms)[0m
+  * test binary 10001101000 is decimal 1128[32m  * test binary 10001101000 is decimal 1128 (0.00ms)[0m
+  * test invalid binary is decimal 0[32m  * test invalid binary is decimal 0 (0.00ms)[0m
+  * test invalid binary is decimal 0 II[32m  * test invalid binary is decimal 0 II (0.00ms)[0m
+  * test invalid binary is decimal 0 III[32m  * test invalid binary is decimal 0 III (0.00ms)[0m
+  * test invalid binary is decimal 0 IV[32m  * test invalid binary is decimal 0 IV (0.00ms)[0m
+  * test 22 is not a binary number[32m  * test 22 is not a binary number (0.00ms)[0m
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m12 tests, 0 failures[0m
+
+Randomized with seed 0

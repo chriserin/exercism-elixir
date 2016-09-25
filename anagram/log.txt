@@ -1,0 +1,376 @@
+Excluding tags: [:pending]
+
+
+AnagramTest
+  * test detect simple anagram  * test detect simple anagram (skipped)
+  * test do not detect anagram subsets  * test do not detect anagram subsets (skipped)
+  * test detect anagram  * test detect anagram (skipped)
+  * test detect multiple anagrams  * test detect multiple anagrams (skipped)
+  * test detect anagrams with case-insensitive candidate  * test detect anagrams with case-insensitive candidate (skipped)
+  * test no matches[32m  * test no matches (3.4ms)[0m
+  * test anagrams must use all letters exactly once  * test anagrams must use all letters exactly once (skipped)
+  * test anagrams must not be the source word  * test anagrams must not be the source word (skipped)
+  * test detect anagrams with case-insensitive subject  * test detect anagrams with case-insensitive subject (skipped)
+  * test do not detect words based on checksum  * test do not detect words based on checksum (skipped)
+  * test multiple anagrams  * test multiple anagrams (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 10 skipped[0m
+
+Randomized with seed 274399
+Excluding tags: [:pending]
+
+
+AnagramTest
+  * test no matches[32m  * test no matches (2.1ms)[0m
+  * test detect anagram  * test detect anagram (skipped)
+  * test detect anagrams with case-insensitive candidate  * test detect anagrams with case-insensitive candidate (skipped)
+  * test multiple anagrams  * test multiple anagrams (skipped)
+  * test anagrams must use all letters exactly once  * test anagrams must use all letters exactly once (skipped)
+  * test anagrams must not be the source word  * test anagrams must not be the source word (skipped)
+  * test do not detect anagram subsets  * test do not detect anagram subsets (skipped)
+  * test detect simple anagram  * test detect simple anagram (skipped)
+  * test detect anagrams with case-insensitive subject  * test detect anagrams with case-insensitive subject (skipped)
+  * test do not detect words based on checksum  * test do not detect words based on checksum (skipped)
+  * test detect multiple anagrams  * test detect multiple anagrams (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 10 skipped[0m
+
+Randomized with seed 363665
+Excluding tags: [:pending]
+
+
+AnagramTest
+  * test no matches[32m  * test no matches (2.3ms)[0m
+  * test detect simple anagram[32m  * test detect simple anagram (0.01ms)[0m
+  * test detect multiple anagrams  * test detect multiple anagrams (skipped)
+  * test do not detect anagram subsets  * test do not detect anagram subsets (skipped)
+  * test detect anagram  * test detect anagram (skipped)
+  * test multiple anagrams  * test multiple anagrams (skipped)
+  * test anagrams must use all letters exactly once  * test anagrams must use all letters exactly once (skipped)
+  * test detect anagrams with case-insensitive subject  * test detect anagrams with case-insensitive subject (skipped)
+  * test detect anagrams with case-insensitive candidate  * test detect anagrams with case-insensitive candidate (skipped)
+  * test anagrams must not be the source word  * test anagrams must not be the source word (skipped)
+  * test do not detect words based on checksum  * test do not detect words based on checksum (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 9 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+AnagramTest
+  * test no matches[32m  * test no matches (1.9ms)[0m
+  * test detect simple anagram[32m  * test detect simple anagram (0.02ms)[0m
+  * test detect multiple anagrams[32m  * test detect multiple anagrams (0.03ms)[0m
+  * test do not detect anagram subsets  * test do not detect anagram subsets (skipped)
+  * test detect anagram  * test detect anagram (skipped)
+  * test multiple anagrams  * test multiple anagrams (skipped)
+  * test anagrams must use all letters exactly once  * test anagrams must use all letters exactly once (skipped)
+  * test detect anagrams with case-insensitive subject  * test detect anagrams with case-insensitive subject (skipped)
+  * test detect anagrams with case-insensitive candidate  * test detect anagrams with case-insensitive candidate (skipped)
+  * test anagrams must not be the source word  * test anagrams must not be the source word (skipped)
+  * test do not detect words based on checksum  * test do not detect words based on checksum (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 8 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+AnagramTest
+  * test no matches[32m  * test no matches (2.1ms)[0m
+  * test detect simple anagram[32m  * test detect simple anagram (0.01ms)[0m
+  * test detect multiple anagrams[32m  * test detect multiple anagrams (0.03ms)[0m
+  * test do not detect anagram subsets[32m  * test do not detect anagram subsets (0.01ms)[0m
+  * test detect anagram  * test detect anagram (skipped)
+  * test multiple anagrams  * test multiple anagrams (skipped)
+  * test anagrams must use all letters exactly once  * test anagrams must use all letters exactly once (skipped)
+  * test detect anagrams with case-insensitive subject  * test detect anagrams with case-insensitive subject (skipped)
+  * test detect anagrams with case-insensitive candidate  * test detect anagrams with case-insensitive candidate (skipped)
+  * test anagrams must not be the source word  * test anagrams must not be the source word (skipped)
+  * test do not detect words based on checksum  * test do not detect words based on checksum (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+AnagramTest
+  * test no matches[32m  * test no matches (2.0ms)[0m
+  * test detect simple anagram[32m  * test detect simple anagram (0.01ms)[0m
+  * test detect multiple anagrams[32m  * test detect multiple anagrams (0.01ms)[0m
+  * test do not detect anagram subsets[32m  * test do not detect anagram subsets (0.01ms)[0m
+  * test detect anagram[32m  * test detect anagram (0.02ms)[0m
+  * test multiple anagrams  * test multiple anagrams (skipped)
+  * test anagrams must use all letters exactly once  * test anagrams must use all letters exactly once (skipped)
+  * test detect anagrams with case-insensitive subject  * test detect anagrams with case-insensitive subject (skipped)
+  * test detect anagrams with case-insensitive candidate  * test detect anagrams with case-insensitive candidate (skipped)
+  * test anagrams must not be the source word  * test anagrams must not be the source word (skipped)
+  * test do not detect words based on checksum  * test do not detect words based on checksum (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+AnagramTest
+  * test no matches[32m  * test no matches (2.4ms)[0m
+  * test detect simple anagram[32m  * test detect simple anagram (0.01ms)[0m
+  * test detect multiple anagrams[32m  * test detect multiple anagrams (0.03ms)[0m
+  * test do not detect anagram subsets[32m  * test do not detect anagram subsets (0.01ms)[0m
+  * test detect anagram[32m  * test detect anagram (0.03ms)[0m
+  * test multiple anagrams[32m  * test multiple anagrams (0.04ms)[0m
+  * test anagrams must use all letters exactly once  * test anagrams must use all letters exactly once (skipped)
+  * test detect anagrams with case-insensitive subject  * test detect anagrams with case-insensitive subject (skipped)
+  * test detect anagrams with case-insensitive candidate  * test detect anagrams with case-insensitive candidate (skipped)
+  * test anagrams must not be the source word  * test anagrams must not be the source word (skipped)
+  * test do not detect words based on checksum  * test do not detect words based on checksum (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+AnagramTest
+  * test no matches[32m  * test no matches (1.9ms)[0m
+  * test detect simple anagram[32m  * test detect simple anagram (0.01ms)[0m
+  * test detect multiple anagrams[32m  * test detect multiple anagrams (0.02ms)[0m
+  * test do not detect anagram subsets[32m  * test do not detect anagram subsets (0.01ms)[0m
+  * test detect anagram[32m  * test detect anagram (0.03ms)[0m
+  * test multiple anagrams[32m  * test multiple anagrams (0.03ms)[0m
+  * test anagrams must use all letters exactly once[32m  * test anagrams must use all letters exactly once (0.01ms)[0m
+  * test detect anagrams with case-insensitive subject  * test detect anagrams with case-insensitive subject (skipped)
+  * test detect anagrams with case-insensitive candidate  * test detect anagrams with case-insensitive candidate (skipped)
+  * test anagrams must not be the source word  * test anagrams must not be the source word (skipped)
+  * test do not detect words based on checksum  * test do not detect words based on checksum (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+AnagramTest
+  * test no matches[32m  * test no matches (1.9ms)[0m
+  * test detect simple anagram[32m  * test detect simple anagram (0.01ms)[0m
+  * test detect multiple anagrams[32m  * test detect multiple anagrams (0.02ms)[0m
+  * test do not detect anagram subsets[32m  * test do not detect anagram subsets (0.01ms)[0m
+  * test detect anagram[32m  * test detect anagram (0.02ms)[0m
+  * test multiple anagrams[32m  * test multiple anagrams (0.03ms)[0m
+  * test anagrams must use all letters exactly once[32m  * test anagrams must use all letters exactly once (0.00ms)[0m
+  * test detect anagrams with case-insensitive subject[31m  * test detect anagrams with case-insensitive subject (4.3ms)[0m
+
+  1) test detect anagrams with case-insensitive subject (AnagramTest)
+     [1m[30managram_test.exs:46[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mmatches == ["carthorse"]
+     [36mlhs:  [0m[]
+     [36mrhs:  [0m[[32m"carthorse"[0m]
+     [36mstacktrace:[0m
+       anagram_test.exs:48: (test)
+
+  * test detect anagrams with case-insensitive candidate  * test detect anagrams with case-insensitive candidate (skipped)
+  * test anagrams must not be the source word  * test anagrams must not be the source word (skipped)
+  * test do not detect words based on checksum  * test do not detect words based on checksum (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m11 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+AnagramTest
+  * test no matches[32m  * test no matches (2.0ms)[0m
+  * test detect simple anagram[32m  * test detect simple anagram (0.01ms)[0m
+  * test detect multiple anagrams[32m  * test detect multiple anagrams (0.02ms)[0m
+  * test do not detect anagram subsets[32m  * test do not detect anagram subsets (0.01ms)[0m
+  * test detect anagram[32m  * test detect anagram (0.02ms)[0m
+  * test multiple anagrams[32m  * test multiple anagrams (0.04ms)[0m
+  * test anagrams must use all letters exactly once[32m  * test anagrams must use all letters exactly once (0.01ms)[0m
+  * test detect anagrams with case-insensitive subject[31m  * test detect anagrams with case-insensitive subject (2.1ms)[0m
+
+  1) test detect anagrams with case-insensitive subject (AnagramTest)
+     [1m[30managram_test.exs:46[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mmatches == ["carthorse"]
+     [36mlhs:  [0m[]
+     [36mrhs:  [0m[[32m"carthorse"[0m]
+     [36mstacktrace:[0m
+       anagram_test.exs:48: (test)
+
+  * test detect anagrams with case-insensitive candidate  * test detect anagrams with case-insensitive candidate (skipped)
+  * test anagrams must not be the source word  * test anagrams must not be the source word (skipped)
+  * test do not detect words based on checksum  * test do not detect words based on checksum (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m11 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+AnagramTest
+  * test no matches[32m  * test no matches (10.9ms)[0m
+  * test detect simple anagram[32m  * test detect simple anagram (0.01ms)[0m
+  * test detect multiple anagrams[32m  * test detect multiple anagrams (0.02ms)[0m
+  * test do not detect anagram subsets[32m  * test do not detect anagram subsets (0.01ms)[0m
+  * test detect anagram[32m  * test detect anagram (0.03ms)[0m
+  * test multiple anagrams[32m  * test multiple anagrams (0.04ms)[0m
+  * test anagrams must use all letters exactly once[32m  * test anagrams must use all letters exactly once (0.01ms)[0m
+  * test detect anagrams with case-insensitive subject[32m  * test detect anagrams with case-insensitive subject (0.03ms)[0m
+  * test detect anagrams with case-insensitive candidate  * test detect anagrams with case-insensitive candidate (skipped)
+  * test anagrams must not be the source word  * test anagrams must not be the source word (skipped)
+  * test do not detect words based on checksum  * test do not detect words based on checksum (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m11 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+AnagramTest
+  * test no matches[32m  * test no matches (9.2ms)[0m
+  * test detect simple anagram[32m  * test detect simple anagram (0.01ms)[0m
+  * test detect multiple anagrams[32m  * test detect multiple anagrams (0.02ms)[0m
+  * test do not detect anagram subsets[32m  * test do not detect anagram subsets (0.01ms)[0m
+  * test detect anagram[32m  * test detect anagram (0.03ms)[0m
+  * test multiple anagrams[32m  * test multiple anagrams (0.05ms)[0m
+  * test anagrams must use all letters exactly once[32m  * test anagrams must use all letters exactly once (0.02ms)[0m
+  * test detect anagrams with case-insensitive subject[32m  * test detect anagrams with case-insensitive subject (0.03ms)[0m
+  * test detect anagrams with case-insensitive candidate[32m  * test detect anagrams with case-insensitive candidate (0.03ms)[0m
+  * test anagrams must not be the source word  * test anagrams must not be the source word (skipped)
+  * test do not detect words based on checksum  * test do not detect words based on checksum (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m11 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+AnagramTest
+  * test no matches[32m  * test no matches (9.2ms)[0m
+  * test detect simple anagram[32m  * test detect simple anagram (0.02ms)[0m
+  * test detect multiple anagrams[32m  * test detect multiple anagrams (0.04ms)[0m
+  * test do not detect anagram subsets[32m  * test do not detect anagram subsets (0.01ms)[0m
+  * test detect anagram[32m  * test detect anagram (0.04ms)[0m
+  * test multiple anagrams[32m  * test multiple anagrams (0.07ms)[0m
+  * test anagrams must use all letters exactly once[32m  * test anagrams must use all letters exactly once (0.01ms)[0m
+  * test detect anagrams with case-insensitive subject[32m  * test detect anagrams with case-insensitive subject (0.03ms)[0m
+  * test detect anagrams with case-insensitive candidate[32m  * test detect anagrams with case-insensitive candidate (0.02ms)[0m
+  * test anagrams must not be the source word[31m  * test anagrams must not be the source word (2.0ms)[0m
+
+  1) test anagrams must not be the source word (AnagramTest)
+     [1m[30managram_test.exs:56[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mmatches == ["cron"]
+     [36mlhs:  [0m["c[31mo[0mrn"[31m, [0m[31m"Corn"[0m[31m, [0m[31m"CORN"[0m[31m, [0m[31m"cron"[0m]
+     [36mrhs:  [0m["cr[32mo[0mn"]
+     [36mstacktrace:[0m
+       anagram_test.exs:58: (test)
+
+  * test do not detect words based on checksum  * test do not detect words based on checksum (skipped)
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[31m11 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+AnagramTest
+  * test no matches[32m  * test no matches (10.4ms)[0m
+  * test detect simple anagram[32m  * test detect simple anagram (0.03ms)[0m
+  * test detect multiple anagrams[32m  * test detect multiple anagrams (0.04ms)[0m
+  * test do not detect anagram subsets[32m  * test do not detect anagram subsets (0.02ms)[0m
+  * test detect anagram[32m  * test detect anagram (0.05ms)[0m
+  * test multiple anagrams[32m  * test multiple anagrams (0.06ms)[0m
+  * test anagrams must use all letters exactly once[32m  * test anagrams must use all letters exactly once (0.02ms)[0m
+  * test detect anagrams with case-insensitive subject[32m  * test detect anagrams with case-insensitive subject (0.07ms)[0m
+  * test detect anagrams with case-insensitive candidate[32m  * test detect anagrams with case-insensitive candidate (0.05ms)[0m
+  * test anagrams must not be the source word[31m  * test anagrams must not be the source word (2.5ms)[0m
+
+  1) test anagrams must not be the source word (AnagramTest)
+     [1m[30managram_test.exs:56[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mmatches == ["cron"]
+     [36mlhs:  [0m["[31mCo[0mrn"[31m, [0m[31m"CORN"[0m[31m, [0m[31m"cron"[0m]
+     [36mrhs:  [0m["[32mc[0mr[32mo[0mn"]
+     [36mstacktrace:[0m
+       anagram_test.exs:58: (test)
+
+  * test do not detect words based on checksum  * test do not detect words based on checksum (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m11 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+AnagramTest
+  * test no matches[32m  * test no matches (10.1ms)[0m
+  * test detect simple anagram[32m  * test detect simple anagram (0.04ms)[0m
+  * test detect multiple anagrams[32m  * test detect multiple anagrams (0.07ms)[0m
+  * test do not detect anagram subsets[32m  * test do not detect anagram subsets (0.03ms)[0m
+  * test detect anagram[32m  * test detect anagram (0.06ms)[0m
+  * test multiple anagrams[32m  * test multiple anagrams (0.1ms)[0m
+  * test anagrams must use all letters exactly once[32m  * test anagrams must use all letters exactly once (0.02ms)[0m
+  * test detect anagrams with case-insensitive subject[32m  * test detect anagrams with case-insensitive subject (0.06ms)[0m
+  * test detect anagrams with case-insensitive candidate[32m  * test detect anagrams with case-insensitive candidate (0.06ms)[0m
+  * test anagrams must not be the source word[32m  * test anagrams must not be the source word (0.05ms)[0m
+  * test do not detect words based on checksum  * test do not detect words based on checksum (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m11 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+AnagramTest
+  * test no matches[32m  * test no matches (10.0ms)[0m
+  * test detect simple anagram[32m  * test detect simple anagram (0.03ms)[0m
+  * test detect multiple anagrams[32m  * test detect multiple anagrams (0.04ms)[0m
+  * test do not detect anagram subsets[32m  * test do not detect anagram subsets (0.02ms)[0m
+  * test detect anagram[32m  * test detect anagram (0.06ms)[0m
+  * test multiple anagrams[32m  * test multiple anagrams (0.05ms)[0m
+  * test anagrams must use all letters exactly once[32m  * test anagrams must use all letters exactly once (0.01ms)[0m
+  * test detect anagrams with case-insensitive subject[32m  * test detect anagrams with case-insensitive subject (0.03ms)[0m
+  * test detect anagrams with case-insensitive candidate[32m  * test detect anagrams with case-insensitive candidate (0.03ms)[0m
+  * test anagrams must not be the source word[32m  * test anagrams must not be the source word (0.02ms)[0m
+  * test do not detect words based on checksum[32m  * test do not detect words based on checksum (0.01ms)[0m
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m11 tests, 0 failures[0m
+
+Randomized with seed 0

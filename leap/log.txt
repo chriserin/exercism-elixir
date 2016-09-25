@@ -1,0 +1,95 @@
+[33mwarning: [0mvariable year is unused
+  leap.exs:12
+
+Excluding tags: [:pending]
+
+
+LeapTest
+  * test vanilla leap year[31m  * test vanilla leap year (2.2ms)[0m
+
+  1) test vanilla leap year (LeapTest)
+     [1m[30mleap_test.exs:12[0m
+     [31mExpected truthy, got nil[0m
+     [36mcode: [0mYear.leap_year?(1996)
+     [36mstacktrace:[0m
+       leap_test.exs:13: (test)
+
+  * test any old year  * test any old year (skipped)
+  * test century  * test century (skipped)
+  * test exceptional century  * test exceptional century (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[31m4 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LeapTest
+  * test vanilla leap year[32m  * test vanilla leap year (0.00ms)[0m
+  * test any old year  * test any old year (skipped)
+  * test century  * test century (skipped)
+  * test exceptional century  * test exceptional century (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[32m4 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LeapTest
+  * test vanilla leap year[32m  * test vanilla leap year (0.00ms)[0m
+  * test any old year[31m  * test any old year (4.1ms)[0m
+
+  1) test any old year (LeapTest)
+     [1m[30mleap_test.exs:16[0m
+     [31m** (FunctionClauseError) no function clause matching in Year.leap_year?/1[0m
+     [36mstacktrace:[0m
+       leap.exs:12: Year.leap_year?(1997)
+       leap_test.exs:17: (test)
+
+  * test century  * test century (skipped)
+  * test exceptional century  * test exceptional century (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[31m4 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable year is unused
+  leap.exs:15
+
+Excluding tags: [:pending]
+
+
+LeapTest
+  * test vanilla leap year[32m  * test vanilla leap year (0.00ms)[0m
+  * test any old year[32m  * test any old year (0.00ms)[0m
+  * test century  * test century (skipped)
+  * test exceptional century  * test exceptional century (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m4 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable year is unused
+  leap.exs:15
+
+Excluding tags: [:pending]
+
+
+LeapTest
+  * test vanilla leap year[32m  * test vanilla leap year (0.00ms)[0m
+  * test any old year[32m  * test any old year (0.00ms)[0m
+  * test century[32m  * test century (0.00ms)[0m
+  * test exceptional century[32m  * test exceptional century (0.00ms)[0m
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m4 tests, 0 failures[0m
+
+Randomized with seed 0

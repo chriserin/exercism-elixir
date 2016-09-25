@@ -1,0 +1,616 @@
+[33mwarning: [0mvariable acc is unused
+  pascals_triangle.exs:12
+
+[33mwarning: [0mvariable row is unused
+  pascals_triangle.exs:12
+
+Excluding tags: [:pending]
+
+
+PascalsTriangleTest
+  * test one row[32m  * test one row (0.00ms)[0m
+  * test two rows  * test two rows (skipped)
+  * test three rows  * test three rows (skipped)
+  * test fourth row  * test fourth row (skipped)
+  * test fifth row  * test fifth row (skipped)
+  * test twentieth row  * test twentieth row (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable acc is unused
+  pascals_triangle.exs:12
+
+[33mwarning: [0mvariable row is unused
+  pascals_triangle.exs:12
+
+Excluding tags: [:pending]
+
+
+PascalsTriangleTest
+  * test one row[32m  * test one row (0.00ms)[0m
+  * test two rows[31m  * test two rows (2.8ms)[0m
+
+  1) test two rows (PascalsTriangleTest)
+     [1m[30mpascals_triangle_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mPascalsTriangle.rows(2) == [[1], [1, 1]]
+     [36mlhs:  [0mnil
+     [36mrhs:  [0m[[1], [1, 1]]
+     [36mstacktrace:[0m
+       pascals_triangle_test.exs:17: (test)
+
+  * test three rows  * test three rows (skipped)
+  * test fourth row  * test fourth row (skipped)
+  * test fifth row  * test fifth row (skipped)
+  * test twentieth row  * test twentieth row (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp reduce_row/3 has multiple clauses and defines defaults in a clause with a body
+  pascals_triangle.exs:18
+
+[33mwarning: [0mfunction reduce_row/3 is unused
+  pascals_triangle.exs:17
+
+[33mwarning: [0mvariable prev_elem is unused
+  pascals_triangle.exs:17
+
+** (CompileError) pascals_triangle.exs:13: undefined function reduce_row/1
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp reduce_row/3 has multiple clauses and defines defaults in a clause with a body
+  pascals_triangle.exs:18
+
+[33mwarning: [0mvariable prev_elem is unused
+  pascals_triangle.exs:17
+
+Excluding tags: [:pending]
+
+
+PascalsTriangleTest
+  * test one row[32m  * test one row (0.00ms)[0m
+  * test two rows[31m  * test two rows (5.0ms)[0m
+
+  1) test two rows (PascalsTriangleTest)
+     [1m[30mpascals_triangle_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mPascalsTriangle.rows(2) == [[1], [1, 1]]
+     [36mlhs:  [0m[[1], [[31m[1][0m]]
+     [36mrhs:  [0m[[1], [[32m1[0m[32m, [0m[32m1[0m]]
+     [36mstacktrace:[0m
+       pascals_triangle_test.exs:17: (test)
+
+  * test three rows  * test three rows (skipped)
+  * test fourth row  * test fourth row (skipped)
+  * test fifth row  * test fifth row (skipped)
+  * test twentieth row  * test twentieth row (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp reduce_row/3 has multiple clauses and defines defaults in a clause with a body
+  pascals_triangle.exs:18
+
+[33mwarning: [0mvariable prev_elem is unused
+  pascals_triangle.exs:17
+
+Excluding tags: [:pending]
+
+
+PascalsTriangleTest
+  * test one row[32m  * test one row (0.00ms)[0m
+  * test two rows[31m  * test two rows (2.8ms)[0m
+
+  1) test two rows (PascalsTriangleTest)
+     [1m[30mpascals_triangle_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mPascalsTriangle.rows(2) == [[1], [1, 1]]
+     [36mlhs:  [0m[[1[31m, [0m[31m1[0m], [[31m[1][0m]]
+     [36mrhs:  [0m[[1], [[32m1[0m[32m, [0m[32m1[0m]]
+     [36mstacktrace:[0m
+       pascals_triangle_test.exs:17: (test)
+
+  * test three rows  * test three rows (skipped)
+  * test fourth row  * test fourth row (skipped)
+  * test fifth row  * test fifth row (skipped)
+  * test twentieth row  * test twentieth row (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp reduce_row/3 has multiple clauses and defines defaults in a clause with a body
+  pascals_triangle.exs:19
+
+[33mwarning: [0mvariable prev_elem is unused
+  pascals_triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+PascalsTriangleTest
+  * test one row[32m  * test one row (0.00ms)[0m
+  * test two rows[31m  * test two rows (2.9ms)[0m
+
+  1) test two rows (PascalsTriangleTest)
+     [1m[30mpascals_triangle_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mPascalsTriangle.rows(2) == [[1], [1, 1]]
+     [36mlhs:  [0m[[[31m[1][0m], [1, 1]]
+     [36mrhs:  [0m[[[32m1[0m], [1, 1]]
+     [36mstacktrace:[0m
+       pascals_triangle_test.exs:17: (test)
+
+  * test three rows  * test three rows (skipped)
+  * test fourth row  * test fourth row (skipped)
+  * test fifth row  * test fifth row (skipped)
+  * test twentieth row  * test twentieth row (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp reduce_row/3 has multiple clauses and defines defaults in a clause with a body
+  pascals_triangle.exs:19
+
+[33mwarning: [0mvariable prev_elem is unused
+  pascals_triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+PascalsTriangleTest
+  * test one row[31m  * test one row (2.5ms)[0m
+
+  1) test one row (PascalsTriangleTest)
+     [1m[30mpascals_triangle_test.exs:12[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mPascalsTriangle.rows(1) == [[1]]
+     [36mlhs:  [0m[[31m1[0m]
+     [36mrhs:  [0m[[32m[1][0m]
+     [36mstacktrace:[0m
+       pascals_triangle_test.exs:13: (test)
+
+  * test two rows[31m  * test two rows (3.1ms)[0m
+
+  2) test two rows (PascalsTriangleTest)
+     [1m[30mpascals_triangle_test.exs:16[0m
+     [31m** (FunctionClauseError) no function clause matching in PascalsTriangle.reduce_row/3[0m
+     [36mstacktrace:[0m
+       pascals_triangle.exs:18: PascalsTriangle.reduce_row(0, 1, [1])
+       pascals_triangle.exs:14: PascalsTriangle.reduce_rows/2
+       pascals_triangle.exs:8: PascalsTriangle.rows/1
+       pascals_triangle_test.exs:17: (test)
+
+  * test three rows  * test three rows (skipped)
+  * test fourth row  * test fourth row (skipped)
+  * test fifth row  * test fifth row (skipped)
+  * test twentieth row  * test twentieth row (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m6 tests, 2 failures, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp reduce_row/3 has multiple clauses and defines defaults in a clause with a body
+  pascals_triangle.exs:19
+
+[33mwarning: [0mvariable prev_elem is unused
+  pascals_triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+PascalsTriangleTest
+  * test one row[32m  * test one row (0.00ms)[0m
+  * test two rows[31m  * test two rows (3.0ms)[0m
+
+  1) test two rows (PascalsTriangleTest)
+     [1m[30mpascals_triangle_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mPascalsTriangle.rows(2) == [[1], [1, 1]]
+     [36mlhs:  [0m[[[31m[1][0m], [1, 1]]
+     [36mrhs:  [0m[[[32m1[0m], [1, 1]]
+     [36mstacktrace:[0m
+       pascals_triangle_test.exs:17: (test)
+
+  * test three rows  * test three rows (skipped)
+  * test fourth row  * test fourth row (skipped)
+  * test fifth row  * test fifth row (skipped)
+  * test twentieth row  * test twentieth row (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp reduce_row/3 has multiple clauses and defines defaults in a clause with a body
+  pascals_triangle.exs:19
+
+[33mwarning: [0mvariable prev_elem is unused
+  pascals_triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+PascalsTriangleTest
+  * test one row[32m  * test one row (0.00ms)[0m
+  * test two rows[32m  * test two rows (0.01ms)[0m
+  * test three rows  * test three rows (skipped)
+  * test fourth row  * test fourth row (skipped)
+  * test fifth row  * test fifth row (skipped)
+  * test twentieth row  * test twentieth row (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp reduce_row/3 has multiple clauses and defines defaults in a clause with a body
+  pascals_triangle.exs:19
+
+[33mwarning: [0mvariable prev_elem is unused
+  pascals_triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+PascalsTriangleTest
+  * test one row[32m  * test one row (0.00ms)[0m
+  * test two rows[32m  * test two rows (0.00ms)[0m
+  * test three rows[31m  * test three rows (2.7ms)[0m
+
+  1) test three rows (PascalsTriangleTest)
+     [1m[30mpascals_triangle_test.exs:20[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mPascalsTriangle.rows(3) == [[1], [1, 1], [1, 2, 1]]
+     [36mlhs:  [0m[[1], [1, 1], [[31m2[0m, [31m1[0m, 1]]
+     [36mrhs:  [0m[[1], [1, 1], [[32m1[0m, [32m2[0m, 1]]
+     [36mstacktrace:[0m
+       pascals_triangle_test.exs:21: (test)
+
+  * test fourth row  * test fourth row (skipped)
+  * test fifth row  * test fifth row (skipped)
+  * test twentieth row  * test twentieth row (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp reduce_row/3 has multiple clauses and defines defaults in a clause with a body
+  pascals_triangle.exs:19
+
+[33mwarning: [0mvariable prev_elem is unused
+  pascals_triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+PascalsTriangleTest
+  * test one row[32m  * test one row (0.00ms)[0m
+  * test two rows[31m  * test two rows (3.4ms)[0m
+
+  1) test two rows (PascalsTriangleTest)
+     [1m[30mpascals_triangle_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mPascalsTriangle.rows(2) == [[1], [1, 1]]
+     [36mlhs:  [0m[[1], [[31m2[0m]]
+     [36mrhs:  [0m[[1], [[32m1[0m[32m, [0m[32m1[0m]]
+     [36mstacktrace:[0m
+       pascals_triangle_test.exs:17: (test)
+
+  * test three rows[31m  * test three rows (0.02ms)[0m
+
+  2) test three rows (PascalsTriangleTest)
+     [1m[30mpascals_triangle_test.exs:20[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mPascalsTriangle.rows(3) == [[1], [1, 1], [1, 2, 1]]
+     [36mlhs:  [0m[[1], [[31m2[0m], [[31m3[0m]]
+     [36mrhs:  [0m[[1], [[32m1[0m[32m, [0m[32m1[0m], [[32m1[0m[32m, [0m[32m2[0m[32m, [0m[32m1[0m]]
+     [36mstacktrace:[0m
+       pascals_triangle_test.exs:21: (test)
+
+  * test fourth row  * test fourth row (skipped)
+  * test fifth row  * test fifth row (skipped)
+  * test twentieth row  * test twentieth row (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[31m6 tests, 2 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp reduce_row/3 has multiple clauses and defines defaults in a clause with a body
+  pascals_triangle.exs:19
+
+[33mwarning: [0mvariable prev_elem is unused
+  pascals_triangle.exs:18
+
+** (CompileError) pascals_triangle.exs:19: undefined function current_elem/0
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mvariable prev_elem is unused
+  pascals_triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+PascalsTriangleTest
+  * test one row[32m  * test one row (0.00ms)[0m
+  * test two rows[31m  * test two rows (2.8ms)[0m
+
+  1) test two rows (PascalsTriangleTest)
+     [1m[30mpascals_triangle_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mPascalsTriangle.rows(2) == [[1], [1, 1]]
+     [36mlhs:  [0m[[1], [[31m2[0m, 1]]
+     [36mrhs:  [0m[[1], [[32m1[0m, 1]]
+     [36mstacktrace:[0m
+       pascals_triangle_test.exs:17: (test)
+
+  * test three rows[31m  * test three rows (0.02ms)[0m
+
+  2) test three rows (PascalsTriangleTest)
+     [1m[30mpascals_triangle_test.exs:20[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mPascalsTriangle.rows(3) == [[1], [1, 1], [1, 2, 1]]
+     [36mlhs:  [0m[[1], [[31m2[0m, 1], [[31m3[0m, [31m3[0m, [31m2[0m]]
+     [36mrhs:  [0m[[1], [[32m1[0m, 1], [[32m1[0m, [32m2[0m, [32m1[0m]]
+     [36mstacktrace:[0m
+       pascals_triangle_test.exs:21: (test)
+
+  * test fourth row  * test fourth row (skipped)
+  * test fifth row  * test fifth row (skipped)
+  * test twentieth row  * test twentieth row (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[31m6 tests, 2 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable prev_elem is unused
+  pascals_triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+PascalsTriangleTest
+  * test one row[32m  * test one row (0.00ms)[0m
+  * test two rows[32m  * test two rows (0.00ms)[0m
+  * test three rows[31m  * test three rows (2.7ms)[0m
+
+  1) test three rows (PascalsTriangleTest)
+     [1m[30mpascals_triangle_test.exs:20[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mPascalsTriangle.rows(3) == [[1], [1, 1], [1, 2, 1]]
+     [36mlhs:  [0m[[1], [1, 1], [[31m2[0m, [31m1[0m, 1]]
+     [36mrhs:  [0m[[1], [1, 1], [[32m1[0m, [32m2[0m, 1]]
+     [36mstacktrace:[0m
+       pascals_triangle_test.exs:21: (test)
+
+  * test fourth row  * test fourth row (skipped)
+  * test fifth row  * test fifth row (skipped)
+  * test twentieth row  * test twentieth row (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable prev_elem is unused
+  pascals_triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+PascalsTriangleTest
+  * test one row[32m  * test one row (0.00ms)[0m
+  * test two rows[32m  * test two rows (0.00ms)[0m
+  * test three rows[32m  * test three rows (0.00ms)[0m
+  * test fourth row  * test fourth row (skipped)
+  * test fifth row  * test fifth row (skipped)
+  * test twentieth row  * test twentieth row (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable prev_elem is unused
+  pascals_triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+PascalsTriangleTest
+  * test one row[32m  * test one row (0.00ms)[0m
+  * test two rows[32m  * test two rows (0.00ms)[0m
+  * test three rows[32m  * test three rows (0.00ms)[0m
+  * test fourth row[32m  * test fourth row (0.00ms)[0m
+  * test fifth row  * test fifth row (skipped)
+  * test twentieth row  * test twentieth row (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable prev_elem is unused
+  pascals_triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+PascalsTriangleTest
+  * test one row[32m  * test one row (0.00ms)[0m
+  * test two rows[32m  * test two rows (0.00ms)[0m
+  * test three rows[32m  * test three rows (0.00ms)[0m
+  * test fourth row[32m  * test fourth row (0.00ms)[0m
+  * test fifth row[32m  * test fifth row (0.00ms)[0m
+  * test twentieth row  * test twentieth row (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable prev_elem is unused
+  pascals_triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+PascalsTriangleTest
+  * test one row[32m  * test one row (0.00ms)[0m
+  * test two rows[32m  * test two rows (0.00ms)[0m
+  * test three rows[32m  * test three rows (0.00ms)[0m
+  * test fourth row[32m  * test fourth row (0.00ms)[0m
+  * test fifth row[32m  * test fifth row (0.00ms)[0m
+  * test twentieth row[32m  * test twentieth row (0.02ms)[0m
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m6 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable prev_elem is unused
+  pascals_triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+PascalsTriangleTest
+  * test one row[32m  * test one row (0.00ms)[0m
+  * test two rows[32m  * test two rows (0.00ms)[0m
+  * test three rows[32m  * test three rows (0.00ms)[0m
+  * test fourth row[32m  * test fourth row (0.00ms)[0m
+  * test fifth row[32m  * test fifth row (0.00ms)[0m
+  * test twentieth row[32m  * test twentieth row (0.02ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m6 tests, 0 failures[0m
+
+Randomized with seed 0

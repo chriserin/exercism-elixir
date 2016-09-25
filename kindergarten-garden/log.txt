@@ -1,0 +1,1742 @@
+** (SyntaxError) garden.exs:29: unexpected token: "end". "(" starting at line 28 is missing terminator ")"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    garden_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) garden.exs:50: unexpected token: end
+    (elixir) lib/code.ex:321: Code.load_file/2
+    garden_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) garden.exs:50: unexpected token: end
+    (elixir) lib/code.ex:321: Code.load_file/2
+    garden_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) garden.exs:50: unexpected token: end
+    (elixir) lib/code.ex:321: Code.load_file/2
+    garden_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable student_names is unused
+  garden.exs:12
+
+[33mwarning: [0mvariable acc is unused
+  garden.exs:26
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[31m  * test gets the garden for Alice with just her plants (2.1ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31m** (UndefinedFunctionError) function Garden.info/1 is undefined or private. Did you mean one of:
+     
+           * info/2
+     [0m
+     [36mstacktrace:[0m
+       Garden.info("RC\nGG")
+       garden_test.exs:12: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mfunction childrens_plants/0 is unused
+  garden.exs:46
+
+[33mwarning: [0mvariable acc is unused
+  garden.exs:26
+
+** (CompileError) garden.exs:16: undefined function childrens_plants/1
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mvariable acc is unused
+  garden.exs:26
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[31m  * test gets the garden for Alice with just her plants (1.0ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31m** (UndefinedFunctionError) function String.replace/2 is undefined or private. Did you mean one of:
+     
+           * replace/3
+           * replace/4
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.replace("RC\nGG", ~r/[^A-Z]/)
+       garden.exs:13: Garden.info/2
+       garden_test.exs:12: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mvariable acc is unused
+  garden.exs:26
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[31m  * test gets the garden for Alice with just her plants (7.9ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for nil[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1968: Enum.sort/2
+       garden.exs:47: Garden.childrens_plants/1
+       garden.exs:16: Garden.info/2
+       garden_test.exs:12: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:17
+
+[33mwarning: [0mvariable acc is unused
+  garden.exs:29
+
+** (CompileError) garden.exs:18: undefined function name_plants/1
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:17
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[31m  * test gets the garden for Alice with just her plants (5.4ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for nil[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1968: Enum.sort/2
+       garden.exs:50: Garden.childrens_plants/1
+       garden.exs:16: Garden.info/2
+       garden_test.exs:12: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:17
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[31m  * test gets the garden for Alice with just her plants (5.0ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for nil[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1968: Enum.sort/2
+       garden.exs:50: Garden.childrens_plants/1
+       garden.exs:16: Garden.info/2
+       garden_test.exs:12: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:17
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[31m  * test gets the garden for Alice with just her plants (5.1ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for nil[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1968: Enum.sort/2
+       garden.exs:50: Garden.childrens_plants/1
+       garden.exs:16: Garden.info/2
+       garden_test.exs:12: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:17
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[31m  * test gets the garden for Alice with just her plants (6.1ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for nil[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1968: Enum.sort/2
+       garden.exs:50: Garden.childrens_plants/1
+       garden.exs:16: Garden.info/2
+       garden_test.exs:12: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:17
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[31m  * test gets the garden for Alice with just her plants (4.9ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for nil[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1968: Enum.sort/2
+       garden.exs:50: Garden.childrens_plants/1
+       garden.exs:16: Garden.info/2
+       garden_test.exs:12: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mundefined module attribute @default_names, please remove access to @default_names or explicitly set it before access
+  garden.exs:12: Garden.info/2
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:17
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plantsnil
+[31m  * test gets the garden for Alice with just her plants (5.4ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for nil[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1968: Enum.sort/2
+       garden.exs:50: Garden.childrens_plants/1
+       garden.exs:16: Garden.info/2
+       garden_test.exs:12: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable name is unused
+  garden.exs:32
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[:alice, :bob, :charlie, :david, :eve, :fred, :ginny, :harriet, :ileana,
+ :joseph, :kincaid, :larry]
+[31m  * test gets the garden for Alice with just her plants (10.5ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31m** (Protocol.UndefinedError) protocol Collectable not implemented for {}[0m
+     [36mstacktrace:[0m
+       (elixir) lib/collectable.ex:1: Collectable.impl_for!/1
+       (elixir) lib/collectable.ex:46: Collectable.into/1
+       (elixir) lib/enum.ex:1086: Enum.do_into/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       garden.exs:33: anonymous fn/2 in Garden.info/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       garden_test.exs:12: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable name is unused
+  garden.exs:32
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[:alice, :bob, :charlie, :david, :eve, :fred, :ginny, :harriet, :ileana,
+ :joseph, :kincaid, :larry]
+[31m  * test gets the garden for Alice with just her plants (7.1ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for :radishes[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:2345: Enum.to_list/1
+       (elixir) lib/enum.ex:1056: Enum.into/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       garden.exs:33: anonymous fn/2 in Garden.info/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       garden_test.exs:12: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable name is unused
+  garden.exs:32
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[:alice, :bob, :charlie, :david, :eve, :fred, :ginny, :harriet, :ileana,
+ :joseph, :kincaid, :larry]
+[31m  * test gets the garden for Alice with just her plants (6.2ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.alice() == {:radishes, :clover, :grass, :grass}
+     [36mlhs:  [0m{[31m:grass[0m, [31m:grass[0m, [31m:clover[0m, [31m:radishes[0m}
+     [36mrhs:  [0m{[32m:radishes[0m, [32m:clover[0m, [32m:grass[0m, [32m:grass[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:13: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable name is unused
+  garden.exs:32
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[:alice, :bob, :charlie, :david, :eve, :fred, :ginny, :harriet, :ileana,
+ :joseph, :kincaid, :larry]
+[32m  * test gets the garden for Alice with just her plants (2.6ms)[0m
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable name is unused
+  garden.exs:32
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[32m  * test gets the garden for Alice with just her plants (2.4ms)[0m
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable name is unused
+  garden.exs:32
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[32m  * test gets the garden for Alice with just her plants (2.4ms)[0m
+  * test gets another garden for Alice with just her plants[32m  * test gets another garden for Alice with just her plants (0.7ms)[0m
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable name is unused
+  garden.exs:32
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[32m  * test gets the garden for Alice with just her plants (2.1ms)[0m
+  * test gets another garden for Alice with just her plants[32m  * test gets another garden for Alice with just her plants (0.6ms)[0m
+  * test returns an empty tuple if the child has no plants[32m  * test returns an empty tuple if the child has no plants (0.05ms)[0m
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable name is unused
+  garden.exs:32
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[32m  * test gets the garden for Alice with just her plants (2.4ms)[0m
+  * test gets another garden for Alice with just her plants[32m  * test gets another garden for Alice with just her plants (0.6ms)[0m
+  * test returns an empty tuple if the child has no plants[32m  * test returns an empty tuple if the child has no plants (0.04ms)[0m
+  * test gets the garden for Bob[31m  * test gets the garden for Bob (2.2ms)[0m
+
+  1) test gets the garden for Bob (GardenTest)
+     [1m[30mgarden_test.exs:26[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.bob() == {:clover, :grass, :radishes, :clover}
+     [36mlhs:  [0m{[31m:violets[0m, [31m:violets[0m, :radishes, :clover}
+     [36mrhs:  [0m{[32m:clover[0m, [32m:grass[0m, :radishes, :clover}
+     [36mstacktrace:[0m
+       garden_test.exs:28: (test)
+
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable name is unused
+  garden.exs:36
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[31m  * test gets the garden for Alice with just her plants (3.0ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.alice() == {:radishes, :clover, :grass, :grass}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:radishes[0m[32m, [0m[32m:clover[0m[32m, [0m[32m:grass[0m[32m, [0m[32m:grass[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:13: (test)
+
+  * test gets another garden for Alice with just her plants[31m  * test gets another garden for Alice with just her plants (0.04ms)[0m
+
+  2) test gets another garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.alice() == {:violets, :clover, :radishes, :clover}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:violets[0m[32m, [0m[32m:clover[0m[32m, [0m[32m:radishes[0m[32m, [0m[32m:clover[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:18: (test)
+
+  * test returns an empty tuple if the child has no plants[32m  * test returns an empty tuple if the child has no plants (0.7ms)[0m
+  * test gets the garden for Bob[31m  * test gets the garden for Bob (1.8ms)[0m
+
+  3) test gets the garden for Bob (GardenTest)
+     [1m[30mgarden_test.exs:26[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.bob() == {:clover, :grass, :radishes, :clover}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:clover[0m[32m, [0m[32m:grass[0m[32m, [0m[32m:radishes[0m[32m, [0m[32m:clover[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:28: (test)
+
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m7 tests, 3 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable name is unused
+  garden.exs:37
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[]
+[]
+[31m  * test gets the garden for Alice with just her plants (2.9ms)[0m
+[]
+[[{86, 86}, {86, 86}, {67, 82}, {71, 67}]]
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.alice() == {:radishes, :clover, :grass, :grass}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:radishes[0m[32m, [0m[32m:clover[0m[32m, [0m[32m:grass[0m[32m, [0m[32m:grass[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:13: (test)
+
+  * test gets another garden for Alice with just her plants[31m  * test gets another garden for Alice with just her plants (0.8ms)[0m
+
+  2) test gets another garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.alice() == {:violets, :clover, :radishes, :clover}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:violets[0m[32m, [0m[32m:clover[0m[32m, [0m[32m:radishes[0m[32m, [0m[32m:clover[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:18: (test)
+
+  * test returns an empty tuple if the child has no plants[32m  * test returns an empty tuple if the child has no plants (0.09ms)[0m
+  * test gets the garden for Bob[31m  * test gets the garden for Bob (6.5ms)[0m
+
+  3) test gets the garden for Bob (GardenTest)
+     [1m[30mgarden_test.exs:26[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.bob() == {:clover, :grass, :radishes, :clover}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:clover[0m[32m, [0m[32m:grass[0m[32m, [0m[32m:radishes[0m[32m, [0m[32m:clover[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:28: (test)
+
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[31m7 tests, 3 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable name is unused
+  garden.exs:37
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[{82, 71}, {67, 71}]
+[31m  * test gets the garden for Alice with just her plants (4.2ms)[0m
+[{86, 82}, {67, 67}]
+[{86, 82}, {67, 67}]
+[{86, 86}, {86, 86}, {67, 82}, {71, 67}]
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.alice() == {:radishes, :clover, :grass, :grass}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:radishes[0m[32m, [0m[32m:clover[0m[32m, [0m[32m:grass[0m[32m, [0m[32m:grass[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:13: (test)
+
+  * test gets another garden for Alice with just her plants[31m  * test gets another garden for Alice with just her plants (0.7ms)[0m
+
+  2) test gets another garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.alice() == {:violets, :clover, :radishes, :clover}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:violets[0m[32m, [0m[32m:clover[0m[32m, [0m[32m:radishes[0m[32m, [0m[32m:clover[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:18: (test)
+
+  * test returns an empty tuple if the child has no plants[32m  * test returns an empty tuple if the child has no plants (4.4ms)[0m
+  * test gets the garden for Bob[31m  * test gets the garden for Bob (2.1ms)[0m
+
+  3) test gets the garden for Bob (GardenTest)
+     [1m[30mgarden_test.exs:26[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.bob() == {:clover, :grass, :radishes, :clover}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:clover[0m[32m, [0m[32m:grass[0m[32m, [0m[32m:radishes[0m[32m, [0m[32m:clover[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:28: (test)
+
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[31m7 tests, 3 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable name is unused
+  garden.exs:38
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants'RC'
+'VC'
+[31m  * test gets the garden for Alice with just her plants (3.7ms)[0m
+'VC'
+'VVCG'
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.alice() == {:radishes, :clover, :grass, :grass}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:radishes[0m[32m, [0m[32m:clover[0m[32m, [0m[32m:grass[0m[32m, [0m[32m:grass[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:13: (test)
+
+  * test gets another garden for Alice with just her plants[31m  * test gets another garden for Alice with just her plants (0.7ms)[0m
+
+  2) test gets another garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.alice() == {:violets, :clover, :radishes, :clover}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:violets[0m[32m, [0m[32m:clover[0m[32m, [0m[32m:radishes[0m[32m, [0m[32m:clover[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:18: (test)
+
+  * test returns an empty tuple if the child has no plants[32m  * test returns an empty tuple if the child has no plants (0.07ms)[0m
+  * test gets the garden for Bob[31m  * test gets the garden for Bob (6.5ms)[0m
+
+  3) test gets the garden for Bob (GardenTest)
+     [1m[30mgarden_test.exs:26[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.bob() == {:clover, :grass, :radishes, :clover}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:clover[0m[32m, [0m[32m:grass[0m[32m, [0m[32m:radishes[0m[32m, [0m[32m:clover[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:28: (test)
+
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[31m7 tests, 3 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable name is unused
+  garden.exs:38
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants'RC'
+[31m  * test gets the garden for Alice with just her plants (3.8ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.alice() == {:radishes, :clover, :grass, :grass}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:radishes[0m[32m, [0m[32m:clover[0m[32m, [0m[32m:grass[0m[32m, [0m[32m:grass[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:13: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable name is unused
+  garden.exs:38
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants['RC']
+[31m  * test gets the garden for Alice with just her plants (27.1ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.alice() == {:radishes, :clover, :grass, :grass}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:radishes[0m[32m, [0m[32m:clover[0m[32m, [0m[32m:grass[0m[32m, [0m[32m:grass[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:13: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.3 seconds (0.3s on load, 0.02s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable name is unused
+  garden.exs:39
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants['RC']
+[{'RC', 'GG'}]
+[31m  * test gets the garden for Alice with just her plants (16.1ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.alice() == {:radishes, :clover, :grass, :grass}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:radishes[0m[32m, [0m[32m:clover[0m[32m, [0m[32m:grass[0m[32m, [0m[32m:grass[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:13: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.3 seconds (0.2s on load, 0.01s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable name is unused
+  garden.exs:39
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants['RC']
+[31m  * test gets the garden for Alice with just her plants (13.8ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31m** (UndefinedFunctionError) function List.zip/2 is undefined or private. Did you mean one of:
+     
+           * zip/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) List.zip(['RC'], ['GG'])
+       garden.exs:34: Garden.info/2
+       garden_test.exs:12: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.3 seconds (0.3s on load, 0.01s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp zip/3 has multiple clauses and defines defaults in a clause with a body
+  garden.exs:58
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:39
+
+[33mwarning: [0mvariable list1 is unused
+  garden.exs:58
+
+[33mwarning: [0mvariable list2 is unused
+  garden.exs:58
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants['RC']
+['GG', 'RC']
+[31m  * test gets the garden for Alice with just her plants (15.5ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.alice() == {:radishes, :clover, :grass, :grass}
+     [36mlhs:  [0m{[31m:grass[0m, [31m:grass[0m, [31m:radishes[0m, [31m:clover[0m}
+     [36mrhs:  [0m{[32m:radishes[0m, [32m:clover[0m, [32m:grass[0m, [32m:grass[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:13: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.3 seconds (0.3s on load, 0.01s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp zip/3 has multiple clauses and defines defaults in a clause with a body
+  garden.exs:58
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:39
+
+[33mwarning: [0mvariable list1 is unused
+  garden.exs:58
+
+[33mwarning: [0mvariable list2 is unused
+  garden.exs:58
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants['RC']
+['GG', 'RC']
+[31m  * test gets the garden for Alice with just her plants (16.6ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.alice() == {:radishes, :clover, :grass, :grass}
+     [36mlhs:  [0m{[31m:grass[0m, [31m:grass[0m, [31m:radishes[0m, [31m:clover[0m}
+     [36mrhs:  [0m{[32m:radishes[0m, [32m:clover[0m, [32m:grass[0m, [32m:grass[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:13: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.3 seconds (0.3s on load, 0.01s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp zip/3 has multiple clauses and defines defaults in a clause with a body
+  garden.exs:58
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:39
+
+[33mwarning: [0mvariable list1 is unused
+  garden.exs:58
+
+[33mwarning: [0mvariable list2 is unused
+  garden.exs:58
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants['RC']
+['GG', 'RC']
+[31m  * test gets the garden for Alice with just her plants (20.9ms)[0m
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.alice() == {:radishes, :clover, :grass, :grass}
+     [36mlhs:  [0m{[31m:grass[0m, [31m:grass[0m, [31m:radishes[0m, [31m:clover[0m}
+     [36mrhs:  [0m{[32m:radishes[0m, [32m:clover[0m, [32m:grass[0m, [32m:grass[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:13: (test)
+
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.3 seconds (0.2s on load, 0.02s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp zip/3 has multiple clauses and defines defaults in a clause with a body
+  garden.exs:58
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:39
+
+[33mwarning: [0mvariable list1 is unused
+  garden.exs:58
+
+[33mwarning: [0mvariable list2 is unused
+  garden.exs:58
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants['RC']
+['RC', 'GG']
+[32m  * test gets the garden for Alice with just her plants (9.3ms)[0m
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.3 seconds (0.3s on load, 0.01s on tests)
+[32m7 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp zip/3 has multiple clauses and defines defaults in a clause with a body
+  garden.exs:55
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:36
+
+[33mwarning: [0mvariable list1 is unused
+  garden.exs:55
+
+[33mwarning: [0mvariable list2 is unused
+  garden.exs:55
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[32m  * test gets the garden for Alice with just her plants (7.4ms)[0m
+  * test gets another garden for Alice with just her plants  * test gets another garden for Alice with just her plants (skipped)
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.3 seconds (0.3s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp zip/3 has multiple clauses and defines defaults in a clause with a body
+  garden.exs:55
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:36
+
+[33mwarning: [0mvariable list1 is unused
+  garden.exs:55
+
+[33mwarning: [0mvariable list2 is unused
+  garden.exs:55
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[32m  * test gets the garden for Alice with just her plants (8.0ms)[0m
+  * test gets another garden for Alice with just her plants[32m  * test gets another garden for Alice with just her plants (4.1ms)[0m
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.4 seconds (0.4s on load, 0.01s on tests)
+[32m7 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp zip/3 has multiple clauses and defines defaults in a clause with a body
+  garden.exs:55
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:36
+
+[33mwarning: [0mvariable list1 is unused
+  garden.exs:55
+
+[33mwarning: [0mvariable list2 is unused
+  garden.exs:55
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[32m  * test gets the garden for Alice with just her plants (7.5ms)[0m
+  * test gets another garden for Alice with just her plants[32m  * test gets another garden for Alice with just her plants (4.2ms)[0m
+  * test returns an empty tuple if the child has no plants  * test returns an empty tuple if the child has no plants (skipped)
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.3 seconds (0.3s on load, 0.01s on tests)
+[32m7 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp zip/3 has multiple clauses and defines defaults in a clause with a body
+  garden.exs:55
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:36
+
+[33mwarning: [0mvariable list1 is unused
+  garden.exs:55
+
+[33mwarning: [0mvariable list2 is unused
+  garden.exs:55
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[32m  * test gets the garden for Alice with just her plants (5.3ms)[0m
+  * test gets another garden for Alice with just her plants[32m  * test gets another garden for Alice with just her plants (2.6ms)[0m
+  * test returns an empty tuple if the child has no plants[32m  * test returns an empty tuple if the child has no plants (0.2ms)[0m
+  * test gets the garden for Bob  * test gets the garden for Bob (skipped)
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.3 seconds (0.3s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp zip/3 has multiple clauses and defines defaults in a clause with a body
+  garden.exs:55
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:36
+
+[33mwarning: [0mvariable list1 is unused
+  garden.exs:55
+
+[33mwarning: [0mvariable list2 is unused
+  garden.exs:55
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[32m  * test gets the garden for Alice with just her plants (6.6ms)[0m
+  * test gets another garden for Alice with just her plants[32m  * test gets another garden for Alice with just her plants (3.1ms)[0m
+  * test returns an empty tuple if the child has no plants[32m  * test returns an empty tuple if the child has no plants (0.2ms)[0m
+  * test gets the garden for Bob[31m  * test gets the garden for Bob (11.0ms)[0m
+
+  1) test gets the garden for Bob (GardenTest)
+     [1m[30mgarden_test.exs:26[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.bob() == {:clover, :grass, :radishes, :clover}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:clover[0m[32m, [0m[32m:grass[0m[32m, [0m[32m:radishes[0m[32m, [0m[32m:clover[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:28: (test)
+
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.4 seconds (0.3s on load, 0.02s on tests)
+[31m7 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp zip/3 has multiple clauses and defines defaults in a clause with a body
+  garden.exs:56
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:37
+
+[33mwarning: [0mvariable list1 is unused
+  garden.exs:56
+
+[33mwarning: [0mvariable list2 is unused
+  garden.exs:56
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants['RC', 'GG']
+[32m  * test gets the garden for Alice with just her plants (9.7ms)[0m
+['VC', 'RC']
+  * test gets another garden for Alice with just her plants[32m  * test gets another garden for Alice with just her plants (3.2ms)[0m
+['VC', 'RC']
+  * test returns an empty tuple if the child has no plants[32m  * test returns an empty tuple if the child has no plants (0.6ms)[0m
+['VV', 'VV']
+  * test gets the garden for Bob[31m  * test gets the garden for Bob (8.1ms)[0m
+
+  1) test gets the garden for Bob (GardenTest)
+     [1m[30mgarden_test.exs:26[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.bob() == {:clover, :grass, :radishes, :clover}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:clover[0m[32m, [0m[32m:grass[0m[32m, [0m[32m:radishes[0m[32m, [0m[32m:clover[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:28: (test)
+
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.3 seconds (0.3s on load, 0.02s on tests)
+[31m7 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp zip/3 has multiple clauses and defines defaults in a clause with a body
+  garden.exs:58
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:39
+
+[33mwarning: [0mvariable list1 is unused
+  garden.exs:58
+
+[33mwarning: [0mvariable list2 is unused
+  garden.exs:58
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants['RC']
+['RC', 'GG']
+['VC']
+[32m  * test gets the garden for Alice with just her plants (9.2ms)[0m
+  * test gets another garden for Alice with just her plants['VC', 'RC']
+[32m  * test gets another garden for Alice with just her plants (3.4ms)[0m
+  * test returns an empty tuple if the child has no plants['VC']
+['VC', 'RC']
+[32m  * test returns an empty tuple if the child has no plants (0.7ms)[0m
+  * test gets the garden for Bob['VV', 'CG']
+['VV', 'VV']
+[31m  * test gets the garden for Bob (7.4ms)[0m
+
+  1) test gets the garden for Bob (GardenTest)
+     [1m[30mgarden_test.exs:26[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.bob() == {:clover, :grass, :radishes, :clover}
+     [36mlhs:  [0m{}
+     [36mrhs:  [0m{[32m:clover[0m[32m, [0m[32m:grass[0m[32m, [0m[32m:radishes[0m[32m, [0m[32m:clover[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:28: (test)
+
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.3 seconds (0.3s on load, 0.02s on tests)
+[31m7 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp zip/3 has multiple clauses and defines defaults in a clause with a body
+  garden.exs:58
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:39
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants['RC']
+['RC', 'GG']
+[32m  * test gets the garden for Alice with just her plants (9.4ms)[0m
+['VC']
+  * test gets another garden for Alice with just her plants['VC', 'RC']
+[32m  * test gets another garden for Alice with just her plants (3.1ms)[0m
+['VC']
+  * test returns an empty tuple if the child has no plants['VC', 'RC']
+[32m  * test returns an empty tuple if the child has no plants (0.6ms)[0m
+['VV', 'CG']
+  * test gets the garden for Bob['CG', 'RC', 'VV', 'VV']
+[31m  * test gets the garden for Bob (8.2ms)[0m
+
+  1) test gets the garden for Bob (GardenTest)
+     [1m[30mgarden_test.exs:26[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.bob() == {:clover, :grass, :radishes, :clover}
+     [36mlhs:  [0m{[31m:violets[0m, [31m:violets[0m, [31m:violets[0m, [31m:violets[0m}
+     [36mrhs:  [0m{[32m:clover[0m, [32m:grass[0m, [32m:radishes[0m, [32m:clover[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:28: (test)
+
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.3 seconds (0.3s on load, 0.02s on tests)
+[31m7 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp zip/3 has multiple clauses and defines defaults in a clause with a body
+  garden.exs:58
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:39
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants['RC']
+['GG', 'RC']
+[31m  * test gets the garden for Alice with just her plants (29.6ms)[0m
+['VC']
+['RC', 'VC']
+['VC']
+['RC', 'VC']
+['VV', 'CG']
+['VV', 'VV', 'RC', 'CG']
+
+  1) test gets the garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.alice() == {:radishes, :clover, :grass, :grass}
+     [36mlhs:  [0m{[31m:grass[0m, [31m:grass[0m, [31m:radishes[0m, [31m:clover[0m}
+     [36mrhs:  [0m{[32m:radishes[0m, [32m:clover[0m, [32m:grass[0m, [32m:grass[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:13: (test)
+
+  * test gets another garden for Alice with just her plants[31m  * test gets another garden for Alice with just her plants (18.7ms)[0m
+
+  2) test gets another garden for Alice with just her plants (GardenTest)
+     [1m[30mgarden_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.alice() == {:violets, :clover, :radishes, :clover}
+     [36mlhs:  [0m{[31m:radishes[0m, :clover, [31m:violets[0m, :clover}
+     [36mrhs:  [0m{[32m:violets[0m, :clover, [32m:radishes[0m, :clover}
+     [36mstacktrace:[0m
+       garden_test.exs:18: (test)
+
+  * test returns an empty tuple if the child has no plants[32m  * test returns an empty tuple if the child has no plants (17.1ms)[0m
+  * test gets the garden for Bob[31m  * test gets the garden for Bob (1.0ms)[0m
+
+  3) test gets the garden for Bob (GardenTest)
+     [1m[30mgarden_test.exs:26[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mgarden_info.bob() == {:clover, :grass, :radishes, :clover}
+     [36mlhs:  [0m{[31m:radishes[0m, [31m:clover[0m, [31m:clover[0m, [31m:grass[0m}
+     [36mrhs:  [0m{[32m:clover[0m, [32m:grass[0m, [32m:radishes[0m, [32m:clover[0m}
+     [36mstacktrace:[0m
+       garden_test.exs:28: (test)
+
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.4 seconds (0.3s on load, 0.06s on tests)
+[31m7 tests, 3 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp zip/3 has multiple clauses and defines defaults in a clause with a body
+  garden.exs:58
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:39
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants['RC']
+['RC', 'GG']
+[32m  * test gets the garden for Alice with just her plants (14.0ms)[0m
+['VC']
+  * test gets another garden for Alice with just her plants['VC', 'RC']
+[32m  * test gets another garden for Alice with just her plants (9.5ms)[0m
+['VC']
+  * test returns an empty tuple if the child has no plants['VC', 'RC']
+[32m  * test returns an empty tuple if the child has no plants (0.6ms)[0m
+['VV', 'CG']
+  * test gets the garden for Bob['VV', 'VV', 'CG', 'RC']
+[32m  * test gets the garden for Bob (0.8ms)[0m
+  * test gets the garden for all students  * test gets the garden for all students (skipped)
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.3 seconds (0.3s on load, 0.02s on tests)
+[32m7 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp zip/3 has multiple clauses and defines defaults in a clause with a body
+  garden.exs:55
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:36
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[32m  * test gets the garden for Alice with just her plants (8.1ms)[0m
+  * test gets another garden for Alice with just her plants[32m  * test gets another garden for Alice with just her plants (0.2ms)[0m
+  * test returns an empty tuple if the child has no plants[32m  * test returns an empty tuple if the child has no plants (3.4ms)[0m
+  * test gets the garden for Bob[32m  * test gets the garden for Bob (0.2ms)[0m
+  * test gets the garden for all students[32m  * test gets the garden for all students (0.5ms)[0m
+  * test accepts custom child names  * test accepts custom child names (skipped)
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.3 seconds (0.3s on load, 0.01s on tests)
+[32m7 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp zip/3 has multiple clauses and defines defaults in a clause with a body
+  garden.exs:55
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:36
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[32m  * test gets the garden for Alice with just her plants (5.8ms)[0m
+  * test gets another garden for Alice with just her plants[32m  * test gets another garden for Alice with just her plants (3.0ms)[0m
+  * test returns an empty tuple if the child has no plants[32m  * test returns an empty tuple if the child has no plants (0.2ms)[0m
+  * test gets the garden for Bob[32m  * test gets the garden for Bob (0.2ms)[0m
+  * test gets the garden for all students[32m  * test gets the garden for all students (0.6ms)[0m
+  * test accepts custom child names[32m  * test accepts custom child names (0.1ms)[0m
+  * test gets the garden for all students with custom child names  * test gets the garden for all students with custom child names (skipped)
+
+
+Finished in 0.3 seconds (0.3s on load, 0.01s on tests)
+[32m7 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+defp zip/3 has multiple clauses and defines defaults in a clause with a body
+  garden.exs:55
+
+[33mwarning: [0mvariable name is unused
+  garden.exs:36
+
+Excluding tags: [:pending]
+
+
+GardenTest
+  * test gets the garden for Alice with just her plants[32m  * test gets the garden for Alice with just her plants (6.6ms)[0m
+  * test gets another garden for Alice with just her plants[32m  * test gets another garden for Alice with just her plants (3.5ms)[0m
+  * test returns an empty tuple if the child has no plants[32m  * test returns an empty tuple if the child has no plants (0.1ms)[0m
+  * test gets the garden for Bob[32m  * test gets the garden for Bob (0.1ms)[0m
+  * test gets the garden for all students[32m  * test gets the garden for all students (0.9ms)[0m
+  * test accepts custom child names[32m  * test accepts custom child names (0.2ms)[0m
+  * test gets the garden for all students with custom child names[32m  * test gets the garden for all students with custom child names (0.6ms)[0m
+
+
+Finished in 0.3 seconds (0.3s on load, 0.01s on tests)
+[32m7 tests, 0 failures[0m
+
+Randomized with seed 0

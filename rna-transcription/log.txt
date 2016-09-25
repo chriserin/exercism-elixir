@@ -1,0 +1,49 @@
+** (CompileError) rna_transcription.exs:19: invalid args for &, expected an expression in the format of &Mod.fun/arity, &local/arity or a capture containing at least one argument as &1, got: get_rna
+    (stdlib) lists.erl:1353: :lists.mapfoldl/3
+    (stdlib) lists.erl:1354: :lists.mapfoldl/3
+
+Excluding tags: [:pending]
+
+
+RNATranscriptionTest
+  * test transcribes guanine to cytosine[32m  * test transcribes guanine to cytosine (0.00ms)[0m
+  * test transcribes cytosine to guanine  * test transcribes cytosine to guanine (skipped)
+  * test transcribes thymidine to adenine  * test transcribes thymidine to adenine (skipped)
+  * test transcribes adenine to uracil  * test transcribes adenine to uracil (skipped)
+  * test it transcribes all dna nucleotides to rna equivalents  * test it transcribes all dna nucleotides to rna equivalents (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[32m5 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+RNATranscriptionTest
+  * test transcribes guanine to cytosine[32m  * test transcribes guanine to cytosine (0.00ms)[0m
+  * test transcribes cytosine to guanine[32m  * test transcribes cytosine to guanine (0.00ms)[0m
+  * test transcribes thymidine to adenine[32m  * test transcribes thymidine to adenine (0.00ms)[0m
+  * test transcribes adenine to uracil[32m  * test transcribes adenine to uracil (0.00ms)[0m
+  * test it transcribes all dna nucleotides to rna equivalents[32m  * test it transcribes all dna nucleotides to rna equivalents (0.00ms)[0m
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[32m5 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+RNATranscriptionTest
+  * test transcribes guanine to cytosine[32m  * test transcribes guanine to cytosine (0.00ms)[0m
+  * test transcribes cytosine to guanine[32m  * test transcribes cytosine to guanine (0.00ms)[0m
+  * test transcribes thymidine to adenine[32m  * test transcribes thymidine to adenine (0.00ms)[0m
+  * test transcribes adenine to uracil[32m  * test transcribes adenine to uracil (0.00ms)[0m
+  * test it transcribes all dna nucleotides to rna equivalents[32m  * test it transcribes all dna nucleotides to rna equivalents (0.00ms)[0m
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m5 tests, 0 failures[0m
+
+Randomized with seed 0

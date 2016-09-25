@@ -1,0 +1,170 @@
+[33mwarning: [0mvariable day is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable hours is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable minutes is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable month is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable seconds is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable year is unused
+  gigasecond.exs:7
+
+Excluding tags: [:pending]
+
+
+GigasecondTest
+  * test yourself  * test yourself (skipped)
+  * test from 7/19/1959  * test from 7/19/1959 (skipped)
+  * test from 6/13/1977  * test from 6/13/1977 (skipped)
+  * test from 4/25/2011[31m  * test from 4/25/2011 (3.6ms)[0m
+
+  1) test from 4/25/2011 (GigasecondTest)
+     [1m[30mgigasecond_test.exs:12[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mGigasecond.from({{2011, 4, 25}, {0, 0, 0}}) == {{2043, 1, 1}, {1, 46, 40}}
+     [36mlhs:  [0mnil
+     [36mrhs:  [0m{{2043, 1, 1}, {1, 46, 40}}
+     [36mstacktrace:[0m
+       gigasecond_test.exs:13: (test)
+
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m4 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 222274
+[33mwarning: [0mvariable day is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable hours is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable minutes is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable month is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable seconds is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable year is unused
+  gigasecond.exs:7
+
+Excluding tags: [:pending]
+
+
+GigasecondTest
+  * test from 4/25/2011[32m  * test from 4/25/2011 (0.00ms)[0m
+  * test from 7/19/1959  * test from 7/19/1959 (skipped)
+  * test yourself  * test yourself (skipped)
+  * test from 6/13/1977  * test from 6/13/1977 (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m4 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 612666
+[33mwarning: [0mvariable day is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable hours is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable minutes is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable month is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable seconds is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable year is unused
+  gigasecond.exs:7
+
+Excluding tags: [:pending]
+
+
+GigasecondTest
+  * test yourself  * test yourself (skipped)
+  * test from 4/25/2011[32m  * test from 4/25/2011 (0.01ms)[0m
+  * test from 7/19/1959  * test from 7/19/1959 (skipped)
+  * test from 6/13/1977[32m  * test from 6/13/1977 (0.00ms)[0m
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[32m4 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 643006
+[33mwarning: [0mvariable day is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable hours is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable minutes is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable month is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable seconds is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable year is unused
+  gigasecond.exs:7
+
+Excluding tags: [:pending]
+
+
+GigasecondTest
+  * test from 4/25/2011[32m  * test from 4/25/2011 (0.01ms)[0m
+  * test from 6/13/1977[32m  * test from 6/13/1977 (0.00ms)[0m
+  * test from 7/19/1959  * test from 7/19/1959 (skipped)
+  * test yourself  * test yourself (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[32m4 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable day is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable hours is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable minutes is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable month is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable seconds is unused
+  gigasecond.exs:7
+
+[33mwarning: [0mvariable year is unused
+  gigasecond.exs:7
+
+Excluding tags: [:pending]
+
+
+GigasecondTest
+  * test from 4/25/2011[32m  * test from 4/25/2011 (0.01ms)[0m
+  * test from 6/13/1977[32m  * test from 6/13/1977 (0.00ms)[0m
+  * test from 7/19/1959[32m  * test from 7/19/1959 (0.00ms)[0m
+  * test yourself  * test yourself (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m4 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0

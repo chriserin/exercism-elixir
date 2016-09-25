@@ -1,0 +1,915 @@
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test not isogram with utf-8 letters  * test not isogram with utf-8 letters (skipped)
+  * test not isogram lowercase   * test not isogram lowercase  (skipped)
+  * test not isogram uppercase  * test not isogram uppercase (skipped)
+  * test isogram with utf-8 letters  * test isogram with utf-8 letters (skipped)
+  * test phrase is not isogram  * test phrase is not isogram (skipped)
+  * test isogram with dash  * test isogram with dash (skipped)
+  * test not isogram with dash  * test not isogram with dash (skipped)
+  * test isogram uppercase  * test isogram uppercase (skipped)
+  * test isogram lowercase[31m  * test isogram lowercase (2.3ms)[0m
+
+  1) test isogram lowercase (IsogramTest)
+     [1m[30misogram_test.exs:11[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.length("subdermatoglyphic")
+       isogram.exs:7: Isogram.isogram?/1
+       isogram_test.exs:12: (test)
+
+  * test phrase is isogram  * test phrase is isogram (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m10 tests, 1 failure, 9 skipped[0m
+
+Randomized with seed 397440
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[31m  * test isogram lowercase (2.2ms)[0m
+
+  1) test isogram lowercase (IsogramTest)
+     [1m[30misogram_test.exs:11[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.length("subdermatoglyphic")
+       isogram.exs:7: Isogram.isogram?/1
+       isogram_test.exs:12: (test)
+
+  * test not isogram lowercase   * test not isogram lowercase  (skipped)
+  * test isogram uppercase  * test isogram uppercase (skipped)
+  * test not isogram uppercase  * test not isogram uppercase (skipped)
+  * test isogram with dash  * test isogram with dash (skipped)
+  * test not isogram with dash  * test not isogram with dash (skipped)
+  * test isogram with utf-8 letters  * test isogram with utf-8 letters (skipped)
+  * test not isogram with utf-8 letters  * test not isogram with utf-8 letters (skipped)
+  * test phrase is isogram  * test phrase is isogram (skipped)
+  * test phrase is not isogram  * test phrase is not isogram (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m10 tests, 1 failure, 9 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[32m  * test isogram lowercase (2.3ms)[0m
+  * test not isogram lowercase   * test not isogram lowercase  (skipped)
+  * test isogram uppercase  * test isogram uppercase (skipped)
+  * test not isogram uppercase  * test not isogram uppercase (skipped)
+  * test isogram with dash  * test isogram with dash (skipped)
+  * test not isogram with dash  * test not isogram with dash (skipped)
+  * test isogram with utf-8 letters  * test isogram with utf-8 letters (skipped)
+  * test not isogram with utf-8 letters  * test not isogram with utf-8 letters (skipped)
+  * test phrase is isogram  * test phrase is isogram (skipped)
+  * test phrase is not isogram  * test phrase is not isogram (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m10 tests, 0 failures, 9 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[32m  * test isogram lowercase (0.9ms)[0m
+  * test not isogram lowercase [32m  * test not isogram lowercase  (0.8ms)[0m
+  * test isogram uppercase  * test isogram uppercase (skipped)
+  * test not isogram uppercase  * test not isogram uppercase (skipped)
+  * test isogram with dash  * test isogram with dash (skipped)
+  * test not isogram with dash  * test not isogram with dash (skipped)
+  * test isogram with utf-8 letters  * test isogram with utf-8 letters (skipped)
+  * test not isogram with utf-8 letters  * test not isogram with utf-8 letters (skipped)
+  * test phrase is isogram  * test phrase is isogram (skipped)
+  * test phrase is not isogram  * test phrase is not isogram (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m10 tests, 0 failures, 8 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[32m  * test isogram lowercase (0.9ms)[0m
+  * test not isogram lowercase [32m  * test not isogram lowercase  (0.6ms)[0m
+  * test isogram uppercase[32m  * test isogram uppercase (0.02ms)[0m
+  * test not isogram uppercase  * test not isogram uppercase (skipped)
+  * test isogram with dash  * test isogram with dash (skipped)
+  * test not isogram with dash  * test not isogram with dash (skipped)
+  * test isogram with utf-8 letters  * test isogram with utf-8 letters (skipped)
+  * test not isogram with utf-8 letters  * test not isogram with utf-8 letters (skipped)
+  * test phrase is isogram  * test phrase is isogram (skipped)
+  * test phrase is not isogram  * test phrase is not isogram (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m10 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[32m  * test isogram lowercase (0.9ms)[0m
+  * test not isogram lowercase [32m  * test not isogram lowercase  (0.7ms)[0m
+  * test isogram uppercase[32m  * test isogram uppercase (0.02ms)[0m
+  * test not isogram uppercase  * test not isogram uppercase (skipped)
+  * test isogram with dash  * test isogram with dash (skipped)
+  * test not isogram with dash  * test not isogram with dash (skipped)
+  * test isogram with utf-8 letters  * test isogram with utf-8 letters (skipped)
+  * test not isogram with utf-8 letters  * test not isogram with utf-8 letters (skipped)
+  * test phrase is isogram  * test phrase is isogram (skipped)
+  * test phrase is not isogram  * test phrase is not isogram (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m10 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[32m  * test isogram lowercase (0.8ms)[0m
+  * test not isogram lowercase [32m  * test not isogram lowercase  (0.7ms)[0m
+  * test isogram uppercase[32m  * test isogram uppercase (0.02ms)[0m
+  * test not isogram uppercase[32m  * test not isogram uppercase (0.01ms)[0m
+  * test isogram with dash[31m  * test isogram with dash (1.4ms)[0m
+
+  1) test isogram with dash (IsogramTest)
+     [1m[30misogram_test.exs:27[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mIsogram.isogram?("hjelmqvist-gryb-zock-pfund-wax")
+     [36mstacktrace:[0m
+       isogram_test.exs:28: (test)
+
+  * test not isogram with dash  * test not isogram with dash (skipped)
+  * test isogram with utf-8 letters  * test isogram with utf-8 letters (skipped)
+  * test not isogram with utf-8 letters  * test not isogram with utf-8 letters (skipped)
+  * test phrase is isogram  * test phrase is isogram (skipped)
+  * test phrase is not isogram  * test phrase is not isogram (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m10 tests, 1 failure, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable massaged_sentence is unused
+  isogram.exs:7
+
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[32m  * test isogram lowercase (0.9ms)[0m
+  * test not isogram lowercase [32m  * test not isogram lowercase  (0.7ms)[0m
+  * test isogram uppercase[32m  * test isogram uppercase (0.05ms)[0m
+  * test not isogram uppercase[32m  * test not isogram uppercase (0.06ms)[0m
+  * test isogram with dash[31m  * test isogram with dash (3.0ms)[0m
+
+  1) test isogram with dash (IsogramTest)
+     [1m[30misogram_test.exs:27[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mIsogram.isogram?("hjelmqvist-gryb-zock-pfund-wax")
+     [36mstacktrace:[0m
+       isogram_test.exs:28: (test)
+
+  * test not isogram with dash  * test not isogram with dash (skipped)
+  * test isogram with utf-8 letters  * test isogram with utf-8 letters (skipped)
+  * test not isogram with utf-8 letters  * test not isogram with utf-8 letters (skipped)
+  * test phrase is isogram  * test phrase is isogram (skipped)
+  * test phrase is not isogram  * test phrase is not isogram (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m10 tests, 1 failure, 5 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[32m  * test isogram lowercase (2.9ms)[0m
+  * test not isogram lowercase [32m  * test not isogram lowercase  (0.8ms)[0m
+  * test isogram uppercase[32m  * test isogram uppercase (0.05ms)[0m
+  * test not isogram uppercase[32m  * test not isogram uppercase (0.03ms)[0m
+  * test isogram with dash[32m  * test isogram with dash (0.08ms)[0m
+  * test not isogram with dash  * test not isogram with dash (skipped)
+  * test isogram with utf-8 letters  * test isogram with utf-8 letters (skipped)
+  * test not isogram with utf-8 letters  * test not isogram with utf-8 letters (skipped)
+  * test phrase is isogram  * test phrase is isogram (skipped)
+  * test phrase is not isogram  * test phrase is not isogram (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m10 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[32m  * test isogram lowercase (1.5ms)[0m
+  * test not isogram lowercase [32m  * test not isogram lowercase  (0.7ms)[0m
+  * test isogram uppercase[32m  * test isogram uppercase (0.05ms)[0m
+  * test not isogram uppercase[32m  * test not isogram uppercase (0.03ms)[0m
+  * test isogram with dash[32m  * test isogram with dash (0.06ms)[0m
+  * test not isogram with dash[32m  * test not isogram with dash (0.06ms)[0m
+  * test isogram with utf-8 letters[32m  * test isogram with utf-8 letters (0.06ms)[0m
+  * test not isogram with utf-8 letters[31m  * test not isogram with utf-8 letters (1.3ms)[0m
+
+  1) test not isogram with utf-8 letters (IsogramTest)
+     [1m[30misogram_test.exs:39[0m
+     [31mExpected false or nil, got true[0m
+     [36mcode: [0mIsogram.isogram?("éléphant")
+     [36mstacktrace:[0m
+       isogram_test.exs:40: (test)
+
+  * test phrase is isogram[32m  * test phrase is isogram (0.06ms)[0m
+  * test phrase is not isogram[32m  * test phrase is not isogram (0.04ms)[0m
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m10 tests, 1 failure[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[32m  * test isogram lowercase (1.6ms)[0m
+  * test not isogram lowercase [32m  * test not isogram lowercase  (0.8ms)[0m
+  * test isogram uppercase[32m  * test isogram uppercase (0.03ms)[0m
+  * test not isogram uppercase[32m  * test not isogram uppercase (0.03ms)[0m
+  * test isogram with dash[32m  * test isogram with dash (0.08ms)[0m
+  * test not isogram with dash[32m  * test not isogram with dash (0.04ms)[0m
+  * test isogram with utf-8 letters[32m  * test isogram with utf-8 letters (0.05ms)[0m
+  * test not isogram with utf-8 letters[31m  * test not isogram with utf-8 letters (1.3ms)[0m
+
+  1) test not isogram with utf-8 letters (IsogramTest)
+     [1m[30misogram_test.exs:39[0m
+     [31mExpected false or nil, got true[0m
+     [36mcode: [0mIsogram.isogram?("éléphant")
+     [36mstacktrace:[0m
+       isogram_test.exs:40: (test)
+
+  * test phrase is isogram[32m  * test phrase is isogram (0.06ms)[0m
+  * test phrase is not isogram[32m  * test phrase is not isogram (0.04ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m10 tests, 1 failure[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[32m  * test isogram lowercase (2.6ms)[0m
+  * test not isogram lowercase [32m  * test not isogram lowercase  (0.7ms)[0m
+  * test isogram uppercase[32m  * test isogram uppercase (0.03ms)[0m
+  * test not isogram uppercase[32m  * test not isogram uppercase (0.02ms)[0m
+  * test isogram with dash[32m  * test isogram with dash (0.09ms)[0m
+  * test not isogram with dash[32m  * test not isogram with dash (0.05ms)[0m
+  * test isogram with utf-8 letters[32m  * test isogram with utf-8 letters (0.08ms)[0m
+  * test not isogram with utf-8 letters[31m  * test not isogram with utf-8 letters (1.3ms)[0m
+
+  1) test not isogram with utf-8 letters (IsogramTest)
+     [1m[30misogram_test.exs:39[0m
+     [31mExpected false or nil, got true[0m
+     [36mcode: [0mIsogram.isogram?("éléphant")
+     [36mstacktrace:[0m
+       isogram_test.exs:40: (test)
+
+  * test phrase is isogram[32m  * test phrase is isogram (0.06ms)[0m
+  * test phrase is not isogram[32m  * test phrase is not isogram (0.05ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m10 tests, 1 failure[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[31m  * test isogram lowercase (4.1ms)[0m
+
+  1) test isogram lowercase (IsogramTest)
+     [1m[30misogram_test.exs:11[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["s", "u", "b", "d", "e", "r", "m", "a", "t", "o", "g", "l", "y", "p", "h", "i", "c"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:12: (test)
+
+  * test not isogram lowercase [31m  * test not isogram lowercase  (0.03ms)[0m
+
+  2) test not isogram lowercase  (IsogramTest)
+     [1m[30misogram_test.exs:15[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["e", "l", "e", "v", "e", "n"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:16: (test)
+
+  * test isogram uppercase[31m  * test isogram uppercase (0.02ms)[0m
+
+  3) test isogram uppercase (IsogramTest)
+     [1m[30misogram_test.exs:19[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["D", "E", "M", "O", "N", "S", "T", "R", "A", "B", "L", "Y"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:20: (test)
+
+  * test not isogram uppercase[31m  * test not isogram uppercase (0.02ms)[0m
+
+  4) test not isogram uppercase (IsogramTest)
+     [1m[30misogram_test.exs:23[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["A", "L", "P", "H", "A", "B", "E", "T"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:24: (test)
+
+  * test isogram with dash[31m  * test isogram with dash (0.04ms)[0m
+
+  5) test isogram with dash (IsogramTest)
+     [1m[30misogram_test.exs:27[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["h", "j", "e", "l", "m", "q", "v", "i", "s", "t", "g", "r", "y", "b", "z", "o", "c", "k", "p", "f", "u", "n", "d", "w", "a", "x"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:28: (test)
+
+  * test not isogram with dash[31m  * test not isogram with dash (0.02ms)[0m
+
+  6) test not isogram with dash (IsogramTest)
+     [1m[30misogram_test.exs:31[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["t", "w", "e", "n", "t", "y", "f", "i", "v", "e"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:32: (test)
+
+  * test isogram with utf-8 letters[31m  * test isogram with utf-8 letters (0.03ms)[0m
+
+  7) test isogram with utf-8 letters (IsogramTest)
+     [1m[30misogram_test.exs:35[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["h", "e", "i", "z", "l", "r", "c", "k", "s", "t", "o", "a", "b", "d", "m", "p", "f", "u", "n", "g"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:36: (test)
+
+  * test not isogram with utf-8 letters[31m  * test not isogram with utf-8 letters (0.02ms)[0m
+
+  8) test not isogram with utf-8 letters (IsogramTest)
+     [1m[30misogram_test.exs:39[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["l", "p", "h", "a", "n", "t"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:40: (test)
+
+  * test phrase is isogram[31m  * test phrase is isogram (0.03ms)[0m
+
+  9) test phrase is isogram (IsogramTest)
+     [1m[30misogram_test.exs:43[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["e", "m", "i", "l", "y", "j", "u", "n", "g", "s", "c", "h", "w", "a", "r", "t", "z", "k", "o", "p", "f"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:44: (test)
+
+  * test phrase is not isogram[31m  * test phrase is not isogram (0.03ms)[0m
+
+ 10) test phrase is not isogram (IsogramTest)
+     [1m[30misogram_test.exs:47[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["t", "h", "e", "q", "u", "i", "c", "k", "b", "r", "o", "w", "n", "f", "o", "x"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:48: (test)
+
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m10 tests, 10 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[31m  * test isogram lowercase (4.1ms)[0m
+
+  1) test isogram lowercase (IsogramTest)
+     [1m[30misogram_test.exs:11[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["s", "u", "b", "d", "e", "r", "m", "a", "t", "o", "g", "l", "y", "p", "h", "i", "c"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:12: (test)
+
+  * test not isogram lowercase [31m  * test not isogram lowercase  (0.03ms)[0m
+
+  2) test not isogram lowercase  (IsogramTest)
+     [1m[30misogram_test.exs:15[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["e", "l", "e", "v", "e", "n"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:16: (test)
+
+  * test isogram uppercase[31m  * test isogram uppercase (0.02ms)[0m
+
+  3) test isogram uppercase (IsogramTest)
+     [1m[30misogram_test.exs:19[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["D", "E", "M", "O", "N", "S", "T", "R", "A", "B", "L", "Y"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:20: (test)
+
+  * test not isogram uppercase[31m  * test not isogram uppercase (0.01ms)[0m
+
+  4) test not isogram uppercase (IsogramTest)
+     [1m[30misogram_test.exs:23[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["A", "L", "P", "H", "A", "B", "E", "T"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:24: (test)
+
+  * test isogram with dash[31m  * test isogram with dash (0.03ms)[0m
+
+  5) test isogram with dash (IsogramTest)
+     [1m[30misogram_test.exs:27[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["h", "j", "e", "l", "m", "q", "v", "i", "s", "t", "g", "r", "y", "b", "z", "o", "c", "k", "p", "f", "u", "n", "d", "w", "a", "x"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:28: (test)
+
+  * test not isogram with dash[31m  * test not isogram with dash (0.02ms)[0m
+
+  6) test not isogram with dash (IsogramTest)
+     [1m[30misogram_test.exs:31[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["t", "w", "e", "n", "t", "y", "f", "i", "v", "e"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:32: (test)
+
+  * test isogram with utf-8 letters[31m  * test isogram with utf-8 letters (0.02ms)[0m
+
+  7) test isogram with utf-8 letters (IsogramTest)
+     [1m[30misogram_test.exs:35[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["h", "e", "i", "z", <<195>>, "l", "r", <<195>>, "c", "k", "s", "t", "o", <<195>>, "a", "b", "d", <<195>>, "m", "p", "f", "u", "n", "g"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:36: (test)
+
+  * test not isogram with utf-8 letters[31m  * test not isogram with utf-8 letters (0.02ms)[0m
+
+  8) test not isogram with utf-8 letters (IsogramTest)
+     [1m[30misogram_test.exs:39[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes([<<195>>, "l", <<195>>, "p", "h", "a", "n", "t"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:40: (test)
+
+  * test phrase is isogram[31m  * test phrase is isogram (0.02ms)[0m
+
+  9) test phrase is isogram (IsogramTest)
+     [1m[30misogram_test.exs:43[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["e", "m", "i", "l", "y", "j", "u", "n", "g", "s", "c", "h", "w", "a", "r", "t", "z", "k", "o", "p", "f"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:44: (test)
+
+  * test phrase is not isogram[31m  * test phrase is not isogram (0.02ms)[0m
+
+ 10) test phrase is not isogram (IsogramTest)
+     [1m[30misogram_test.exs:47[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["t", "h", "e", "q", "u", "i", "c", "k", "b", "r", "o", "w", "n", "f", "o", "x"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:48: (test)
+
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m10 tests, 10 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[31m  * test isogram lowercase (4.1ms)[0m
+
+  1) test isogram lowercase (IsogramTest)
+     [1m[30misogram_test.exs:11[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["u", "b", "d", "e", "r", "m", "a", "t", "o", "g", "l", "y", "p", "h", "i", "c"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:12: (test)
+
+  * test not isogram lowercase [31m  * test not isogram lowercase  (0.04ms)[0m
+
+  2) test not isogram lowercase  (IsogramTest)
+     [1m[30misogram_test.exs:15[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["l", "e", "v", "e", "n"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:16: (test)
+
+  * test isogram uppercase[31m  * test isogram uppercase (0.03ms)[0m
+
+  3) test isogram uppercase (IsogramTest)
+     [1m[30misogram_test.exs:19[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["E", "M", "O", "N", "S", "T", "R", "A", "B", "L", "Y"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:20: (test)
+
+  * test not isogram uppercase[31m  * test not isogram uppercase (0.02ms)[0m
+
+  4) test not isogram uppercase (IsogramTest)
+     [1m[30misogram_test.exs:23[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["L", "P", "H", "A", "B", "E", "T"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:24: (test)
+
+  * test isogram with dash[31m  * test isogram with dash (0.04ms)[0m
+
+  5) test isogram with dash (IsogramTest)
+     [1m[30misogram_test.exs:27[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["j", "e", "l", "m", "q", "v", "i", "s", "t", "r", "y", "b", "o", "c", "k", "f", "u", "n", "d", "a", "x"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:28: (test)
+
+  * test not isogram with dash[31m  * test not isogram with dash (0.02ms)[0m
+
+  6) test not isogram with dash (IsogramTest)
+     [1m[30misogram_test.exs:31[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["w", "e", "n", "t", "y", "i", "v", "e"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:32: (test)
+
+  * test isogram with utf-8 letters[31m  * test isogram with utf-8 letters (0.03ms)[0m
+
+  7) test isogram with utf-8 letters (IsogramTest)
+     [1m[30misogram_test.exs:35[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["e", "i", "z", <<195>>, "r", <<195>>, "k", "s", "t", "o", <<195>>, "b", "d", <<195>>, "p", "f", "u", "n", "g"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:36: (test)
+
+  * test not isogram with utf-8 letters[31m  * test not isogram with utf-8 letters (0.03ms)[0m
+
+  8) test not isogram with utf-8 letters (IsogramTest)
+     [1m[30misogram_test.exs:39[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes([<<195>>, "h", "a", "n", "t"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:40: (test)
+
+  * test phrase is isogram[31m  * test phrase is isogram (0.03ms)[0m
+
+  9) test phrase is isogram (IsogramTest)
+     [1m[30misogram_test.exs:43[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["m", "i", "l", "y", "u", "n", "g", "c", "h", "w", "a", "r", "t", "z", "k", "o", "p", "f"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:44: (test)
+
+  * test phrase is not isogram[31m  * test phrase is not isogram (0.03ms)[0m
+
+ 10) test phrase is not isogram (IsogramTest)
+     [1m[30misogram_test.exs:47[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["h", "e", "u", "i", "c", "k", "r", "o", "w", "n", "o", "x"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:48: (test)
+
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m10 tests, 10 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[31m  * test isogram lowercase (3.9ms)[0m
+
+  1) test isogram lowercase (IsogramTest)
+     [1m[30misogram_test.exs:11[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["s", "u", "b", "d", "e", "r", "m", "a", "t", "o", "g", "l", "y", "p", "h", "i", "c"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:12: (test)
+
+  * test not isogram lowercase [31m  * test not isogram lowercase  (0.03ms)[0m
+
+  2) test not isogram lowercase  (IsogramTest)
+     [1m[30misogram_test.exs:15[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["e", "l", "e", "v", "e", "n"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:16: (test)
+
+  * test isogram uppercase[31m  * test isogram uppercase (0.03ms)[0m
+
+  3) test isogram uppercase (IsogramTest)
+     [1m[30misogram_test.exs:19[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["D", "E", "M", "O", "N", "S", "T", "R", "A", "B", "L", "Y"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:20: (test)
+
+  * test not isogram uppercase[31m  * test not isogram uppercase (0.02ms)[0m
+
+  4) test not isogram uppercase (IsogramTest)
+     [1m[30misogram_test.exs:23[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["A", "L", "P", "H", "A", "B", "E", "T"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:24: (test)
+
+  * test isogram with dash[31m  * test isogram with dash (0.08ms)[0m
+
+  5) test isogram with dash (IsogramTest)
+     [1m[30misogram_test.exs:27[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["h", "j", "e", "l", "m", "q", "v", "i", "s", "t", "g", "r", "y", "b", "z", "o", "c", "k", "p", "f", "u", "n", "d", "w", "a", "x"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:28: (test)
+
+  * test not isogram with dash[31m  * test not isogram with dash (0.03ms)[0m
+
+  6) test not isogram with dash (IsogramTest)
+     [1m[30misogram_test.exs:31[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["t", "w", "e", "n", "t", "y", "f", "i", "v", "e"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:32: (test)
+
+  * test isogram with utf-8 letters[31m  * test isogram with utf-8 letters (0.03ms)[0m
+
+  7) test isogram with utf-8 letters (IsogramTest)
+     [1m[30misogram_test.exs:35[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["h", "e", "i", "z", "l", "r", "c", "k", "s", "t", "o", "a", "b", "d", "m", "p", "f", "u", "n", "g"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:36: (test)
+
+  * test not isogram with utf-8 letters[31m  * test not isogram with utf-8 letters (0.02ms)[0m
+
+  8) test not isogram with utf-8 letters (IsogramTest)
+     [1m[30misogram_test.exs:39[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["l", "p", "h", "a", "n", "t"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:40: (test)
+
+  * test phrase is isogram[31m  * test phrase is isogram (0.02ms)[0m
+
+  9) test phrase is isogram (IsogramTest)
+     [1m[30misogram_test.exs:43[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["e", "m", "i", "l", "y", "j", "u", "n", "g", "s", "c", "h", "w", "a", "r", "t", "z", "k", "o", "p", "f"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:44: (test)
+
+  * test phrase is not isogram[31m  * test phrase is not isogram (0.02ms)[0m
+
+ 10) test phrase is not isogram (IsogramTest)
+     [1m[30misogram_test.exs:47[0m
+     [31m** (FunctionClauseError) no function clause matching in String.Unicode.graphemes/1[0m
+     [36mstacktrace:[0m
+       (elixir) unicode/unicode.ex:170: String.Unicode.graphemes(["t", "h", "e", "q", "u", "i", "c", "k", "b", "r", "o", "w", "n", "f", "o", "x"])
+       isogram.exs:10: Isogram.isogram?/1
+       isogram_test.exs:48: (test)
+
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m10 tests, 10 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[32m  * test isogram lowercase (2.0ms)[0m
+  * test not isogram lowercase [32m  * test not isogram lowercase  (0.02ms)[0m
+  * test isogram uppercase[32m  * test isogram uppercase (0.02ms)[0m
+  * test not isogram uppercase[32m  * test not isogram uppercase (0.01ms)[0m
+  * test isogram with dash[32m  * test isogram with dash (0.05ms)[0m
+  * test not isogram with dash[32m  * test not isogram with dash (0.02ms)[0m
+  * test isogram with utf-8 letters[32m  * test isogram with utf-8 letters (0.04ms)[0m
+  * test not isogram with utf-8 letters[31m  * test not isogram with utf-8 letters (1.1ms)[0m
+
+  1) test not isogram with utf-8 letters (IsogramTest)
+     [1m[30misogram_test.exs:39[0m
+     [31mExpected false or nil, got true[0m
+     [36mcode: [0mIsogram.isogram?("éléphant")
+     [36mstacktrace:[0m
+       isogram_test.exs:40: (test)
+
+  * test phrase is isogram[32m  * test phrase is isogram (0.04ms)[0m
+  * test phrase is not isogram[32m  * test phrase is not isogram (0.06ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m10 tests, 1 failure[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase["s", "u", "b", "d", "e", "r", "m", "a", "t", "o", "g", "l", "y", "p", "h", "i",
+ "c"]
+[32m  * test isogram lowercase (3.2ms)[0m
+  * test not isogram lowercase ["e", "l", "e", "v", "e", "n"]
+[32m  * test not isogram lowercase  (0.9ms)[0m
+  * test isogram uppercase["D", "E", "M", "O", "N", "S", "T", "R", "A", "B", "L", "Y"]
+[32m  * test isogram uppercase (0.1ms)[0m
+  * test not isogram uppercase["A", "L", "P", "H", "A", "B", "E", "T"]
+[32m  * test not isogram uppercase (0.1ms)[0m
+  * test isogram with dash["h", "j", "e", "l", "m", "q", "v", "i", "s", "t", "g", "r", "y", "b", "z", "o",
+ "c", "k", "p", "f", "u", "n", "d", "w", "a", "x"]
+[32m  * test isogram with dash (0.3ms)[0m
+  * test not isogram with dash["t", "w", "e", "n", "t", "y", "f", "i", "v", "e"]
+[32m  * test not isogram with dash (0.1ms)[0m
+  * test isogram with utf-8 letters["h", "e", "i", "z", "l", "r", "c", "k", "s", "t", "o", "a", "b", "d", "m", "p",
+ "f", "u", "n", "g"]
+[32m  * test isogram with utf-8 letters (0.2ms)[0m
+  * test not isogram with utf-8 letters["l", "p", "h", "a", "n", "t"]
+[31m  * test not isogram with utf-8 letters (1.4ms)[0m
+
+  1) test not isogram with utf-8 letters (IsogramTest)
+     [1m[30misogram_test.exs:39[0m
+     [31mExpected false or nil, got true[0m
+     [36mcode: [0mIsogram.isogram?("éléphant")
+     [36mstacktrace:[0m
+       isogram_test.exs:40: (test)
+
+  * test phrase is isogram["e", "m", "i", "l", "y", "j", "u", "n", "g", "s", "c", "h", "w", "a", "r", "t",
+ "z", "k", "o", "p", "f"]
+[32m  * test phrase is isogram (1.2ms)[0m
+  * test phrase is not isogram["t", "h", "e", "q", "u", "i", "c", "k", "b", "r", "o", "w", "n", "f", "o", "x"]
+[32m  * test phrase is not isogram (0.2ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m10 tests, 1 failure[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[32m  * test isogram lowercase (2.0ms)[0m
+  * test not isogram lowercase [32m  * test not isogram lowercase  (0.02ms)[0m
+  * test isogram uppercase[32m  * test isogram uppercase (0.01ms)[0m
+  * test not isogram uppercase[32m  * test not isogram uppercase (0.02ms)[0m
+  * test isogram with dash[31m  * test isogram with dash (1.7ms)[0m
+
+  1) test isogram with dash (IsogramTest)
+     [1m[30misogram_test.exs:27[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mIsogram.isogram?("hjelmqvist-gryb-zock-pfund-wax")
+     [36mstacktrace:[0m
+       isogram_test.exs:28: (test)
+
+  * test not isogram with dash[32m  * test not isogram with dash (0.02ms)[0m
+  * test isogram with utf-8 letters[32m  * test isogram with utf-8 letters (0.03ms)[0m
+  * test not isogram with utf-8 letters[32m  * test not isogram with utf-8 letters (0.01ms)[0m
+  * test phrase is isogram[31m  * test phrase is isogram (0.07ms)[0m
+
+  2) test phrase is isogram (IsogramTest)
+     [1m[30misogram_test.exs:43[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mIsogram.isogram?("emily jung schwartzkopf")
+     [36mstacktrace:[0m
+       isogram_test.exs:44: (test)
+
+  * test phrase is not isogram[32m  * test phrase is not isogram (0.04ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m10 tests, 2 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[32m  * test isogram lowercase (2.2ms)[0m
+  * test not isogram lowercase [32m  * test not isogram lowercase  (0.03ms)[0m
+  * test isogram uppercase[32m  * test isogram uppercase (0.03ms)[0m
+  * test not isogram uppercase[32m  * test not isogram uppercase (0.01ms)[0m
+  * test isogram with dash[32m  * test isogram with dash (0.05ms)[0m
+  * test not isogram with dash[32m  * test not isogram with dash (0.02ms)[0m
+  * test isogram with utf-8 letters[31m  * test isogram with utf-8 letters (1.6ms)[0m
+
+  1) test isogram with utf-8 letters (IsogramTest)
+     [1m[30misogram_test.exs:35[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mIsogram.isogram?("heizölrückstoßabdämpfung")
+     [36mstacktrace:[0m
+       isogram_test.exs:36: (test)
+
+  * test not isogram with utf-8 letters[32m  * test not isogram with utf-8 letters (0.05ms)[0m
+  * test phrase is isogram[32m  * test phrase is isogram (0.06ms)[0m
+  * test phrase is not isogram[32m  * test phrase is not isogram (0.06ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m10 tests, 1 failure[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[32m  * test isogram lowercase (2.1ms)[0m
+  * test not isogram lowercase [32m  * test not isogram lowercase  (0.02ms)[0m
+  * test isogram uppercase[32m  * test isogram uppercase (0.02ms)[0m
+  * test not isogram uppercase[32m  * test not isogram uppercase (0.01ms)[0m
+  * test isogram with dash[32m  * test isogram with dash (0.06ms)[0m
+  * test not isogram with dash[32m  * test not isogram with dash (0.02ms)[0m
+  * test isogram with utf-8 letters[32m  * test isogram with utf-8 letters (0.04ms)[0m
+  * test not isogram with utf-8 letters[32m  * test not isogram with utf-8 letters (0.01ms)[0m
+  * test phrase is isogram[32m  * test phrase is isogram (0.04ms)[0m
+  * test phrase is not isogram[32m  * test phrase is not isogram (0.04ms)[0m
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m10 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+IsogramTest
+  * test isogram lowercase[32m  * test isogram lowercase (2.1ms)[0m
+  * test not isogram lowercase [32m  * test not isogram lowercase  (0.02ms)[0m
+  * test isogram uppercase[32m  * test isogram uppercase (0.02ms)[0m
+  * test not isogram uppercase[32m  * test not isogram uppercase (0.01ms)[0m
+  * test isogram with dash[32m  * test isogram with dash (0.05ms)[0m
+  * test not isogram with dash[32m  * test not isogram with dash (0.02ms)[0m
+  * test isogram with utf-8 letters[32m  * test isogram with utf-8 letters (0.03ms)[0m
+  * test not isogram with utf-8 letters[32m  * test not isogram with utf-8 letters (0.01ms)[0m
+  * test phrase is isogram[32m  * test phrase is isogram (0.03ms)[0m
+  * test phrase is not isogram[32m  * test phrase is not isogram (0.03ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m10 tests, 0 failures[0m
+
+Randomized with seed 0

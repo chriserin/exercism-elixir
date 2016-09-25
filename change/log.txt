@@ -1,0 +1,1292 @@
+[33mwarning: [0mvariable amount is unused
+  change.exs:19
+
+[33mwarning: [0mvariable values is unused
+  change.exs:19
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[31m  * test returns :error on empty list (3.4ms)[0m
+
+  1) test returns :error on empty list (ChangeTest)
+     [1m[30mchange_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(1, []) == :error
+     [36mlhs:  [0mnil
+     [36mrhs:  [0m:error
+     [36mstacktrace:[0m
+       change_test.exs:12: (test)
+
+  * test generates the correct change when only one coin type is needed  * test generates the correct change when only one coin type is needed (skipped)
+  * test generates the correct change when multiple coin types are needed  * test generates the correct change when multiple coin types are needed (skipped)
+  * test returns :error when it is not possible to generate change  * test returns :error when it is not possible to generate change (skipped)
+  * test generates change using only small coins when it is not possible to combine them with larger coins  * test generates change using only small coins when it is not possible to combine them with larger coins (skipped)
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable amount is unused
+  change.exs:19
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:20
+
+[33mwarning: [0mvariable values is unused
+  change.exs:20
+
+** (CompileError) change.exs:19: undefined function error/0
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:19
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:20
+
+[33mwarning: [0mvariable values is unused
+  change.exs:20
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed  * test generates the correct change when only one coin type is needed (skipped)
+  * test generates the correct change when multiple coin types are needed  * test generates the correct change when multiple coin types are needed (skipped)
+  * test returns :error when it is not possible to generate change  * test returns :error when it is not possible to generate change (skipped)
+  * test generates change using only small coins when it is not possible to combine them with larger coins  * test generates change using only small coins when it is not possible to combine them with larger coins (skipped)
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+** (SyntaxError) change.exs:22: unexpected token: ")". "fn" starting at line 22 is missing terminator "end"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    change_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:19
+
+[33mwarning: [0mvariable c is unused
+  change.exs:29
+
+[33mwarning: [0mvariable v is unused
+  change.exs:29
+
+** (CompileError) change.exs:29: undefined function k/0
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:19
+
+[33mwarning: [0mvariable c is unused
+  change.exs:29
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed  * test generates the correct change when only one coin type is needed (skipped)
+  * test generates the correct change when multiple coin types are needed  * test generates the correct change when multiple coin types are needed (skipped)
+  * test returns :error when it is not possible to generate change  * test returns :error when it is not possible to generate change (skipped)
+  * test generates change using only small coins when it is not possible to combine them with larger coins  * test generates change using only small coins when it is not possible to combine them with larger coins (skipped)
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable amount is unused
+  change.exs:19
+
+[33mwarning: [0mvariable c is unused
+  change.exs:29
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[31m  * test generates the correct change when only one coin type is needed (3.6ms)[0m
+
+  1) test generates the correct change when only one coin type is needed (ChangeTest)
+     [1m[30mchange_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(5, [1, 10]) == {:ok, change}
+     [36mlhs:  [0m[{10, 0}, {1, 0}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}]
+     [36mrhs:  [0m{:ok, %{1 => 5, 10 => 0}}
+     [36mstacktrace:[0m
+       change_test.exs:17: (test)
+
+  * test generates the correct change when multiple coin types are needed  * test generates the correct change when multiple coin types are needed (skipped)
+  * test returns :error when it is not possible to generate change  * test returns :error when it is not possible to generate change (skipped)
+  * test generates change using only small coins when it is not possible to combine them with larger coins  * test generates change using only small coins when it is not possible to combine them with larger coins (skipped)
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable amount is unused
+  change.exs:19
+
+[33mwarning: [0mvariable c is unused
+  change.exs:30
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[31m  * test generates the correct change when only one coin type is needed (2.6ms)[0m
+
+  1) test generates the correct change when only one coin type is needed (ChangeTest)
+     [1m[30mchange_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(5, [1, 10]) == {:ok, change}
+     [36mlhs:  [0m%{1 => 5, 10 => 0}
+     [36mrhs:  [0m{:ok, %{1 => 5, 10 => 0}}
+     [36mstacktrace:[0m
+       change_test.exs:17: (test)
+
+  * test generates the correct change when multiple coin types are needed  * test generates the correct change when multiple coin types are needed (skipped)
+  * test returns :error when it is not possible to generate change  * test returns :error when it is not possible to generate change (skipped)
+  * test generates change using only small coins when it is not possible to combine them with larger coins  * test generates change using only small coins when it is not possible to combine them with larger coins (skipped)
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable amount is unused
+  change.exs:19
+
+[33mwarning: [0mvariable c is unused
+  change.exs:30
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[31m  * test generates the correct change when only one coin type is needed (3.0ms)[0m
+
+  1) test generates the correct change when only one coin type is needed (ChangeTest)
+     [1m[30mchange_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(5, [1, 10]) == {:ok, change}
+     [36mlhs:  [0m%{1 => 5, 10 => 0}
+     [36mrhs:  [0m{:ok, %{1 => 5, 10 => 0}}
+     [36mstacktrace:[0m
+       change_test.exs:17: (test)
+
+  * test generates the correct change when multiple coin types are needed  * test generates the correct change when multiple coin types are needed (skipped)
+  * test returns :error when it is not possible to generate change  * test returns :error when it is not possible to generate change (skipped)
+  * test generates change using only small coins when it is not possible to combine them with larger coins  * test generates change using only small coins when it is not possible to combine them with larger coins (skipped)
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable amount is unused
+  change.exs:19
+
+[33mwarning: [0mvariable c is unused
+  change.exs:31
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[32m  * test generates the correct change when only one coin type is needed (0.01ms)[0m
+  * test generates the correct change when multiple coin types are needed  * test generates the correct change when multiple coin types are needed (skipped)
+  * test returns :error when it is not possible to generate change  * test returns :error when it is not possible to generate change (skipped)
+  * test generates change using only small coins when it is not possible to combine them with larger coins  * test generates change using only small coins when it is not possible to combine them with larger coins (skipped)
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable amount is unused
+  change.exs:19
+
+[33mwarning: [0mvariable c is unused
+  change.exs:32
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[32m  * test generates the correct change when only one coin type is needed (0.01ms)[0m
+  * test generates the correct change when multiple coin types are needed[32m  * test generates the correct change when multiple coin types are needed (0.01ms)[0m
+  * test returns :error when it is not possible to generate change  * test returns :error when it is not possible to generate change (skipped)
+  * test generates change using only small coins when it is not possible to combine them with larger coins  * test generates change using only small coins when it is not possible to combine them with larger coins (skipped)
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable amount is unused
+  change.exs:19
+
+[33mwarning: [0mvariable c is unused
+  change.exs:32
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[32m  * test generates the correct change when only one coin type is needed (0.02ms)[0m
+  * test generates the correct change when multiple coin types are needed[32m  * test generates the correct change when multiple coin types are needed (0.02ms)[0m
+  * test returns :error when it is not possible to generate change[31m  * test returns :error when it is not possible to generate change (4.5ms)[0m
+
+  1) test returns :error when it is not possible to generate change (ChangeTest)
+     [1m[30mchange_test.exs:25[0m
+     [31m** (MatchError) no match of right hand side value: %{5 => 0, 10 => 0, 25 => 0}[0m
+     [36mstacktrace:[0m
+       change.exs:30: Change.reduce/2
+       change.exs:23: Change.generate/2
+       change_test.exs:26: (test)
+
+  * test generates change using only small coins when it is not possible to combine them with larger coins  * test generates change using only small coins when it is not possible to combine them with larger coins (skipped)
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable amount is unused
+  change.exs:19
+
+[33mwarning: [0mvariable c is unused
+  change.exs:32
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[32m  * test generates the correct change when only one coin type is needed (0.04ms)[0m
+  * test generates the correct change when multiple coin types are needed[32m  * test generates the correct change when multiple coin types are needed (0.02ms)[0m
+  * test returns :error when it is not possible to generate change[31m  * test returns :error when it is not possible to generate change (6.6ms)[0m
+
+  1) test returns :error when it is not possible to generate change (ChangeTest)
+     [1m[30mchange_test.exs:25[0m
+     [31m** (MatchError) no match of right hand side value: %{5 => 0, 10 => 0, 25 => 0}[0m
+     [36mstacktrace:[0m
+       change.exs:30: Change.reduce/2
+       change.exs:23: Change.generate/2
+       change_test.exs:26: (test)
+
+  * test generates change using only small coins when it is not possible to combine them with larger coins  * test generates change using only small coins when it is not possible to combine them with larger coins (skipped)
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+** (CompileError) change.exs:20: expected -> clauses for catch in try
+    (stdlib) lists.erl:1238: :lists.map/2
+    (stdlib) lists.erl:1238: :lists.map/2
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:19
+
+[33mwarning: [0mvariable c is unused
+  change.exs:34
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[32m  * test generates the correct change when only one coin type is needed (0.05ms)[0m
+  * test generates the correct change when multiple coin types are needed[32m  * test generates the correct change when multiple coin types are needed (0.02ms)[0m
+  * test returns :error when it is not possible to generate change[32m  * test returns :error when it is not possible to generate change (0.01ms)[0m
+  * test generates change using only small coins when it is not possible to combine them with larger coins  * test generates change using only small coins when it is not possible to combine them with larger coins (skipped)
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable amount is unused
+  change.exs:19
+
+[33mwarning: [0mvariable c is unused
+  change.exs:34
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[32m  * test generates the correct change when only one coin type is needed (0.01ms)[0m
+  * test generates the correct change when multiple coin types are needed[32m  * test generates the correct change when multiple coin types are needed (0.02ms)[0m
+  * test returns :error when it is not possible to generate change[32m  * test returns :error when it is not possible to generate change (0.00ms)[0m
+  * test generates change using only small coins when it is not possible to combine them with larger coins[31m  * test generates change using only small coins when it is not possible to combine them with larger coins (3.3ms)[0m
+
+  1) test generates change using only small coins when it is not possible to combine them with larger coins (ChangeTest)
+     [1m[30mchange_test.exs:29[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(102, [3, 100]) == {:ok, change}
+     [36mlhs:  [0m:error
+     [36mrhs:  [0m{:ok, %{3 => 34, 100 => 0}}
+     [36mstacktrace:[0m
+       change_test.exs:31: (test)
+
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+** (SyntaxError) change.exs:39: unexpected keyword "do:". In case you wanted to write a "do" expression, you must either separate the keyword argument with comma or use do-blocks. For example, the following construct:
+
+    if some_condition? do
+      :this
+    else
+      :that
+    end
+
+is syntax sugar for the Elixir construct:
+
+    if(some_condition?, do: :this, else: :that)
+
+where "some_condition?" is the first argument and the second argument is a keyword list.
+
+Syntax error before: 'do:'
+    (elixir) lib/code.ex:321: Code.load_file/2
+    change_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) change.exs:38: unexpected keyword "do:". In case you wanted to write a "do" expression, you must either separate the keyword argument with comma or use do-blocks. For example, the following construct:
+
+    if some_condition? do
+      :this
+    else
+      :that
+    end
+
+is syntax sugar for the Elixir construct:
+
+    if(some_condition?, do: :this, else: :that)
+
+where "some_condition?" is the first argument and the second argument is a keyword list.
+
+Syntax error before: 'do:'
+    (elixir) lib/code.ex:321: Code.load_file/2
+    change_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable coins is unused
+  change.exs:21
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[31m  * test returns :error on empty list (2.7ms)[0m
+
+  1) test returns :error on empty list (ChangeTest)
+     [1m[30mchange_test.exs:11[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.tl([])
+       change.exs:35: Change.cycle_permutations/3
+       change.exs:20: Change.generate/2
+       change_test.exs:12: (test)
+
+  * test generates the correct change when only one coin type is needed[31m  * test generates the correct change when only one coin type is needed (0.01ms)[0m
+
+  2) test generates the correct change when only one coin type is needed (ChangeTest)
+     [1m[30mchange_test.exs:15[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.tl([])
+       change.exs:35: Change.cycle_permutations/3
+       change.exs:20: Change.generate/2
+       change_test.exs:17: (test)
+
+  * test generates the correct change when multiple coin types are needed[31m  * test generates the correct change when multiple coin types are needed (0.01ms)[0m
+
+  3) test generates the correct change when multiple coin types are needed (ChangeTest)
+     [1m[30mchange_test.exs:20[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.tl([])
+       change.exs:35: Change.cycle_permutations/3
+       change.exs:20: Change.generate/2
+       change_test.exs:22: (test)
+
+  * test returns :error when it is not possible to generate change[31m  * test returns :error when it is not possible to generate change (0.01ms)[0m
+
+  4) test returns :error when it is not possible to generate change (ChangeTest)
+     [1m[30mchange_test.exs:25[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.tl([])
+       change.exs:35: Change.cycle_permutations/3
+       change.exs:20: Change.generate/2
+       change_test.exs:26: (test)
+
+  * test generates change using only small coins when it is not possible to combine them with larger coins[31m  * test generates change using only small coins when it is not possible to combine them with larger coins (0.01ms)[0m
+
+  5) test generates change using only small coins when it is not possible to combine them with larger coins (ChangeTest)
+     [1m[30mchange_test.exs:29[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.tl([])
+       change.exs:35: Change.cycle_permutations/3
+       change.exs:20: Change.generate/2
+       change_test.exs:31: (test)
+
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m7 tests, 5 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable coins is unused
+  change.exs:21
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:34
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[31m  * test generates the correct change when only one coin type is needed (10.0ms)[0m
+
+  1) test generates the correct change when only one coin type is needed (ChangeTest)
+     [1m[30mchange_test.exs:15[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for {[1, 1, 1, 1], 0}[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       change_test.exs:17: (test)
+
+  * test generates the correct change when multiple coin types are needed[31m  * test generates the correct change when multiple coin types are needed (3.0ms)[0m
+
+  2) test generates the correct change when multiple coin types are needed (ChangeTest)
+     [1m[30mchange_test.exs:20[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for {[1, 1, 5, 10], 0}[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       change_test.exs:22: (test)
+
+  * test returns :error when it is not possible to generate change[32m  * test returns :error when it is not possible to generate change (0.00ms)[0m
+  * test generates change using only small coins when it is not possible to combine them with larger coins[31m  * test generates change using only small coins when it is not possible to combine them with larger coins (3.0ms)[0m
+
+  3) test generates change using only small coins when it is not possible to combine them with larger coins (ChangeTest)
+     [1m[30mchange_test.exs:29[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for {[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], 0}[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       change_test.exs:31: (test)
+
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[31m7 tests, 3 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable coins is unused
+  change.exs:21
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:34
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[31m  * test returns :error on empty list (2.8ms)[0m
+
+  1) test returns :error on empty list (ChangeTest)
+     [1m[30mchange_test.exs:11[0m
+     [31m** (MatchError) no match of right hand side value: nil[0m
+     [36mstacktrace:[0m
+       change.exs:21: Change.generate/2
+       change_test.exs:12: (test)
+
+  * test generates the correct change when only one coin type is needed[31m  * test generates the correct change when only one coin type is needed (0.01ms)[0m
+
+  2) test generates the correct change when only one coin type is needed (ChangeTest)
+     [1m[30mchange_test.exs:15[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       change.exs:29: anonymous fn/1 in Change.translate/1
+       (elixir) lib/map.ex:561: Map.get_and_update/3
+       change.exs:29: anonymous fn/2 in Change.translate/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       change_test.exs:17: (test)
+
+  * test generates the correct change when multiple coin types are needed[31m  * test generates the correct change when multiple coin types are needed (0.01ms)[0m
+
+  3) test generates the correct change when multiple coin types are needed (ChangeTest)
+     [1m[30mchange_test.exs:20[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       change.exs:29: anonymous fn/1 in Change.translate/1
+       (elixir) lib/map.ex:561: Map.get_and_update/3
+       change.exs:29: anonymous fn/2 in Change.translate/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       change_test.exs:22: (test)
+
+  * test returns :error when it is not possible to generate change[31m  * test returns :error when it is not possible to generate change (0.00ms)[0m
+
+  4) test returns :error when it is not possible to generate change (ChangeTest)
+     [1m[30mchange_test.exs:25[0m
+     [31m** (MatchError) no match of right hand side value: nil[0m
+     [36mstacktrace:[0m
+       change.exs:21: Change.generate/2
+       change_test.exs:26: (test)
+
+  * test generates change using only small coins when it is not possible to combine them with larger coins[31m  * test generates change using only small coins when it is not possible to combine them with larger coins (0.01ms)[0m
+
+  5) test generates change using only small coins when it is not possible to combine them with larger coins (ChangeTest)
+     [1m[30mchange_test.exs:29[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       change.exs:29: anonymous fn/1 in Change.translate/1
+       (elixir) lib/map.ex:561: Map.get_and_update/3
+       change.exs:29: anonymous fn/2 in Change.translate/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       change_test.exs:31: (test)
+
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 5 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable coins is unused
+  change.exs:21
+
+[33mwarning: [0mvariable coins is unused
+  change.exs:27
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:34
+
+** (CompileError) change.exs:28: undefined function solution/0
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mvariable coins is unused
+  change.exs:21
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:34
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[31m  * test generates the correct change when only one coin type is needed (2.8ms)[0m
+
+  1) test generates the correct change when only one coin type is needed (ChangeTest)
+     [1m[30mchange_test.exs:15[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       change.exs:29: anonymous fn/1 in Change.translate/1
+       (elixir) lib/map.ex:561: Map.get_and_update/3
+       change.exs:29: anonymous fn/2 in Change.translate/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       change_test.exs:17: (test)
+
+  * test generates the correct change when multiple coin types are needed[31m  * test generates the correct change when multiple coin types are needed (0.01ms)[0m
+
+  2) test generates the correct change when multiple coin types are needed (ChangeTest)
+     [1m[30mchange_test.exs:20[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       change.exs:29: anonymous fn/1 in Change.translate/1
+       (elixir) lib/map.ex:561: Map.get_and_update/3
+       change.exs:29: anonymous fn/2 in Change.translate/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       change_test.exs:22: (test)
+
+  * test returns :error when it is not possible to generate change[32m  * test returns :error when it is not possible to generate change (0.00ms)[0m
+  * test generates change using only small coins when it is not possible to combine them with larger coins[31m  * test generates change using only small coins when it is not possible to combine them with larger coins (0.02ms)[0m
+
+  3) test generates change using only small coins when it is not possible to combine them with larger coins (ChangeTest)
+     [1m[30mchange_test.exs:29[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       change.exs:29: anonymous fn/1 in Change.translate/1
+       (elixir) lib/map.ex:561: Map.get_and_update/3
+       change.exs:29: anonymous fn/2 in Change.translate/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       change_test.exs:31: (test)
+
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 3 failures, 2 skipped[0m
+
+Randomized with seed 0
+** (SyntaxError) change.exs:30: unexpected token: "end". "(" starting at line 29 is missing terminator ")"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    change_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) change.exs:30: unexpected token: "end". "(" starting at line 29 is missing terminator ")"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    change_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mfunction translate/1 is unused
+  change.exs:26
+
+[33mwarning: [0mvariable coins is unused
+  change.exs:21
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:33
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[31m  * test returns :error on empty list (2.7ms)[0m
+
+  1) test returns :error on empty list (ChangeTest)
+     [1m[30mchange_test.exs:11[0m
+     [31m** (FunctionClauseError) no function clause matching in Change.translate/2[0m
+     [36mstacktrace:[0m
+       change.exs:27: Change.translate([], nil)
+       change_test.exs:12: (test)
+
+  * test generates the correct change when only one coin type is needed[31m  * test generates the correct change when only one coin type is needed (5.0ms)[0m
+
+  2) test generates the correct change when only one coin type is needed (ChangeTest)
+     [1m[30mchange_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(5, [1, 10]) == {:ok, change}
+     [36mlhs:  [0m%{1 => 4, 10 => 0}
+     [36mrhs:  [0m{:ok, %{1 => 5, 10 => 0}}
+     [36mstacktrace:[0m
+       change_test.exs:17: (test)
+
+  * test generates the correct change when multiple coin types are needed[31m  * test generates the correct change when multiple coin types are needed (0.04ms)[0m
+
+  3) test generates the correct change when multiple coin types are needed (ChangeTest)
+     [1m[30mchange_test.exs:20[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(18, [1, 5, 10]) == {:ok, change}
+     [36mlhs:  [0m%{1 => 2, 5 => 1, 10 => 1}
+     [36mrhs:  [0m{:ok, %{1 => 3, 5 => 1, 10 => 1}}
+     [36mstacktrace:[0m
+       change_test.exs:22: (test)
+
+  * test returns :error when it is not possible to generate change[31m  * test returns :error when it is not possible to generate change (0.02ms)[0m
+
+  4) test returns :error when it is not possible to generate change (ChangeTest)
+     [1m[30mchange_test.exs:25[0m
+     [31m** (FunctionClauseError) no function clause matching in Change.translate/2[0m
+     [36mstacktrace:[0m
+       change.exs:27: Change.translate([5, 10, 25], nil)
+       change_test.exs:26: (test)
+
+  * test generates change using only small coins when it is not possible to combine them with larger coins[31m  * test generates change using only small coins when it is not possible to combine them with larger coins (2.7ms)[0m
+
+  5) test generates change using only small coins when it is not possible to combine them with larger coins (ChangeTest)
+     [1m[30mchange_test.exs:29[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(102, [3, 100]) == {:ok, change}
+     [36mlhs:  [0m%{3 => 33, 100 => 0}
+     [36mrhs:  [0m{:ok, %{3 => 34, 100 => 0}}
+     [36mstacktrace:[0m
+       change_test.exs:31: (test)
+
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m7 tests, 5 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction translate/1 is unused
+  change.exs:26
+
+[33mwarning: [0mvariable coins is unused
+  change.exs:21
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:33
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[31m  * test returns :error on empty list (2.2ms)[0m
+
+  1) test returns :error on empty list (ChangeTest)
+     [1m[30mchange_test.exs:11[0m
+     [31m** (FunctionClauseError) no function clause matching in Change.translate/2[0m
+     [36mstacktrace:[0m
+       change.exs:27: Change.translate([], nil)
+       change_test.exs:12: (test)
+
+  * test generates the correct change when only one coin type is needed[31m  * test generates the correct change when only one coin type is needed (3.3ms)[0m
+
+  2) test generates the correct change when only one coin type is needed (ChangeTest)
+     [1m[30mchange_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(5, [1, 10]) == {:ok, change}
+     [36mlhs:  [0m%{1 => 4, 10 => 0}
+     [36mrhs:  [0m{:ok, %{1 => 5, 10 => 0}}
+     [36mstacktrace:[0m
+       change_test.exs:17: (test)
+
+  * test generates the correct change when multiple coin types are needed[31m  * test generates the correct change when multiple coin types are needed (0.04ms)[0m
+
+  3) test generates the correct change when multiple coin types are needed (ChangeTest)
+     [1m[30mchange_test.exs:20[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(18, [1, 5, 10]) == {:ok, change}
+     [36mlhs:  [0m%{1 => 2, 5 => 1, 10 => 1}
+     [36mrhs:  [0m{:ok, %{1 => 3, 5 => 1, 10 => 1}}
+     [36mstacktrace:[0m
+       change_test.exs:22: (test)
+
+  * test returns :error when it is not possible to generate change[31m  * test returns :error when it is not possible to generate change (0.02ms)[0m
+
+  4) test returns :error when it is not possible to generate change (ChangeTest)
+     [1m[30mchange_test.exs:25[0m
+     [31m** (FunctionClauseError) no function clause matching in Change.translate/2[0m
+     [36mstacktrace:[0m
+       change.exs:27: Change.translate([5, 10, 25], nil)
+       change_test.exs:26: (test)
+
+  * test generates change using only small coins when it is not possible to combine them with larger coins[31m  * test generates change using only small coins when it is not possible to combine them with larger coins (1.1ms)[0m
+
+  5) test generates change using only small coins when it is not possible to combine them with larger coins (ChangeTest)
+     [1m[30mchange_test.exs:29[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(102, [3, 100]) == {:ok, change}
+     [36mlhs:  [0m%{3 => 33, 100 => 0}
+     [36mrhs:  [0m{:ok, %{3 => 34, 100 => 0}}
+     [36mstacktrace:[0m
+       change_test.exs:31: (test)
+
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 5 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable coins is unused
+  change.exs:21
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:33
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[31m  * test returns :error on empty list (6.3ms)[0m
+
+  1) test returns :error on empty list (ChangeTest)
+     [1m[30mchange_test.exs:11[0m
+     [31m** (FunctionClauseError) no function clause matching in Change.translate/2[0m
+     [36mstacktrace:[0m
+       change.exs:26: Change.translate([], nil)
+       change_test.exs:12: (test)
+
+  * test generates the correct change when only one coin type is needed[31m  * test generates the correct change when only one coin type is needed (3.9ms)[0m
+
+  2) test generates the correct change when only one coin type is needed (ChangeTest)
+     [1m[30mchange_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(5, [1, 10]) == {:ok, change}
+     [36mlhs:  [0m%{1 => 4, 10 => 0}
+     [36mrhs:  [0m{:ok, %{1 => 5, 10 => 0}}
+     [36mstacktrace:[0m
+       change_test.exs:17: (test)
+
+  * test generates the correct change when multiple coin types are needed[31m  * test generates the correct change when multiple coin types are needed (0.03ms)[0m
+
+  3) test generates the correct change when multiple coin types are needed (ChangeTest)
+     [1m[30mchange_test.exs:20[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(18, [1, 5, 10]) == {:ok, change}
+     [36mlhs:  [0m%{1 => 2, 5 => 1, 10 => 1}
+     [36mrhs:  [0m{:ok, %{1 => 3, 5 => 1, 10 => 1}}
+     [36mstacktrace:[0m
+       change_test.exs:22: (test)
+
+  * test returns :error when it is not possible to generate change[31m  * test returns :error when it is not possible to generate change (0.02ms)[0m
+
+  4) test returns :error when it is not possible to generate change (ChangeTest)
+     [1m[30mchange_test.exs:25[0m
+     [31m** (FunctionClauseError) no function clause matching in Change.translate/2[0m
+     [36mstacktrace:[0m
+       change.exs:26: Change.translate([5, 10, 25], nil)
+       change_test.exs:26: (test)
+
+  * test generates change using only small coins when it is not possible to combine them with larger coins[31m  * test generates change using only small coins when it is not possible to combine them with larger coins (0.8ms)[0m
+
+  5) test generates change using only small coins when it is not possible to combine them with larger coins (ChangeTest)
+     [1m[30mchange_test.exs:29[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(102, [3, 100]) == {:ok, change}
+     [36mlhs:  [0m%{3 => 33, 100 => 0}
+     [36mrhs:  [0m{:ok, %{3 => 34, 100 => 0}}
+     [36mstacktrace:[0m
+       change_test.exs:31: (test)
+
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[31m7 tests, 5 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable coins is unused
+  change.exs:21
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:33
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[31m  * test generates the correct change when only one coin type is needed (4.1ms)[0m
+
+  1) test generates the correct change when only one coin type is needed (ChangeTest)
+     [1m[30mchange_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(5, [1, 10]) == {:ok, change}
+     [36mlhs:  [0m%{1 => 4, 10 => 0}
+     [36mrhs:  [0m{:ok, %{1 => 5, 10 => 0}}
+     [36mstacktrace:[0m
+       change_test.exs:17: (test)
+
+  * test generates the correct change when multiple coin types are needed[31m  * test generates the correct change when multiple coin types are needed (0.04ms)[0m
+
+  2) test generates the correct change when multiple coin types are needed (ChangeTest)
+     [1m[30mchange_test.exs:20[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(18, [1, 5, 10]) == {:ok, change}
+     [36mlhs:  [0m%{1 => 2, 5 => 1, 10 => 1}
+     [36mrhs:  [0m{:ok, %{1 => 3, 5 => 1, 10 => 1}}
+     [36mstacktrace:[0m
+       change_test.exs:22: (test)
+
+  * test returns :error when it is not possible to generate change[32m  * test returns :error when it is not possible to generate change (0.00ms)[0m
+  * test generates change using only small coins when it is not possible to combine them with larger coins[31m  * test generates change using only small coins when it is not possible to combine them with larger coins (0.04ms)[0m
+
+  3) test generates change using only small coins when it is not possible to combine them with larger coins (ChangeTest)
+     [1m[30mchange_test.exs:29[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(102, [3, 100]) == {:ok, change}
+     [36mlhs:  [0m%{3 => 33, 100 => 0}
+     [36mrhs:  [0m{:ok, %{3 => 34, 100 => 0}}
+     [36mstacktrace:[0m
+       change_test.exs:31: (test)
+
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 3 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable coins is unused
+  change.exs:21
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:33
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[31m  * test returns :error on empty list (2.1ms)[0m
+
+  1) test returns :error on empty list (ChangeTest)
+     [1m[30mchange_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(1, []) == :error
+     [36mlhs:  [0m{:ok, :error}
+     [36mrhs:  [0m:error
+     [36mstacktrace:[0m
+       change_test.exs:12: (test)
+
+  * test generates the correct change when only one coin type is needed[31m  * test generates the correct change when only one coin type is needed (2.4ms)[0m
+
+  2) test generates the correct change when only one coin type is needed (ChangeTest)
+     [1m[30mchange_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(5, [1, 10]) == {:ok, change}
+     [36mlhs:  [0m{:ok, %{10 => 0, 1 => [31m4[0m}}
+     [36mrhs:  [0m{:ok, %{10 => 0, 1 => [32m5[0m}}
+     [36mstacktrace:[0m
+       change_test.exs:17: (test)
+
+  * test generates the correct change when multiple coin types are needed[31m  * test generates the correct change when multiple coin types are needed (0.05ms)[0m
+
+  3) test generates the correct change when multiple coin types are needed (ChangeTest)
+     [1m[30mchange_test.exs:20[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(18, [1, 5, 10]) == {:ok, change}
+     [36mlhs:  [0m{:ok, %{5 => 1, 10 => 1, 1 => [31m2[0m}}
+     [36mrhs:  [0m{:ok, %{5 => 1, 10 => 1, 1 => [32m3[0m}}
+     [36mstacktrace:[0m
+       change_test.exs:22: (test)
+
+  * test returns :error when it is not possible to generate change[31m  * test returns :error when it is not possible to generate change (0.02ms)[0m
+
+  4) test returns :error when it is not possible to generate change (ChangeTest)
+     [1m[30mchange_test.exs:25[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(3, [5, 10, 25]) == :error
+     [36mlhs:  [0m{:ok, :error}
+     [36mrhs:  [0m:error
+     [36mstacktrace:[0m
+       change_test.exs:26: (test)
+
+  * test generates change using only small coins when it is not possible to combine them with larger coins[31m  * test generates change using only small coins when it is not possible to combine them with larger coins (1.2ms)[0m
+
+  5) test generates change using only small coins when it is not possible to combine them with larger coins (ChangeTest)
+     [1m[30mchange_test.exs:29[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(102, [3, 100]) == {:ok, change}
+     [36mlhs:  [0m{:ok, %{100 => 0, 3 => 3[31m3[0m}}
+     [36mrhs:  [0m{:ok, %{100 => 0, 3 => 3[32m4[0m}}
+     [36mstacktrace:[0m
+       change_test.exs:31: (test)
+
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 5 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable coins is unused
+  change.exs:21
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:33
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[31m  * test generates the correct change when only one coin type is needed (4.6ms)[0m
+
+  1) test generates the correct change when only one coin type is needed (ChangeTest)
+     [1m[30mchange_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(5, [1, 10]) == {:ok, change}
+     [36mlhs:  [0m{:ok, %{10 => 0, 1 => [31m4[0m}}
+     [36mrhs:  [0m{:ok, %{10 => 0, 1 => [32m5[0m}}
+     [36mstacktrace:[0m
+       change_test.exs:17: (test)
+
+  * test generates the correct change when multiple coin types are needed[31m  * test generates the correct change when multiple coin types are needed (0.06ms)[0m
+
+  2) test generates the correct change when multiple coin types are needed (ChangeTest)
+     [1m[30mchange_test.exs:20[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(18, [1, 5, 10]) == {:ok, change}
+     [36mlhs:  [0m{:ok, %{5 => 1, 10 => 1, 1 => [31m2[0m}}
+     [36mrhs:  [0m{:ok, %{5 => 1, 10 => 1, 1 => [32m3[0m}}
+     [36mstacktrace:[0m
+       change_test.exs:22: (test)
+
+  * test returns :error when it is not possible to generate change[32m  * test returns :error when it is not possible to generate change (0.00ms)[0m
+  * test generates change using only small coins when it is not possible to combine them with larger coins[31m  * test generates change using only small coins when it is not possible to combine them with larger coins (0.05ms)[0m
+
+  3) test generates change using only small coins when it is not possible to combine them with larger coins (ChangeTest)
+     [1m[30mchange_test.exs:29[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(102, [3, 100]) == {:ok, change}
+     [36mlhs:  [0m{:ok, %{100 => 0, 3 => 3[31m3[0m}}
+     [36mrhs:  [0m{:ok, %{100 => 0, 3 => 3[32m4[0m}}
+     [36mstacktrace:[0m
+       change_test.exs:31: (test)
+
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 3 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable coins is unused
+  change.exs:21
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:33
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[32m  * test generates the correct change when only one coin type is needed (2.5ms)[0m
+  * test generates the correct change when multiple coin types are needed[32m  * test generates the correct change when multiple coin types are needed (0.03ms)[0m
+  * test returns :error when it is not possible to generate change[32m  * test returns :error when it is not possible to generate change (0.00ms)[0m
+  * test generates change using only small coins when it is not possible to combine them with larger coins[32m  * test generates change using only small coins when it is not possible to combine them with larger coins (0.05ms)[0m
+  * test generates the same change given any coin order  * test generates the same change given any coin order (skipped)
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable coins is unused
+  change.exs:21
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:33
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[32m  * test generates the correct change when only one coin type is needed (3.0ms)[0m
+  * test generates the correct change when multiple coin types are needed[32m  * test generates the correct change when multiple coin types are needed (0.08ms)[0m
+  * test returns :error when it is not possible to generate change[32m  * test returns :error when it is not possible to generate change (0.00ms)[0m
+  * test generates change using only small coins when it is not possible to combine them with larger coins[32m  * test generates change using only small coins when it is not possible to combine them with larger coins (0.05ms)[0m
+  * test generates the same change given any coin order[31m  * test generates the same change given any coin order (2.6ms)[0m
+
+  1) test generates the same change given any coin order (ChangeTest)
+     [1m[30mchange_test.exs:34[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(18, [10, 5, 1]) == {:ok, change}
+     [36mlhs:  [0m{:ok, %{1 => [31m18[0m, 5 => [31m0[0m, 10 => [31m0[0m}}
+     [36mrhs:  [0m{:ok, %{1 => [32m3[0m, 5 => [32m1[0m, 10 => [32m1[0m}}
+     [36mstacktrace:[0m
+       change_test.exs:37: (test)
+
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable coins is unused
+  change.exs:21
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:33
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[32m  * test generates the correct change when only one coin type is needed (2.5ms)[0m
+  * test generates the correct change when multiple coin types are needed[31m  * test generates the correct change when multiple coin types are needed (2.1ms)[0m
+
+  1) test generates the correct change when multiple coin types are needed (ChangeTest)
+     [1m[30mchange_test.exs:20[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(18, [1, 5, 10]) == {:ok, change}
+     [36mlhs:  [0m{:ok, %{1 => [31m18[0m, 5 => [31m0[0m, 10 => [31m0[0m}}
+     [36mrhs:  [0m{:ok, %{1 => [32m3[0m, 5 => [32m1[0m, 10 => [32m1[0m}}
+     [36mstacktrace:[0m
+       change_test.exs:22: (test)
+
+  * test returns :error when it is not possible to generate change[32m  * test returns :error when it is not possible to generate change (0.00ms)[0m
+  * test generates change using only small coins when it is not possible to combine them with larger coins[32m  * test generates change using only small coins when it is not possible to combine them with larger coins (0.04ms)[0m
+  * test generates the same change given any coin order[31m  * test generates the same change given any coin order (0.05ms)[0m
+
+  2) test generates the same change given any coin order (ChangeTest)
+     [1m[30mchange_test.exs:34[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(18, [1, 5, 10]) == {:ok, change}
+     [36mlhs:  [0m{:ok, %{1 => [31m18[0m, 5 => [31m0[0m, 10 => [31m0[0m}}
+     [36mrhs:  [0m{:ok, %{1 => [32m3[0m, 5 => [32m1[0m, 10 => [32m1[0m}}
+     [36mstacktrace:[0m
+       change_test.exs:36: (test)
+
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 2 failures, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable coins is unused
+  change.exs:21
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:33
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[32m  * test generates the correct change when only one coin type is needed (4.9ms)[0m
+  * test generates the correct change when multiple coin types are needed[32m  * test generates the correct change when multiple coin types are needed (0.07ms)[0m
+  * test returns :error when it is not possible to generate change[32m  * test returns :error when it is not possible to generate change (0.00ms)[0m
+  * test generates change using only small coins when it is not possible to combine them with larger coins[32m  * test generates change using only small coins when it is not possible to combine them with larger coins (0.07ms)[0m
+  * test generates the same change given any coin order[31m  * test generates the same change given any coin order (2.7ms)[0m
+
+  1) test generates the same change given any coin order (ChangeTest)
+     [1m[30mchange_test.exs:34[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mChange.generate(18, [10, 5, 1]) == {:ok, change}
+     [36mlhs:  [0m{:ok, %{1 => [31m18[0m, 5 => [31m0[0m, 10 => [31m0[0m}}
+     [36mrhs:  [0m{:ok, %{1 => [32m3[0m, 5 => [32m1[0m, 10 => [32m1[0m}}
+     [36mstacktrace:[0m
+       change_test.exs:37: (test)
+
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable coins is unused
+  change.exs:21
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:33
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[32m  * test generates the correct change when only one coin type is needed (2.5ms)[0m
+  * test generates the correct change when multiple coin types are needed[32m  * test generates the correct change when multiple coin types are needed (0.02ms)[0m
+  * test returns :error when it is not possible to generate change[32m  * test returns :error when it is not possible to generate change (0.00ms)[0m
+  * test generates change using only small coins when it is not possible to combine them with larger coins[32m  * test generates change using only small coins when it is not possible to combine them with larger coins (0.04ms)[0m
+  * test generates the same change given any coin order[32m  * test generates the same change given any coin order (0.1ms)[0m
+  * test generates the correct change for large values with many coins  * test generates the correct change for large values with many coins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable coins is unused
+  change.exs:21
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:33
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[32m  * test generates the correct change when only one coin type is needed (2.2ms)[0m
+  * test generates the correct change when multiple coin types are needed[32m  * test generates the correct change when multiple coin types are needed (0.03ms)[0m
+  * test returns :error when it is not possible to generate change[32m  * test returns :error when it is not possible to generate change (0.00ms)[0m
+  * test generates change using only small coins when it is not possible to combine them with larger coins[32m  * test generates change using only small coins when it is not possible to combine them with larger coins (0.04ms)[0m
+  * test generates the same change given any coin order[32m  * test generates the same change given any coin order (0.09ms)[0m
+  * test generates the correct change for large values with many coins[32m  * test generates the correct change for large values with many coins (0.1ms)[0m
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m7 tests, 0 failures[0m
+
+Randomized with seed 0
+** (TokenMissingError) change.exs:34: missing terminator: end (for "do" starting at line 1)
+    (elixir) lib/code.ex:321: Code.load_file/2
+    change_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable coins is unused
+  change.exs:5
+
+[33mwarning: [0mvariable amount is unused
+  change.exs:20
+
+Excluding tags: [:pending]
+
+
+ChangeTest
+  * test returns :error on empty list[32m  * test returns :error on empty list (0.00ms)[0m
+  * test generates the correct change when only one coin type is needed[32m  * test generates the correct change when only one coin type is needed (2.5ms)[0m
+  * test generates the correct change when multiple coin types are needed[32m  * test generates the correct change when multiple coin types are needed (0.03ms)[0m
+  * test returns :error when it is not possible to generate change[32m  * test returns :error when it is not possible to generate change (0.00ms)[0m
+  * test generates change using only small coins when it is not possible to combine them with larger coins[32m  * test generates change using only small coins when it is not possible to combine them with larger coins (0.06ms)[0m
+  * test generates the same change given any coin order[32m  * test generates the same change given any coin order (0.09ms)[0m
+  * test generates the correct change for large values with many coins[32m  * test generates the correct change for large values with many coins (0.1ms)[0m
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m7 tests, 0 failures[0m
+
+Randomized with seed 0

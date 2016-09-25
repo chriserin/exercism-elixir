@@ -1,0 +1,167 @@
+[33mwarning: [0mvariable input is unused
+  etl.exs:11
+
+Excluding tags: [:pending]
+
+
+TransformTest
+  * test transform one value[31m  * test transform one value (2.1ms)[0m
+
+  1) test transform one value (TransformTest)
+     [1m[30metl_test.exs:12[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mETL.transform(old) == expected
+     [36mlhs:  [0mnil
+     [36mrhs:  [0m%{"world" => 1}
+     [36mstacktrace:[0m
+       etl_test.exs:16: (test)
+
+  * test transform more values  * test transform more values (skipped)
+  * test more keys  * test more keys (skipped)
+  * test full dataset  * test full dataset (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m4 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+TransformTest
+  * test transform one value[31m  * test transform one value (3.4ms)[0m
+
+  1) test transform one value (TransformTest)
+     [1m[30metl_test.exs:11[0m
+     [31m** (UndefinedFunctionError) function Map.reduce/3 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) Map.reduce(%{1 => ["WORLD"]}, %{}, #Function<1.32907263/2 in ETL.transform/1>)
+       etl_test.exs:15: (test)
+
+  * test transform more values  * test transform more values (skipped)
+  * test more keys  * test more keys (skipped)
+  * test full dataset  * test full dataset (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[31m4 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+TransformTest
+  * test transform one value[31m  * test transform one value (2.1ms)[0m
+
+  1) test transform one value (TransformTest)
+     [1m[30metl_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mETL.transform(old) == expected
+     [36mlhs:  [0m%{[31m"WORLD" => 1[0m}
+     [36mrhs:  [0m%{[32m, [0m[32m"world" => 1[0m}
+     [36mstacktrace:[0m
+       etl_test.exs:15: (test)
+
+  * test transform more values  * test transform more values (skipped)
+  * test more keys  * test more keys (skipped)
+  * test full dataset  * test full dataset (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[31m4 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+TransformTest
+  * test transform one value[31m  * test transform one value (11.2ms)[0m
+
+  1) test transform one value (TransformTest)
+     [1m[30metl_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mETL.transform(old) == expected
+     [36mlhs:  [0m%{[31m"WORLD" => 1[0m}
+     [36mrhs:  [0m%{[32m, [0m[32m"world" => 1[0m}
+     [36mstacktrace:[0m
+       etl_test.exs:15: (test)
+
+  * test transform more values  * test transform more values (skipped)
+  * test more keys  * test more keys (skipped)
+  * test full dataset  * test full dataset (skipped)
+
+
+Finished in 0.05 seconds (0.04s on load, 0.01s on tests)
+[31m4 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+TransformTest
+  * test transform one value[32m  * test transform one value (7.5ms)[0m
+  * test transform more values  * test transform more values (skipped)
+  * test more keys  * test more keys (skipped)
+  * test full dataset  * test full dataset (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[32m4 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+TransformTest
+  * test transform one value[32m  * test transform one value (7.2ms)[0m
+  * test transform more values[32m  * test transform more values (0.01ms)[0m
+  * test more keys  * test more keys (skipped)
+  * test full dataset  * test full dataset (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[32m4 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+TransformTest
+  * test transform one value[32m  * test transform one value (7.0ms)[0m
+  * test transform more values[32m  * test transform more values (0.01ms)[0m
+  * test more keys[32m  * test more keys (0.01ms)[0m
+  * test full dataset  * test full dataset (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[32m4 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+TransformTest
+  * test transform one value[32m  * test transform one value (7.5ms)[0m
+  * test transform more values[32m  * test transform more values (0.01ms)[0m
+  * test more keys[32m  * test more keys (0.01ms)[0m
+  * test full dataset[32m  * test full dataset (0.08ms)[0m
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[32m4 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+TransformTest
+  * test transform one value[32m  * test transform one value (7.3ms)[0m
+  * test transform more values[32m  * test transform more values (0.00ms)[0m
+  * test more keys[32m  * test more keys (0.01ms)[0m
+  * test full dataset[32m  * test full dataset (0.04ms)[0m
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[32m4 tests, 0 failures[0m
+
+Randomized with seed 0

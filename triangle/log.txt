@@ -1,0 +1,220 @@
+[33mwarning: [0mvariable b is unused
+  triangle.exs:16
+
+[33mwarning: [0mvariable a is unused
+  triangle.exs:17
+
+[33mwarning: [0mvariable a is unused
+  triangle.exs:18
+
+[33mwarning: [0mvariable b is unused
+  triangle.exs:18
+
+[33mwarning: [0mvariable c is unused
+  triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+TriangleTest
+  * test very small triangles are legal  * test very small triangles are legal (skipped)
+  * test triangles with no size are illegal  * test triangles with no size are illegal (skipped)
+  * test triangles violating triangle inequality are illegal 2  * test triangles violating triangle inequality are illegal 2 (skipped)
+  * test equilateral triangles have equal sides[31m  * test equilateral triangles have equal sides (3.1ms)[0m
+
+  1) test equilateral triangles have equal sides (TriangleTest)
+     [1m[30mtriangle_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mTriangle.kind(2, 2, 2) == {:ok, :equilateral}
+     [36mlhs:  [0m{[31m:error[0m, [31m"all side lengths must be positive"[0m}
+     [36mrhs:  [0m{[32m:ok[0m, [32m:equilateral[0m}
+     [36mstacktrace:[0m
+       triangle_test.exs:12: (test)
+
+  * test isosceles triangles have last two sides equal  * test isosceles triangles have last two sides equal (skipped)
+  * test isosceles triangles have two first sides equal  * test isosceles triangles have two first sides equal (skipped)
+  * test triangles violating triangle inequality are illegal  * test triangles violating triangle inequality are illegal (skipped)
+  * test triangles violating triangle inequality are illegal 3  * test triangles violating triangle inequality are illegal 3 (skipped)
+  * test triangles with negative sides are illegal  * test triangles with negative sides are illegal (skipped)
+  * test isosceles triangles have in fact exactly two sides equal  * test isosceles triangles have in fact exactly two sides equal (skipped)
+  * test scalene triangles have no equal sides  * test scalene triangles have no equal sides (skipped)
+  * test scalene triangles have no equal sides at a larger scale too  * test scalene triangles have no equal sides at a larger scale too (skipped)
+  * test larger equilateral triangles also have equal sides  * test larger equilateral triangles also have equal sides (skipped)
+  * test isosceles triangles have first and last sides equal  * test isosceles triangles have first and last sides equal (skipped)
+  * test scalene triangles have no equal sides in descending order either  * test scalene triangles have no equal sides in descending order either (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m15 tests, 1 failure, 14 skipped[0m
+
+Randomized with seed 871614
+[33mwarning: [0mvariable b is unused
+  triangle.exs:16
+
+[33mwarning: [0mvariable a is unused
+  triangle.exs:17
+
+[33mwarning: [0mvariable a is unused
+  triangle.exs:18
+
+[33mwarning: [0mvariable b is unused
+  triangle.exs:18
+
+[33mwarning: [0mvariable c is unused
+  triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+TriangleTest
+  * test isosceles triangles have two first sides equal  * test isosceles triangles have two first sides equal (skipped)
+  * test triangles with no size are illegal  * test triangles with no size are illegal (skipped)
+  * test scalene triangles have no equal sides at a larger scale too  * test scalene triangles have no equal sides at a larger scale too (skipped)
+  * test isosceles triangles have last two sides equal  * test isosceles triangles have last two sides equal (skipped)
+  * test triangles violating triangle inequality are illegal 2  * test triangles violating triangle inequality are illegal 2 (skipped)
+  * test scalene triangles have no equal sides  * test scalene triangles have no equal sides (skipped)
+  * test triangles violating triangle inequality are illegal 3  * test triangles violating triangle inequality are illegal 3 (skipped)
+  * test triangles violating triangle inequality are illegal  * test triangles violating triangle inequality are illegal (skipped)
+  * test equilateral triangles have equal sides[32m  * test equilateral triangles have equal sides (0.00ms)[0m
+  * test triangles with negative sides are illegal  * test triangles with negative sides are illegal (skipped)
+  * test scalene triangles have no equal sides in descending order either  * test scalene triangles have no equal sides in descending order either (skipped)
+  * test larger equilateral triangles also have equal sides  * test larger equilateral triangles also have equal sides (skipped)
+  * test isosceles triangles have in fact exactly two sides equal  * test isosceles triangles have in fact exactly two sides equal (skipped)
+  * test isosceles triangles have first and last sides equal  * test isosceles triangles have first and last sides equal (skipped)
+  * test very small triangles are legal  * test very small triangles are legal (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m15 tests, 0 failures, 14 skipped[0m
+
+Randomized with seed 471366
+[33mwarning: [0mvariable b is unused
+  triangle.exs:16
+
+[33mwarning: [0mvariable a is unused
+  triangle.exs:17
+
+[33mwarning: [0mvariable a is unused
+  triangle.exs:18
+
+[33mwarning: [0mvariable b is unused
+  triangle.exs:18
+
+[33mwarning: [0mvariable c is unused
+  triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+TriangleTest
+  * test equilateral triangles have equal sides[32m  * test equilateral triangles have equal sides (0.00ms)[0m
+  * test larger equilateral triangles also have equal sides[32m  * test larger equilateral triangles also have equal sides (0.00ms)[0m
+  * test isosceles triangles have last two sides equal[32m  * test isosceles triangles have last two sides equal (0.00ms)[0m
+  * test isosceles triangles have first and last sides equal[32m  * test isosceles triangles have first and last sides equal (0.00ms)[0m
+  * test isosceles triangles have two first sides equal[32m  * test isosceles triangles have two first sides equal (0.00ms)[0m
+  * test isosceles triangles have in fact exactly two sides equal[32m  * test isosceles triangles have in fact exactly two sides equal (0.00ms)[0m
+  * test scalene triangles have no equal sides[32m  * test scalene triangles have no equal sides (0.00ms)[0m
+  * test scalene triangles have no equal sides at a larger scale too[32m  * test scalene triangles have no equal sides at a larger scale too (0.00ms)[0m
+  * test scalene triangles have no equal sides in descending order either[32m  * test scalene triangles have no equal sides in descending order either (0.00ms)[0m
+  * test very small triangles are legal[32m  * test very small triangles are legal (0.00ms)[0m
+  * test triangles with no size are illegal[31m  * test triangles with no size are illegal (2.1ms)[0m
+
+  1) test triangles with no size are illegal (TriangleTest)
+     [1m[30mtriangle_test.exs:51[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mTriangle.kind(0, 0, 0) == {:error, "all side lengths must be positive"}
+     [36mlhs:  [0m{:error, "side lengths [31mviola[0mt[31me[0m [31mtriangl[0me i[31mnequali[0mt[31my[0m"}
+     [36mrhs:  [0m{:error, "[32mall [0mside lengths [32mmus[0mt [32mb[0me [32mpos[0mit[32mive[0m"}
+     [36mstacktrace:[0m
+       triangle_test.exs:52: (test)
+
+  * test triangles with negative sides are illegal[32m  * test triangles with negative sides are illegal (0.00ms)[0m
+  * test triangles violating triangle inequality are illegal[32m  * test triangles violating triangle inequality are illegal (0.00ms)[0m
+  * test triangles violating triangle inequality are illegal 2[32m  * test triangles violating triangle inequality are illegal 2 (0.00ms)[0m
+  * test triangles violating triangle inequality are illegal 3[32m  * test triangles violating triangle inequality are illegal 3 (0.00ms)[0m
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m15 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable b is unused
+  triangle.exs:16
+
+[33mwarning: [0mvariable a is unused
+  triangle.exs:17
+
+[33mwarning: [0mvariable a is unused
+  triangle.exs:18
+
+[33mwarning: [0mvariable b is unused
+  triangle.exs:18
+
+[33mwarning: [0mvariable c is unused
+  triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+TriangleTest
+  * test equilateral triangles have equal sides[32m  * test equilateral triangles have equal sides (0.00ms)[0m
+  * test larger equilateral triangles also have equal sides[32m  * test larger equilateral triangles also have equal sides (0.00ms)[0m
+  * test isosceles triangles have last two sides equal[32m  * test isosceles triangles have last two sides equal (0.00ms)[0m
+  * test isosceles triangles have first and last sides equal[32m  * test isosceles triangles have first and last sides equal (0.00ms)[0m
+  * test isosceles triangles have two first sides equal[32m  * test isosceles triangles have two first sides equal (0.00ms)[0m
+  * test isosceles triangles have in fact exactly two sides equal[32m  * test isosceles triangles have in fact exactly two sides equal (0.00ms)[0m
+  * test scalene triangles have no equal sides[32m  * test scalene triangles have no equal sides (0.00ms)[0m
+  * test scalene triangles have no equal sides at a larger scale too[32m  * test scalene triangles have no equal sides at a larger scale too (0.00ms)[0m
+  * test scalene triangles have no equal sides in descending order either[32m  * test scalene triangles have no equal sides in descending order either (0.00ms)[0m
+  * test very small triangles are legal[32m  * test very small triangles are legal (0.00ms)[0m
+  * test triangles with no size are illegal[32m  * test triangles with no size are illegal (0.00ms)[0m
+  * test triangles with negative sides are illegal[32m  * test triangles with negative sides are illegal (0.00ms)[0m
+  * test triangles violating triangle inequality are illegal[32m  * test triangles violating triangle inequality are illegal (0.00ms)[0m
+  * test triangles violating triangle inequality are illegal 2[32m  * test triangles violating triangle inequality are illegal 2 (0.00ms)[0m
+  * test triangles violating triangle inequality are illegal 3[32m  * test triangles violating triangle inequality are illegal 3 (0.00ms)[0m
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m15 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable b is unused
+  triangle.exs:16
+
+[33mwarning: [0mvariable a is unused
+  triangle.exs:17
+
+[33mwarning: [0mvariable a is unused
+  triangle.exs:18
+
+[33mwarning: [0mvariable b is unused
+  triangle.exs:18
+
+[33mwarning: [0mvariable c is unused
+  triangle.exs:18
+
+Excluding tags: [:pending]
+
+
+TriangleTest
+  * test equilateral triangles have equal sides[32m  * test equilateral triangles have equal sides (0.00ms)[0m
+  * test larger equilateral triangles also have equal sides[32m  * test larger equilateral triangles also have equal sides (0.00ms)[0m
+  * test isosceles triangles have last two sides equal[32m  * test isosceles triangles have last two sides equal (0.00ms)[0m
+  * test isosceles triangles have first and last sides equal[32m  * test isosceles triangles have first and last sides equal (0.00ms)[0m
+  * test isosceles triangles have two first sides equal[32m  * test isosceles triangles have two first sides equal (0.00ms)[0m
+  * test isosceles triangles have in fact exactly two sides equal[32m  * test isosceles triangles have in fact exactly two sides equal (0.00ms)[0m
+  * test scalene triangles have no equal sides[32m  * test scalene triangles have no equal sides (0.00ms)[0m
+  * test scalene triangles have no equal sides at a larger scale too[32m  * test scalene triangles have no equal sides at a larger scale too (0.00ms)[0m
+  * test scalene triangles have no equal sides in descending order either[32m  * test scalene triangles have no equal sides in descending order either (0.00ms)[0m
+  * test very small triangles are legal[32m  * test very small triangles are legal (0.00ms)[0m
+  * test triangles with no size are illegal[32m  * test triangles with no size are illegal (0.00ms)[0m
+  * test triangles with negative sides are illegal[32m  * test triangles with negative sides are illegal (0.00ms)[0m
+  * test triangles violating triangle inequality are illegal[32m  * test triangles violating triangle inequality are illegal (0.00ms)[0m
+  * test triangles violating triangle inequality are illegal 2[32m  * test triangles violating triangle inequality are illegal 2 (0.00ms)[0m
+  * test triangles violating triangle inequality are illegal 3[32m  * test triangles violating triangle inequality are illegal 3 (0.00ms)[0m
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m15 tests, 0 failures[0m
+
+Randomized with seed 0

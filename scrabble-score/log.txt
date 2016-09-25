@@ -1,0 +1,577 @@
+** (SyntaxError) scrabble.exs:25: unexpected token: "end". "{" starting at line 3 is missing terminator "}"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    scrabble_score_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) scrabble.exs:25: unexpected token: "end". "{" starting at line 3 is missing terminator "}"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    scrabble_score_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (ArgumentError) invalid write attribute syntax, you probably meant to use: @letters expression
+    (elixir) expanding macro: Kernel.@/1
+    scrabble.exs:3: Scrabble (module)
+    (elixir) lib/code.ex:321: Code.load_file/2
+
+[33mwarning: [0mvariable letter is unused
+  scrabble.exs:22
+
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:23
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zero[31m  * test empty word scores zero (4.2ms)[0m
+
+  1) test empty word scores zero (ScrabbleScoreTest)
+     [1m[30mscrabble_score_test.exs:11[0m
+     [31m** (UndefinedFunctionError) function Sting.codepoints/1 is undefined (module Sting is not available)[0m
+     [36mstacktrace:[0m
+       Sting.codepoints("")
+       scrabble.exs:18: Scrabble.score/1
+       scrabble_score_test.exs:12: (test)
+
+  * test whitespace scores zero  * test whitespace scores zero (skipped)
+  * test scores very short word  * test scores very short word (skipped)
+  * test scores other very short word  * test scores other very short word (skipped)
+  * test simple word scores the number of letters  * test simple word scores the number of letters (skipped)
+  * test complicated word scores more  * test complicated word scores more (skipped)
+  * test scores are case insensitive  * test scores are case insensitive (skipped)
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable letter is unused
+  scrabble.exs:22
+
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:23
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zero[31m  * test empty word scores zero (4.7ms)[0m
+
+  1) test empty word scores zero (ScrabbleScoreTest)
+     [1m[30mscrabble_score_test.exs:11[0m
+     [31m** (UndefinedFunctionError) function Sting.code_points/1 is undefined (module Sting is not available)[0m
+     [36mstacktrace:[0m
+       Sting.code_points("")
+       scrabble.exs:18: Scrabble.score/1
+       scrabble_score_test.exs:12: (test)
+
+  * test whitespace scores zero  * test whitespace scores zero (skipped)
+  * test scores very short word  * test scores very short word (skipped)
+  * test scores other very short word  * test scores other very short word (skipped)
+  * test simple word scores the number of letters  * test simple word scores the number of letters (skipped)
+  * test complicated word scores more  * test complicated word scores more (skipped)
+  * test scores are case insensitive  * test scores are case insensitive (skipped)
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable letter is unused
+  scrabble.exs:22
+
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:23
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zero[31m  * test empty word scores zero (2.3ms)[0m
+
+  1) test empty word scores zero (ScrabbleScoreTest)
+     [1m[30mscrabble_score_test.exs:11[0m
+     [31m** (UndefinedFunctionError) function String.code_points/1 is undefined or private. Did you mean one of:
+     
+           * codepoints/1
+           * next_codepoint/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.code_points("")
+       scrabble.exs:18: Scrabble.score/1
+       scrabble_score_test.exs:12: (test)
+
+  * test whitespace scores zero  * test whitespace scores zero (skipped)
+  * test scores very short word  * test scores very short word (skipped)
+  * test scores other very short word  * test scores other very short word (skipped)
+  * test simple word scores the number of letters  * test simple word scores the number of letters (skipped)
+  * test complicated word scores more  * test complicated word scores more (skipped)
+  * test scores are case insensitive  * test scores are case insensitive (skipped)
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable letter is unused
+  scrabble.exs:22
+
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:23
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zero[32m  * test empty word scores zero (2.0ms)[0m
+  * test whitespace scores zero  * test whitespace scores zero (skipped)
+  * test scores very short word  * test scores very short word (skipped)
+  * test scores other very short word  * test scores other very short word (skipped)
+  * test simple word scores the number of letters  * test simple word scores the number of letters (skipped)
+  * test complicated word scores more  * test complicated word scores more (skipped)
+  * test scores are case insensitive  * test scores are case insensitive (skipped)
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m8 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable letter is unused
+  scrabble.exs:22
+
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:23
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zero[32m  * test empty word scores zero (2.0ms)[0m
+  * test whitespace scores zero[31m  * test whitespace scores zero (14.9ms)[0m
+
+  1) test whitespace scores zero (ScrabbleScoreTest)
+     [1m[30mscrabble_score_test.exs:15[0m
+     [31m** (UndefinedFunctionError) function String.contains/1 is undefined or private. Did you mean one of:
+     
+           * contains?/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.contains("A, E, I, O, U, L, N, R, S, T")
+       (elixir) lib/enum.ex:840: anonymous fn/3 in Enum.find/3
+       (elixir) lib/enum.ex:2865: Enumerable.Map.do_reduce/3
+       (elixir) lib/enum.ex:839: Enum.find/3
+       scrabble.exs:23: Scrabble.points/1
+       scrabble.exs:19: anonymous fn/2 in Scrabble.score/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       scrabble_score_test.exs:16: (test)
+
+  * test scores very short word  * test scores very short word (skipped)
+  * test scores other very short word  * test scores other very short word (skipped)
+  * test simple word scores the number of letters  * test simple word scores the number of letters (skipped)
+  * test complicated word scores more  * test complicated word scores more (skipped)
+  * test scores are case insensitive  * test scores are case insensitive (skipped)
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable letter is unused
+  scrabble.exs:22
+
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:23
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zero[32m  * test empty word scores zero (1.9ms)[0m
+  * test whitespace scores zero[31m  * test whitespace scores zero (13.4ms)[0m
+
+  1) test whitespace scores zero (ScrabbleScoreTest)
+     [1m[30mscrabble_score_test.exs:15[0m
+     [31m** (UndefinedFunctionError) function String.contains/1 is undefined or private. Did you mean one of:
+     
+           * contains?/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.contains("A, E, I, O, U, L, N, R, S, T")
+       (elixir) lib/enum.ex:840: anonymous fn/3 in Enum.find/3
+       (elixir) lib/enum.ex:2865: Enumerable.Map.do_reduce/3
+       (elixir) lib/enum.ex:839: Enum.find/3
+       scrabble.exs:23: Scrabble.points/1
+       scrabble.exs:19: anonymous fn/2 in Scrabble.score/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       scrabble_score_test.exs:16: (test)
+
+  * test scores very short word  * test scores very short word (skipped)
+  * test scores other very short word  * test scores other very short word (skipped)
+  * test simple word scores the number of letters  * test simple word scores the number of letters (skipped)
+  * test complicated word scores more  * test complicated word scores more (skipped)
+  * test scores are case insensitive  * test scores are case insensitive (skipped)
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable letter is unused
+  scrabble.exs:22
+
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:23
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zero[32m  * test empty word scores zero (2.0ms)[0m
+  * test whitespace scores zero[31m  * test whitespace scores zero (11.9ms)[0m
+
+  1) test whitespace scores zero (ScrabbleScoreTest)
+     [1m[30mscrabble_score_test.exs:15[0m
+     [31m** (UndefinedFunctionError) function String.contains?/1 is undefined or private. Did you mean one of:
+     
+           * contains?/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.contains?("A, E, I, O, U, L, N, R, S, T")
+       (elixir) lib/enum.ex:840: anonymous fn/3 in Enum.find/3
+       (elixir) lib/enum.ex:2865: Enumerable.Map.do_reduce/3
+       (elixir) lib/enum.ex:839: Enum.find/3
+       scrabble.exs:23: Scrabble.points/1
+       scrabble.exs:19: anonymous fn/2 in Scrabble.score/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       scrabble_score_test.exs:16: (test)
+
+  * test scores very short word  * test scores very short word (skipped)
+  * test scores other very short word  * test scores other very short word (skipped)
+  * test simple word scores the number of letters  * test simple word scores the number of letters (skipped)
+  * test complicated word scores more  * test complicated word scores more (skipped)
+  * test scores are case insensitive  * test scores are case insensitive (skipped)
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:23
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zero[32m  * test empty word scores zero (1.9ms)[0m
+  * test whitespace scores zero[31m  * test whitespace scores zero (12.0ms)[0m
+
+  1) test whitespace scores zero (ScrabbleScoreTest)
+     [1m[30mscrabble_score_test.exs:15[0m
+     [31m** (MatchError) no match of right hand side value: nil[0m
+     [36mstacktrace:[0m
+       scrabble.exs:23: Scrabble.points/1
+       scrabble.exs:19: anonymous fn/2 in Scrabble.score/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       scrabble_score_test.exs:16: (test)
+
+  * test scores very short word  * test scores very short word (skipped)
+  * test scores other very short word  * test scores other very short word (skipped)
+  * test simple word scores the number of letters  * test simple word scores the number of letters (skipped)
+  * test complicated word scores more  * test complicated word scores more (skipped)
+  * test scores are case insensitive  * test scores are case insensitive (skipped)
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:24
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zero 
+	
+[32m  * test empty word scores zero (1.9ms)[0m
+  * test whitespace scores zero[31m  * test whitespace scores zero (12.7ms)[0m
+
+  1) test whitespace scores zero (ScrabbleScoreTest)
+     [1m[30mscrabble_score_test.exs:15[0m
+     [31m** (MatchError) no match of right hand side value: nil[0m
+     [36mstacktrace:[0m
+       scrabble.exs:24: Scrabble.points/1
+       scrabble.exs:19: anonymous fn/2 in Scrabble.score/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       scrabble_score_test.exs:16: (test)
+
+  * test scores very short word  * test scores very short word (skipped)
+  * test scores other very short word  * test scores other very short word (skipped)
+  * test simple word scores the number of letters  * test simple word scores the number of letters (skipped)
+  * test complicated word scores more  * test complicated word scores more (skipped)
+  * test scores are case insensitive  * test scores are case insensitive (skipped)
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:25
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zero[31m  * test empty word scores zero (4.4ms)[0m
+
+  1) test empty word scores zero (ScrabbleScoreTest)
+     [1m[30mscrabble_score_test.exs:11[0m
+     [31m** (UndefinedFunctionError) function String.codepoints/2 is undefined or private. Did you mean one of:
+     
+           * codepoints/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.codepoints("", "")
+       scrabble.exs:19: Scrabble.score/1
+       scrabble_score_test.exs:12: (test)
+
+  * test whitespace scores zero[31m  * test whitespace scores zero (0.02ms)[0m
+
+  2) test whitespace scores zero (ScrabbleScoreTest)
+     [1m[30mscrabble_score_test.exs:15[0m
+     [31m** (UndefinedFunctionError) function String.codepoints/2 is undefined or private. Did you mean one of:
+     
+           * codepoints/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.codepoints("", " \t\n")
+       scrabble.exs:19: Scrabble.score/1
+       scrabble_score_test.exs:16: (test)
+
+  * test scores very short word  * test scores very short word (skipped)
+  * test scores other very short word  * test scores other very short word (skipped)
+  * test simple word scores the number of letters  * test simple word scores the number of letters (skipped)
+  * test complicated word scores more  * test complicated word scores more (skipped)
+  * test scores are case insensitive  * test scores are case insensitive (skipped)
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m8 tests, 2 failures, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:25
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zero[32m  * test empty word scores zero (3.2ms)[0m
+  * test whitespace scores zero[32m  * test whitespace scores zero (0.00ms)[0m
+  * test scores very short word  * test scores very short word (skipped)
+  * test scores other very short word  * test scores other very short word (skipped)
+  * test simple word scores the number of letters  * test simple word scores the number of letters (skipped)
+  * test complicated word scores more  * test complicated word scores more (skipped)
+  * test scores are case insensitive  * test scores are case insensitive (skipped)
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m8 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:25
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zeroa
+[32m  * test empty word scores zero (2.8ms)[0m
+  * test whitespace scores zero[32m  * test whitespace scores zero (0.00ms)[0m
+  * test scores very short word[31m  * test scores very short word (11.8ms)[0m
+
+  1) test scores very short word (ScrabbleScoreTest)
+     [1m[30mscrabble_score_test.exs:19[0m
+     [31m** (MatchError) no match of right hand side value: nil[0m
+     [36mstacktrace:[0m
+       scrabble.exs:25: Scrabble.points/1
+       scrabble.exs:20: anonymous fn/2 in Scrabble.score/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       scrabble_score_test.exs:20: (test)
+
+  * test scores other very short word  * test scores other very short word (skipped)
+  * test simple word scores the number of letters  * test simple word scores the number of letters (skipped)
+  * test complicated word scores more  * test complicated word scores more (skipped)
+  * test scores are case insensitive  * test scores are case insensitive (skipped)
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:25
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zeroa
+[32m  * test empty word scores zero (3.1ms)[0m
+  * test whitespace scores zero[32m  * test whitespace scores zero (0.00ms)[0m
+  * test scores very short word[32m  * test scores very short word (11.7ms)[0m
+  * test scores other very short word  * test scores other very short word (skipped)
+  * test simple word scores the number of letters  * test simple word scores the number of letters (skipped)
+  * test complicated word scores more  * test complicated word scores more (skipped)
+  * test scores are case insensitive  * test scores are case insensitive (skipped)
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m8 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:25
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zeroa
+[32m  * test empty word scores zero (2.8ms)[0m
+  * test whitespace scores zerof
+[32m  * test whitespace scores zero (0.00ms)[0m
+  * test scores very short word[32m  * test scores very short word (9.3ms)[0m
+  * test scores other very short word[32m  * test scores other very short word (0.09ms)[0m
+  * test simple word scores the number of letters  * test simple word scores the number of letters (skipped)
+  * test complicated word scores more  * test complicated word scores more (skipped)
+  * test scores are case insensitive  * test scores are case insensitive (skipped)
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m8 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:24
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zero[32m  * test empty word scores zero (3.2ms)[0m
+  * test whitespace scores zero[32m  * test whitespace scores zero (0.00ms)[0m
+  * test scores very short word[32m  * test scores very short word (9.5ms)[0m
+  * test scores other very short word[32m  * test scores other very short word (0.06ms)[0m
+  * test simple word scores the number of letters  * test simple word scores the number of letters (skipped)
+  * test complicated word scores more  * test complicated word scores more (skipped)
+  * test scores are case insensitive  * test scores are case insensitive (skipped)
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m8 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:24
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zero[32m  * test empty word scores zero (6.3ms)[0m
+  * test whitespace scores zero[32m  * test whitespace scores zero (0.00ms)[0m
+  * test scores very short word[32m  * test scores very short word (11.8ms)[0m
+  * test scores other very short word[32m  * test scores other very short word (0.04ms)[0m
+  * test simple word scores the number of letters[32m  * test simple word scores the number of letters (0.07ms)[0m
+  * test complicated word scores more  * test complicated word scores more (skipped)
+  * test scores are case insensitive  * test scores are case insensitive (skipped)
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[32m8 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:24
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zero[32m  * test empty word scores zero (2.8ms)[0m
+  * test whitespace scores zero[32m  * test whitespace scores zero (0.00ms)[0m
+  * test scores very short word[32m  * test scores very short word (9.9ms)[0m
+  * test scores other very short word[32m  * test scores other very short word (0.03ms)[0m
+  * test simple word scores the number of letters[32m  * test simple word scores the number of letters (0.1ms)[0m
+  * test complicated word scores more[32m  * test complicated word scores more (0.1ms)[0m
+  * test scores are case insensitive  * test scores are case insensitive (skipped)
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m8 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:24
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zero[32m  * test empty word scores zero (2.8ms)[0m
+  * test whitespace scores zero[32m  * test whitespace scores zero (0.00ms)[0m
+  * test scores very short word[32m  * test scores very short word (9.1ms)[0m
+  * test scores other very short word[32m  * test scores other very short word (0.02ms)[0m
+  * test simple word scores the number of letters[32m  * test simple word scores the number of letters (0.1ms)[0m
+  * test complicated word scores more[32m  * test complicated word scores more (0.1ms)[0m
+  * test scores are case insensitive[32m  * test scores are case insensitive (0.2ms)[0m
+  * test convenient scoring  * test convenient scoring (skipped)
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[32m8 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable v is unused
+  scrabble.exs:24
+
+Excluding tags: [:pending]
+
+
+ScrabbleScoreTest
+  * test empty word scores zero[32m  * test empty word scores zero (4.7ms)[0m
+  * test whitespace scores zero[32m  * test whitespace scores zero (0.03ms)[0m
+  * test scores very short word[32m  * test scores very short word (12.6ms)[0m
+  * test scores other very short word[32m  * test scores other very short word (0.03ms)[0m
+  * test simple word scores the number of letters[32m  * test simple word scores the number of letters (0.08ms)[0m
+  * test complicated word scores more[32m  * test complicated word scores more (0.1ms)[0m
+  * test scores are case insensitive[32m  * test scores are case insensitive (0.1ms)[0m
+  * test convenient scoring[32m  * test convenient scoring (0.08ms)[0m
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[32m8 tests, 0 failures[0m
+
+Randomized with seed 0

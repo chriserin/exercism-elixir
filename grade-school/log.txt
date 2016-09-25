@@ -1,0 +1,434 @@
+** (SyntaxError) school.exs:14: syntax error before: '=>'
+    (elixir) lib/code.ex:321: Code.load_file/2
+    grade_school_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable name is unused
+  school.exs:12
+
+[33mwarning: [0mvariable db is unused
+  school.exs:21
+
+[33mwarning: [0mvariable grade is unused
+  school.exs:21
+
+[33mwarning: [0mvariable db is unused
+  school.exs:29
+
+Excluding tags: [:pending]
+
+
+SchoolTest
+  * test add student[31m  * test add student (2.0ms)[0m
+
+  1) test add student (SchoolTest)
+     [1m[30mgrade_school_test.exs:13[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mactual == %{2 => ["Aimee"]}
+     [36mlhs:  [0m%{2 => []}
+     [36mrhs:  [0m%{2 => [[32m"Aimee"[0m]}
+     [36mstacktrace:[0m
+       grade_school_test.exs:15: (test)
+
+  * test add more students in same class  * test add more students in same class (skipped)
+  * test add students to different grades  * test add students to different grades (skipped)
+  * test get students in a grade  * test get students in a grade (skipped)
+  * test get students in a non existent grade  * test get students in a non existent grade (skipped)
+  * test sort school by grade and by student name  * test sort school by grade and by student name (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable db is unused
+  school.exs:21
+
+[33mwarning: [0mvariable grade is unused
+  school.exs:21
+
+[33mwarning: [0mvariable db is unused
+  school.exs:29
+
+Excluding tags: [:pending]
+
+
+SchoolTest
+  * test add student[32m  * test add student (0.00ms)[0m
+  * test add more students in same class  * test add more students in same class (skipped)
+  * test add students to different grades  * test add students to different grades (skipped)
+  * test get students in a grade  * test get students in a grade (skipped)
+  * test get students in a non existent grade  * test get students in a non existent grade (skipped)
+  * test sort school by grade and by student name  * test sort school by grade and by student name (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable db is unused
+  school.exs:21
+
+[33mwarning: [0mvariable grade is unused
+  school.exs:21
+
+[33mwarning: [0mvariable db is unused
+  school.exs:29
+
+Excluding tags: [:pending]
+
+
+SchoolTest
+  * test add student[32m  * test add student (0.00ms)[0m
+  * test add more students in same class[32m  * test add more students in same class (0.00ms)[0m
+  * test add students to different grades  * test add students to different grades (skipped)
+  * test get students in a grade  * test get students in a grade (skipped)
+  * test get students in a non existent grade  * test get students in a non existent grade (skipped)
+  * test sort school by grade and by student name  * test sort school by grade and by student name (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable db is unused
+  school.exs:21
+
+[33mwarning: [0mvariable grade is unused
+  school.exs:21
+
+[33mwarning: [0mvariable db is unused
+  school.exs:29
+
+Excluding tags: [:pending]
+
+
+SchoolTest
+  * test add student[32m  * test add student (0.00ms)[0m
+  * test add more students in same class[32m  * test add more students in same class (0.00ms)[0m
+  * test add students to different grades[32m  * test add students to different grades (0.00ms)[0m
+  * test get students in a grade  * test get students in a grade (skipped)
+  * test get students in a non existent grade  * test get students in a non existent grade (skipped)
+  * test sort school by grade and by student name  * test sort school by grade and by student name (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable db is unused
+  school.exs:21
+
+[33mwarning: [0mvariable grade is unused
+  school.exs:21
+
+[33mwarning: [0mvariable db is unused
+  school.exs:29
+
+Excluding tags: [:pending]
+
+
+SchoolTest
+  * test add student[32m  * test add student (0.00ms)[0m
+  * test add more students in same class[32m  * test add more students in same class (0.00ms)[0m
+  * test add students to different grades[32m  * test add students to different grades (0.00ms)[0m
+  * test get students in a grade[31m  * test get students in a grade (6.9ms)[0m
+
+  1) test get students in a grade (SchoolTest)
+     [1m[30mgrade_school_test.exs:35[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for nil[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1968: Enum.sort/2
+       grade_school_test.exs:42: (test)
+
+  * test get students in a non existent grade  * test get students in a non existent grade (skipped)
+  * test sort school by grade and by student name  * test sort school by grade and by student name (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable db is unused
+  school.exs:21
+
+[33mwarning: [0mvariable grade is unused
+  school.exs:21
+
+[33mwarning: [0mvariable db is unused
+  school.exs:29
+
+Excluding tags: [:pending]
+
+
+SchoolTest
+  * test add student[32m  * test add student (0.00ms)[0m
+  * test add more students in same class[32m  * test add more students in same class (0.00ms)[0m
+  * test add students to different grades[32m  * test add students to different grades (0.00ms)[0m
+  * test get students in a grade[31m  * test get students in a grade (6.4ms)[0m
+
+  1) test get students in a grade (SchoolTest)
+     [1m[30mgrade_school_test.exs:35[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for nil[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1968: Enum.sort/2
+       grade_school_test.exs:42: (test)
+
+  * test get students in a non existent grade  * test get students in a non existent grade (skipped)
+  * test sort school by grade and by student name  * test sort school by grade and by student name (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable db is unused
+  school.exs:29
+
+Excluding tags: [:pending]
+
+
+SchoolTest
+  * test add student[32m  * test add student (0.00ms)[0m
+  * test add more students in same class[32m  * test add more students in same class (0.00ms)[0m
+  * test add students to different grades[32m  * test add students to different grades (0.00ms)[0m
+  * test get students in a grade[32m  * test get students in a grade (0.00ms)[0m
+  * test get students in a non existent grade  * test get students in a non existent grade (skipped)
+  * test sort school by grade and by student name  * test sort school by grade and by student name (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable db is unused
+  school.exs:29
+
+Excluding tags: [:pending]
+
+
+SchoolTest
+  * test add student[32m  * test add student (0.00ms)[0m
+  * test add more students in same class[32m  * test add more students in same class (0.00ms)[0m
+  * test add students to different grades[32m  * test add students to different grades (0.00ms)[0m
+  * test get students in a grade[32m  * test get students in a grade (0.00ms)[0m
+  * test get students in a non existent grade[31m  * test get students in a non existent grade (11.7ms)[0m
+
+  1) test get students in a non existent grade (SchoolTest)
+     [1m[30mgrade_school_test.exs:45[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0m[] == School.grade(@db, 1)
+     [36mlhs:  [0m[]
+     [36mrhs:  [0mnil
+     [36mstacktrace:[0m
+       grade_school_test.exs:46: (test)
+
+  * test sort school by grade and by student name[31m  * test sort school by grade and by student name (0.05ms)[0m
+
+  2) test sort school by grade and by student name (SchoolTest)
+     [1m[30mgrade_school_test.exs:49[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mexpected == actual
+     [36mlhs:  [0m[{3, ["Kyle"]}, {4, ["Bart", "Christopher", "Jennifer"]}, {6, ["Kareem"]}]
+     [36mrhs:  [0mnil
+     [36mstacktrace:[0m
+       grade_school_test.exs:64: (test)
+
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[31m6 tests, 2 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable db is unused
+  school.exs:29
+
+Excluding tags: [:pending]
+
+
+SchoolTest
+  * test add student[32m  * test add student (0.00ms)[0m
+  * test add more students in same class[32m  * test add more students in same class (0.00ms)[0m
+  * test add students to different grades[32m  * test add students to different grades (0.00ms)[0m
+  * test get students in a grade[32m  * test get students in a grade (0.00ms)[0m
+  * test get students in a non existent grade[32m  * test get students in a non existent grade (0.00ms)[0m
+  * test sort school by grade and by student name[31m  * test sort school by grade and by student name (2.5ms)[0m
+
+  1) test sort school by grade and by student name (SchoolTest)
+     [1m[30mgrade_school_test.exs:49[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mexpected == actual
+     [36mlhs:  [0m[{3, ["Kyle"]}, {4, ["Bart", "Christopher", "Jennifer"]}, {6, ["Kareem"]}]
+     [36mrhs:  [0mnil
+     [36mstacktrace:[0m
+       grade_school_test.exs:64: (test)
+
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m6 tests, 1 failure[0m
+
+Randomized with seed 0
+** (CompileError) school.exs:30: expected key-value pairs in a map, got: x
+    (stdlib) lists.erl:1262: :lists.foldl/3
+    (elixir) src/elixir_fn.erl:33: anonymous fn/3 in :elixir_fn.expand/3
+    (stdlib) lists.erl:1238: :lists.map/2
+
+** (CompileError) school.exs:30: illegal use of variable x inside map key match, maps can only match on existing variable by using ^x
+    (stdlib) lists.erl:1353: :lists.mapfoldl/3
+    (stdlib) lists.erl:1353: :lists.mapfoldl/3
+    (elixir) src/elixir_fn.erl:26: :elixir_fn.translate_fn_match/2
+
+** (CompileError) school.exs:30: illegal use of variable x inside map key match, maps can only match on existing variable by using ^x
+    (stdlib) lists.erl:1353: :lists.mapfoldl/3
+    (stdlib) lists.erl:1353: :lists.mapfoldl/3
+    (elixir) src/elixir_fn.erl:26: :elixir_fn.translate_fn_match/2
+
+[33mwarning: [0mvariable y is unused
+  school.exs:30
+
+Excluding tags: [:pending]
+
+
+SchoolTest
+  * test add student[32m  * test add student (0.00ms)[0m
+  * test add more students in same class[32m  * test add more students in same class (0.00ms)[0m
+  * test add students to different grades[32m  * test add students to different grades (0.00ms)[0m
+  * test get students in a grade[32m  * test get students in a grade (0.00ms)[0m
+  * test get students in a non existent grade[32m  * test get students in a non existent grade (0.00ms)[0m
+  * test sort school by grade and by student name[31m  * test sort school by grade and by student name (3.5ms)[0m
+
+  1) test sort school by grade and by student name (SchoolTest)
+     [1m[30mgrade_school_test.exs:49[0m
+     [31m** (BadArityError) #Function<0.56409578/1 in School.sort/1> with arity 1 called with 2 arguments ({3, ["Kyle"]}, {4, ["Christopher", "Jennifer", "Bart"]})[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:2666: Enum.sort_reducer/3
+       (stdlib) lists.erl:1262: :lists.foldl/3
+       (elixir) lib/enum.ex:1968: Enum.sort/2
+       grade_school_test.exs:56: (test)
+
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m6 tests, 1 failure[0m
+
+Randomized with seed 0
+** (SyntaxError) school.exs:30: unexpected token: end
+    (elixir) lib/code.ex:321: Code.load_file/2
+    grade_school_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable b is unused
+  school.exs:30
+
+[33mwarning: [0mvariable y is unused
+  school.exs:30
+
+Excluding tags: [:pending]
+
+
+SchoolTest
+  * test add student[32m  * test add student (0.00ms)[0m
+  * test add more students in same class[32m  * test add more students in same class (0.00ms)[0m
+  * test add students to different grades[32m  * test add students to different grades (0.00ms)[0m
+  * test get students in a grade[32m  * test get students in a grade (0.00ms)[0m
+  * test get students in a non existent grade[32m  * test get students in a non existent grade (0.00ms)[0m
+  * test sort school by grade and by student name[31m  * test sort school by grade and by student name (2.6ms)[0m
+
+  1) test sort school by grade and by student name (SchoolTest)
+     [1m[30mgrade_school_test.exs:49[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mexpected == actual
+     [36mlhs:  [0m[{[31m3[0m, [[31m"Kyle"[0m]}, {4, [[31m"Bart"[0m, [31m"Christopher"[0m, [31m"Jennifer"[0m]}, {[31m6[0m, [[31m"Kareem"[0m]}]
+     [36mrhs:  [0m[{[32m6[0m, [[32m"Kareem"[0m]}, {4, [[32m"Christopher"[0m, [32m"Jennifer"[0m, [32m"Bart"[0m]}, {[32m3[0m, [[32m"Kyle"[0m]}]
+     [36mstacktrace:[0m
+       grade_school_test.exs:64: (test)
+
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m6 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable b is unused
+  school.exs:30
+
+[33mwarning: [0mvariable y is unused
+  school.exs:30
+
+Excluding tags: [:pending]
+
+
+SchoolTest
+  * test add student[32m  * test add student (0.00ms)[0m
+  * test add more students in same class[32m  * test add more students in same class (0.00ms)[0m
+  * test add students to different grades[32m  * test add students to different grades (0.00ms)[0m
+  * test get students in a grade[32m  * test get students in a grade (0.00ms)[0m
+  * test get students in a non existent grade[32m  * test get students in a non existent grade (0.00ms)[0m
+  * test sort school by grade and by student name[31m  * test sort school by grade and by student name (2.4ms)[0m
+
+  1) test sort school by grade and by student name (SchoolTest)
+     [1m[30mgrade_school_test.exs:49[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mexpected == actual
+     [36mlhs:  [0m[{3, ["Kyle"]}, {4, [[31m"Bart"[0m, [31m"Christopher"[0m, [31m"Jennifer"[0m]}, {6, ["Kareem"]}]
+     [36mrhs:  [0m[{3, ["Kyle"]}, {4, [[32m"Christopher"[0m, [32m"Jennifer"[0m, [32m"Bart"[0m]}, {6, ["Kareem"]}]
+     [36mstacktrace:[0m
+       grade_school_test.exs:64: (test)
+
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m6 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable b is unused
+  school.exs:30
+
+[33mwarning: [0mvariable y is unused
+  school.exs:30
+
+Excluding tags: [:pending]
+
+
+SchoolTest
+  * test add student[32m  * test add student (0.00ms)[0m
+  * test add more students in same class[32m  * test add more students in same class (0.00ms)[0m
+  * test add students to different grades[32m  * test add students to different grades (0.00ms)[0m
+  * test get students in a grade[32m  * test get students in a grade (0.00ms)[0m
+  * test get students in a non existent grade[32m  * test get students in a non existent grade (0.00ms)[0m
+  * test sort school by grade and by student name[32m  * test sort school by grade and by student name (0.01ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m6 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable b is unused
+  school.exs:30
+
+[33mwarning: [0mvariable y is unused
+  school.exs:30
+
+Excluding tags: [:pending]
+
+
+SchoolTest
+  * test add student[32m  * test add student (0.00ms)[0m
+  * test add more students in same class[32m  * test add more students in same class (0.00ms)[0m
+  * test add students to different grades[32m  * test add students to different grades (0.00ms)[0m
+  * test get students in a grade[32m  * test get students in a grade (0.00ms)[0m
+  * test get students in a non existent grade[32m  * test get students in a non existent grade (0.00ms)[0m
+  * test sort school by grade and by student name[32m  * test sort school by grade and by student name (0.01ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m6 tests, 0 failures[0m
+
+Randomized with seed 0

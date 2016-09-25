@@ -1,0 +1,1046 @@
+** (SyntaxError) bracket_push.exs:22: unexpected token: "]". "(" starting at line 22 is missing terminator ")"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    bracket_push_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (CompileError) bracket_push.exs:19: unhandled operator ->
+    (stdlib) lists.erl:1353: :lists.mapfoldl/3
+    (stdlib) lists.erl:1354: :lists.mapfoldl/3
+
+** (CompileError) bracket_push.exs:19: unhandled operator ->
+    (stdlib) lists.erl:1353: :lists.mapfoldl/3
+    (stdlib) lists.erl:1354: :lists.mapfoldl/3
+
+** (CompileError) bracket_push.exs:19: unhandled operator ->
+    (stdlib) lists.erl:1353: :lists.mapfoldl/3
+    (stdlib) lists.erl:1354: :lists.mapfoldl/3
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test more than one pair of brackets  * test more than one pair of brackets (skipped)
+  * test empty string[32m  * test empty string (1.2ms)[0m
+  * test bracket closure with deeper nesting  * test bracket closure with deeper nesting (skipped)
+  * test unclosed brackets  * test unclosed brackets (skipped)
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test brackets are out of order  * test brackets are out of order (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+  * test unbalanced nested brackets  * test unbalanced nested brackets (skipped)
+  * test appropriate bracketing in a set of brackets  * test appropriate bracketing in a set of brackets (skipped)
+  * test nested brackets  * test nested brackets (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 10 skipped[0m
+
+Randomized with seed 635662
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.8ms)[0m
+  * test appropriate bracketing in a set of brackets[31m  * test appropriate bracketing in a set of brackets (3.1ms)[0m
+
+  1) test appropriate bracketing in a set of brackets (BracketPushTest)
+     [1m[30mbracket_push_test.exs:15[0m
+     [31m** (FunctionClauseError) no function clause matching in BracketPush.push_brackets/2[0m
+     [36mstacktrace:[0m
+       bracket_push.exs:16: BracketPush.push_brackets('{}', [])
+       bracket_push.exs:13: BracketPush.check_brackets/1
+       bracket_push_test.exs:16: (test)
+
+  * test unclosed brackets  * test unclosed brackets (skipped)
+  * test more than one pair of brackets  * test more than one pair of brackets (skipped)
+  * test brackets are out of order  * test brackets are out of order (skipped)
+  * test nested brackets  * test nested brackets (skipped)
+  * test unbalanced nested brackets  * test unbalanced nested brackets (skipped)
+  * test bracket closure with deeper nesting  * test bracket closure with deeper nesting (skipped)
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m11 tests, 1 failure, 9 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.8ms)[0m
+  * test appropriate bracketing in a set of brackets[31m  * test appropriate bracketing in a set of brackets (3.0ms)[0m
+
+  1) test appropriate bracketing in a set of brackets (BracketPushTest)
+     [1m[30mbracket_push_test.exs:15[0m
+     [31m** (FunctionClauseError) no function clause matching in BracketPush.push_brackets/2[0m
+     [36mstacktrace:[0m
+       bracket_push.exs:16: BracketPush.push_brackets('{}', [])
+       bracket_push.exs:13: BracketPush.check_brackets/1
+       bracket_push_test.exs:16: (test)
+
+  * test unclosed brackets  * test unclosed brackets (skipped)
+  * test more than one pair of brackets  * test more than one pair of brackets (skipped)
+  * test brackets are out of order  * test brackets are out of order (skipped)
+  * test nested brackets  * test nested brackets (skipped)
+  * test unbalanced nested brackets  * test unbalanced nested brackets (skipped)
+  * test bracket closure with deeper nesting  * test bracket closure with deeper nesting (skipped)
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m11 tests, 1 failure, 9 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:21
+
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:22
+
+[33mwarning: [0mthis clause cannot match because a previous clause at line 17 always matches
+  bracket_push.exs:22
+
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:23
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.8ms)[0m
+  * test appropriate bracketing in a set of brackets[31m  * test appropriate bracketing in a set of brackets (1.2ms)[0m
+
+  1) test appropriate bracketing in a set of brackets (BracketPushTest)
+     [1m[30mbracket_push_test.exs:15[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mBracketPush.check_brackets("{}")
+     [36mstacktrace:[0m
+       bracket_push_test.exs:16: (test)
+
+  * test unclosed brackets  * test unclosed brackets (skipped)
+  * test more than one pair of brackets  * test more than one pair of brackets (skipped)
+  * test brackets are out of order  * test brackets are out of order (skipped)
+  * test nested brackets  * test nested brackets (skipped)
+  * test unbalanced nested brackets  * test unbalanced nested brackets (skipped)
+  * test bracket closure with deeper nesting  * test bracket closure with deeper nesting (skipped)
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m11 tests, 1 failure, 9 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:17
+
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:18
+
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:19
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.7ms)[0m
+  * test appropriate bracketing in a set of brackets[31m  * test appropriate bracketing in a set of brackets (1.2ms)[0m
+
+  1) test appropriate bracketing in a set of brackets (BracketPushTest)
+     [1m[30mbracket_push_test.exs:15[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mBracketPush.check_brackets("{}")
+     [36mstacktrace:[0m
+       bracket_push_test.exs:16: (test)
+
+  * test unclosed brackets  * test unclosed brackets (skipped)
+  * test more than one pair of brackets  * test more than one pair of brackets (skipped)
+  * test brackets are out of order  * test brackets are out of order (skipped)
+  * test nested brackets  * test nested brackets (skipped)
+  * test unbalanced nested brackets  * test unbalanced nested brackets (skipped)
+  * test bracket closure with deeper nesting  * test bracket closure with deeper nesting (skipped)
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m11 tests, 1 failure, 9 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:17
+
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:18
+
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:19
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.8ms)[0m
+  * test appropriate bracketing in a set of brackets[31m  * test appropriate bracketing in a set of brackets (1.1ms)[0m
+
+  1) test appropriate bracketing in a set of brackets (BracketPushTest)
+     [1m[30mbracket_push_test.exs:15[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mBracketPush.check_brackets("{}")
+     [36mstacktrace:[0m
+       bracket_push_test.exs:16: (test)
+
+  * test unclosed brackets  * test unclosed brackets (skipped)
+  * test more than one pair of brackets  * test more than one pair of brackets (skipped)
+  * test brackets are out of order  * test brackets are out of order (skipped)
+  * test nested brackets  * test nested brackets (skipped)
+  * test unbalanced nested brackets  * test unbalanced nested brackets (skipped)
+  * test bracket closure with deeper nesting  * test bracket closure with deeper nesting (skipped)
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m11 tests, 1 failure, 9 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:17
+
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:18
+
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:19
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string'}'
+[32m  * test empty string (0.9ms)[0m
+[]
+  * test appropriate bracketing in a set of brackets[]
+'}'
+[31m  * test appropriate bracketing in a set of brackets (2.3ms)[0m
+
+  1) test appropriate bracketing in a set of brackets (BracketPushTest)
+     [1m[30mbracket_push_test.exs:15[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mBracketPush.check_brackets("{}")
+     [36mstacktrace:[0m
+       bracket_push_test.exs:16: (test)
+
+  * test unclosed brackets  * test unclosed brackets (skipped)
+  * test more than one pair of brackets  * test more than one pair of brackets (skipped)
+  * test brackets are out of order  * test brackets are out of order (skipped)
+  * test nested brackets  * test nested brackets (skipped)
+  * test unbalanced nested brackets  * test unbalanced nested brackets (skipped)
+  * test bracket closure with deeper nesting  * test bracket closure with deeper nesting (skipped)
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m11 tests, 1 failure, 9 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:17
+
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:18
+
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:19
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string'}'
+[32m  * test empty string (0.8ms)[0m
+[]
+  * test appropriate bracketing in a set of brackets125
+[]
+'}'
+nil
+[31m  * test appropriate bracketing in a set of brackets (5.4ms)[0m
+
+  1) test appropriate bracketing in a set of brackets (BracketPushTest)
+     [1m[30mbracket_push_test.exs:15[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mBracketPush.check_brackets("{}")
+     [36mstacktrace:[0m
+       bracket_push_test.exs:16: (test)
+
+  * test unclosed brackets  * test unclosed brackets (skipped)
+  * test more than one pair of brackets  * test more than one pair of brackets (skipped)
+  * test brackets are out of order  * test brackets are out of order (skipped)
+  * test nested brackets  * test nested brackets (skipped)
+  * test unbalanced nested brackets  * test unbalanced nested brackets (skipped)
+  * test bracket closure with deeper nesting  * test bracket closure with deeper nesting (skipped)
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m11 tests, 1 failure, 9 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:17
+
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:18
+
+[33mwarning: [0mvariable pop is unused
+  bracket_push.exs:19
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string123
+[32m  * test empty string (0.7ms)[0m
+'}'
+  * test appropriate bracketing in a set of brackets[]
+125
+125
+[]
+'}'
+nil
+[31m  * test appropriate bracketing in a set of brackets (3.1ms)[0m
+
+  1) test appropriate bracketing in a set of brackets (BracketPushTest)
+     [1m[30mbracket_push_test.exs:15[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mBracketPush.check_brackets("{}")
+     [36mstacktrace:[0m
+       bracket_push_test.exs:16: (test)
+
+  * test unclosed brackets  * test unclosed brackets (skipped)
+  * test more than one pair of brackets  * test more than one pair of brackets (skipped)
+  * test brackets are out of order  * test brackets are out of order (skipped)
+  * test nested brackets  * test nested brackets (skipped)
+  * test unbalanced nested brackets  * test unbalanced nested brackets (skipped)
+  * test bracket closure with deeper nesting  * test bracket closure with deeper nesting (skipped)
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m11 tests, 1 failure, 9 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:20
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:21
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets  * test unclosed brackets (skipped)
+  * test more than one pair of brackets  * test more than one pair of brackets (skipped)
+  * test brackets are out of order  * test brackets are out of order (skipped)
+  * test nested brackets  * test nested brackets (skipped)
+  * test unbalanced nested brackets  * test unbalanced nested brackets (skipped)
+  * test bracket closure with deeper nesting  * test bracket closure with deeper nesting (skipped)
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 9 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:20
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:21
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.01ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.01ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets  * test more than one pair of brackets (skipped)
+  * test brackets are out of order  * test brackets are out of order (skipped)
+  * test nested brackets  * test nested brackets (skipped)
+  * test unbalanced nested brackets  * test unbalanced nested brackets (skipped)
+  * test bracket closure with deeper nesting  * test bracket closure with deeper nesting (skipped)
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 8 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:20
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:21
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order  * test brackets are out of order (skipped)
+  * test nested brackets  * test nested brackets (skipped)
+  * test unbalanced nested brackets  * test unbalanced nested brackets (skipped)
+  * test bracket closure with deeper nesting  * test bracket closure with deeper nesting (skipped)
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:20
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:21
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets  * test nested brackets (skipped)
+  * test unbalanced nested brackets  * test unbalanced nested brackets (skipped)
+  * test bracket closure with deeper nesting  * test bracket closure with deeper nesting (skipped)
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:20
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:21
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets[32m  * test nested brackets (0.00ms)[0m
+  * test unbalanced nested brackets  * test unbalanced nested brackets (skipped)
+  * test bracket closure with deeper nesting  * test bracket closure with deeper nesting (skipped)
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:20
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:21
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets[32m  * test nested brackets (0.00ms)[0m
+  * test unbalanced nested brackets[32m  * test unbalanced nested brackets (0.00ms)[0m
+  * test bracket closure with deeper nesting  * test bracket closure with deeper nesting (skipped)
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:20
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:21
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets[32m  * test nested brackets (0.00ms)[0m
+  * test unbalanced nested brackets[32m  * test unbalanced nested brackets (0.00ms)[0m
+  * test bracket closure with deeper nesting[31m  * test bracket closure with deeper nesting (2.6ms)[0m
+
+  1) test bracket closure with deeper nesting (BracketPushTest)
+     [1m[30mbracket_push_test.exs:39[0m
+     [31mExpected false or nil, got true[0m
+     [36mcode: [0mBracketPush.check_brackets("{[)][]}")
+     [36mstacktrace:[0m
+       bracket_push_test.exs:40: (test)
+
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m11 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:16
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:16
+
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:21
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:22
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets[32m  * test nested brackets (0.00ms)[0m
+  * test unbalanced nested brackets[32m  * test unbalanced nested brackets (0.00ms)[0m
+  * test bracket closure with deeper nesting[32m  * test bracket closure with deeper nesting (0.00ms)[0m
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:13
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:13
+
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:17
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:17
+
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:21
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:21
+
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:23
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:24
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets[32m  * test nested brackets (0.00ms)[0m
+  * test unbalanced nested brackets[32m  * test unbalanced nested brackets (0.00ms)[0m
+  * test bracket closure with deeper nesting[32m  * test bracket closure with deeper nesting (0.00ms)[0m
+  * test bracket closure in a long string of brackets  * test bracket closure in a long string of brackets (skipped)
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:13
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:13
+
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:17
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:17
+
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:21
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:21
+
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:23
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:24
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets[32m  * test nested brackets (0.00ms)[0m
+  * test unbalanced nested brackets[32m  * test unbalanced nested brackets (0.00ms)[0m
+  * test bracket closure with deeper nesting[32m  * test bracket closure with deeper nesting (0.00ms)[0m
+  * test bracket closure in a long string of brackets[32m  * test bracket closure in a long string of brackets (0.00ms)[0m
+  * test should ignore non-bracket characters  * test should ignore non-bracket characters (skipped)
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:13
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:13
+
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:17
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:17
+
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:21
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:21
+
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:23
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:24
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets[32m  * test nested brackets (0.00ms)[0m
+  * test unbalanced nested brackets[32m  * test unbalanced nested brackets (0.00ms)[0m
+  * test bracket closure with deeper nesting[32m  * test bracket closure with deeper nesting (0.00ms)[0m
+  * test bracket closure in a long string of brackets[32m  * test bracket closure in a long string of brackets (0.00ms)[0m
+  * test should ignore non-bracket characters[32m  * test should ignore non-bracket characters (0.00ms)[0m
+  * test string with newlines  * test string with newlines (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m11 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:13
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:13
+
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:17
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:17
+
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:21
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:21
+
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:23
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:24
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets[32m  * test nested brackets (0.00ms)[0m
+  * test unbalanced nested brackets[32m  * test unbalanced nested brackets (0.00ms)[0m
+  * test bracket closure with deeper nesting[32m  * test bracket closure with deeper nesting (0.00ms)[0m
+  * test bracket closure in a long string of brackets[32m  * test bracket closure in a long string of brackets (0.00ms)[0m
+  * test should ignore non-bracket characters[32m  * test should ignore non-bracket characters (0.00ms)[0m
+  * test string with newlines[32m  * test string with newlines (0.00ms)[0m
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m11 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:13
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:13
+
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:17
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:17
+
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:21
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:21
+
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:23
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:24
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets[32m  * test nested brackets (0.00ms)[0m
+  * test unbalanced nested brackets[32m  * test unbalanced nested brackets (0.00ms)[0m
+  * test bracket closure with deeper nesting[32m  * test bracket closure with deeper nesting (0.00ms)[0m
+  * test bracket closure in a long string of brackets[32m  * test bracket closure in a long string of brackets (0.00ms)[0m
+  * test should ignore non-bracket characters[32m  * test should ignore non-bracket characters (0.00ms)[0m
+  * test string with newlines[32m  * test string with newlines (0.00ms)[0m
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m11 tests, 0 failures[0m
+
+Randomized with seed 0
+** (SyntaxError) bracket_push.exs:17: unexpected keyword "do:". In case you wanted to write a "do" expression, you must either separate the keyword argument with comma or use do-blocks. For example, the following construct:
+
+    if some_condition? do
+      :this
+    else
+      :that
+    end
+
+is syntax sugar for the Elixir construct:
+
+    if(some_condition?, do: :this, else: :that)
+
+where "some_condition?" is the first argument and the second argument is a keyword list.
+
+Syntax error before: 'do:'
+    (elixir) lib/code.ex:321: Code.load_file/2
+    bracket_push_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:17
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:17
+
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:18
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:19
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets[32m  * test nested brackets (0.00ms)[0m
+  * test unbalanced nested brackets[32m  * test unbalanced nested brackets (0.00ms)[0m
+  * test bracket closure with deeper nesting[32m  * test bracket closure with deeper nesting (0.00ms)[0m
+  * test bracket closure in a long string of brackets[32m  * test bracket closure in a long string of brackets (0.00ms)[0m
+  * test should ignore non-bracket characters[32m  * test should ignore non-bracket characters (0.00ms)[0m
+  * test string with newlines[32m  * test string with newlines (0.00ms)[0m
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m11 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:15
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:15
+
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:16
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:17
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets[32m  * test nested brackets (0.00ms)[0m
+  * test unbalanced nested brackets[32m  * test unbalanced nested brackets (0.00ms)[0m
+  * test bracket closure with deeper nesting[32m  * test bracket closure with deeper nesting (0.00ms)[0m
+  * test bracket closure in a long string of brackets[32m  * test bracket closure in a long string of brackets (0.00ms)[0m
+  * test should ignore non-bracket characters[32m  * test should ignore non-bracket characters (0.00ms)[0m
+  * test string with newlines[32m  * test string with newlines (0.00ms)[0m
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m11 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable str is unused
+  bracket_push.exs:15
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:15
+
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:16
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:17
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets[32m  * test nested brackets (0.00ms)[0m
+  * test unbalanced nested brackets[32m  * test unbalanced nested brackets (0.00ms)[0m
+  * test bracket closure with deeper nesting[32m  * test bracket closure with deeper nesting (0.00ms)[0m
+  * test bracket closure in a long string of brackets[32m  * test bracket closure in a long string of brackets (0.00ms)[0m
+  * test should ignore non-bracket characters[32m  * test should ignore non-bracket characters (0.00ms)[0m
+  * test string with newlines[32m  * test string with newlines (0.00ms)[0m
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m11 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:15
+
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:16
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:17
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets[32m  * test nested brackets (0.00ms)[0m
+  * test unbalanced nested brackets[32m  * test unbalanced nested brackets (0.00ms)[0m
+  * test bracket closure with deeper nesting[32m  * test bracket closure with deeper nesting (0.00ms)[0m
+  * test bracket closure in a long string of brackets[32m  * test bracket closure in a long string of brackets (0.00ms)[0m
+  * test should ignore non-bracket characters[32m  * test should ignore non-bracket characters (0.00ms)[0m
+  * test string with newlines[32m  * test string with newlines (0.00ms)[0m
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m11 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:15
+
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:16
+
+[33mwarning: [0mvariable waiting_for is unused
+  bracket_push.exs:17
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets[32m  * test nested brackets (0.00ms)[0m
+  * test unbalanced nested brackets[32m  * test unbalanced nested brackets (0.00ms)[0m
+  * test bracket closure with deeper nesting[32m  * test bracket closure with deeper nesting (0.00ms)[0m
+  * test bracket closure in a long string of brackets[32m  * test bracket closure in a long string of brackets (0.00ms)[0m
+  * test should ignore non-bracket characters[32m  * test should ignore non-bracket characters (0.00ms)[0m
+  * test string with newlines[32m  * test string with newlines (0.00ms)[0m
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m11 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable char is unused
+  bracket_push.exs:16
+
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets[32m  * test nested brackets (0.00ms)[0m
+  * test unbalanced nested brackets[32m  * test unbalanced nested brackets (0.00ms)[0m
+  * test bracket closure with deeper nesting[32m  * test bracket closure with deeper nesting (0.00ms)[0m
+  * test bracket closure in a long string of brackets[32m  * test bracket closure in a long string of brackets (0.00ms)[0m
+  * test should ignore non-bracket characters[32m  * test should ignore non-bracket characters (0.00ms)[0m
+  * test string with newlines[32m  * test string with newlines (0.00ms)[0m
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m11 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets[32m  * test nested brackets (0.00ms)[0m
+  * test unbalanced nested brackets[32m  * test unbalanced nested brackets (0.00ms)[0m
+  * test bracket closure with deeper nesting[32m  * test bracket closure with deeper nesting (0.00ms)[0m
+  * test bracket closure in a long string of brackets[32m  * test bracket closure in a long string of brackets (0.00ms)[0m
+  * test should ignore non-bracket characters[32m  * test should ignore non-bracket characters (0.00ms)[0m
+  * test string with newlines[32m  * test string with newlines (0.00ms)[0m
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m11 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+BracketPushTest
+  * test empty string[32m  * test empty string (0.00ms)[0m
+  * test appropriate bracketing in a set of brackets[32m  * test appropriate bracketing in a set of brackets (0.00ms)[0m
+  * test unclosed brackets[32m  * test unclosed brackets (0.00ms)[0m
+  * test more than one pair of brackets[32m  * test more than one pair of brackets (0.00ms)[0m
+  * test brackets are out of order[32m  * test brackets are out of order (0.00ms)[0m
+  * test nested brackets[32m  * test nested brackets (0.00ms)[0m
+  * test unbalanced nested brackets[32m  * test unbalanced nested brackets (0.00ms)[0m
+  * test bracket closure with deeper nesting[32m  * test bracket closure with deeper nesting (0.00ms)[0m
+  * test bracket closure in a long string of brackets[32m  * test bracket closure in a long string of brackets (0.00ms)[0m
+  * test should ignore non-bracket characters[32m  * test should ignore non-bracket characters (0.00ms)[0m
+  * test string with newlines[32m  * test string with newlines (0.00ms)[0m
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m11 tests, 0 failures[0m
+
+Randomized with seed 0

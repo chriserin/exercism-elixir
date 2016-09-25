@@ -1,0 +1,726 @@
+** (SyntaxError) queen_attack.exs:40: unexpected token: "end". "(" starting at line 32 is missing terminator ")"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    queen_attack_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) queen_attack.exs:40: unexpected token: "end". "(" starting at line 32 is missing terminator ")"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    queen_attack_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable queens is unused
+  queen_attack.exs:46
+
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.7ms)[0m
+  * test string representation[31m  * test string representation (5.5ms)[0m
+
+  1) test string representation (QueenAttackTest)
+     [1m[30mqueen_attack_test.exs:29[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mQueens.to_string(queens) == board
+     [36mlhs:  [0m"_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ [31m_[0m _ _ _\n_ _ _ _ _ _ _ _\n_ _ [31mW[0m _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ B _\n_ _ _ _ _ _ _ _"
+     [36mrhs:  [0m"_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ [32mW[0m _ _ _\n_ _ _ _ _ _ _ _\n_ _ [32m_[0m _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ B _\n_ _ _ _ _ _ _ _"
+     [36mstacktrace:[0m
+       queen_attack_test.exs:41: (test)
+
+  * test another string representation[31m  * test another string representation (0.1ms)[0m
+
+  2) test another string representation (QueenAttackTest)
+     [1m[30mqueen_attack_test.exs:44[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mQueens.to_string(queens) == board
+     [36mlhs:  [0m"B _ _ _ _ _ _ _\n_ _ _ _ _ _ _ [31mW[0m\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ [31m_[0m _ _ _ _ _ _"
+     [36mrhs:  [0m"B _ _ _ _ _ _ _\n_ _ _ _ _ _ _ [32m_[0m\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ [32mW[0m _ _ _ _ _ _"
+     [36mstacktrace:[0m
+       queen_attack_test.exs:56: (test)
+
+  * test yet another string representation  * test yet another string representation (skipped)
+  * test queen placed on the bottom right corner  * test queen placed on the bottom right corner (skipped)
+  * test queen placed on the edge of the board  * test queen placed on the edge of the board (skipped)
+  * test cannot attack  * test cannot attack (skipped)
+  * test can attack on same row  * test can attack on same row (skipped)
+  * test can attack on same column  * test can attack on same column (skipped)
+  * test can attack on diagonal  * test can attack on diagonal (skipped)
+  * test can attack on other diagonal  * test can attack on other diagonal (skipped)
+  * test can attack on yet another diagonal  * test can attack on yet another diagonal (skipped)
+  * test can attack on a diagonal slanted the other way  * test can attack on a diagonal slanted the other way (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m15 tests, 2 failures, 10 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable queens is unused
+  queen_attack.exs:46
+
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.3ms)[0m
+  * test string representation[31m  * test string representation (2.9ms)[0m
+
+  1) test string representation (QueenAttackTest)
+     [1m[30mqueen_attack_test.exs:29[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mQueens.to_string(queens) == board
+     [36mlhs:  [0m"_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ [31m_[0m _ _ _\n_ _ _ _ _ _ _ _\n_ _ [31mW[0m _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ B _\n_ _ _ _ _ _ _ _"
+     [36mrhs:  [0m"_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ [32mW[0m _ _ _\n_ _ _ _ _ _ _ _\n_ _ [32m_[0m _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ B _\n_ _ _ _ _ _ _ _"
+     [36mstacktrace:[0m
+       queen_attack_test.exs:41: (test)
+
+  * test another string representation[31m  * test another string representation (0.1ms)[0m
+
+  2) test another string representation (QueenAttackTest)
+     [1m[30mqueen_attack_test.exs:44[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mQueens.to_string(queens) == board
+     [36mlhs:  [0m"B _ _ _ _ _ _ _\n_ _ _ _ _ _ _ [31mW[0m\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ [31m_[0m _ _ _ _ _ _"
+     [36mrhs:  [0m"B _ _ _ _ _ _ _\n_ _ _ _ _ _ _ [32m_[0m\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ [32mW[0m _ _ _ _ _ _"
+     [36mstacktrace:[0m
+       queen_attack_test.exs:56: (test)
+
+  * test yet another string representation  * test yet another string representation (skipped)
+  * test queen placed on the bottom right corner  * test queen placed on the bottom right corner (skipped)
+  * test queen placed on the edge of the board  * test queen placed on the edge of the board (skipped)
+  * test cannot attack  * test cannot attack (skipped)
+  * test can attack on same row  * test can attack on same row (skipped)
+  * test can attack on same column  * test can attack on same column (skipped)
+  * test can attack on diagonal  * test can attack on diagonal (skipped)
+  * test can attack on other diagonal  * test can attack on other diagonal (skipped)
+  * test can attack on yet another diagonal  * test can attack on yet another diagonal (skipped)
+  * test can attack on a diagonal slanted the other way  * test can attack on a diagonal slanted the other way (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m15 tests, 2 failures, 10 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable queens is unused
+  queen_attack.exs:46
+
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.4ms)[0m
+  * test string representation[32m  * test string representation (2.7ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation  * test yet another string representation (skipped)
+  * test queen placed on the bottom right corner  * test queen placed on the bottom right corner (skipped)
+  * test queen placed on the edge of the board  * test queen placed on the edge of the board (skipped)
+  * test cannot attack  * test cannot attack (skipped)
+  * test can attack on same row  * test can attack on same row (skipped)
+  * test can attack on same column  * test can attack on same column (skipped)
+  * test can attack on diagonal  * test can attack on diagonal (skipped)
+  * test can attack on other diagonal  * test can attack on other diagonal (skipped)
+  * test can attack on yet another diagonal  * test can attack on yet another diagonal (skipped)
+  * test can attack on a diagonal slanted the other way  * test can attack on a diagonal slanted the other way (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m15 tests, 0 failures, 10 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable queens is unused
+  queen_attack.exs:46
+
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.3ms)[0m
+  * test string representation[32m  * test string representation (2.9ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation  * test yet another string representation (skipped)
+  * test queen placed on the bottom right corner  * test queen placed on the bottom right corner (skipped)
+  * test queen placed on the edge of the board  * test queen placed on the edge of the board (skipped)
+  * test cannot attack  * test cannot attack (skipped)
+  * test can attack on same row  * test can attack on same row (skipped)
+  * test can attack on same column  * test can attack on same column (skipped)
+  * test can attack on diagonal  * test can attack on diagonal (skipped)
+  * test can attack on other diagonal  * test can attack on other diagonal (skipped)
+  * test can attack on yet another diagonal  * test can attack on yet another diagonal (skipped)
+  * test can attack on a diagonal slanted the other way  * test can attack on a diagonal slanted the other way (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m15 tests, 0 failures, 10 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable queens is unused
+  queen_attack.exs:46
+
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.4ms)[0m
+  * test string representation[32m  * test string representation (5.2ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.1ms)[0m
+  * test queen placed on the bottom right corner  * test queen placed on the bottom right corner (skipped)
+  * test queen placed on the edge of the board  * test queen placed on the edge of the board (skipped)
+  * test cannot attack  * test cannot attack (skipped)
+  * test can attack on same row  * test can attack on same row (skipped)
+  * test can attack on same column  * test can attack on same column (skipped)
+  * test can attack on diagonal  * test can attack on diagonal (skipped)
+  * test can attack on other diagonal  * test can attack on other diagonal (skipped)
+  * test can attack on yet another diagonal  * test can attack on yet another diagonal (skipped)
+  * test can attack on a diagonal slanted the other way  * test can attack on a diagonal slanted the other way (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m15 tests, 0 failures, 9 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable queens is unused
+  queen_attack.exs:46
+
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.2ms)[0m
+  * test string representation[32m  * test string representation (2.9ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.1ms)[0m
+  * test queen placed on the bottom right corner[32m  * test queen placed on the bottom right corner (0.1ms)[0m
+  * test queen placed on the edge of the board  * test queen placed on the edge of the board (skipped)
+  * test cannot attack  * test cannot attack (skipped)
+  * test can attack on same row  * test can attack on same row (skipped)
+  * test can attack on same column  * test can attack on same column (skipped)
+  * test can attack on diagonal  * test can attack on diagonal (skipped)
+  * test can attack on other diagonal  * test can attack on other diagonal (skipped)
+  * test can attack on yet another diagonal  * test can attack on yet another diagonal (skipped)
+  * test can attack on a diagonal slanted the other way  * test can attack on a diagonal slanted the other way (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m15 tests, 0 failures, 8 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable queens is unused
+  queen_attack.exs:46
+
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.3ms)[0m
+  * test string representation[32m  * test string representation (2.7ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.1ms)[0m
+  * test queen placed on the bottom right corner[32m  * test queen placed on the bottom right corner (0.1ms)[0m
+  * test queen placed on the edge of the board[32m  * test queen placed on the edge of the board (0.1ms)[0m
+  * test cannot attack  * test cannot attack (skipped)
+  * test can attack on same row  * test can attack on same row (skipped)
+  * test can attack on same column  * test can attack on same column (skipped)
+  * test can attack on diagonal  * test can attack on diagonal (skipped)
+  * test can attack on other diagonal  * test can attack on other diagonal (skipped)
+  * test can attack on yet another diagonal  * test can attack on yet another diagonal (skipped)
+  * test can attack on a diagonal slanted the other way  * test can attack on a diagonal slanted the other way (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m15 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable queens is unused
+  queen_attack.exs:46
+
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.2ms)[0m
+  * test string representation[32m  * test string representation (2.7ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.1ms)[0m
+  * test queen placed on the bottom right corner[32m  * test queen placed on the bottom right corner (0.1ms)[0m
+  * test queen placed on the edge of the board[32m  * test queen placed on the edge of the board (0.09ms)[0m
+  * test cannot attack[32m  * test cannot attack (0.00ms)[0m
+  * test can attack on same row  * test can attack on same row (skipped)
+  * test can attack on same column  * test can attack on same column (skipped)
+  * test can attack on diagonal  * test can attack on diagonal (skipped)
+  * test can attack on other diagonal  * test can attack on other diagonal (skipped)
+  * test can attack on yet another diagonal  * test can attack on yet another diagonal (skipped)
+  * test can attack on a diagonal slanted the other way  * test can attack on a diagonal slanted the other way (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m15 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable queens is unused
+  queen_attack.exs:46
+
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.2ms)[0m
+  * test string representation[32m  * test string representation (2.9ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.1ms)[0m
+  * test queen placed on the bottom right corner[32m  * test queen placed on the bottom right corner (0.1ms)[0m
+  * test queen placed on the edge of the board[32m  * test queen placed on the edge of the board (0.1ms)[0m
+  * test cannot attack[32m  * test cannot attack (0.00ms)[0m
+  * test can attack on same row[31m  * test can attack on same row (0.03ms)[0m
+
+  1) test can attack on same row (QueenAttackTest)
+     [1m[30mqueen_attack_test.exs:109[0m
+     [31mExpected truthy, got nil[0m
+     [36mcode: [0mQueens.can_attack?(queens)
+     [36mstacktrace:[0m
+       queen_attack_test.exs:111: (test)
+
+  * test can attack on same column  * test can attack on same column (skipped)
+  * test can attack on diagonal  * test can attack on diagonal (skipped)
+  * test can attack on other diagonal  * test can attack on other diagonal (skipped)
+  * test can attack on yet another diagonal  * test can attack on yet another diagonal (skipped)
+  * test can attack on a diagonal slanted the other way  * test can attack on a diagonal slanted the other way (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m15 tests, 1 failure, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable queens is unused
+  queen_attack.exs:46
+
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.3ms)[0m
+  * test string representation[32m  * test string representation (2.8ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.1ms)[0m
+  * test queen placed on the bottom right corner[32m  * test queen placed on the bottom right corner (0.1ms)[0m
+  * test queen placed on the edge of the board[32m  * test queen placed on the edge of the board (0.1ms)[0m
+  * test cannot attack[32m  * test cannot attack (0.00ms)[0m
+  * test can attack on same row[31m  * test can attack on same row (0.02ms)[0m
+
+  1) test can attack on same row (QueenAttackTest)
+     [1m[30mqueen_attack_test.exs:109[0m
+     [31mExpected truthy, got nil[0m
+     [36mcode: [0mQueens.can_attack?(queens)
+     [36mstacktrace:[0m
+       queen_attack_test.exs:111: (test)
+
+  * test can attack on same column  * test can attack on same column (skipped)
+  * test can attack on diagonal  * test can attack on diagonal (skipped)
+  * test can attack on other diagonal  * test can attack on other diagonal (skipped)
+  * test can attack on yet another diagonal  * test can attack on yet another diagonal (skipped)
+  * test can attack on a diagonal slanted the other way  * test can attack on a diagonal slanted the other way (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m15 tests, 1 failure, 5 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.2ms)[0m
+  * test string representation[32m  * test string representation (3.0ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.1ms)[0m
+  * test queen placed on the bottom right corner[32m  * test queen placed on the bottom right corner (0.1ms)[0m
+  * test queen placed on the edge of the board[32m  * test queen placed on the edge of the board (0.1ms)[0m
+  * test cannot attack[32m  * test cannot attack (0.00ms)[0m
+  * test can attack on same row[32m  * test can attack on same row (0.00ms)[0m
+  * test can attack on same column  * test can attack on same column (skipped)
+  * test can attack on diagonal  * test can attack on diagonal (skipped)
+  * test can attack on other diagonal  * test can attack on other diagonal (skipped)
+  * test can attack on yet another diagonal  * test can attack on yet another diagonal (skipped)
+  * test can attack on a diagonal slanted the other way  * test can attack on a diagonal slanted the other way (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m15 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.2ms)[0m
+  * test string representation[32m  * test string representation (2.9ms)[0m
+  * test another string representation[32m  * test another string representation (0.2ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.1ms)[0m
+  * test queen placed on the bottom right corner[32m  * test queen placed on the bottom right corner (0.1ms)[0m
+  * test queen placed on the edge of the board[32m  * test queen placed on the edge of the board (0.09ms)[0m
+  * test cannot attack[32m  * test cannot attack (0.00ms)[0m
+  * test can attack on same row[32m  * test can attack on same row (0.00ms)[0m
+  * test can attack on same column[32m  * test can attack on same column (0.00ms)[0m
+  * test can attack on diagonal  * test can attack on diagonal (skipped)
+  * test can attack on other diagonal  * test can attack on other diagonal (skipped)
+  * test can attack on yet another diagonal  * test can attack on yet another diagonal (skipped)
+  * test can attack on a diagonal slanted the other way  * test can attack on a diagonal slanted the other way (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m15 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.3ms)[0m
+  * test string representation[32m  * test string representation (3.0ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.1ms)[0m
+  * test queen placed on the bottom right corner[32m  * test queen placed on the bottom right corner (0.2ms)[0m
+  * test queen placed on the edge of the board[32m  * test queen placed on the edge of the board (0.09ms)[0m
+  * test cannot attack[32m  * test cannot attack (0.00ms)[0m
+  * test can attack on same row[32m  * test can attack on same row (0.00ms)[0m
+  * test can attack on same column[32m  * test can attack on same column (0.00ms)[0m
+  * test can attack on diagonal[32m  * test can attack on diagonal (0.00ms)[0m
+  * test can attack on other diagonal  * test can attack on other diagonal (skipped)
+  * test can attack on yet another diagonal  * test can attack on yet another diagonal (skipped)
+  * test can attack on a diagonal slanted the other way  * test can attack on a diagonal slanted the other way (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m15 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.2ms)[0m
+  * test string representation[32m  * test string representation (3.0ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.1ms)[0m
+  * test queen placed on the bottom right corner[32m  * test queen placed on the bottom right corner (0.1ms)[0m
+  * test queen placed on the edge of the board[32m  * test queen placed on the edge of the board (0.1ms)[0m
+  * test cannot attack[32m  * test cannot attack (0.00ms)[0m
+  * test can attack on same row[32m  * test can attack on same row (0.00ms)[0m
+  * test can attack on same column[32m  * test can attack on same column (0.00ms)[0m
+  * test can attack on diagonal[32m  * test can attack on diagonal (0.00ms)[0m
+  * test can attack on other diagonal[32m  * test can attack on other diagonal (0.00ms)[0m
+  * test can attack on yet another diagonal  * test can attack on yet another diagonal (skipped)
+  * test can attack on a diagonal slanted the other way  * test can attack on a diagonal slanted the other way (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m15 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.2ms)[0m
+  * test string representation[32m  * test string representation (2.7ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.08ms)[0m
+  * test queen placed on the bottom right corner[32m  * test queen placed on the bottom right corner (0.08ms)[0m
+  * test queen placed on the edge of the board[32m  * test queen placed on the edge of the board (0.08ms)[0m
+  * test cannot attack[32m  * test cannot attack (0.00ms)[0m
+  * test can attack on same row[32m  * test can attack on same row (0.00ms)[0m
+  * test can attack on same column[32m  * test can attack on same column (0.00ms)[0m
+  * test can attack on diagonal[32m  * test can attack on diagonal (0.00ms)[0m
+  * test can attack on other diagonal[32m  * test can attack on other diagonal (0.00ms)[0m
+  * test can attack on yet another diagonal[32m  * test can attack on yet another diagonal (0.00ms)[0m
+  * test can attack on a diagonal slanted the other way  * test can attack on a diagonal slanted the other way (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m15 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.3ms)[0m
+  * test string representation[32m  * test string representation (2.7ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.1ms)[0m
+  * test queen placed on the bottom right corner[32m  * test queen placed on the bottom right corner (0.1ms)[0m
+  * test queen placed on the edge of the board[32m  * test queen placed on the edge of the board (0.1ms)[0m
+  * test cannot attack[32m  * test cannot attack (0.00ms)[0m
+  * test can attack on same row[32m  * test can attack on same row (0.00ms)[0m
+  * test can attack on same column[32m  * test can attack on same column (0.00ms)[0m
+  * test can attack on diagonal[32m  * test can attack on diagonal (0.00ms)[0m
+  * test can attack on other diagonal[32m  * test can attack on other diagonal (0.00ms)[0m
+  * test can attack on yet another diagonal[32m  * test can attack on yet another diagonal (0.00ms)[0m
+  * test can attack on a diagonal slanted the other way[32m  * test can attack on a diagonal slanted the other way (0.00ms)[0m
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m15 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.3ms)[0m
+  * test string representation[32m  * test string representation (2.8ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.1ms)[0m
+  * test queen placed on the bottom right corner[32m  * test queen placed on the bottom right corner (0.1ms)[0m
+  * test queen placed on the edge of the board[32m  * test queen placed on the edge of the board (0.1ms)[0m
+  * test cannot attack[32m  * test cannot attack (0.00ms)[0m
+  * test can attack on same row[32m  * test can attack on same row (0.00ms)[0m
+  * test can attack on same column[32m  * test can attack on same column (0.00ms)[0m
+  * test can attack on diagonal[32m  * test can attack on diagonal (0.00ms)[0m
+  * test can attack on other diagonal[32m  * test can attack on other diagonal (0.00ms)[0m
+  * test can attack on yet another diagonal[32m  * test can attack on yet another diagonal (0.00ms)[0m
+  * test can attack on a diagonal slanted the other way[32m  * test can attack on a diagonal slanted the other way (0.00ms)[0m
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m15 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.3ms)[0m
+  * test string representation[32m  * test string representation (2.6ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.1ms)[0m
+  * test queen placed on the bottom right corner[32m  * test queen placed on the bottom right corner (0.1ms)[0m
+  * test queen placed on the edge of the board[32m  * test queen placed on the edge of the board (0.1ms)[0m
+  * test cannot attack[32m  * test cannot attack (0.00ms)[0m
+  * test can attack on same row[32m  * test can attack on same row (0.00ms)[0m
+  * test can attack on same column[32m  * test can attack on same column (0.00ms)[0m
+  * test can attack on diagonal[32m  * test can attack on diagonal (0.00ms)[0m
+  * test can attack on other diagonal[32m  * test can attack on other diagonal (0.01ms)[0m
+  * test can attack on yet another diagonal[32m  * test can attack on yet another diagonal (0.00ms)[0m
+  * test can attack on a diagonal slanted the other way[32m  * test can attack on a diagonal slanted the other way (0.00ms)[0m
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m15 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.2ms)[0m
+  * test string representation[32m  * test string representation (2.5ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.07ms)[0m
+  * test queen placed on the bottom right corner[32m  * test queen placed on the bottom right corner (0.09ms)[0m
+  * test queen placed on the edge of the board[32m  * test queen placed on the edge of the board (0.1ms)[0m
+  * test cannot attack[32m  * test cannot attack (0.00ms)[0m
+  * test can attack on same row[32m  * test can attack on same row (0.00ms)[0m
+  * test can attack on same column[32m  * test can attack on same column (0.00ms)[0m
+  * test can attack on diagonal[32m  * test can attack on diagonal (0.00ms)[0m
+  * test can attack on other diagonal[32m  * test can attack on other diagonal (0.00ms)[0m
+  * test can attack on yet another diagonal[32m  * test can attack on yet another diagonal (0.00ms)[0m
+  * test can attack on a diagonal slanted the other way[32m  * test can attack on a diagonal slanted the other way (0.00ms)[0m
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m15 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.3ms)[0m
+  * test string representation[32m  * test string representation (3.0ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.2ms)[0m
+  * test queen placed on the bottom right corner[32m  * test queen placed on the bottom right corner (0.1ms)[0m
+  * test queen placed on the edge of the board[32m  * test queen placed on the edge of the board (0.2ms)[0m
+  * test cannot attack[32m  * test cannot attack (0.00ms)[0m
+  * test can attack on same row[32m  * test can attack on same row (0.00ms)[0m
+  * test can attack on same column[32m  * test can attack on same column (0.00ms)[0m
+  * test can attack on diagonal[32m  * test can attack on diagonal (0.00ms)[0m
+  * test can attack on other diagonal[32m  * test can attack on other diagonal (0.00ms)[0m
+  * test can attack on yet another diagonal[32m  * test can attack on yet another diagonal (0.00ms)[0m
+  * test can attack on a diagonal slanted the other way[32m  * test can attack on a diagonal slanted the other way (0.00ms)[0m
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m15 tests, 0 failures[0m
+
+Randomized with seed 0
+** (SyntaxError) queen_attack.exs:30: unexpected token: "}". "(" starting at line 30 is missing terminator ")"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    queen_attack_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.2ms)[0m
+  * test string representation[31m  * test string representation (4.4ms)[0m
+
+  1) test string representation (QueenAttackTest)
+     [1m[30mqueen_attack_test.exs:29[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mQueens.to_string(queens) == board
+     [36mlhs:  [0m"_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ [31mY[0m _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ B _\n_ _ _ _ _ _ _ _"
+     [36mrhs:  [0m"_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ [32mW[0m _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ B _\n_ _ _ _ _ _ _ _"
+     [36mstacktrace:[0m
+       queen_attack_test.exs:41: (test)
+
+  * test another string representation[31m  * test another string representation (0.1ms)[0m
+
+  2) test another string representation (QueenAttackTest)
+     [1m[30mqueen_attack_test.exs:44[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mQueens.to_string(queens) == board
+     [36mlhs:  [0m"B _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ [31mY[0m _ _ _ _ _ _"
+     [36mrhs:  [0m"B _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ [32mW[0m _ _ _ _ _ _"
+     [36mstacktrace:[0m
+       queen_attack_test.exs:56: (test)
+
+  * test yet another string representation[31m  * test yet another string representation (8.7ms)[0m
+
+  3) test yet another string representation (QueenAttackTest)
+     [1m[30mqueen_attack_test.exs:59[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mQueens.to_string(queens) == board
+     [36mlhs:  [0m"_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ B _ _ _\n_ _ _ [31mY[0m _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _"
+     [36mrhs:  [0m"_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ B _ _ _\n_ _ _ [32mW[0m _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _"
+     [36mstacktrace:[0m
+       queen_attack_test.exs:71: (test)
+
+  * test queen placed on the bottom right corner[31m  * test queen placed on the bottom right corner (1.5ms)[0m
+
+  4) test queen placed on the bottom right corner (QueenAttackTest)
+     [1m[30mqueen_attack_test.exs:74[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mQueens.to_string(queens) == board
+     [36mlhs:  [0m"_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ [31mY[0m _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ B"
+     [36mrhs:  [0m"_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ [32mW[0m _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ B"
+     [36mstacktrace:[0m
+       queen_attack_test.exs:86: (test)
+
+  * test queen placed on the edge of the board[31m  * test queen placed on the edge of the board (0.07ms)[0m
+
+  5) test queen placed on the edge of the board (QueenAttackTest)
+     [1m[30mqueen_attack_test.exs:89[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mQueens.to_string(queens) == board
+     [36mlhs:  [0m"_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ B\n_ _ _ _ _ _ _ _\n_ _ _ [31mY[0m _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _"
+     [36mrhs:  [0m"_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ B\n_ _ _ _ _ _ _ _\n_ _ _ [32mW[0m _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _"
+     [36mstacktrace:[0m
+       queen_attack_test.exs:101: (test)
+
+  * test cannot attack[32m  * test cannot attack (0.00ms)[0m
+  * test can attack on same row[32m  * test can attack on same row (0.00ms)[0m
+  * test can attack on same column[32m  * test can attack on same column (0.00ms)[0m
+  * test can attack on diagonal[32m  * test can attack on diagonal (0.00ms)[0m
+  * test can attack on other diagonal[32m  * test can attack on other diagonal (0.00ms)[0m
+  * test can attack on yet another diagonal[32m  * test can attack on yet another diagonal (0.00ms)[0m
+  * test can attack on a diagonal slanted the other way[32m  * test can attack on a diagonal slanted the other way (0.00ms)[0m
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m15 tests, 5 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.2ms)[0m
+  * test string representation[32m  * test string representation (2.5ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.1ms)[0m
+  * test queen placed on the bottom right corner[32m  * test queen placed on the bottom right corner (0.1ms)[0m
+  * test queen placed on the edge of the board[32m  * test queen placed on the edge of the board (0.1ms)[0m
+  * test cannot attack[32m  * test cannot attack (0.00ms)[0m
+  * test can attack on same row[32m  * test can attack on same row (0.00ms)[0m
+  * test can attack on same column[32m  * test can attack on same column (0.00ms)[0m
+  * test can attack on diagonal[32m  * test can attack on diagonal (0.00ms)[0m
+  * test can attack on other diagonal[32m  * test can attack on other diagonal (0.00ms)[0m
+  * test can attack on yet another diagonal[32m  * test can attack on yet another diagonal (0.00ms)[0m
+  * test can attack on a diagonal slanted the other way[32m  * test can attack on a diagonal slanted the other way (0.00ms)[0m
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m15 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+QueenAttackTest
+  * test default positions[32m  * test default positions (0.00ms)[0m
+  * test specific placement[32m  * test specific placement (0.00ms)[0m
+  * test cannot occupy same space[32m  * test cannot occupy same space (1.2ms)[0m
+  * test string representation[32m  * test string representation (2.7ms)[0m
+  * test another string representation[32m  * test another string representation (0.1ms)[0m
+  * test yet another string representation[32m  * test yet another string representation (0.1ms)[0m
+  * test queen placed on the bottom right corner[32m  * test queen placed on the bottom right corner (0.1ms)[0m
+  * test queen placed on the edge of the board[32m  * test queen placed on the edge of the board (0.1ms)[0m
+  * test cannot attack[32m  * test cannot attack (0.00ms)[0m
+  * test can attack on same row[32m  * test can attack on same row (0.00ms)[0m
+  * test can attack on same column[32m  * test can attack on same column (0.00ms)[0m
+  * test can attack on diagonal[32m  * test can attack on diagonal (0.00ms)[0m
+  * test can attack on other diagonal[32m  * test can attack on other diagonal (0.01ms)[0m
+  * test can attack on yet another diagonal[32m  * test can attack on yet another diagonal (0.00ms)[0m
+  * test can attack on a diagonal slanted the other way[32m  * test can attack on a diagonal slanted the other way (0.00ms)[0m
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m15 tests, 0 failures[0m
+
+Randomized with seed 0

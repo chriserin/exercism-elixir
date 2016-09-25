@@ -1,0 +1,290 @@
+Excluding tags: [:pending]
+
+
+GrainsTest
+  * test square 1[31m  * test square 1 (3.4ms)[0m
+
+  1) test square 1 (GrainsTest)
+     [1m[30mgrains_test.exs:18[0m
+     [31mAssertion with === failed[0m
+     [36mcode: [0mGrains.square(1) === 1
+     [36mlhs:  [0m1.0
+     [36mrhs:  [0m1
+     [36mstacktrace:[0m
+       grains_test.exs:19: (test)
+
+  * test square 2  * test square 2 (skipped)
+  * test square 3  * test square 3 (skipped)
+  * test square 4  * test square 4 (skipped)
+  * test square 16  * test square 16 (skipped)
+  * test square 32  * test square 32 (skipped)
+  * test square 64  * test square 64 (skipped)
+  * test total grains  * test total grains (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+GrainsTest
+  * test square 1[32m  * test square 1 (0.00ms)[0m
+  * test square 2  * test square 2 (skipped)
+  * test square 3  * test square 3 (skipped)
+  * test square 4  * test square 4 (skipped)
+  * test square 16  * test square 16 (skipped)
+  * test square 32  * test square 32 (skipped)
+  * test square 64  * test square 64 (skipped)
+  * test total grains  * test total grains (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m8 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+GrainsTest
+  * test square 1[32m  * test square 1 (0.00ms)[0m
+  * test square 2[31m  * test square 2 (9.8ms)[0m
+
+  1) test square 2 (GrainsTest)
+     [1m[30mgrains_test.exs:22[0m
+     [31mAssertion with === failed[0m
+     [36mcode: [0mGrains.square(2) === 2
+     [36mlhs:  [0m[31m8[0m
+     [36mrhs:  [0m[32m2[0m
+     [36mstacktrace:[0m
+       grains_test.exs:23: (test)
+
+  * test square 3  * test square 3 (skipped)
+  * test square 4  * test square 4 (skipped)
+  * test square 16  * test square 16 (skipped)
+  * test square 32  * test square 32 (skipped)
+  * test square 64  * test square 64 (skipped)
+  * test total grains  * test total grains (skipped)
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+GrainsTest
+  * test square 1[32m  * test square 1 (0.00ms)[0m
+  * test square 2[31m  * test square 2 (10.3ms)[0m
+
+  1) test square 2 (GrainsTest)
+     [1m[30mgrains_test.exs:22[0m
+     [31mAssertion with === failed[0m
+     [36mcode: [0mGrains.square(2) === 2
+     [36mlhs:  [0m[31m4[0m
+     [36mrhs:  [0m[32m2[0m
+     [36mstacktrace:[0m
+       grains_test.exs:23: (test)
+
+  * test square 3  * test square 3 (skipped)
+  * test square 4  * test square 4 (skipped)
+  * test square 16  * test square 16 (skipped)
+  * test square 32  * test square 32 (skipped)
+  * test square 64  * test square 64 (skipped)
+  * test total grains  * test total grains (skipped)
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+GrainsTest
+  * test square 1[32m  * test square 1 (0.00ms)[0m
+  * test square 2[32m  * test square 2 (5.0ms)[0m
+  * test square 3  * test square 3 (skipped)
+  * test square 4  * test square 4 (skipped)
+  * test square 16  * test square 16 (skipped)
+  * test square 32  * test square 32 (skipped)
+  * test square 64  * test square 64 (skipped)
+  * test total grains  * test total grains (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m8 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+GrainsTest
+  * test square 1[32m  * test square 1 (0.00ms)[0m
+  * test square 2[32m  * test square 2 (7.0ms)[0m
+  * test square 3[32m  * test square 3 (0.01ms)[0m
+  * test square 4  * test square 4 (skipped)
+  * test square 16  * test square 16 (skipped)
+  * test square 32  * test square 32 (skipped)
+  * test square 64  * test square 64 (skipped)
+  * test total grains  * test total grains (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m8 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+GrainsTest
+  * test square 1[32m  * test square 1 (0.00ms)[0m
+  * test square 2[32m  * test square 2 (2.6ms)[0m
+  * test square 3[32m  * test square 3 (0.01ms)[0m
+  * test square 4[32m  * test square 4 (0.01ms)[0m
+  * test square 16  * test square 16 (skipped)
+  * test square 32  * test square 32 (skipped)
+  * test square 64  * test square 64 (skipped)
+  * test total grains  * test total grains (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m8 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+GrainsTest
+  * test square 1[32m  * test square 1 (0.00ms)[0m
+  * test square 2[32m  * test square 2 (3.5ms)[0m
+  * test square 3[32m  * test square 3 (0.02ms)[0m
+  * test square 4[32m  * test square 4 (0.02ms)[0m
+  * test square 16[32m  * test square 16 (0.02ms)[0m
+  * test square 32  * test square 32 (skipped)
+  * test square 64  * test square 64 (skipped)
+  * test total grains  * test total grains (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m8 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+GrainsTest
+  * test square 1[32m  * test square 1 (0.00ms)[0m
+  * test square 2[32m  * test square 2 (2.8ms)[0m
+  * test square 3[32m  * test square 3 (0.02ms)[0m
+  * test square 4[32m  * test square 4 (0.01ms)[0m
+  * test square 16[32m  * test square 16 (0.03ms)[0m
+  * test square 32[32m  * test square 32 (0.02ms)[0m
+  * test square 64  * test square 64 (skipped)
+  * test total grains  * test total grains (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m8 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+GrainsTest
+  * test square 1[32m  * test square 1 (0.00ms)[0m
+  * test square 2[32m  * test square 2 (2.7ms)[0m
+  * test square 3[32m  * test square 3 (0.01ms)[0m
+  * test square 4[32m  * test square 4 (0.01ms)[0m
+  * test square 16[32m  * test square 16 (0.04ms)[0m
+  * test square 32[32m  * test square 32 (0.02ms)[0m
+  * test square 64[32m  * test square 64 (0.03ms)[0m
+  * test total grains  * test total grains (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m8 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+GrainsTest
+  * test square 1[32m  * test square 1 (0.00ms)[0m
+  * test square 2[32m  * test square 2 (2.3ms)[0m
+  * test square 3[32m  * test square 3 (0.01ms)[0m
+  * test square 4[32m  * test square 4 (0.02ms)[0m
+  * test square 16[32m  * test square 16 (0.02ms)[0m
+  * test square 32[32m  * test square 32 (0.03ms)[0m
+  * test square 64[32m  * test square 64 (0.03ms)[0m
+  * test total grains[31m  * test total grains (2.3ms)[0m
+
+  1) test total grains (GrainsTest)
+     [1m[30mgrains_test.exs:46[0m
+     [31mAssertion with === failed[0m
+     [36mcode: [0mGrains.total() === 18446744073709551615
+     [36mlhs:  [0mnil
+     [36mrhs:  [0m18446744073709551615
+     [36mstacktrace:[0m
+       grains_test.exs:47: (test)
+
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m8 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable prev_result is unused
+  grains.exs:16
+
+Excluding tags: [:pending]
+
+
+GrainsTest
+  * test square 1[32m  * test square 1 (0.00ms)[0m
+  * test square 2[32m  * test square 2 (3.9ms)[0m
+  * test square 3[32m  * test square 3 (0.01ms)[0m
+  * test square 4[32m  * test square 4 (0.01ms)[0m
+  * test square 16[32m  * test square 16 (0.02ms)[0m
+  * test square 32[32m  * test square 32 (0.03ms)[0m
+  * test square 64[32m  * test square 64 (0.03ms)[0m
+  * test total grains[31m  * test total grains (3.1ms)[0m
+
+  1) test total grains (GrainsTest)
+     [1m[30mgrains_test.exs:46[0m
+     [31mAssertion with === failed[0m
+     [36mcode: [0mGrains.total() === 18446744073709551615
+     [36mlhs:  [0m[31m9223372036[0m8[31m5[0m47[31m758[0m07
+     [36mrhs:  [0m[32m1[0m84[32m46[0m7[32m44[0m07[32m3709551615[0m
+     [36mstacktrace:[0m
+       grains_test.exs:47: (test)
+
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m8 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable prev_result is unused
+  grains.exs:16
+
+Excluding tags: [:pending]
+
+
+GrainsTest
+  * test square 1[32m  * test square 1 (0.00ms)[0m
+  * test square 2[32m  * test square 2 (2.5ms)[0m
+  * test square 3[32m  * test square 3 (0.02ms)[0m
+  * test square 4[32m  * test square 4 (0.02ms)[0m
+  * test square 16[32m  * test square 16 (0.02ms)[0m
+  * test square 32[32m  * test square 32 (0.01ms)[0m
+  * test square 64[32m  * test square 64 (0.05ms)[0m
+  * test total grains[32m  * test total grains (0.00ms)[0m
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m8 tests, 0 failures[0m
+
+Randomized with seed 0

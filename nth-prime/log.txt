@@ -1,0 +1,362 @@
+[33mwarning: [0mvariable primes is unused
+  nth_prime.exs:24
+
+[33mwarning: [0mvariable prime is unused
+  nth_prime.exs:25
+
+[33mwarning: [0mvariable p is unused
+  nth_prime.exs:28
+
+Excluding tags: [:pending]
+
+
+NthPrimeTest
+  * test 100th prime  * test 100th prime (skipped)
+  * test weird case  * test weird case (skipped)
+  * test first prime[31m  * test first prime (3.4ms)[0m
+
+  1) test first prime (NthPrimeTest)
+     [1m[30mnth_prime_test.exs:12[0m
+     [31m** (FunctionClauseError) no function clause matching in Prime.determine_primes/2[0m
+     [36mstacktrace:[0m
+       nth_prime.exs:15: Prime.determine_primes([2, 3, 5, 7, 11, 13, 17, 19], 21..1000)
+       nth_prime.exs:8: Prime.nth/1
+       nth_prime_test.exs:13: (test)
+
+  * test sixth prime  * test sixth prime (skipped)
+  * test second prime  * test second prime (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m5 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 285428
+[33mwarning: [0mvariable primes is unused
+  nth_prime.exs:24
+
+[33mwarning: [0mvariable prime is unused
+  nth_prime.exs:25
+
+[33mwarning: [0mvariable p is unused
+  nth_prime.exs:28
+
+Excluding tags: [:pending]
+
+
+NthPrimeTest
+  * test first prime[31m  * test first prime (2.1ms)[0m
+
+  1) test first prime (NthPrimeTest)
+     [1m[30mnth_prime_test.exs:12[0m
+     [31m** (FunctionClauseError) no function clause matching in Prime.determine_primes/2[0m
+     [36mstacktrace:[0m
+       nth_prime.exs:15: Prime.determine_primes([2, 3, 5, 7, 11, 13, 17, 19], 21..1000)
+       nth_prime.exs:8: Prime.nth/1
+       nth_prime_test.exs:13: (test)
+
+  * test second prime  * test second prime (skipped)
+  * test sixth prime  * test sixth prime (skipped)
+  * test 100th prime  * test 100th prime (skipped)
+  * test weird case  * test weird case (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m5 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable primes is unused
+  nth_prime.exs:24
+
+[33mwarning: [0mvariable prime is unused
+  nth_prime.exs:25
+
+[33mwarning: [0mvariable p is unused
+  nth_prime.exs:28
+
+Excluding tags: [:pending]
+
+
+NthPrimeTest
+  * test first prime[31m  * test first prime (5.1ms)[0m
+
+  1) test first prime (NthPrimeTest)
+     [1m[30mnth_prime_test.exs:12[0m
+     [31m** (UndefinedFunctionError) function List.at/2 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) List.at([2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, ...], 1)
+       nth_prime_test.exs:13: (test)
+
+  * test second prime  * test second prime (skipped)
+  * test sixth prime  * test sixth prime (skipped)
+  * test 100th prime  * test 100th prime (skipped)
+  * test weird case  * test weird case (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m5 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable primes is unused
+  nth_prime.exs:24
+
+[33mwarning: [0mvariable prime is unused
+  nth_prime.exs:25
+
+[33mwarning: [0mvariable p is unused
+  nth_prime.exs:28
+
+Excluding tags: [:pending]
+
+
+NthPrimeTest
+  * test first prime[31m  * test first prime (5.4ms)[0m
+
+  1) test first prime (NthPrimeTest)
+     [1m[30mnth_prime_test.exs:12[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mPrime.nth(1) == 2
+     [36mlhs:  [0m[31m3[0m
+     [36mrhs:  [0m[32m2[0m
+     [36mstacktrace:[0m
+       nth_prime_test.exs:13: (test)
+
+  * test second prime  * test second prime (skipped)
+  * test sixth prime  * test sixth prime (skipped)
+  * test 100th prime  * test 100th prime (skipped)
+  * test weird case  * test weird case (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m5 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable primes is unused
+  nth_prime.exs:24
+
+[33mwarning: [0mvariable prime is unused
+  nth_prime.exs:25
+
+[33mwarning: [0mvariable p is unused
+  nth_prime.exs:28
+
+Excluding tags: [:pending]
+
+
+NthPrimeTest
+  * test first prime[32m  * test first prime (2.2ms)[0m
+  * test second prime  * test second prime (skipped)
+  * test sixth prime  * test sixth prime (skipped)
+  * test 100th prime  * test 100th prime (skipped)
+  * test weird case  * test weird case (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m5 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable primes is unused
+  nth_prime.exs:24
+
+[33mwarning: [0mvariable prime is unused
+  nth_prime.exs:25
+
+[33mwarning: [0mvariable p is unused
+  nth_prime.exs:28
+
+Excluding tags: [:pending]
+
+
+NthPrimeTest
+  * test first prime[32m  * test first prime (2.6ms)[0m
+  * test second prime[32m  * test second prime (2.4ms)[0m
+  * test sixth prime  * test sixth prime (skipped)
+  * test 100th prime  * test 100th prime (skipped)
+  * test weird case  * test weird case (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m5 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable primes is unused
+  nth_prime.exs:24
+
+[33mwarning: [0mvariable prime is unused
+  nth_prime.exs:25
+
+[33mwarning: [0mvariable p is unused
+  nth_prime.exs:28
+
+Excluding tags: [:pending]
+
+
+NthPrimeTest
+  * test first prime[32m  * test first prime (2.4ms)[0m
+  * test second prime[32m  * test second prime (1.4ms)[0m
+  * test sixth prime[32m  * test sixth prime (0.6ms)[0m
+  * test 100th prime  * test 100th prime (skipped)
+  * test weird case  * test weird case (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m5 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable primes is unused
+  nth_prime.exs:24
+
+[33mwarning: [0mvariable prime is unused
+  nth_prime.exs:25
+
+[33mwarning: [0mvariable p is unused
+  nth_prime.exs:28
+
+Excluding tags: [:pending]
+
+
+NthPrimeTest
+  * test first prime[32m  * test first prime (2.2ms)[0m
+  * test second prime[32m  * test second prime (1.3ms)[0m
+  * test sixth prime[32m  * test sixth prime (0.6ms)[0m
+  * test 100th prime[32m  * test 100th prime (0.5ms)[0m
+  * test weird case  * test weird case (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m5 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable primes is unused
+  nth_prime.exs:24
+
+[33mwarning: [0mvariable prime is unused
+  nth_prime.exs:25
+
+[33mwarning: [0mvariable p is unused
+  nth_prime.exs:28
+
+Excluding tags: [:pending]
+
+
+NthPrimeTest
+  * test first prime[32m  * test first prime (2.0ms)[0m
+  * test second prime[32m  * test second prime (1.2ms)[0m
+  * test sixth prime[32m  * test sixth prime (0.5ms)[0m
+  * test 100th prime[32m  * test 100th prime (0.5ms)[0m
+  * test weird case[31m  * test weird case (2.6ms)[0m
+
+  1) test weird case (NthPrimeTest)
+     [1m[30mnth_prime_test.exs:27[0m
+     [31mExpected to catch error, got nothing[0m
+     [36mstacktrace:[0m
+       nth_prime_test.exs:28: (test)
+
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m5 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable primes is unused
+  nth_prime.exs:26
+
+[33mwarning: [0mvariable prime is unused
+  nth_prime.exs:27
+
+[33mwarning: [0mvariable p is unused
+  nth_prime.exs:30
+
+Excluding tags: [:pending]
+
+
+NthPrimeTest
+  * test first prime[32m  * test first prime (2.3ms)[0m
+  * test second prime[32m  * test second prime (1.2ms)[0m
+  * test sixth prime[32m  * test sixth prime (0.5ms)[0m
+  * test 100th prime[32m  * test 100th prime (0.5ms)[0m
+  * test weird case[32m  * test weird case (3.3ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m5 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable primes is unused
+  nth_prime.exs:26
+
+[33mwarning: [0mvariable prime is unused
+  nth_prime.exs:27
+
+[33mwarning: [0mvariable p is unused
+  nth_prime.exs:30
+
+Excluding tags: [:pending]
+
+
+NthPrimeTest
+  * test first prime[32m  * test first prime (3.9ms)[0m
+  * test second prime[32m  * test second prime (2.7ms)[0m
+  * test sixth prime[32m  * test sixth prime (0.5ms)[0m
+  * test 100th prime[32m  * test 100th prime (0.5ms)[0m
+  * test weird case[32m  * test weird case (3.2ms)[0m
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[32m5 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable primes is unused
+  nth_prime.exs:25
+
+[33mwarning: [0mvariable prime is unused
+  nth_prime.exs:26
+
+[33mwarning: [0mvariable p is unused
+  nth_prime.exs:29
+
+Excluding tags: [:pending]
+
+
+NthPrimeTest
+  * test first prime[32m  * test first prime (3.5ms)[0m
+  * test second prime[32m  * test second prime (1.6ms)[0m
+  * test sixth prime[32m  * test sixth prime (0.6ms)[0m
+  * test 100th prime[32m  * test 100th prime (0.5ms)[0m
+  * test weird case[32m  * test weird case (3.0ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m5 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable primes is unused
+  nth_prime.exs:26
+
+[33mwarning: [0mvariable prime is unused
+  nth_prime.exs:27
+
+[33mwarning: [0mvariable p is unused
+  nth_prime.exs:30
+
+Excluding tags: [:pending]
+
+
+NthPrimeTest
+  * test first prime[32m  * test first prime (2.1ms)[0m
+  * test second prime[32m  * test second prime (1.3ms)[0m
+  * test sixth prime[32m  * test sixth prime (0.5ms)[0m
+  * test 100th prime[32m  * test 100th prime (0.6ms)[0m
+  * test weird case[32m  * test weird case (2.7ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m5 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction is_prime/2 is unused
+  nth_prime.exs:26
+
+** (CompileError) nth_prime.exs:18: undefined function is_prime?/2
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
