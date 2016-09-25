@@ -8,12 +8,12 @@ defmodule Luhn do
     |> String.codepoints
     |> Enum.reverse
     |> Enum.with_index
-    |> Enum.map(&dxxble/1)
+    |> Enum.map(&double/1)
     |> Enum.sum
   end
 
-  def dxxble({number, i}) when rem(i, 2) == 0, do: String.to_integer(number)
-  def dxxble({number, i}) do
+  def double({number, i}) when rem(i, 2) == 0, do: String.to_integer(number)
+  def double({number, i}) do
     num = String.to_integer(number) * 2
 
     cond do

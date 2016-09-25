@@ -570,3 +570,26 @@ Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
 [32m7 tests, 0 failures[0m
 
 Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  luhn.exs:16
+
+[33mwarning: [0mvariable correcting_num is unused
+  luhn.exs:32
+
+Excluding tags: [:pending]
+
+
+LuhnTest
+  * test checksum[32m  * test checksum (5.5ms)[0m
+  * test checksum again[32m  * test checksum again (0.02ms)[0m
+  * test invalid number[32m  * test invalid number (0.01ms)[0m
+  * test valid number[32m  * test valid number (0.01ms)[0m
+  * test create valid number[32m  * test create valid number (4.3ms)[0m
+  * test create other valid number[32m  * test create other valid number (0.1ms)[0m
+  * test create yet another valid number[32m  * test create yet another valid number (0.1ms)[0m
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m7 tests, 0 failures[0m
+
+Randomized with seed 0
