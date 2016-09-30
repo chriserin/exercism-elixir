@@ -1,0 +1,1963 @@
+
+MarkdownTest
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test mixed normal, italics and bold text  * test mixed normal, italics and bold text (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+  * test parsing bold text  * test parsing bold text (skipped)
+  * test parses normal text as a paragraph[31m  * test parses normal text as a paragraph (5.9ms)[0m
+
+  1) test parses normal text as a paragraph (MarkdownTest)
+     [1m[30mmarkdown_test.exs:12[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"This will be a paragraph"
+     [36mrhs:  [0m"[32m<p>[0mThis will be a paragraph[32m</p>[0m"
+     [36mstacktrace:[0m
+       markdown_test.exs:15: (test)
+
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test parsing italics  * test parsing italics (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 8 skipped[0m
+
+Randomized with seed 847644
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (0.00ms)[0m
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test parsing bold text  * test parsing bold text (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test mixed normal, italics and bold text  * test mixed normal, italics and bold text (skipped)
+  * test parsing italics  * test parsing italics (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m9 tests, 0 failures, 8 skipped[0m
+
+Randomized with seed 699611
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+def look_for/3 has multiple clauses and defines defaults in a clause with a body
+  markdown.exs:29
+
+
+MarkdownTest
+  * test parsing italics[31m  * test parsing italics (10.4ms)[0m
+
+  1) test parsing italics (MarkdownTest)
+     [1m[30mmarkdown_test.exs:17[0m
+     [31m** (UndefinedFunctionError) function List.reverse/1 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) List.reverse('cilati eb lliw sihT')
+       markdown.exs:26: Markdown.look_for/3
+       markdown.exs:20: Markdown.rparse/1
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:20: (test)
+
+  * test parsing bold text  * test parsing bold text (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test mixed normal, italics and bold text  * test mixed normal, italics and bold text (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (2.5ms)[0m
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[31m9 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 344190
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+def look_for/3 has multiple clauses and defines defaults in a clause with a body
+  markdown.exs:29
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (3.8ms)[0m
+  * test parsing italics[31m  * test parsing italics (4.7ms)[0m
+
+  1) test parsing italics (MarkdownTest)
+     [1m[30mmarkdown_test.exs:17[0m
+     [31m** (UndefinedFunctionError) function List.reverse/1 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) List.reverse('cilati eb lliw sihT')
+       markdown.exs:26: Markdown.look_for/3
+       markdown.exs:20: Markdown.rparse/1
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:20: (test)
+
+  * test parsing bold text  * test parsing bold text (skipped)
+  * test mixed normal, italics and bold text  * test mixed normal, italics and bold text (skipped)
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+def look_for/3 has multiple clauses and defines defaults in a clause with a body
+  markdown.exs:29
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (4.0ms)[0m
+  * test parsing italics[31m  * test parsing italics (4.7ms)[0m
+
+  1) test parsing italics (MarkdownTest)
+     [1m[30mmarkdown_test.exs:17[0m
+     [31m** (UndefinedFunctionError) function List.reverse/1 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) List.reverse('cilati eb lliw sihT')
+       markdown.exs:26: Markdown.look_for/3
+       markdown.exs:20: Markdown.rparse/1
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:20: (test)
+
+  * test parsing bold text  * test parsing bold text (skipped)
+  * test mixed normal, italics and bold text  * test mixed normal, italics and bold text (skipped)
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+def look_for/3 has multiple clauses and defines defaults in a clause with a body
+  markdown.exs:29
+
+** (CompileError) markdown.exs:26: undefined function reverse/1
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+def look_for/3 has multiple clauses and defines defaults in a clause with a body
+  markdown.exs:29
+
+** (CompileError) markdown.exs:26: undefined function reverse/1
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+def look_for/3 has multiple clauses and defines defaults in a clause with a body
+  markdown.exs:29
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (4.1ms)[0m
+  * test parsing italics[32m  * test parsing italics (1.8ms)[0m
+  * test parsing bold text  * test parsing bold text (skipped)
+  * test mixed normal, italics and bold text  * test mixed normal, italics and bold text (skipped)
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m9 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+def look_for/3 has multiple clauses and defines defaults in a clause with a body
+  markdown.exs:29
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (3.5ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.7ms)[0m
+  * test parsing bold text[31m  * test parsing bold text (3.8ms)[0m
+
+  1) test parsing bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:23[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<p><[31mi[0m></[31mi[0m></p>"
+     [36mrhs:  [0m"<p><[32mem[0m>[32mThis will be bold[0m</[32mem[0m></p>"
+     [36mstacktrace:[0m
+       markdown_test.exs:26: (test)
+
+  * test mixed normal, italics and bold text  * test mixed normal, italics and bold text (skipped)
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+def look_for/3 has multiple clauses and defines defaults in a clause with a body
+  markdown.exs:29
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (4.0ms)[0m
+  * test parsing italics[32m  * test parsing italics (2.7ms)[0m
+  * test parsing bold text[31m  * test parsing bold text (4.0ms)[0m
+
+  1) test parsing bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:23[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<p><[31mi[0m></[31mi[0m></p>"
+     [36mrhs:  [0m"<p><[32mem[0m>[32mThis will be bold[0m</[32mem[0m></p>"
+     [36mstacktrace:[0m
+       markdown_test.exs:26: (test)
+
+  * test mixed normal, italics and bold text  * test mixed normal, italics and bold text (skipped)
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[31m9 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+** (CompileError) markdown.exs:33: def look_for/3 conflicts with defaults from def look_for/4
+    markdown.exs:33: (module)
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+** (CompileError) markdown.exs:33: def look_for/3 conflicts with defaults from def look_for/4
+    markdown.exs:33: (module)
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+** (CompileError) markdown.exs:33: definitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+def look_for/4 has multiple clauses and defines defaults in a clause with a body
+    markdown.exs:33: (module)
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+** (CompileError) markdown.exs:33: definitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+def look_for/4 has multiple clauses and defines defaults in a clause with a body
+    markdown.exs:33: (module)
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+** (CompileError) markdown.exs:33: definitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+def look_for/4 has multiple clauses and defines defaults in a clause with a body
+    markdown.exs:33: (module)
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (3.8ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.8ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.8ms)[0m
+  * test mixed normal, italics and bold text  * test mixed normal, italics and bold text (skipped)
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m9 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (3.7ms)[0m
+  * test parsing italics[32m  * test parsing italics (1.8ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.8ms)[0m
+  * test mixed normal, italics and bold text[31m  * test mixed normal, italics and bold text (2.8ms)[0m
+
+  1) test mixed normal, italics and bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:29[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<p>This will [31m_[0mbe[31m_[0m [31m__[0mmixed[31m__[0m</p>"
+     [36mrhs:  [0m"<p>This will [32m<i>[0mbe[32m</i>[0m [32m<e[0mm[32m>m[0mixed</[32mem></[0mp>"
+     [36mstacktrace:[0m
+       markdown_test.exs:32: (test)
+
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 5 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (4.2ms)[0m
+  * test parsing italics[32m  * test parsing italics (2.6ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.9ms)[0m
+  * test mixed normal, italics and bold text[31m  * test mixed normal, italics and bold text (2.2ms)[0m
+
+  1) test mixed normal, italics and bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:29[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<p>This will [31m_[0mbe[31m_[0m [31m__[0mmixed[31m__[0m</p>"
+     [36mrhs:  [0m"<p>This will [32m<i>[0mbe[32m</i>[0m [32m<e[0mm[32m>m[0mixed</[32mem></[0mp>"
+     [36mstacktrace:[0m
+       markdown_test.exs:32: (test)
+
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m9 tests, 1 failure, 5 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[31m  * test parses normal text as a paragraph (8.1ms)[0m
+
+  1) test parses normal text as a paragraph (MarkdownTest)
+     [1m[30mmarkdown_test.exs:11[0m
+     [31m** (FunctionClauseError) no function clause matching in Markdown.rparse/2[0m
+     [36mstacktrace:[0m
+       markdown.exs:19: Markdown.rparse("his will be a paragraph", 'T')
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:14: (test)
+
+  * test parsing italics[31m  * test parsing italics (1.0ms)[0m
+
+  2) test parsing italics (MarkdownTest)
+     [1m[30mmarkdown_test.exs:17[0m
+     [31m** (FunctionClauseError) no function clause matching in Markdown.rparse/2[0m
+     [36mstacktrace:[0m
+       markdown.exs:19: Markdown.rparse("his will be italic_", [84, "<i>This will be italic</i>"])
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:20: (test)
+
+  * test parsing bold text[31m  * test parsing bold text (1.3ms)[0m
+
+  3) test parsing bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:23[0m
+     [31m** (FunctionClauseError) no function clause matching in Markdown.rparse/2[0m
+     [36mstacktrace:[0m
+       markdown.exs:19: Markdown.rparse("his will be bold__", [84, "<em>This will be bold</em>"])
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:26: (test)
+
+  * test mixed normal, italics and bold text[31m  * test mixed normal, italics and bold text (0.04ms)[0m
+
+  4) test mixed normal, italics and bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:29[0m
+     [31m** (FunctionClauseError) no function clause matching in Markdown.rparse/2[0m
+     [36mstacktrace:[0m
+       markdown.exs:19: Markdown.rparse("his will _be_ __mixed__", 'T')
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:32: (test)
+
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m9 tests, 4 failures, 5 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[31m  * test parses normal text as a paragraph (7.3ms)[0m
+
+  1) test parses normal text as a paragraph (MarkdownTest)
+     [1m[30mmarkdown_test.exs:11[0m
+     [31m** (FunctionClauseError) no function clause matching in Markdown.rparse/2[0m
+     [36mstacktrace:[0m
+       markdown.exs:19: Markdown.rparse("his will be a paragraph", 'T')
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:14: (test)
+
+  * test parsing italics[31m  * test parsing italics (0.9ms)[0m
+
+  2) test parsing italics (MarkdownTest)
+     [1m[30mmarkdown_test.exs:17[0m
+     [31m** (FunctionClauseError) no function clause matching in Markdown.rparse/2[0m
+     [36mstacktrace:[0m
+       markdown.exs:19: Markdown.rparse("his will be italic_", [84, "<i>This will be italic</i>"])
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:20: (test)
+
+  * test parsing bold text[31m  * test parsing bold text (1.5ms)[0m
+
+  3) test parsing bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:23[0m
+     [31m** (FunctionClauseError) no function clause matching in Markdown.rparse/2[0m
+     [36mstacktrace:[0m
+       markdown.exs:19: Markdown.rparse("his will be bold__", [84, "<em>This will be bold</em>"])
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:26: (test)
+
+  * test mixed normal, italics and bold text[31m  * test mixed normal, italics and bold text (0.02ms)[0m
+
+  4) test mixed normal, italics and bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:29[0m
+     [31m** (FunctionClauseError) no function clause matching in Markdown.rparse/2[0m
+     [36mstacktrace:[0m
+       markdown.exs:19: Markdown.rparse("his will _be_ __mixed__", 'T')
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:32: (test)
+
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[31m9 tests, 4 failures, 5 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[31m  * test parses normal text as a paragraph (8.0ms)[0m
+
+  1) test parses normal text as a paragraph (MarkdownTest)
+     [1m[30mmarkdown_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<p>hpar[31mg[0marap[31m a eb lliw si[0mh[31mT[0m</p>"
+     [36mrhs:  [0m"<p>[32mT[0mh[32mis will be a [0mpara[32mg[0mraph</p>"
+     [36mstacktrace:[0m
+       markdown_test.exs:14: (test)
+
+  * test parsing italics[31m  * test parsing italics (2.1ms)[0m
+
+  2) test parsing italics (MarkdownTest)
+     [1m[30mmarkdown_test.exs:17[0m
+     [31m** (FunctionClauseError) no function clause matching in Markdown.look_for/4[0m
+     [36mstacktrace:[0m
+       markdown.exs:30: Markdown.look_for(95, [], 1, [])
+       markdown.exs:25: Markdown.rparse/2
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:20: (test)
+
+  * test parsing bold text[31m  * test parsing bold text (1.3ms)[0m
+
+  3) test parsing bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:23[0m
+     [31m** (FunctionClauseError) no function clause matching in Markdown.look_for/4[0m
+     [36mstacktrace:[0m
+       markdown.exs:30: Markdown.look_for(95, [], 2, [])
+       markdown.exs:21: Markdown.rparse/2
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:26: (test)
+
+  * test mixed normal, italics and bold text[31m  * test mixed normal, italics and bold text (0.03ms)[0m
+
+  4) test mixed normal, italics and bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:29[0m
+     [31m** (FunctionClauseError) no function clause matching in Markdown.look_for/4[0m
+     [36mstacktrace:[0m
+       markdown.exs:30: Markdown.look_for(95, [], 2, [])
+       markdown.exs:21: Markdown.rparse/2
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:32: (test)
+
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m9 tests, 4 failures, 5 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[31m  * test parses normal text as a paragraph (10.6ms)[0m
+
+  1) test parses normal text as a paragraph (MarkdownTest)
+     [1m[30mmarkdown_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<p>hpar[31mg[0marap[31m a eb lliw si[0mh[31mT[0m</p>"
+     [36mrhs:  [0m"<p>[32mT[0mh[32mis will be a [0mpara[32mg[0mraph</p>"
+     [36mstacktrace:[0m
+       markdown_test.exs:14: (test)
+
+  * test parsing italics[31m  * test parsing italics (2.9ms)[0m
+
+  2) test parsing italics (MarkdownTest)
+     [1m[30mmarkdown_test.exs:17[0m
+     [31m** (FunctionClauseError) no function clause matching in Markdown.look_for/4[0m
+     [36mstacktrace:[0m
+       markdown.exs:30: Markdown.look_for(95, [], 1, [])
+       markdown.exs:25: Markdown.rparse/2
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:20: (test)
+
+  * test parsing bold text[31m  * test parsing bold text (1.8ms)[0m
+
+  3) test parsing bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:23[0m
+     [31m** (FunctionClauseError) no function clause matching in Markdown.look_for/4[0m
+     [36mstacktrace:[0m
+       markdown.exs:30: Markdown.look_for(95, [], 2, [])
+       markdown.exs:21: Markdown.rparse/2
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:26: (test)
+
+  * test mixed normal, italics and bold text[31m  * test mixed normal, italics and bold text (0.02ms)[0m
+
+  4) test mixed normal, italics and bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:29[0m
+     [31m** (FunctionClauseError) no function clause matching in Markdown.look_for/4[0m
+     [36mstacktrace:[0m
+       markdown.exs:30: Markdown.look_for(95, [], 2, [])
+       markdown.exs:21: Markdown.rparse/2
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:32: (test)
+
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m9 tests, 4 failures, 5 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[31m  * test parses normal text as a paragraph (11.2ms)[0m
+
+  1) test parses normal text as a paragraph (MarkdownTest)
+     [1m[30mmarkdown_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<p>hpar[31mg[0marap[31m a eb lliw si[0mh[31mT[0m</p>"
+     [36mrhs:  [0m"<p>[32mT[0mh[32mis will be a [0mpara[32mg[0mraph</p>"
+     [36mstacktrace:[0m
+       markdown_test.exs:14: (test)
+
+  * test parsing italics[31m  * test parsing italics (2.9ms)[0m
+
+  2) test parsing italics (MarkdownTest)
+     [1m[30mmarkdown_test.exs:17[0m
+     [31m** (FunctionClauseError) no function clause matching in Markdown.look_for/4[0m
+     [36mstacktrace:[0m
+       markdown.exs:30: Markdown.look_for(95, [], 1, [])
+       markdown.exs:25: Markdown.rparse/2
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:20: (test)
+
+  * test parsing bold text[31m  * test parsing bold text (1.8ms)[0m
+
+  3) test parsing bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:23[0m
+     [31m** (FunctionClauseError) no function clause matching in Markdown.look_for/4[0m
+     [36mstacktrace:[0m
+       markdown.exs:30: Markdown.look_for(95, [], 2, [])
+       markdown.exs:21: Markdown.rparse/2
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:26: (test)
+
+  * test mixed normal, italics and bold text[31m  * test mixed normal, italics and bold text (0.04ms)[0m
+
+  4) test mixed normal, italics and bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:29[0m
+     [31m** (FunctionClauseError) no function clause matching in Markdown.look_for/4[0m
+     [36mstacktrace:[0m
+       markdown.exs:30: Markdown.look_for(95, [], 2, [])
+       markdown.exs:21: Markdown.rparse/2
+       markdown.exs:16: Markdown.parse/1
+       markdown_test.exs:32: (test)
+
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[31m9 tests, 4 failures, 5 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (0.00ms)[0m
+  * test parsing italics  * test parsing italics (skipped)
+  * test parsing bold text  * test parsing bold text (skipped)
+  * test mixed normal, italics and bold text  * test mixed normal, italics and bold text (skipped)
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m9 tests, 0 failures, 8 skipped[0m
+
+Randomized with seed 0
+** (TokenMissingError) markdown.exs:27: missing terminator: " (for string starting at line 24)
+    (elixir) lib/code.ex:321: Code.load_file/2
+    markdown_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (TokenMissingError) markdown.exs:27: missing terminator: " (for string starting at line 24)
+    (elixir) lib/code.ex:321: Code.load_file/2
+    markdown_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (TokenMissingError) markdown.exs:27: missing terminator: " (for string starting at line 24)
+    (elixir) lib/code.ex:321: Code.load_file/2
+    markdown_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (TokenMissingError) markdown.exs:27: missing terminator: " (for string starting at line 24)
+    (elixir) lib/code.ex:321: Code.load_file/2
+    markdown_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (TokenMissingError) markdown.exs:27: missing terminator: " (for string starting at line 24)
+    (elixir) lib/code.ex:321: Code.load_file/2
+    markdown_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mfunction do_inlines/3 is unused
+  markdown.exs:23
+
+[33mwarning: [0mfunction rparse/2 is unused
+  markdown.exs:19
+
+** (CompileError) markdown.exs:16: undefined function rparse/1
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (0.06ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.04ms)[0m
+  * test parsing bold text  * test parsing bold text (skipped)
+  * test mixed normal, italics and bold text  * test mixed normal, italics and bold text (skipped)
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m9 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (0.07ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.04ms)[0m
+  * test parsing bold text[31m  * test parsing bold text (4.0ms)[0m
+
+  1) test parsing bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:23[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<p><[31mb[0m>This will be bold</[31mb[0m></p>"
+     [36mrhs:  [0m"<p><[32mem[0m>This will be bold</[32mem[0m></p>"
+     [36mstacktrace:[0m
+       markdown_test.exs:26: (test)
+
+  * test mixed normal, italics and bold text  * test mixed normal, italics and bold text (skipped)
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (0.05ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.03ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.03ms)[0m
+  * test mixed normal, italics and bold text  * test mixed normal, italics and bold text (skipped)
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m9 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (0.06ms)[0m
+  * test parsing italics[31m  * test parsing italics (4.0ms)[0m
+
+  1) test parsing italics (MarkdownTest)
+     [1m[30mmarkdown_test.exs:17[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<p>[31m_[0mThis will be italic[31m_[0m</p>"
+     [36mrhs:  [0m"<p>[32m<i>[0mThis will be italic</[32mi></[0mp>"
+     [36mstacktrace:[0m
+       markdown_test.exs:20: (test)
+
+  * test parsing bold text[31m  * test parsing bold text (0.08ms)[0m
+
+  2) test parsing bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:23[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<p><[31mi[0m>This will be bold</[31mi[0m></p>"
+     [36mrhs:  [0m"<p><[32mem[0m>This will be bold</[32mem[0m></p>"
+     [36mstacktrace:[0m
+       markdown_test.exs:26: (test)
+
+  * test mixed normal, italics and bold text  * test mixed normal, italics and bold text (skipped)
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m9 tests, 2 failures, 6 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (0.08ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.06ms)[0m
+  * test parsing bold text[31m  * test parsing bold text (4.2ms)[0m
+
+  1) test parsing bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:23[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<p><[31mi[0m>[31m_[0mThis will be bold[31m_[0m</[31mi[0m></p>"
+     [36mrhs:  [0m"<p><[32mem[0m>This will be bold</[32mem[0m></p>"
+     [36mstacktrace:[0m
+       markdown_test.exs:26: (test)
+
+  * test mixed normal, italics and bold text  * test mixed normal, italics and bold text (skipped)
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (0.08ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.06ms)[0m
+  * test parsing bold text[31m  * test parsing bold text (3.7ms)[0m
+
+  1) test parsing bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:23[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<p><[31mi[0m>[31m_[0mThis will be bold[31m_[0m</[31mi[0m></p>"
+     [36mrhs:  [0m"<p><[32mem[0m>This will be bold</[32mem[0m></p>"
+     [36mstacktrace:[0m
+       markdown_test.exs:26: (test)
+
+  * test mixed normal, italics and bold text  * test mixed normal, italics and bold text (skipped)
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (0.08ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.05ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.04ms)[0m
+  * test mixed normal, italics and bold text  * test mixed normal, italics and bold text (skipped)
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m9 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (0.07ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.05ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.03ms)[0m
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.04ms)[0m
+  * test with h1 header level  * test with h1 header level (skipped)
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m9 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+** (CompileError) markdown.exs:18: undefined function split/2
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[31m  * test parses normal text as a paragraph (4.2ms)[0m
+
+  1) test parses normal text as a paragraph (MarkdownTest)
+     [1m[30mmarkdown_test.exs:11[0m
+     [31m** (FunctionClauseError) no function clause matching in Regex.replace/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/regex.ex:499: Regex.replace(~r/__(.+)__/, ["This will be a paragraph"], "<em>\\1</em>", [global: nil])
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       markdown.exs:19: Markdown.parse/1
+       markdown_test.exs:14: (test)
+
+  * test parsing italics[31m  * test parsing italics (0.04ms)[0m
+
+  2) test parsing italics (MarkdownTest)
+     [1m[30mmarkdown_test.exs:17[0m
+     [31m** (FunctionClauseError) no function clause matching in Regex.replace/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/regex.ex:499: Regex.replace(~r/__(.+)__/, ["_This will be italic_"], "<em>\\1</em>", [global: nil])
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       markdown.exs:19: Markdown.parse/1
+       markdown_test.exs:20: (test)
+
+  * test parsing bold text[31m  * test parsing bold text (0.02ms)[0m
+
+  3) test parsing bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:23[0m
+     [31m** (FunctionClauseError) no function clause matching in Regex.replace/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/regex.ex:499: Regex.replace(~r/__(.+)__/, ["__This will be bold__"], "<em>\\1</em>", [global: nil])
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       markdown.exs:19: Markdown.parse/1
+       markdown_test.exs:26: (test)
+
+  * test mixed normal, italics and bold text[31m  * test mixed normal, italics and bold text (0.02ms)[0m
+
+  4) test mixed normal, italics and bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:29[0m
+     [31m** (FunctionClauseError) no function clause matching in Regex.replace/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/regex.ex:499: Regex.replace(~r/__(.+)__/, ["This will _be_ __mixed__"], "<em>\\1</em>", [global: nil])
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       markdown.exs:19: Markdown.parse/1
+       markdown_test.exs:32: (test)
+
+  * test with h1 header level[31m  * test with h1 header level (0.02ms)[0m
+
+  5) test with h1 header level (MarkdownTest)
+     [1m[30mmarkdown_test.exs:35[0m
+     [31m** (FunctionClauseError) no function clause matching in Regex.replace/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/regex.ex:499: Regex.replace(~r/__(.+)__/, ["# This will be an h1"], "<em>\\1</em>", [global: nil])
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       markdown.exs:19: Markdown.parse/1
+       markdown_test.exs:38: (test)
+
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m9 tests, 5 failures, 4 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[31m  * test parses normal text as a paragraph (4.4ms)[0m
+
+  1) test parses normal text as a paragraph (MarkdownTest)
+     [1m[30mmarkdown_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"This will be a paragraph"
+     [36mrhs:  [0m"[32m<p>[0mThis will be a paragraph[32m</p>[0m"
+     [36mstacktrace:[0m
+       markdown_test.exs:14: (test)
+
+  * test parsing italics[31m  * test parsing italics (0.1ms)[0m
+
+  2) test parsing italics (MarkdownTest)
+     [1m[30mmarkdown_test.exs:17[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<i>This will be italic</i>"
+     [36mrhs:  [0m"<[32mp><[0mi>This will be italic</i>[32m</p>[0m"
+     [36mstacktrace:[0m
+       markdown_test.exs:20: (test)
+
+  * test parsing bold text[31m  * test parsing bold text (0.07ms)[0m
+
+  3) test parsing bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:23[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<em>This will be bold</em>"
+     [36mrhs:  [0m"<[32mp><[0mem>This will be bold</em>[32m</p>[0m"
+     [36mstacktrace:[0m
+       markdown_test.exs:26: (test)
+
+  * test mixed normal, italics and bold text[31m  * test mixed normal, italics and bold text (0.08ms)[0m
+
+  4) test mixed normal, italics and bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:29[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"This will <i>be</i> <em>mixed</em>"
+     [36mrhs:  [0m"[32m<p>[0mThis will <i>be</i> <em>mixed</em>[32m</p>[0m"
+     [36mstacktrace:[0m
+       markdown_test.exs:32: (test)
+
+  * test with h1 header level[31m  * test with h1 header level (0.05ms)[0m
+
+  5) test with h1 header level (MarkdownTest)
+     [1m[30mmarkdown_test.exs:35[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"[31m# [0mThis will be an h1"
+     [36mrhs:  [0m"[32m<h1>[0mThis will be an h1[32m</h1>[0m"
+     [36mstacktrace:[0m
+       markdown_test.exs:38: (test)
+
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m9 tests, 5 failures, 4 skipped[0m
+
+Randomized with seed 0
+** (SyntaxError) markdown.exs:20: syntax error before: ')'
+    (elixir) lib/code.ex:321: Code.load_file/2
+    markdown_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) markdown.exs:20: syntax error before: ')'
+    (elixir) lib/code.ex:321: Code.load_file/2
+    markdown_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (0.06ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.04ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.03ms)[0m
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.03ms)[0m
+  * test with h1 header level[31m  * test with h1 header level (3.6ms)[0m
+
+  1) test with h1 header level (MarkdownTest)
+     [1m[30mmarkdown_test.exs:35[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<[31mp[0m>[31m# [0mThis will be an h1</[31mp[0m>"
+     [36mrhs:  [0m"<[32mh1[0m>This will be an h1</[32mh1[0m>"
+     [36mstacktrace:[0m
+       markdown_test.exs:38: (test)
+
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (0.08ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.05ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.05ms)[0m
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.05ms)[0m
+  * test with h1 header level[31m  * test with h1 header level (3.7ms)[0m
+
+  1) test with h1 header level (MarkdownTest)
+     [1m[30mmarkdown_test.exs:35[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<h1>[31m [0mThis will be an h1</h1>"
+     [36mrhs:  [0m"<h1>This will be an h1</h1>"
+     [36mstacktrace:[0m
+       markdown_test.exs:38: (test)
+
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (0.09ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.06ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.03ms)[0m
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.03ms)[0m
+  * test with h1 header level[32m  * test with h1 header level (0.02ms)[0m
+  * test with h2 header level  * test with h2 header level (skipped)
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m9 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (0.09ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.06ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.04ms)[0m
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.06ms)[0m
+  * test with h1 header level[32m  * test with h1 header level (0.02ms)[0m
+  * test with h2 header level[31m  * test with h2 header level (3.9ms)[0m
+
+  1) test with h2 header level (MarkdownTest)
+     [1m[30mmarkdown_test.exs:41[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<[31mp[0m>[31m## [0mThis will be an h2</[31mp[0m>"
+     [36mrhs:  [0m"<[32mh2[0m>This will be an h2</[32mh2[0m>"
+     [36mstacktrace:[0m
+       markdown_test.exs:44: (test)
+
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (0.09ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.06ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.05ms)[0m
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.05ms)[0m
+  * test with h1 header level[32m  * test with h1 header level (0.02ms)[0m
+  * test with h2 header level[32m  * test with h2 header level (0.02ms)[0m
+  * test with h6 header level  * test with h6 header level (skipped)
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m9 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable rest is unused
+  markdown.exs:24
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (0.05ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.04ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.04ms)[0m
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.05ms)[0m
+  * test with h1 header level[31m  * test with h1 header level (8.3ms)[0m
+
+  1) test with h1 header level (MarkdownTest)
+     [1m[30mmarkdown_test.exs:35[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"4"
+     [36mrhs:  [0m"<h1>This will be an h1</h1>"
+     [36mstacktrace:[0m
+       markdown_test.exs:38: (test)
+
+  * test with h2 header level[31m  * test with h2 header level (0.1ms)[0m
+
+  2) test with h2 header level (MarkdownTest)
+     [1m[30mmarkdown_test.exs:41[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"4"
+     [36mrhs:  [0m"<h2>This will be an h2</h2>"
+     [36mstacktrace:[0m
+       markdown_test.exs:44: (test)
+
+  * test with h6 header level[31m  * test with h6 header level (0.09ms)[0m
+
+  3) test with h6 header level (MarkdownTest)
+     [1m[30mmarkdown_test.exs:47[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"4"
+     [36mrhs:  [0m"<h6>This will be an h6</h6>"
+     [36mstacktrace:[0m
+       markdown_test.exs:50: (test)
+
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m9 tests, 3 failures, 2 skipped[0m
+
+Randomized with seed 0
+** (SyntaxError) markdown.exs:26: unexpected token: ")". "do" starting at line 24 is missing terminator "end"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    markdown_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (0.06ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.06ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.06ms)[0m
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.06ms)[0m
+  * test with h1 header level[32m  * test with h1 header level (5.5ms)[0m
+  * test with h2 header level[32m  * test with h2 header level (1.0ms)[0m
+  * test with h6 header level[32m  * test with h6 header level (0.09ms)[0m
+  * test unordered lists  * test unordered lists (skipped)
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m9 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+** (SyntaxError) markdown.exs:29: syntax error before: '|>'
+    (elixir) lib/code.ex:321: Code.load_file/2
+    markdown_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable rest is unused
+  markdown.exs:22
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[31m  * test parses normal text as a paragraph (4.5ms)[0m
+
+  1) test parses normal text as a paragraph (MarkdownTest)
+     [1m[30mmarkdown_test.exs:11[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk(["This will be a paragraph"], &String.first/1, &String.first/1, nil)
+       markdown.exs:18: Markdown.parse/1
+       markdown_test.exs:14: (test)
+
+  * test parsing italics[31m  * test parsing italics (0.02ms)[0m
+
+  2) test parsing italics (MarkdownTest)
+     [1m[30mmarkdown_test.exs:17[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk(["_This will be italic_"], &String.first/1, &String.first/1, nil)
+       markdown.exs:18: Markdown.parse/1
+       markdown_test.exs:20: (test)
+
+  * test parsing bold text[31m  * test parsing bold text (0.01ms)[0m
+
+  3) test parsing bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:23[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk(["__This will be bold__"], &String.first/1, &String.first/1, nil)
+       markdown.exs:18: Markdown.parse/1
+       markdown_test.exs:26: (test)
+
+  * test mixed normal, italics and bold text[31m  * test mixed normal, italics and bold text (0.01ms)[0m
+
+  4) test mixed normal, italics and bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:29[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk(["This will _be_ __mixed__"], &String.first/1, &String.first/1, nil)
+       markdown.exs:18: Markdown.parse/1
+       markdown_test.exs:32: (test)
+
+  * test with h1 header level[31m  * test with h1 header level (0.01ms)[0m
+
+  5) test with h1 header level (MarkdownTest)
+     [1m[30mmarkdown_test.exs:35[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk(["# This will be an h1"], &String.first/1, &String.first/1, nil)
+       markdown.exs:18: Markdown.parse/1
+       markdown_test.exs:38: (test)
+
+  * test with h2 header level[31m  * test with h2 header level (0.01ms)[0m
+
+  6) test with h2 header level (MarkdownTest)
+     [1m[30mmarkdown_test.exs:41[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk(["## This will be an h2"], &String.first/1, &String.first/1, nil)
+       markdown.exs:18: Markdown.parse/1
+       markdown_test.exs:44: (test)
+
+  * test with h6 header level[31m  * test with h6 header level (0.02ms)[0m
+
+  7) test with h6 header level (MarkdownTest)
+     [1m[30mmarkdown_test.exs:47[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk(["###### This will be an h6"], &String.first/1, &String.first/1, nil)
+       markdown.exs:18: Markdown.parse/1
+       markdown_test.exs:50: (test)
+
+  * test unordered lists[31m  * test unordered lists (0.01ms)[0m
+
+  8) test unordered lists (MarkdownTest)
+     [1m[30mmarkdown_test.exs:53[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk(["* Item 1", "* Item 2"], &String.first/1, &String.first/1, nil)
+       markdown.exs:18: Markdown.parse/1
+       markdown_test.exs:56: (test)
+
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m9 tests, 8 failures, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable rest is unused
+  markdown.exs:22
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[31m  * test parses normal text as a paragraph (7.4ms)[0m
+
+  1) test parses normal text as a paragraph (MarkdownTest)
+     [1m[30mmarkdown_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m["<p>This will be a paragraph</p>"]
+     [36mrhs:  [0m"<p>This will be a paragraph</p>"
+     [36mstacktrace:[0m
+       markdown_test.exs:14: (test)
+
+  * test parsing italics[31m  * test parsing italics (0.1ms)[0m
+
+  2) test parsing italics (MarkdownTest)
+     [1m[30mmarkdown_test.exs:17[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m["<p><i>This will be italic</i></p>"]
+     [36mrhs:  [0m"<p><i>This will be italic</i></p>"
+     [36mstacktrace:[0m
+       markdown_test.exs:20: (test)
+
+  * test parsing bold text[31m  * test parsing bold text (0.07ms)[0m
+
+  3) test parsing bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:23[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m["<p><em>This will be bold</em></p>"]
+     [36mrhs:  [0m"<p><em>This will be bold</em></p>"
+     [36mstacktrace:[0m
+       markdown_test.exs:26: (test)
+
+  * test mixed normal, italics and bold text[31m  * test mixed normal, italics and bold text (0.07ms)[0m
+
+  4) test mixed normal, italics and bold text (MarkdownTest)
+     [1m[30mmarkdown_test.exs:29[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m["<p>This will <i>be</i> <em>mixed</em></p>"]
+     [36mrhs:  [0m"<p>This will <i>be</i> <em>mixed</em></p>"
+     [36mstacktrace:[0m
+       markdown_test.exs:32: (test)
+
+  * test with h1 header level[31m  * test with h1 header level (1.9ms)[0m
+
+  5) test with h1 header level (MarkdownTest)
+     [1m[30mmarkdown_test.exs:35[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m["<h1>This will be an h1</h1>"]
+     [36mrhs:  [0m"<h1>This will be an h1</h1>"
+     [36mstacktrace:[0m
+       markdown_test.exs:38: (test)
+
+  * test with h2 header level[31m  * test with h2 header level (1.5ms)[0m
+
+  6) test with h2 header level (MarkdownTest)
+     [1m[30mmarkdown_test.exs:41[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m["<h2>This will be an h2</h2>"]
+     [36mrhs:  [0m"<h2>This will be an h2</h2>"
+     [36mstacktrace:[0m
+       markdown_test.exs:44: (test)
+
+  * test with h6 header level[31m  * test with h6 header level (0.1ms)[0m
+
+  7) test with h6 header level (MarkdownTest)
+     [1m[30mmarkdown_test.exs:47[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m["<h6>This will be an h6</h6>"]
+     [36mrhs:  [0m"<h6>This will be an h6</h6>"
+     [36mstacktrace:[0m
+       markdown_test.exs:50: (test)
+
+  * test unordered lists[31m  * test unordered lists (0.06ms)[0m
+
+  8) test unordered lists (MarkdownTest)
+     [1m[30mmarkdown_test.exs:53[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m["<li>Item 1</li>\n<li>Item 2</li>"]
+     [36mrhs:  [0m"<ul><li>Item 1</li><li>Item 2</li></ul>"
+     [36mstacktrace:[0m
+       markdown_test.exs:56: (test)
+
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m9 tests, 8 failures, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable rest is unused
+  markdown.exs:23
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (2.9ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.06ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.06ms)[0m
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.04ms)[0m
+  * test with h1 header level[32m  * test with h1 header level (2.5ms)[0m
+  * test with h2 header level[32m  * test with h2 header level (0.9ms)[0m
+  * test with h6 header level[32m  * test with h6 header level (0.1ms)[0m
+  * test unordered lists[31m  * test unordered lists (2.3ms)[0m
+
+  1) test unordered lists (MarkdownTest)
+     [1m[30mmarkdown_test.exs:53[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<li>Item 1</li>[31m\n[0m<li>Item 2</li>"
+     [36mrhs:  [0m"<[32mu[0ml[32m><l[0mi>Item 1</li><li>Item 2</li>[32m</ul>[0m"
+     [36mstacktrace:[0m
+       markdown_test.exs:56: (test)
+
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable rest is unused
+  markdown.exs:24
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[["This will be a paragraph"]]
+[["_This will be italic_"]]
+[32m  * test parses normal text as a paragraph (10.9ms)[0m
+  * test parsing italics[["__This will be bold__"]]
+[32m  * test parsing italics (1.5ms)[0m
+  * test parsing bold text[["This will _be_ __mixed__"]]
+[32m  * test parsing bold text (0.1ms)[0m
+  * test mixed normal, italics and bold text[["# This will be an h1"]]
+[32m  * test mixed normal, italics and bold text (0.1ms)[0m
+  * test with h1 header level[32m  * test with h1 header level (0.2ms)[0m
+[["## This will be an h2"]]
+  * test with h2 header level[32m  * test with h2 header level (0.1ms)[0m
+  * test with h6 header level[["###### This will be an h6"]]
+[32m  * test with h6 header level (0.1ms)[0m
+  * test unordered lists[["* Item 1", "* Item 2"]]
+[31m  * test unordered lists (3.3ms)[0m
+
+  1) test unordered lists (MarkdownTest)
+     [1m[30mmarkdown_test.exs:53[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<li>Item 1</li>[31m\n[0m<li>Item 2</li>"
+     [36mrhs:  [0m"<[32mu[0ml[32m><l[0mi>Item 1</li><li>Item 2</li>[32m</ul>[0m"
+     [36mstacktrace:[0m
+       markdown_test.exs:56: (test)
+
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m9 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable rest is unused
+  markdown.exs:24
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[["This will be a paragraph"]]
+[32m  * test parses normal text as a paragraph (9.3ms)[0m
+  * test parsing italics[["_This will be italic_"]]
+[32m  * test parsing italics (1.1ms)[0m
+[["__This will be bold__"]]
+  * test parsing bold text[["This will _be_ __mixed__"]]
+[32m  * test parsing bold text (0.1ms)[0m
+  * test mixed normal, italics and bold text[["# This will be an h1"]]
+[32m  * test mixed normal, italics and bold text (0.1ms)[0m
+  * test with h1 header level[["## This will be an h2"]]
+[32m  * test with h1 header level (0.1ms)[0m
+  * test with h2 header level[["###### This will be an h6"]]
+[32m  * test with h2 header level (0.1ms)[0m
+  * test with h6 header level[32m  * test with h6 header level (0.2ms)[0m
+[["* Item 1", "* Item 2"]]
+  * test unordered lists[31m  * test unordered lists (2.8ms)[0m
+
+  1) test unordered lists (MarkdownTest)
+     [1m[30mmarkdown_test.exs:53[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<li>Item 1</li>[31m\n[0m<li>Item 2</li>"
+     [36mrhs:  [0m"<[32mu[0ml[32m><l[0mi>Item 1</li><li>Item 2</li>[32m</ul>[0m"
+     [36mstacktrace:[0m
+       markdown_test.exs:56: (test)
+
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m9 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[["This will be a paragraph"]]
+[32m  * test parses normal text as a paragraph (8.7ms)[0m
+[["_This will be italic_"]]
+  * test parsing italics[32m  * test parsing italics (1.1ms)[0m
+  * test parsing bold text[["__This will be bold__"]]
+[32m  * test parsing bold text (0.1ms)[0m
+  * test mixed normal, italics and bold text[["This will _be_ __mixed__"]]
+[["# This will be an h1"]]
+[32m  * test mixed normal, italics and bold text (0.1ms)[0m
+  * test with h1 header level[["## This will be an h2"]]
+[32m  * test with h1 header level (0.1ms)[0m
+  * test with h2 header level[["###### This will be an h6"]]
+[32m  * test with h2 header level (0.1ms)[0m
+  * test with h6 header level[32m  * test with h6 header level (0.1ms)[0m
+[["* Item 1", "* Item 2"]]
+  * test unordered lists[31m  * test unordered lists (2.9ms)[0m
+
+  1) test unordered lists (MarkdownTest)
+     [1m[30mmarkdown_test.exs:53[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<li>Item 1</li>[31m\n[0m<li>Item 2</li>"
+     [36mrhs:  [0m"<[32mu[0ml[32m><l[0mi>Item 1</li><li>Item 2</li>[32m</ul>[0m"
+     [36mstacktrace:[0m
+       markdown_test.exs:56: (test)
+
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m9 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[["This will be a paragraph"]]
+[32m  * test parses normal text as a paragraph (8.0ms)[0m
+[["_This will be italic_"]]
+  * test parsing italics[32m  * test parsing italics (1.1ms)[0m
+[["__This will be bold__"]]
+  * test parsing bold text[32m  * test parsing bold text (0.1ms)[0m
+  * test mixed normal, italics and bold text[["This will _be_ __mixed__"]]
+[32m  * test mixed normal, italics and bold text (0.2ms)[0m
+[["# This will be an h1"]]
+  * test with h1 header level[["## This will be an h2"]]
+[32m  * test with h1 header level (0.1ms)[0m
+  * test with h2 header level[["###### This will be an h6"]]
+[32m  * test with h2 header level (0.1ms)[0m
+  * test with h6 header level[["* Item 1", "* Item 2"]]
+[32m  * test with h6 header level (0.2ms)[0m
+  * test unordered lists[31m  * test unordered lists (2.8ms)[0m
+
+  1) test unordered lists (MarkdownTest)
+     [1m[30mmarkdown_test.exs:53[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<li>Item 1</li>[31m\n[0m<li>Item 2</li>"
+     [36mrhs:  [0m"<[32mu[0ml[32m><l[0mi>Item 1</li><li>Item 2</li>[32m</ul>[0m"
+     [36mstacktrace:[0m
+       markdown_test.exs:56: (test)
+
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[31m9 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[["This will be a paragraph"]]
+[32m  * test parses normal text as a paragraph (8.7ms)[0m
+[["_This will be italic_"]]
+  * test parsing italics[32m  * test parsing italics (1.4ms)[0m
+  * test parsing bold text[["__This will be bold__"]]
+[["This will _be_ __mixed__"]]
+[32m  * test parsing bold text (0.1ms)[0m
+  * test mixed normal, italics and bold text[["# This will be an h1"]]
+[32m  * test mixed normal, italics and bold text (0.1ms)[0m
+  * test with h1 header level[["## This will be an h2"]]
+[32m  * test with h1 header level (0.2ms)[0m
+  * test with h2 header level[["###### This will be an h6"]]
+[32m  * test with h2 header level (0.2ms)[0m
+  * test with h6 header level[32m  * test with h6 header level (0.1ms)[0m
+[["* Item 1", "* Item 2"]]
+  * test unordered lists[31m  * test unordered lists (2.8ms)[0m
+
+  1) test unordered lists (MarkdownTest)
+     [1m[30mmarkdown_test.exs:53[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<li>Item 1</li>[31m\n[0m<li>Item 2</li>"
+     [36mrhs:  [0m"<[32mu[0ml[32m><l[0mi>Item 1</li><li>Item 2</li>[32m</ul>[0m"
+     [36mstacktrace:[0m
+       markdown_test.exs:56: (test)
+
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m9 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph["This will be a paragraph"]
+["_This will be italic_"]
+[32m  * test parses normal text as a paragraph (8.3ms)[0m
+["__This will be bold__"]
+  * test parsing italics[32m  * test parsing italics (0.1ms)[0m
+  * test parsing bold text["This will _be_ __mixed__"]
+[32m  * test parsing bold text (1.0ms)[0m
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.1ms)[0m
+  * test with h1 header level["# This will be an h1"]
+["## This will be an h2"]
+[32m  * test with h1 header level (0.1ms)[0m
+  * test with h2 header level[32m  * test with h2 header level (0.1ms)[0m
+["###### This will be an h6"]
+  * test with h6 header level[32m  * test with h6 header level (0.1ms)[0m
+  * test unordered lists["* Item 1", "* Item 2"]
+[31m  * test unordered lists (2.8ms)[0m
+
+  1) test unordered lists (MarkdownTest)
+     [1m[30mmarkdown_test.exs:53[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<li>Item 1</li>[31m\n[0m<li>Item 2</li>"
+     [36mrhs:  [0m"<[32mu[0ml[32m><l[0mi>Item 1</li><li>Item 2</li>[32m</ul>[0m"
+     [36mstacktrace:[0m
+       markdown_test.exs:56: (test)
+
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m9 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph["This will be a paragraph"]
+["_This will be italic_"]
+[32m  * test parses normal text as a paragraph (8.5ms)[0m
+  * test parsing italics[32m  * test parsing italics (1.3ms)[0m
+  * test parsing bold text["__This will be bold__"]
+[32m  * test parsing bold text (0.1ms)[0m
+  * test mixed normal, italics and bold text["This will _be_ __mixed__"]
+[32m  * test mixed normal, italics and bold text (0.1ms)[0m
+  * test with h1 header level["# This will be an h1"]
+[32m  * test with h1 header level (0.1ms)[0m
+  * test with h2 header level["## This will be an h2"]
+[32m  * test with h2 header level (0.1ms)[0m
+  * test with h6 header level["###### This will be an h6"]
+[32m  * test with h6 header level (0.1ms)[0m
+  * test unordered lists[31m  * test unordered lists (7.8ms)[0m
+
+  1) test unordered lists (MarkdownTest)
+     [1m[30mmarkdown_test.exs:53[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for "* Item 1"[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1187: Enum.map/2
+       markdown.exs:25: Markdown.process/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       markdown.exs:19: Markdown.parse/1
+       markdown_test.exs:56: (test)
+
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m9 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph["This will be a paragraph"]
+["_This will be italic_"]
+[32m  * test parses normal text as a paragraph (8.5ms)[0m
+  * test parsing italics["__This will be bold__"]
+[32m  * test parsing italics (0.9ms)[0m
+  * test parsing bold text["This will _be_ __mixed__"]
+[32m  * test parsing bold text (0.1ms)[0m
+["# This will be an h1"]
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.1ms)[0m
+["## This will be an h2"]
+  * test with h1 header level[32m  * test with h1 header level (0.1ms)[0m
+  * test with h2 header level[32m  * test with h2 header level (0.1ms)[0m
+["###### This will be an h6"]
+  * test with h6 header level[32m  * test with h6 header level (0.2ms)[0m
+HERE
+  * test unordered lists[31m  * test unordered lists (7.0ms)[0m
+
+  1) test unordered lists (MarkdownTest)
+     [1m[30mmarkdown_test.exs:53[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for "* Item 1"[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1187: Enum.map/2
+       markdown.exs:26: Markdown.process/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       markdown.exs:19: Markdown.parse/1
+       markdown_test.exs:56: (test)
+
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m9 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph["This will be a paragraph"]
+["_This will be italic_"]
+[32m  * test parses normal text as a paragraph (8.2ms)[0m
+  * test parsing italics["__This will be bold__"]
+[32m  * test parsing italics (1.0ms)[0m
+  * test parsing bold text["This will _be_ __mixed__"]
+[32m  * test parsing bold text (0.1ms)[0m
+["# This will be an h1"]
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.1ms)[0m
+["## This will be an h2"]
+  * test with h1 header level[32m  * test with h1 header level (0.1ms)[0m
+  * test with h2 header level[32m  * test with h2 header level (0.2ms)[0m
+  * test with h6 header level["###### This will be an h6"]
+[32m  * test with h6 header level (0.1ms)[0m
+  * test unordered lists"* Item 1"
+[31m  * test unordered lists (6.6ms)[0m
+
+  1) test unordered lists (MarkdownTest)
+     [1m[30mmarkdown_test.exs:53[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for "* Item 1"[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1187: Enum.map/2
+       markdown.exs:32: Markdown.process/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       markdown.exs:25: Markdown.process/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       markdown.exs:19: Markdown.parse/1
+       markdown_test.exs:56: (test)
+
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m9 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (2.9ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.04ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.03ms)[0m
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.04ms)[0m
+  * test with h1 header level[32m  * test with h1 header level (2.5ms)[0m
+  * test with h2 header level[32m  * test with h2 header level (1.0ms)[0m
+  * test with h6 header level[32m  * test with h6 header level (0.08ms)[0m
+  * test unordered lists[33mwarning: [0mvariable x is unused
+  markdown.exs:29
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (2.9ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.06ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.06ms)[0m
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.06ms)[0m
+  * test with h1 header level[32m  * test with h1 header level (2.7ms)[0m
+  * test with h2 header level[32m  * test with h2 header level (1.0ms)[0m
+  * test with h6 header level[32m  * test with h6 header level (0.09ms)[0m
+  * test unordered lists[31m  * test unordered lists (2.6ms)[0m
+
+  1) test unordered lists (MarkdownTest)
+     [1m[30mmarkdown_test.exs:53[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<ul><li>Item 1</li>[31m\n[0m<li>Item 2</li></ul>"
+     [36mrhs:  [0m"<ul><li>Item 1</li><li>Item 2</li></ul>"
+     [36mstacktrace:[0m
+       markdown_test.exs:56: (test)
+
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[31m9 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  markdown.exs:29
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (2.7ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.05ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.04ms)[0m
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.05ms)[0m
+  * test with h1 header level[32m  * test with h1 header level (2.7ms)[0m
+  * test with h2 header level[32m  * test with h2 header level (0.9ms)[0m
+  * test with h6 header level[32m  * test with h6 header level (0.07ms)[0m
+  * test unordered lists[32m  * test unordered lists (0.07ms)[0m
+  * test with a little bit of everything  * test with a little bit of everything (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m9 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  markdown.exs:29
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (3.2ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.05ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.06ms)[0m
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.06ms)[0m
+  * test with h1 header level[32m  * test with h1 header level (2.6ms)[0m
+  * test with h2 header level[32m  * test with h2 header level (0.8ms)[0m
+  * test with h6 header level[32m  * test with h6 header level (0.1ms)[0m
+  * test unordered lists[32m  * test unordered lists (0.08ms)[0m
+  * test with a little bit of everything[31m  * test with a little bit of everything (2.8ms)[0m
+
+  1) test with a little bit of everything (MarkdownTest)
+     [1m[30mmarkdown_test.exs:59[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mMarkdown.parse(input) == expected
+     [36mlhs:  [0m"<h1>Header!</h1>[31m\n[0m<ul><li><em>Bold Item</em></li><li><i>Italic Item</i></li></ul>"
+     [36mrhs:  [0m"<h1>Header!</h1><ul><li><em>Bold Item</em></li><li><i>Italic Item</i></li></ul>"
+     [36mstacktrace:[0m
+       markdown_test.exs:62: (test)
+
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m9 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  markdown.exs:29
+
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (3.1ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.07ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (0.05ms)[0m
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.04ms)[0m
+  * test with h1 header level[32m  * test with h1 header level (2.8ms)[0m
+  * test with h2 header level[32m  * test with h2 header level (0.8ms)[0m
+  * test with h6 header level[32m  * test with h6 header level (0.08ms)[0m
+  * test unordered lists[32m  * test unordered lists (0.07ms)[0m
+  * test with a little bit of everything[32m  * test with a little bit of everything (0.1ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m9 tests, 0 failures[0m
+
+Randomized with seed 0
