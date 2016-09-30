@@ -26,9 +26,9 @@ defmodule Markdown do
     }</ul>"
   end
 
-  defp process(lines, x \\ 1) do
+  defp process(lines, _ \\ 1) do
     lines
-    |> Enum.map(&rparse/1)
+    |> Enum.map(&do_inlines/1)
     |> Enum.map(&wrap/1)
 
   end
@@ -47,7 +47,7 @@ defmodule Markdown do
     "<p>#{markdown}</p>"
   end
 
-  defp rparse(markdown) do
+  defp do_inlines(markdown) do
     trans = [
       __: "em",
       _: "i"
