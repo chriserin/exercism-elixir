@@ -30,7 +30,7 @@ defmodule Markdown do
     lines
     |> Enum.map(&rparse/1)
     |> Enum.map(&wrap/1)
-    |> Enum.join
+
   end
 
   defp wrap("#" <> _ = markdown) do
