@@ -1,0 +1,1604 @@
+** (SyntaxError) wordy.exs:29: unexpected token: "}". "(" starting at line 28 is missing terminator ")"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    wordy_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) wordy.exs:34: unexpected token: "~" (column 21, codepoint U+007E)
+    (elixir) lib/code.ex:321: Code.load_file/2
+    wordy_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) wordy.exs:34: unexpected token: "~" (column 21, codepoint U+007E)
+    (elixir) lib/code.ex:321: Code.load_file/2
+    wordy_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (ArgumentError) cannot inject attribute @symbols into function/macro because cannot escape #Function<0.103050652 in file:wordy.exs>. The supported values are: lists, tuples, maps, atoms, numbers, bitstrings, pids and remote functions in the format &Mod.fun/arity
+    (elixir) lib/kernel.ex:2366: Kernel.do_at/4
+    (elixir) expanding macro: Kernel.@/1
+    wordy.exs:39: Wordy.parse/1
+    (elixir) expanding macro: Kernel.|>/2
+    wordy.exs:36: Wordy.parse/1
+
+** (ArgumentError) cannot inject attribute @symbols into function/macro because cannot escape #Function<0.110507202 in file:wordy.exs>. The supported values are: lists, tuples, maps, atoms, numbers, bitstrings, pids and remote functions in the format &Mod.fun/arity
+    (elixir) lib/kernel.ex:2366: Kernel.do_at/4
+    (elixir) expanding macro: Kernel.@/1
+    wordy.exs:39: Wordy.parse/1
+    (elixir) expanding macro: Kernel.|>/2
+    wordy.exs:36: Wordy.parse/1
+
+** (ArgumentError) cannot inject attribute @symbols into function/macro because cannot escape #Function<0.110507202 in file:wordy.exs>. The supported values are: lists, tuples, maps, atoms, numbers, bitstrings, pids and remote functions in the format &Mod.fun/arity
+    (elixir) lib/kernel.ex:2366: Kernel.do_at/4
+    (elixir) expanding macro: Kernel.@/1
+    wordy.exs:39: Wordy.parse/1
+    (elixir) expanding macro: Kernel.|>/2
+    wordy.exs:36: Wordy.parse/1
+
+** (ArgumentError) cannot inject attribute @symbols into function/macro because cannot escape #Function<0.41356734 in file:wordy.exs>. The supported values are: lists, tuples, maps, atoms, numbers, bitstrings, pids and remote functions in the format &Mod.fun/arity
+    (elixir) lib/kernel.ex:2366: Kernel.do_at/4
+    (elixir) expanding macro: Kernel.@/1
+    wordy.exs:39: Wordy.parse/1
+    (elixir) expanding macro: Kernel.|>/2
+    wordy.exs:36: Wordy.parse/1
+
+** (ArgumentError) cannot inject attribute @symbols into function/macro because cannot escape #Function<0.121054825 in file:wordy.exs>. The supported values are: lists, tuples, maps, atoms, numbers, bitstrings, pids and remote functions in the format &Mod.fun/arity
+    (elixir) lib/kernel.ex:2366: Kernel.do_at/4
+    (elixir) expanding macro: Kernel.@/1
+    wordy.exs:39: Wordy.parse/1
+    (elixir) expanding macro: Kernel.|>/2
+    wordy.exs:36: Wordy.parse/1
+
+
+WordyTest
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test large addition  * test large addition (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test division  * test division (skipped)
+  * test addition[31m  * test addition (10.8ms)[0m
+
+  1) test addition (WordyTest)
+     [1m[30mwordy_test.exs:11[0m
+     [31m** (BadArityError) &:erlang.+/2 with arity 2 called with 1 argument (&:erlang.+/2)[0m
+     [36mstacktrace:[0m
+       wordy.exs:20: Wordy.execute/1
+       wordy_test.exs:12: (test)
+
+  * test multiplication  * test multiplication (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test more addition  * test more addition (skipped)
+  * test addition with negative numbers  * test addition with negative numbers (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test subtraction  * test subtraction (skipped)
+  * test Non math question  * test Non math question (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 957567
+
+WordyTest
+  * test addition[31m  * test addition (10.0ms)[0m
+
+  1) test addition (WordyTest)
+     [1m[30mwordy_test.exs:11[0m
+     [31m** (BadArityError) &:erlang.+/2 with arity 2 called with 1 argument (&:erlang.+/2)[0m
+     [36mstacktrace:[0m
+       wordy.exs:20: Wordy.execute/1
+       wordy_test.exs:12: (test)
+
+  * test more addition  * test more addition (skipped)
+  * test addition with negative numbers  * test addition with negative numbers (skipped)
+  * test large addition  * test large addition (skipped)
+  * test subtraction  * test subtraction (skipped)
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+
+WordyTest
+  * test addition[31m  * test addition (9.8ms)[0m
+
+  1) test addition (WordyTest)
+     [1m[30mwordy_test.exs:11[0m
+     [31m** (BadArityError) &:erlang.+/2 with arity 2 called with 1 argument (&:erlang.+/2)[0m
+     [36mstacktrace:[0m
+       wordy.exs:20: Wordy.execute/1
+       wordy_test.exs:12: (test)
+
+  * test more addition  * test more addition (skipped)
+  * test addition with negative numbers  * test addition with negative numbers (skipped)
+  * test large addition  * test large addition (skipped)
+  * test subtraction  * test subtraction (skipped)
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+
+WordyTest
+  * test addition[31m  * test addition (14.3ms)[0m
+
+  1) test addition (WordyTest)
+     [1m[30mwordy_test.exs:11[0m
+     [31m** (BadArityError) &:erlang.+/2 with arity 2 called with 1 argument (&:erlang.+/2)[0m
+     [36mstacktrace:[0m
+       wordy.exs:21: Wordy.execute/1
+       wordy_test.exs:12: (test)
+
+  * test more addition  * test more addition (skipped)
+  * test addition with negative numbers  * test addition with negative numbers (skipped)
+  * test large addition  * test large addition (skipped)
+  * test subtraction  * test subtraction (skipped)
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+
+WordyTest
+  * test addition[&:erlang.+/2, &:erlang.+/2]
+[31m  * test addition (12.1ms)[0m
+
+  1) test addition (WordyTest)
+     [1m[30mwordy_test.exs:11[0m
+     [31m** (BadArityError) &:erlang.+/2 with arity 2 called with 1 argument (&:erlang.+/2)[0m
+     [36mstacktrace:[0m
+       wordy.exs:20: Wordy.execute/1
+       wordy_test.exs:12: (test)
+
+  * test more addition  * test more addition (skipped)
+  * test addition with negative numbers  * test addition with negative numbers (skipped)
+  * test large addition  * test large addition (skipped)
+  * test subtraction  * test subtraction (skipped)
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+
+WordyTest
+  * test addition["plus", "?"]
+[&:erlang.+/2, &:erlang.+/2]
+[31m  * test addition (12.8ms)[0m
+
+  1) test addition (WordyTest)
+     [1m[30mwordy_test.exs:11[0m
+     [31m** (BadArityError) &:erlang.+/2 with arity 2 called with 1 argument (&:erlang.+/2)[0m
+     [36mstacktrace:[0m
+       wordy.exs:20: Wordy.execute/1
+       wordy_test.exs:12: (test)
+
+  * test more addition  * test more addition (skipped)
+  * test addition with negative numbers  * test addition with negative numbers (skipped)
+  * test large addition  * test large addition (skipped)
+  * test subtraction  * test subtraction (skipped)
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+
+WordyTest
+  * test addition["1", "plus", "1", "?"]
+[1, &:erlang.+/2, 1, &:erlang.+/2]
+[31m  * test addition (15.8ms)[0m
+
+  1) test addition (WordyTest)
+     [1m[30mwordy_test.exs:11[0m
+     [31m** (BadArityError) &:erlang.+/2 with arity 2 called with 1 argument (1)[0m
+     [36mstacktrace:[0m
+       wordy.exs:20: Wordy.execute/1
+       wordy_test.exs:12: (test)
+
+  * test more addition  * test more addition (skipped)
+  * test addition with negative numbers  * test addition with negative numbers (skipped)
+  * test large addition  * test large addition (skipped)
+  * test subtraction  * test subtraction (skipped)
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+
+WordyTest
+  * test addition["1", "plus", "1"]
+[1, &:erlang.+/2, 1]
+[32m  * test addition (16.7ms)[0m
+  * test more addition  * test more addition (skipped)
+  * test addition with negative numbers  * test addition with negative numbers (skipped)
+  * test large addition  * test large addition (skipped)
+  * test subtraction  * test subtraction (skipped)
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[32m16 tests, 0 failures, 15 skipped[0m
+
+Randomized with seed 0
+** (ArgumentError) cannot inject attribute @symbols into function/macro because cannot escape #Function<0.66080726 in file:wordy.exs>. The supported values are: lists, tuples, maps, atoms, numbers, bitstrings, pids and remote functions in the format &Mod.fun/arity
+    (elixir) lib/kernel.ex:2366: Kernel.do_at/4
+    (elixir) expanding macro: Kernel.@/1
+    wordy.exs:32: Wordy.get_op/1
+
+** (ArgumentError) cannot inject attribute @symbols into function/macro because cannot escape #Function<0.110200532 in file:wordy.exs>. The supported values are: lists, tuples, maps, atoms, numbers, bitstrings, pids and remote functions in the format &Mod.fun/arity
+    (elixir) lib/kernel.ex:2366: Kernel.do_at/4
+    (elixir) expanding macro: Kernel.@/1
+    wordy.exs:32: Wordy.get_op/1
+
+** (CompileError) wordy.exs:28: undefined function cube/1
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+** (CompileError) wordy.exs:32: undefined function cube/1
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[32m  * test addition (7.7ms)[0m
+  * test more addition  * test more addition (skipped)
+  * test addition with negative numbers  * test addition with negative numbers (skipped)
+  * test large addition  * test large addition (skipped)
+  * test subtraction  * test subtraction (skipped)
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m16 tests, 0 failures, 15 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[32m  * test addition (7.9ms)[0m
+  * test more addition[31m  * test more addition (3.7ms)[0m
+
+  1) test more addition (WordyTest)
+     [1m[30mwordy_test.exs:15[0m
+     [31m** (BadFunctionError) expected a function, got: 3[0m
+     [36mstacktrace:[0m
+       wordy.exs:20: Wordy.execute/1
+       wordy_test.exs:16: (test)
+
+  * test addition with negative numbers  * test addition with negative numbers (skipped)
+  * test large addition  * test large addition (skipped)
+  * test subtraction  * test subtraction (skipped)
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m16 tests, 1 failure, 14 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[32m  * test addition (7.9ms)[0m
+  * test more addition[31m  * test more addition (3.6ms)[0m
+
+  1) test more addition (WordyTest)
+     [1m[30mwordy_test.exs:15[0m
+     [31m** (BadFunctionError) expected a function, got: 3[0m
+     [36mstacktrace:[0m
+       wordy.exs:20: Wordy.execute/1
+       wordy_test.exs:16: (test)
+
+  * test addition with negative numbers  * test addition with negative numbers (skipped)
+  * test large addition  * test large addition (skipped)
+  * test subtraction  * test subtraction (skipped)
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m16 tests, 1 failure, 14 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (12.5ms)[0m
+  * test more addition[5, 3, &:erlang.+/2, 2]
+[31m  * test more addition (2.3ms)[0m
+
+  1) test more addition (WordyTest)
+     [1m[30mwordy_test.exs:15[0m
+     [31m** (BadFunctionError) expected a function, got: 3[0m
+     [36mstacktrace:[0m
+       wordy.exs:20: Wordy.execute/1
+       wordy_test.exs:16: (test)
+
+  * test addition with negative numbers  * test addition with negative numbers (skipped)
+  * test large addition  * test large addition (skipped)
+  * test subtraction  * test subtraction (skipped)
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m16 tests, 1 failure, 14 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (15.4ms)[0m
+  * test more addition[5, 3, &:erlang.+/2, 2]
+[31m  * test more addition (4.5ms)[0m
+
+  1) test more addition (WordyTest)
+     [1m[30mwordy_test.exs:15[0m
+     [31m** (BadFunctionError) expected a function, got: 3[0m
+     [36mstacktrace:[0m
+       wordy.exs:20: Wordy.execute/1
+       wordy_test.exs:16: (test)
+
+  * test addition with negative numbers  * test addition with negative numbers (skipped)
+  * test large addition  * test large addition (skipped)
+  * test subtraction  * test subtraction (skipped)
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.02s on tests)
+[31m16 tests, 1 failure, 14 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (11.9ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.1ms)[0m
+  * test addition with negative numbers  * test addition with negative numbers (skipped)
+  * test large addition  * test large addition (skipped)
+  * test subtraction  * test subtraction (skipped)
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures, 14 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (11.7ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.1ms)[0m
+  * test addition with negative numbers[&:erlang.+/2, 1, &:erlang.+/2, 10]
+[31m  * test addition with negative numbers (3.4ms)[0m
+
+  1) test addition with negative numbers (WordyTest)
+     [1m[30mwordy_test.exs:19[0m
+     [31m** (BadFunctionError) expected a function, got: 1[0m
+     [36mstacktrace:[0m
+       wordy.exs:20: Wordy.execute/1
+       wordy_test.exs:20: (test)
+
+  * test large addition  * test large addition (skipped)
+  * test subtraction  * test subtraction (skipped)
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m16 tests, 1 failure, 13 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (11.4ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.2ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.1ms)[0m
+  * test large addition  * test large addition (skipped)
+  * test subtraction  * test subtraction (skipped)
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures, 13 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (10.9ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.1ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.1ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.1ms)[0m
+  * test subtraction  * test subtraction (skipped)
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures, 12 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (13.8ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.1ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.1ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.1ms)[0m
+  * test subtraction[4, &:erlang.+/2, -12]
+[31m  * test subtraction (2.4ms)[0m
+
+  1) test subtraction (WordyTest)
+     [1m[30mwordy_test.exs:27[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mWordy.answer("What is 4 minus -12?") == 16
+     [36mlhs:  [0m[31m-8[0m
+     [36mrhs:  [0m[32m16[0m
+     [36mstacktrace:[0m
+       wordy_test.exs:28: (test)
+
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m16 tests, 1 failure, 11 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (11.5ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.1ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.1ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.1ms)[0m
+  * test subtraction[4, &:erlang.-/2, -12]
+[32m  * test subtraction (0.1ms)[0m
+  * test multiplication  * test multiplication (skipped)
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures, 11 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (11.2ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.1ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.1ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.1ms)[0m
+  * test subtraction[4, &:erlang.-/2, -12]
+[32m  * test subtraction (0.1ms)[0m
+  * test multiplication[-3, &:erlang.*/2, 25]
+[32m  * test multiplication (0.2ms)[0m
+  * test division  * test division (skipped)
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures, 10 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (11.1ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.1ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.1ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.1ms)[0m
+  * test subtraction[4, &:erlang.-/2, -12]
+[32m  * test subtraction (0.1ms)[0m
+  * test multiplication[-3, &:erlang.*/2, 25]
+[32m  * test multiplication (0.1ms)[0m
+  * test division[33, &:erlang.div/2, -3]
+[32m  * test division (0.1ms)[0m
+  * test multiple additions  * test multiple additions (skipped)
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures, 9 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (11.5ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.2ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.1ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.2ms)[0m
+  * test subtraction[4, &:erlang.-/2, -12]
+[32m  * test subtraction (0.1ms)[0m
+  * test multiplication[-3, &:erlang.*/2, 25]
+[32m  * test multiplication (0.2ms)[0m
+  * test division[33, &:erlang.div/2, -3]
+[32m  * test division (0.1ms)[0m
+  * test multiple additions[1, &:erlang.+/2, 1, &:erlang.+/2, 1]
+[32m  * test multiple additions (0.1ms)[0m
+  * test addition and subtraction  * test addition and subtraction (skipped)
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures, 8 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (13.8ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.4ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.3ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.3ms)[0m
+  * test subtraction[4, &:erlang.-/2, -12]
+[32m  * test subtraction (0.3ms)[0m
+[-3, &:erlang.*/2, 25]
+  * test multiplication[33, &:erlang.div/2, -3]
+[32m  * test multiplication (0.2ms)[0m
+  * test division[32m  * test division (0.2ms)[0m
+  * test multiple additions[1, &:erlang.+/2, 1, &:erlang.+/2, 1]
+[32m  * test multiple additions (0.3ms)[0m
+  * test addition and subtraction[1, &:erlang.+/2, 5, &:erlang.-/2, -2]
+[32m  * test addition and subtraction (0.5ms)[0m
+  * test multiple subtraction  * test multiple subtraction (skipped)
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (11.2ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.2ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.1ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.2ms)[0m
+  * test subtraction[4, &:erlang.-/2, -12]
+[32m  * test subtraction (0.2ms)[0m
+  * test multiplication[-3, &:erlang.*/2, 25]
+[32m  * test multiplication (0.2ms)[0m
+  * test division[33, &:erlang.div/2, -3]
+[32m  * test division (0.1ms)[0m
+  * test multiple additions[1, &:erlang.+/2, 1, &:erlang.+/2, 1]
+[32m  * test multiple additions (0.2ms)[0m
+  * test addition and subtraction[1, &:erlang.+/2, 5, &:erlang.-/2, -2]
+[32m  * test addition and subtraction (0.2ms)[0m
+  * test multiple subtraction[20, &:erlang.-/2, 4, &:erlang.-/2, 13]
+[32m  * test multiple subtraction (0.1ms)[0m
+  * test subtraction then addition  * test subtraction then addition (skipped)
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (11.7ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[-1, &:erlang.+/2, -10]
+[32m  * test more addition (0.1ms)[0m
+  * test addition with negative numbers[32m  * test addition with negative numbers (0.1ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[4, &:erlang.-/2, -12]
+[32m  * test large addition (0.1ms)[0m
+  * test subtraction[32m  * test subtraction (0.1ms)[0m
+  * test multiplication[-3, &:erlang.*/2, 25]
+[33, &:erlang.div/2, -3]
+[1, &:erlang.+/2, 1, &:erlang.+/2, 1]
+[32m  * test multiplication (0.2ms)[0m
+  * test division[32m  * test division (0.1ms)[0m
+  * test multiple additions[32m  * test multiple additions (0.1ms)[0m
+  * test addition and subtraction[1, &:erlang.+/2, 5, &:erlang.-/2, -2]
+[32m  * test addition and subtraction (0.1ms)[0m
+  * test multiple subtraction[20, &:erlang.-/2, 4, &:erlang.-/2, 13]
+[32m  * test multiple subtraction (0.2ms)[0m
+  * test subtraction then addition[17, &:erlang.-/2, 6, &:erlang.+/2, 3]
+[32m  * test subtraction then addition (0.1ms)[0m
+  * test multiple multiplication  * test multiple multiplication (skipped)
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (11.2ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.2ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.1ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.1ms)[0m
+  * test subtraction[4, &:erlang.-/2, -12]
+[32m  * test subtraction (0.1ms)[0m
+  * test multiplication[-3, &:erlang.*/2, 25]
+[33, &:erlang.div/2, -3]
+[32m  * test multiplication (0.2ms)[0m
+  * test division[32m  * test division (0.1ms)[0m
+  * test multiple additions[1, &:erlang.+/2, 1, &:erlang.+/2, 1]
+[32m  * test multiple additions (0.1ms)[0m
+  * test addition and subtraction[1, &:erlang.+/2, 5, &:erlang.-/2, -2]
+[20, &:erlang.-/2, 4, &:erlang.-/2, 13]
+[17, &:erlang.-/2, 6, &:erlang.+/2, 3]
+[2, &:erlang.*/2, -2, &:erlang.*/2, 3]
+[32m  * test addition and subtraction (0.2ms)[0m
+  * test multiple subtraction[32m  * test multiple subtraction (0.1ms)[0m
+  * test subtraction then addition[32m  * test subtraction then addition (0.1ms)[0m
+  * test multiple multiplication[32m  * test multiple multiplication (0.1ms)[0m
+  * test addition and multiplication  * test addition and multiplication (skipped)
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (13.8ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.3ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.2ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.1ms)[0m
+  * test subtraction[4, &:erlang.-/2, -12]
+[32m  * test subtraction (0.2ms)[0m
+  * test multiplication[-3, &:erlang.*/2, 25]
+[32m  * test multiplication (0.2ms)[0m
+  * test division[33, &:erlang.div/2, -3]
+[32m  * test division (0.2ms)[0m
+  * test multiple additions[1, &:erlang.+/2, 1, &:erlang.+/2, 1]
+[32m  * test multiple additions (0.2ms)[0m
+  * test addition and subtraction[1, &:erlang.+/2, 5, &:erlang.-/2, -2]
+[32m  * test addition and subtraction (0.2ms)[0m
+  * test multiple subtraction[20, &:erlang.-/2, 4, &:erlang.-/2, 13]
+[32m  * test multiple subtraction (0.3ms)[0m
+  * test subtraction then addition[17, &:erlang.-/2, 6, &:erlang.+/2, 3]
+[32m  * test subtraction then addition (0.2ms)[0m
+  * test multiple multiplication[2, &:erlang.*/2, -2, &:erlang.*/2, 3]
+[32m  * test multiple multiplication (0.2ms)[0m
+  * test addition and multiplication[-3, &:erlang.+/2, 7, &:erlang.*/2, -2]
+[32m  * test addition and multiplication (0.2ms)[0m
+  * test multiple division  * test multiple division (skipped)
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (11.9ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.5ms)[0m
+[-1, &:erlang.+/2, -10]
+  * test addition with negative numbers[32m  * test addition with negative numbers (0.1ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.2ms)[0m
+  * test subtraction[4, &:erlang.-/2, -12]
+[32m  * test subtraction (0.3ms)[0m
+  * test multiplication[-3, &:erlang.*/2, 25]
+[32m  * test multiplication (0.1ms)[0m
+[33, &:erlang.div/2, -3]
+  * test division[32m  * test division (0.2ms)[0m
+  * test multiple additions[1, &:erlang.+/2, 1, &:erlang.+/2, 1]
+[32m  * test multiple additions (0.2ms)[0m
+  * test addition and subtraction[1, &:erlang.+/2, 5, &:erlang.-/2, -2]
+[32m  * test addition and subtraction (0.1ms)[0m
+  * test multiple subtraction[20, &:erlang.-/2, 4, &:erlang.-/2, 13]
+[32m  * test multiple subtraction (0.1ms)[0m
+  * test subtraction then addition[17, &:erlang.-/2, 6, &:erlang.+/2, 3]
+[32m  * test subtraction then addition (0.2ms)[0m
+[2, &:erlang.*/2, -2, &:erlang.*/2, 3]
+  * test multiple multiplication[32m  * test multiple multiplication (0.2ms)[0m
+  * test addition and multiplication[-3, &:erlang.+/2, 7, &:erlang.*/2, -2]
+[32m  * test addition and multiplication (0.1ms)[0m
+  * test multiple division[-12, &:erlang.div/2, 2, &:erlang.div/2, -3]
+[32m  * test multiple division (0.1ms)[0m
+  * test unknown operation  * test unknown operation (skipped)
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mfunction cube/1 is unused
+  wordy.exs:23
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (11.9ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.2ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.2ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.1ms)[0m
+  * test subtraction[4, &:erlang.-/2, -12]
+[32m  * test subtraction (0.1ms)[0m
+  * test multiplication[-3, &:erlang.*/2, 25]
+[32m  * test multiplication (0.1ms)[0m
+  * test division[33, &:erlang.div/2, -3]
+[32m  * test division (0.2ms)[0m
+  * test multiple additions[1, &:erlang.+/2, 1, &:erlang.+/2, 1]
+[32m  * test multiple additions (0.1ms)[0m
+  * test addition and subtraction[1, &:erlang.+/2, 5, &:erlang.-/2, -2]
+[32m  * test addition and subtraction (0.1ms)[0m
+  * test multiple subtraction[20, &:erlang.-/2, 4, &:erlang.-/2, 13]
+[32m  * test multiple subtraction (0.2ms)[0m
+  * test subtraction then addition[17, &:erlang.-/2, 6, &:erlang.+/2, 3]
+[32m  * test subtraction then addition (0.1ms)[0m
+  * test multiple multiplication[2, &:erlang.*/2, -2, &:erlang.*/2, 3]
+[32m  * test multiple multiplication (0.1ms)[0m
+  * test addition and multiplication[-3, &:erlang.+/2, 7, &:erlang.*/2, -2]
+[32m  * test addition and multiplication (0.1ms)[0m
+  * test multiple division[-12, &:erlang.div/2, 2, &:erlang.div/2, -3]
+[32m  * test multiple division (0.1ms)[0m
+  * test unknown operation[52, &Wordy.cube/1]
+[31m  * test unknown operation (7.0ms)[0m
+
+  1) test unknown operation (WordyTest)
+     [1m[30mwordy_test.exs:67[0m
+     [31mExpected exception ArgumentError but got UndefinedFunctionError (function Wordy.cube/1 is undefined or private)[0m
+     [36mstacktrace:[0m
+       Wordy.cube(52)
+       wordy.exs:20: Wordy.execute/1
+       wordy_test.exs:68: (test)
+
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.02s on tests)
+[31m16 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (13.4ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.3ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.2ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.2ms)[0m
+  * test subtraction[4, &:erlang.-/2, -12]
+[32m  * test subtraction (0.1ms)[0m
+  * test multiplication[-3, &:erlang.*/2, 25]
+[32m  * test multiplication (0.2ms)[0m
+  * test division[33, &:erlang.div/2, -3]
+[32m  * test division (0.1ms)[0m
+  * test multiple additions[1, &:erlang.+/2, 1, &:erlang.+/2, 1]
+[32m  * test multiple additions (0.2ms)[0m
+  * test addition and subtraction[1, &:erlang.+/2, 5, &:erlang.-/2, -2]
+[32m  * test addition and subtraction (0.2ms)[0m
+  * test multiple subtraction[20, &:erlang.-/2, 4, &:erlang.-/2, 13]
+[32m  * test multiple subtraction (0.2ms)[0m
+  * test subtraction then addition[17, &:erlang.-/2, 6, &:erlang.+/2, 3]
+[32m  * test subtraction then addition (0.2ms)[0m
+  * test multiple multiplication[2, &:erlang.*/2, -2, &:erlang.*/2, 3]
+[32m  * test multiple multiplication (0.2ms)[0m
+  * test addition and multiplication[-3, &:erlang.+/2, 7, &:erlang.*/2, -2]
+[32m  * test addition and multiplication (0.1ms)[0m
+  * test multiple division[-12, &:erlang.div/2, 2, &:erlang.div/2, -3]
+[32m  * test multiple division (0.2ms)[0m
+  * test unknown operation[52, &Wordy.cube/1]
+[31m  * test unknown operation (3.6ms)[0m
+
+  1) test unknown operation (WordyTest)
+     [1m[30mwordy_test.exs:67[0m
+     [31mExpected exception ArgumentError but nothing was raised[0m
+     [36mstacktrace:[0m
+       wordy_test.exs:68: (test)
+
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.08s on load, 0.02s on tests)
+[31m16 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable n is unused
+  wordy.exs:18
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (11.1ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.1ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.2ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.1ms)[0m
+  * test subtraction[4, &:erlang.-/2, -12]
+[32m  * test subtraction (0.1ms)[0m
+  * test multiplication[-3, &:erlang.*/2, 25]
+[32m  * test multiplication (0.1ms)[0m
+  * test division[33, &:erlang.div/2, -3]
+[32m  * test division (0.1ms)[0m
+  * test multiple additions[1, &:erlang.+/2, 1, &:erlang.+/2, 1]
+[32m  * test multiple additions (0.1ms)[0m
+[1, &:erlang.+/2, 5, &:erlang.-/2, -2]
+  * test addition and subtraction[32m  * test addition and subtraction (0.2ms)[0m
+  * test multiple subtraction[20, &:erlang.-/2, 4, &:erlang.-/2, 13]
+[32m  * test multiple subtraction (0.1ms)[0m
+  * test subtraction then addition[17, &:erlang.-/2, 6, &:erlang.+/2, 3]
+[32m  * test subtraction then addition (0.2ms)[0m
+  * test multiple multiplication[2, &:erlang.*/2, -2, &:erlang.*/2, 3]
+[32m  * test multiple multiplication (0.2ms)[0m
+  * test addition and multiplication[-3, &:erlang.+/2, 7, &:erlang.*/2, -2]
+[32m  * test addition and multiplication (0.2ms)[0m
+  * test multiple division[-12, &:erlang.div/2, 2, &:erlang.div/2, -3]
+[32m  * test multiple division (0.2ms)[0m
+  * test unknown operation[52, &Wordy.cube/1]
+[32m  * test unknown operation (1.6ms)[0m
+  * test Non math question  * test Non math question (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable n is unused
+  wordy.exs:18
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (12.2ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[-1, &:erlang.+/2, -10]
+[32m  * test more addition (0.1ms)[0m
+  * test addition with negative numbers[32m  * test addition with negative numbers (0.1ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[4, &:erlang.-/2, -12]
+[32m  * test large addition (0.1ms)[0m
+  * test subtraction[32m  * test subtraction (0.1ms)[0m
+  * test multiplication[-3, &:erlang.*/2, 25]
+[32m  * test multiplication (0.2ms)[0m
+  * test division[33, &:erlang.div/2, -3]
+[32m  * test division (0.1ms)[0m
+  * test multiple additions[1, &:erlang.+/2, 1, &:erlang.+/2, 1]
+[32m  * test multiple additions (0.1ms)[0m
+  * test addition and subtraction[1, &:erlang.+/2, 5, &:erlang.-/2, -2]
+[32m  * test addition and subtraction (0.2ms)[0m
+[20, &:erlang.-/2, 4, &:erlang.-/2, 13]
+  * test multiple subtraction[32m  * test multiple subtraction (0.1ms)[0m
+  * test subtraction then addition[17, &:erlang.-/2, 6, &:erlang.+/2, 3]
+[2, &:erlang.*/2, -2, &:erlang.*/2, 3]
+[32m  * test subtraction then addition (0.2ms)[0m
+  * test multiple multiplication[32m  * test multiple multiplication (0.1ms)[0m
+  * test addition and multiplication[-3, &:erlang.+/2, 7, &:erlang.*/2, -2]
+[32m  * test addition and multiplication (0.2ms)[0m
+  * test multiple division[-12, &:erlang.div/2, 2, &:erlang.div/2, -3]
+[32m  * test multiple division (0.2ms)[0m
+  * test unknown operation[52, &Wordy.cube/1]
+[32m  * test unknown operation (1.7ms)[0m
+  * test Non math question[31m  * test Non math question (8.0ms)[0m
+
+  1) test Non math question (WordyTest)
+     [1m[30mwordy_test.exs:73[0m
+     [31mExpected exception ArgumentError but got KeyError (key "Who is the President of the United States" not found in: %{"cubed" => &Wordy.cube/1, "divided by" => &:erlang.div/2, "minus" => &:erlang.-/2, "multiplied by" => &:erlang.*/2, "plus" => &:erlang.+/2})[0m
+     [36mstacktrace:[0m
+       (elixir) lib/map.ex:164: Map.fetch!/2
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       wordy.exs:44: Wordy.parse/1
+       wordy.exs:8: Wordy.answer/1
+       wordy_test.exs:74: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.02s on tests)
+[31m16 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable n is unused
+  wordy.exs:18
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (11.2ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.1ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.2ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.2ms)[0m
+  * test subtraction[4, &:erlang.-/2, -12]
+[32m  * test subtraction (0.1ms)[0m
+  * test multiplication[-3, &:erlang.*/2, 25]
+[32m  * test multiplication (0.1ms)[0m
+  * test division[33, &:erlang.div/2, -3]
+[32m  * test division (0.1ms)[0m
+  * test multiple additions[1, &:erlang.+/2, 1, &:erlang.+/2, 1]
+[32m  * test multiple additions (0.1ms)[0m
+  * test addition and subtraction[1, &:erlang.+/2, 5, &:erlang.-/2, -2]
+[32m  * test addition and subtraction (0.1ms)[0m
+  * test multiple subtraction[20, &:erlang.-/2, 4, &:erlang.-/2, 13]
+[32m  * test multiple subtraction (0.1ms)[0m
+  * test subtraction then addition[17, &:erlang.-/2, 6, &:erlang.+/2, 3]
+[32m  * test subtraction then addition (0.1ms)[0m
+  * test multiple multiplication[2, &:erlang.*/2, -2, &:erlang.*/2, 3]
+[32m  * test multiple multiplication (0.1ms)[0m
+  * test addition and multiplication[-3, &:erlang.+/2, 7, &:erlang.*/2, -2]
+[32m  * test addition and multiplication (0.1ms)[0m
+  * test multiple division[-12, &:erlang.div/2, 2, &:erlang.div/2, -3]
+[32m  * test multiple division (0.2ms)[0m
+  * test unknown operation[31m  * test unknown operation (5.1ms)[0m
+
+  1) test unknown operation (WordyTest)
+     [1m[30mwordy_test.exs:67[0m
+     [31mExpected exception ArgumentError but got KeyError (key "cubed" not found in: %{"divided by" => &:erlang.div/2, "minus" => &:erlang.-/2, "multiplied by" => &:erlang.*/2, "plus" => &:erlang.+/2})[0m
+     [36mstacktrace:[0m
+       (elixir) lib/map.ex:164: Map.fetch!/2
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       wordy.exs:39: Wordy.parse/1
+       wordy.exs:8: Wordy.answer/1
+       wordy_test.exs:68: (test)
+
+  * test Non math question[31m  * test Non math question (5.6ms)[0m
+
+  2) test Non math question (WordyTest)
+     [1m[30mwordy_test.exs:73[0m
+     [31mExpected exception ArgumentError but got FunctionClauseError (no function clause matching in Wordy.answer/1)[0m
+     [36mstacktrace:[0m
+       wordy.exs:7: Wordy.answer("Who is the President of the United States?")
+       wordy_test.exs:74: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.02s on tests)
+[31m16 tests, 2 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable n is unused
+  wordy.exs:18
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (11.6ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.2ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.1ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.1ms)[0m
+  * test subtraction[4, &:erlang.-/2, -12]
+[32m  * test subtraction (0.1ms)[0m
+  * test multiplication[-3, &:erlang.*/2, 25]
+[32m  * test multiplication (0.1ms)[0m
+  * test division[33, &:erlang.div/2, -3]
+[32m  * test division (0.1ms)[0m
+  * test multiple additions[1, &:erlang.+/2, 1, &:erlang.+/2, 1]
+[32m  * test multiple additions (0.1ms)[0m
+  * test addition and subtraction[1, &:erlang.+/2, 5, &:erlang.-/2, -2]
+[32m  * test addition and subtraction (0.2ms)[0m
+  * test multiple subtraction[20, &:erlang.-/2, 4, &:erlang.-/2, 13]
+[32m  * test multiple subtraction (0.2ms)[0m
+  * test subtraction then addition[17, &:erlang.-/2, 6, &:erlang.+/2, 3]
+[32m  * test subtraction then addition (0.1ms)[0m
+  * test multiple multiplication[2, &:erlang.*/2, -2, &:erlang.*/2, 3]
+[32m  * test multiple multiplication (0.2ms)[0m
+  * test addition and multiplication[-3, &:erlang.+/2, 7, &:erlang.*/2, -2]
+[32m  * test addition and multiplication (0.2ms)[0m
+  * test multiple division[-12, &:erlang.div/2, 2, &:erlang.div/2, -3]
+[32m  * test multiple division (0.1ms)[0m
+  * test unknown operation[31m  * test unknown operation (5.9ms)[0m
+
+  1) test unknown operation (WordyTest)
+     [1m[30mwordy_test.exs:67[0m
+     [31mExpected exception ArgumentError but got KeyError (key "cubed" not found in: %{"divided by" => &:erlang.div/2, "minus" => &:erlang.-/2, "multiplied by" => &:erlang.*/2, "plus" => &:erlang.+/2})[0m
+     [36mstacktrace:[0m
+       (elixir) lib/map.ex:164: Map.fetch!/2
+       wordy.exs:30: Wordy.get_op/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       wordy.exs:39: Wordy.parse/1
+       wordy.exs:8: Wordy.answer/1
+       wordy_test.exs:68: (test)
+
+  * test Non math question[31m  * test Non math question (3.4ms)[0m
+
+  2) test Non math question (WordyTest)
+     [1m[30mwordy_test.exs:73[0m
+     [31mExpected exception ArgumentError but got FunctionClauseError (no function clause matching in Wordy.answer/1)[0m
+     [36mstacktrace:[0m
+       wordy.exs:7: Wordy.answer("Who is the President of the United States?")
+       wordy_test.exs:74: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.02s on tests)
+[31m16 tests, 2 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable n is unused
+  wordy.exs:18
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (10.9ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.1ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.1ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.1ms)[0m
+  * test subtraction[4, &:erlang.-/2, -12]
+[32m  * test subtraction (0.1ms)[0m
+  * test multiplication[-3, &:erlang.*/2, 25]
+[32m  * test multiplication (0.1ms)[0m
+  * test division[33, &:erlang.div/2, -3]
+[32m  * test division (0.1ms)[0m
+  * test multiple additions[1, &:erlang.+/2, 1, &:erlang.+/2, 1]
+[32m  * test multiple additions (0.1ms)[0m
+  * test addition and subtraction[1, &:erlang.+/2, 5, &:erlang.-/2, -2]
+[32m  * test addition and subtraction (0.1ms)[0m
+  * test multiple subtraction[20, &:erlang.-/2, 4, &:erlang.-/2, 13]
+[32m  * test multiple subtraction (0.2ms)[0m
+  * test subtraction then addition[17, &:erlang.-/2, 6, &:erlang.+/2, 3]
+[32m  * test subtraction then addition (0.1ms)[0m
+  * test multiple multiplication[2, &:erlang.*/2, -2, &:erlang.*/2, 3]
+[32m  * test multiple multiplication (0.1ms)[0m
+  * test addition and multiplication[-3, &:erlang.+/2, 7, &:erlang.*/2, -2]
+[32m  * test addition and multiplication (0.1ms)[0m
+  * test multiple division[-12, &:erlang.div/2, 2, &:erlang.div/2, -3]
+[32m  * test multiple division (0.1ms)[0m
+  * test unknown operation[52, :placeholder]
+[32m  * test unknown operation (1.5ms)[0m
+  * test Non math question[31m  * test Non math question (3.4ms)[0m
+
+  1) test Non math question (WordyTest)
+     [1m[30mwordy_test.exs:73[0m
+     [31mExpected exception ArgumentError but got FunctionClauseError (no function clause matching in Wordy.answer/1)[0m
+     [36mstacktrace:[0m
+       wordy.exs:7: Wordy.answer("Who is the President of the United States?")
+       wordy_test.exs:74: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m16 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable question is unused
+  wordy.exs:7
+
+[33mwarning: [0mvariable n is unused
+  wordy.exs:19
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (11.7ms)[0m
+[53, &:erlang.+/2, 2]
+[-1, &:erlang.+/2, -10]
+  * test more addition[32m  * test more addition (0.2ms)[0m
+  * test addition with negative numbers[32m  * test addition with negative numbers (0.1ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[4, &:erlang.-/2, -12]
+[-3, &:erlang.*/2, 25]
+[33, &:erlang.div/2, -3]
+[1, &:erlang.+/2, 1, &:erlang.+/2, 1]
+[32m  * test large addition (0.3ms)[0m
+  * test subtraction[32m  * test subtraction (0.1ms)[0m
+  * test multiplication[32m  * test multiplication (0.1ms)[0m
+  * test division[32m  * test division (0.2ms)[0m
+  * test multiple additions[1, &:erlang.+/2, 5, &:erlang.-/2, -2]
+[32m  * test multiple additions (0.1ms)[0m
+  * test addition and subtraction[32m  * test addition and subtraction (0.1ms)[0m
+  * test multiple subtraction[20, &:erlang.-/2, 4, &:erlang.-/2, 13]
+[32m  * test multiple subtraction (0.1ms)[0m
+  * test subtraction then addition[17, &:erlang.-/2, 6, &:erlang.+/2, 3]
+[32m  * test subtraction then addition (0.2ms)[0m
+  * test multiple multiplication[2, &:erlang.*/2, -2, &:erlang.*/2, 3]
+[32m  * test multiple multiplication (0.2ms)[0m
+  * test addition and multiplication[-3, &:erlang.+/2, 7, &:erlang.*/2, -2]
+[32m  * test addition and multiplication (0.2ms)[0m
+  * test multiple division[-12, &:erlang.div/2, 2, &:erlang.div/2, -3]
+[32m  * test multiple division (0.2ms)[0m
+  * test unknown operation[52, :placeholder]
+[32m  * test unknown operation (2.0ms)[0m
+  * test Non math question[32m  * test Non math question (0.02ms)[0m
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable question is unused
+  wordy.exs:10
+
+[33mwarning: [0mvariable n is unused
+  wordy.exs:22
+
+
+WordyTest
+  * test addition[1, &:erlang.+/2, 1]
+[32m  * test addition (11.5ms)[0m
+  * test more addition[53, &:erlang.+/2, 2]
+[32m  * test more addition (0.1ms)[0m
+  * test addition with negative numbers[-1, &:erlang.+/2, -10]
+[32m  * test addition with negative numbers (0.1ms)[0m
+  * test large addition[123, &:erlang.+/2, 45678]
+[32m  * test large addition (0.1ms)[0m
+  * test subtraction[4, &:erlang.-/2, -12]
+[32m  * test subtraction (0.2ms)[0m
+  * test multiplication[-3, &:erlang.*/2, 25]
+[32m  * test multiplication (0.1ms)[0m
+  * test division[33, &:erlang.div/2, -3]
+[32m  * test division (0.1ms)[0m
+  * test multiple additions[1, &:erlang.+/2, 1, &:erlang.+/2, 1]
+[32m  * test multiple additions (0.2ms)[0m
+  * test addition and subtraction[1, &:erlang.+/2, 5, &:erlang.-/2, -2]
+[32m  * test addition and subtraction (0.2ms)[0m
+  * test multiple subtraction[20, &:erlang.-/2, 4, &:erlang.-/2, 13]
+[32m  * test multiple subtraction (0.1ms)[0m
+  * test subtraction then addition[17, &:erlang.-/2, 6, &:erlang.+/2, 3]
+[32m  * test subtraction then addition (0.1ms)[0m
+  * test multiple multiplication[2, &:erlang.*/2, -2, &:erlang.*/2, 3]
+[32m  * test multiple multiplication (0.1ms)[0m
+  * test addition and multiplication[-3, &:erlang.+/2, 7, &:erlang.*/2, -2]
+[32m  * test addition and multiplication (0.1ms)[0m
+  * test multiple division[-12, &:erlang.div/2, 2, &:erlang.div/2, -3]
+[52, :placeholder]
+[32m  * test multiple division (0.1ms)[0m
+  * test unknown operation[32m  * test unknown operation (1.5ms)[0m
+  * test Non math question[32m  * test Non math question (0.02ms)[0m
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable question is unused
+  wordy.exs:10
+
+[33mwarning: [0mvariable n is unused
+  wordy.exs:22
+
+
+WordyTest
+  * test addition[32m  * test addition (7.8ms)[0m
+  * test more addition[32m  * test more addition (1.0ms)[0m
+  * test addition with negative numbers[32m  * test addition with negative numbers (0.09ms)[0m
+  * test large addition[32m  * test large addition (0.1ms)[0m
+  * test subtraction[32m  * test subtraction (0.08ms)[0m
+  * test multiplication[32m  * test multiplication (0.07ms)[0m
+  * test division[32m  * test division (0.1ms)[0m
+  * test multiple additions[32m  * test multiple additions (0.1ms)[0m
+  * test addition and subtraction[32m  * test addition and subtraction (0.1ms)[0m
+  * test multiple subtraction[32m  * test multiple subtraction (0.1ms)[0m
+  * test subtraction then addition[32m  * test subtraction then addition (0.1ms)[0m
+  * test multiple multiplication[32m  * test multiple multiplication (0.08ms)[0m
+  * test addition and multiplication[32m  * test addition and multiplication (0.07ms)[0m
+  * test multiple division[32m  * test multiple division (0.08ms)[0m
+  * test unknown operation[32m  * test unknown operation (2.0ms)[0m
+  * test Non math question[32m  * test Non math question (0.02ms)[0m
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable question is unused
+  wordy.exs:10
+
+[33mwarning: [0mvariable n is unused
+  wordy.exs:25
+
+
+WordyTest
+  * test addition[32m  * test addition (7.6ms)[0m
+  * test more addition[32m  * test more addition (0.9ms)[0m
+  * test addition with negative numbers[32m  * test addition with negative numbers (0.1ms)[0m
+  * test large addition[32m  * test large addition (0.09ms)[0m
+  * test subtraction[32m  * test subtraction (0.05ms)[0m
+  * test multiplication[32m  * test multiplication (0.07ms)[0m
+  * test division[32m  * test division (0.08ms)[0m
+  * test multiple additions[32m  * test multiple additions (0.08ms)[0m
+  * test addition and subtraction[32m  * test addition and subtraction (0.08ms)[0m
+  * test multiple subtraction[32m  * test multiple subtraction (0.1ms)[0m
+  * test subtraction then addition[32m  * test subtraction then addition (0.08ms)[0m
+  * test multiple multiplication[32m  * test multiple multiplication (0.07ms)[0m
+  * test addition and multiplication[32m  * test addition and multiplication (0.1ms)[0m
+  * test multiple division[32m  * test multiple division (0.09ms)[0m
+  * test unknown operation[32m  * test unknown operation (1.4ms)[0m
+  * test Non math question[32m  * test Non math question (0.01ms)[0m
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable question is unused
+  wordy.exs:10
+
+[33mwarning: [0mvariable n is unused
+  wordy.exs:25
+
+
+WordyTest
+  * test addition[32m  * test addition (7.8ms)[0m
+  * test more addition[32m  * test more addition (0.9ms)[0m
+  * test addition with negative numbers[32m  * test addition with negative numbers (0.09ms)[0m
+  * test large addition[32m  * test large addition (0.1ms)[0m
+  * test subtraction[32m  * test subtraction (0.07ms)[0m
+  * test multiplication[32m  * test multiplication (0.08ms)[0m
+  * test division[32m  * test division (0.07ms)[0m
+  * test multiple additions[32m  * test multiple additions (0.09ms)[0m
+  * test addition and subtraction[32m  * test addition and subtraction (0.09ms)[0m
+  * test multiple subtraction[32m  * test multiple subtraction (0.1ms)[0m
+  * test subtraction then addition[32m  * test subtraction then addition (0.1ms)[0m
+  * test multiple multiplication[32m  * test multiple multiplication (0.1ms)[0m
+  * test addition and multiplication[32m  * test addition and multiplication (0.07ms)[0m
+  * test multiple division[32m  * test multiple division (0.09ms)[0m
+  * test unknown operation[32m  * test unknown operation (1.6ms)[0m
+  * test Non math question[32m  * test Non math question (0.02ms)[0m
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable question is unused
+  wordy.exs:10
+
+[33mwarning: [0mvariable n is unused
+  wordy.exs:25
+
+
+WordyTest
+  * test addition[32m  * test addition (7.8ms)[0m
+  * test more addition[32m  * test more addition (0.9ms)[0m
+  * test addition with negative numbers[32m  * test addition with negative numbers (0.09ms)[0m
+  * test large addition[32m  * test large addition (0.1ms)[0m
+  * test subtraction[32m  * test subtraction (0.07ms)[0m
+  * test multiplication[32m  * test multiplication (0.07ms)[0m
+  * test division[32m  * test division (0.07ms)[0m
+  * test multiple additions[32m  * test multiple additions (0.1ms)[0m
+  * test addition and subtraction[32m  * test addition and subtraction (0.1ms)[0m
+  * test multiple subtraction[32m  * test multiple subtraction (0.1ms)[0m
+  * test subtraction then addition[32m  * test subtraction then addition (0.1ms)[0m
+  * test multiple multiplication[32m  * test multiple multiplication (0.1ms)[0m
+  * test addition and multiplication[32m  * test addition and multiplication (0.1ms)[0m
+  * test multiple division[32m  * test multiple division (0.08ms)[0m
+  * test unknown operation[32m  * test unknown operation (1.4ms)[0m
+  * test Non math question[32m  * test Non math question (0.01ms)[0m
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m16 tests, 0 failures[0m
+
+Randomized with seed 0
