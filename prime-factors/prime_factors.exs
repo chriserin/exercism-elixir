@@ -14,12 +14,13 @@ defmodule PrimeFactors do
 
   defp do_factors_for(1, acc), do: Enum.reverse(acc)
   defp do_factors_for(number, acc) do
-    factor = 2..number
-    |> Enum.find(fn(x) -> rem(number, x) == 0 end)
+    top_num = round(Float.ceil(:math.sqrt(number)))
+    factor = (List.first(acc) || 2)..top_num
+             |> Enum.find(fn(x) -> rem(number, x) == 0 end)
 
     cond do
-      number == factor ->
-        [factor | acc]
+      factor == nil -> 
+        [number | acc]
       true ->
         [factor | do_factors_for(div(number, factor), acc)]
     end
