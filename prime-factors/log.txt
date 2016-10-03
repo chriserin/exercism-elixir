@@ -579880,3 +579880,69 @@ Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
 [32m12 tests, 0 failures[0m
 
 Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PrimeFactorsTest
+  * test 1[32m  * test 1 (0.00ms)[0m
+  * test 2[32m  * test 2 (2.6ms)[0m
+  * test 3[32m  * test 3 (0.03ms)[0m
+  * test 4[32m  * test 4 (0.04ms)[0m
+  * test 6[32m  * test 6 (0.02ms)[0m
+  * test 8[32m  * test 8 (0.04ms)[0m
+  * test 9[32m  * test 9 (0.03ms)[0m
+  * test 27[32m  * test 27 (0.09ms)[0m
+  * test 625[32m  * test 625 (0.08ms)[0m
+  * test 901255[32m  * test 901255 (0.4ms)[0m
+  * test 93819012551[32m  * test 93819012551 (73.2ms)[0m
+  * test 10000000055[32m  * test 10000000055 (13.9ms)[0m
+
+
+Finished in 0.1 seconds (0.07s on load, 0.09s on tests)
+[32m12 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PrimeFactorsTest
+  * test 1[32m  * test 1 (0.00ms)[0m
+  * test 2[32m  * test 2 (4.0ms)[0m
+  * test 3[32m  * test 3 (0.03ms)[0m
+  * test 4[32m  * test 4 (0.04ms)[0m
+  * test 6[32m  * test 6 (0.02ms)[0m
+  * test 8[32m  * test 8 (0.04ms)[0m
+  * test 9[32m  * test 9 (0.03ms)[0m
+  * test 27[32m  * test 27 (0.04ms)[0m
+  * test 625[32m  * test 625 (0.06ms)[0m
+  * test 901255[32m  * test 901255 (0.3ms)[0m
+  * test 93819012551[32m  * test 93819012551 (77.1ms)[0m
+  * test 10000000055[32m  * test 10000000055 (16.9ms)[0m
+
+
+Finished in 0.1 seconds (0.07s on load, 0.1s on tests)
+[32m12 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PrimeFactorsTest
+  * test 1[32m  * test 1 (0.00ms)[0m
+  * test 2[32m  * test 2 (3.2ms)[0m
+  * test 3[32m  * test 3 (0.02ms)[0m
+  * test 4[32m  * test 4 (0.05ms)[0m
+  * test 6[32m  * test 6 (0.03ms)[0m
+  * test 8[32m  * test 8 (0.05ms)[0m
+  * test 9[32m  * test 9 (0.03ms)[0m
+  * test 27[32m  * test 27 (0.02ms)[0m
+  * test 625[32m  * test 625 (0.04ms)[0m
+  * test 901255[32m  * test 901255 (0.05ms)[0m
+  * test 93819012551[32m  * test 93819012551 (1.2ms)[0m
+  * test 10000000055[32m  * test 10000000055 (5.9ms)[0m
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[32m12 tests, 0 failures[0m
+
+Randomized with seed 0

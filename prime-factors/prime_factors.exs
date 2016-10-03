@@ -14,9 +14,14 @@ defmodule PrimeFactors do
 
   defp do_factors_for(1, acc), do: Enum.reverse(acc)
   defp do_factors_for(number, acc) do
-    top_num = round(Float.ceil(:math.sqrt(number)))
-    factor = (List.first(acc) || 2)..top_num
-             |> Enum.find(fn(x) -> rem(number, x) == 0 end)
+    backwards_range = &(Range.new(&2, &1))
+
+    factor =
+      :math.sqrt(number)
+      |> Float.ceil
+      |> round
+      |> backwards_range.(List.first(acc) || 2)
+      |> Enum.find(fn(x) -> rem(number, x) == 0 end)
 
     cond do
       factor == nil -> 
