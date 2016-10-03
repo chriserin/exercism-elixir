@@ -1,0 +1,411 @@
+
+SieveTest
+  * test a few primes[31m  * test a few primes (8.6ms)[0m
+
+  1) test a few primes (SieveTest)
+     [1m[30msieve_test.exs:12[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       sieve.exs:16: anonymous fn/2 in Sieve.sieve/2
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       sieve.exs:16: Sieve.sieve/2
+       sieve_test.exs:13: (test)
+
+  * test primes to 1000  * test primes to 1000 (skipped)
+
+
+Finished in 0.05 seconds (0.04s on load, 0.01s on tests)
+[31m2 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 146815
+
+SieveTest
+  * test a few primes[31m  * test a few primes (8.0ms)[0m
+
+  1) test a few primes (SieveTest)
+     [1m[30msieve_test.exs:12[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       sieve.exs:16: anonymous fn/2 in Sieve.sieve/2
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       sieve.exs:16: Sieve.sieve/2
+       sieve_test.exs:13: (test)
+
+  * test primes to 1000  * test primes to 1000 (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[31m2 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 457417
+
+SieveTest
+  * test a few primes[31m  * test a few primes (7.6ms)[0m
+
+  1) test a few primes (SieveTest)
+     [1m[30msieve_test.exs:12[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       sieve.exs:16: anonymous fn/2 in Sieve.sieve/2
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       sieve.exs:16: Sieve.sieve/2
+       sieve_test.exs:13: (test)
+
+  * test primes to 1000  * test primes to 1000 (skipped)
+
+
+Finished in 0.03 seconds (0.03s on load, 0.00s on tests)
+[31m2 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 801425
+
+SieveTest
+  * test primes to 1000  * test primes to 1000 (skipped)
+  * test a few primes[31m  * test a few primes (8.3ms)[0m
+
+  1) test a few primes (SieveTest)
+     [1m[30msieve_test.exs:12[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       sieve.exs:16: anonymous fn/2 in Sieve.sieve/2
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       sieve.exs:16: Sieve.sieve/2
+       sieve_test.exs:13: (test)
+
+
+
+Finished in 0.04 seconds (0.03s on load, 0.01s on tests)
+[31m2 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 475998
+
+SieveTest
+  * test primes to 1000  * test primes to 1000 (skipped)
+  * test a few primes
+SieveTest
+  * test primes to 1000  * test primes to 1000 (skipped)
+  * test a few primes
+SieveTest
+  * test primes to 1000  * test primes to 1000 (skipped)
+  * test a few primes[31m  * test a few primes (8.6ms)[0m
+
+  1) test a few primes (SieveTest)
+     [1m[30msieve_test.exs:12[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       sieve.exs:16: anonymous fn/2 in Sieve.sieve/2
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       sieve.exs:16: Sieve.sieve/2
+       sieve_test.exs:13: (test)
+
+
+
+Finished in 0.04 seconds (0.03s on load, 0.01s on tests)
+[31m2 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 818550
+
+SieveTest
+  * test primes to 1000  * test primes to 1000 (skipped)
+  * test a few primes[31m  * test a few primes (7.7ms)[0m
+
+  1) test a few primes (SieveTest)
+     [1m[30msieve_test.exs:12[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       sieve.exs:16: anonymous fn/2 in Sieve.sieve/2
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       sieve.exs:16: Sieve.sieve/2
+       sieve_test.exs:13: (test)
+
+
+
+Finished in 0.03 seconds (0.03s on load, 0.00s on tests)
+[31m2 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 279265
+** (SyntaxError) sieve.exs:16: unexpected token: ")". "fn" starting at line 16 is missing terminator "end"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    sieve_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+
+SieveTest
+  * test a few primes[31m  * test a few primes (7.7ms)[0m
+
+  1) test a few primes (SieveTest)
+     [1m[30msieve_test.exs:12[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       sieve.exs:16: anonymous fn/2 in Sieve.sieve/2
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       sieve.exs:16: Sieve.sieve/2
+       sieve_test.exs:13: (test)
+
+  * test primes to 1000  * test primes to 1000 (skipped)
+
+
+Finished in 0.03 seconds (0.03s on load, 0.00s on tests)
+[31m2 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 139019
+2
+
+SieveTest
+3
+  * test a few primes4
+5
+6
+7
+8
+9
+10
+2
+3
+5
+7
+9
+2
+3
+5
+7
+2
+3
+5
+7
+2
+[31m  * test a few primes (12.4ms)[0m
+
+  1) test a few primes (SieveTest)
+     [1m[30msieve_test.exs:12[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       sieve.exs:16: anonymous fn/2 in Sieve.sieve/2
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       sieve.exs:16: Sieve.sieve/2
+       sieve_test.exs:13: (test)
+
+  * test primes to 1000  * test primes to 1000 (skipped)
+
+
+Finished in 0.04 seconds (0.03s on load, 0.01s on tests)
+[31m2 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 594848
+2
+
+SieveTest
+3
+  * test a few primes4
+5
+6
+7
+8
+9
+10
+2
+3
+5
+7
+9
+2
+3
+5
+7
+2
+3
+5
+7
+2
+[31m  * test a few primes (9.0ms)[0m
+
+  1) test a few primes (SieveTest)
+     [1m[30msieve_test.exs:12[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       sieve.exs:16: anonymous fn/2 in Sieve.sieve/2
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       sieve.exs:16: Sieve.sieve/2
+       sieve_test.exs:13: (test)
+
+  * test primes to 1000  * test primes to 1000 (skipped)
+
+
+Finished in 0.04 seconds (0.03s on load, 0.01s on tests)
+[31m2 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 481511
+
+SieveTest
+  * test primes to 1000  * test primes to 1000 (skipped)
+  * test a few primes[31m  * test a few primes (7.8ms)[0m
+
+  1) test a few primes (SieveTest)
+     [1m[30msieve_test.exs:12[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       sieve.exs:16: anonymous fn/2 in Sieve.sieve/2
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       sieve.exs:16: Sieve.sieve/2
+       sieve_test.exs:13: (test)
+
+
+
+Finished in 0.03 seconds (0.03s on load, 0.00s on tests)
+[31m2 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 119451
+	
+
+	
+
+
+
+
+SieveTest
+  * test a few primes[31m  * test a few primes (9.3ms)[0m
+
+  1) test a few primes (SieveTest)
+     [1m[30msieve_test.exs:12[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       sieve.exs:17: anonymous fn/2 in Sieve.sieve/2
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       sieve.exs:17: Sieve.sieve/2
+       sieve_test.exs:13: (test)
+
+  * test primes to 1000  * test primes to 1000 (skipped)
+
+
+Finished in 0.04 seconds (0.03s on load, 0.01s on tests)
+[31m2 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 196709
+
+SieveTest
+  * test primes to 1000  * test primes to 1000 (skipped)
+  * test a few primes[2, 3, 4, 5, 6, 7, 8, 9, 10]
+[2, 3, 5, 7, 9]
+[2, 3, 5, 7]
+[2, 3, 5, 7]
+[2, 3, 5, 7]
+[31m  * test a few primes (12.1ms)[0m
+
+  1) test a few primes (SieveTest)
+     [1m[30msieve_test.exs:12[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       sieve.exs:18: anonymous fn/2 in Sieve.sieve/2
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       sieve.exs:18: Sieve.sieve/2
+       sieve_test.exs:13: (test)
+
+
+
+Finished in 0.04 seconds (0.03s on load, 0.01s on tests)
+[31m2 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 429228
+last filter is 1
+
+SieveTest
+  * test a few primes[2, 3, 4, 5, 6, 7, 8, 9, 10]
+last filter is 2
+[2, 3, 5, 7, 9]
+last filter is 3
+[2, 3, 5, 7]
+last filter is 5
+[2, 3, 5, 7]
+last filter is 7
+[2, 3, 5, 7]
+[31m  * test a few primes (16.6ms)[0m
+
+  1) test a few primes (SieveTest)
+     [1m[30msieve_test.exs:12[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       sieve.exs:19: anonymous fn/2 in Sieve.sieve/2
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       sieve.exs:19: Sieve.sieve/2
+       sieve_test.exs:13: (test)
+
+  * test primes to 1000  * test primes to 1000 (skipped)
+
+
+Finished in 0.04 seconds (0.03s on load, 0.01s on tests)
+[31m2 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 738679
+** (CompileError) sieve.exs:11: cannot invoke local last/1 inside guard
+    (stdlib) lists.erl:1353: :lists.mapfoldl/3
+    (stdlib) lists.erl:1354: :lists.mapfoldl/3
+
+
+SieveTest
+  * test a few primes[31m  * test a few primes (7.8ms)[0m
+
+  1) test a few primes (SieveTest)
+     [1m[30msieve_test.exs:12[0m
+     [31m** (UndefinedFunctionError) function Enum.find/1 is undefined or private. Did you mean one of:
+     
+           * find/2
+           * find/3
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.find(#Function<1.98808174/1 in Sieve.sieve/2>)
+       sieve.exs:17: Sieve.sieve/2
+       sieve_test.exs:13: (test)
+
+  * test primes to 1000  * test primes to 1000 (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[31m2 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 136839
+
+SieveTest
+  * test primes to 1000  * test primes to 1000 (skipped)
+  * test a few primes[32m  * test a few primes (3.9ms)[0m
+
+
+Finished in 0.03 seconds (0.03s on load, 0.00s on tests)
+[32m2 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 693478
+
+SieveTest
+  * test a few primes[32m  * test a few primes (3.4ms)[0m
+  * test primes to 1000[32m  * test primes to 1000 (6.5ms)[0m
+
+
+Finished in 0.04 seconds (0.03s on load, 0.01s on tests)
+[32m2 tests, 0 failures[0m
+
+Randomized with seed 0
