@@ -1,0 +1,1888 @@
+** (SyntaxError) robot_simulator.exs:3: unexpected token: end
+    (elixir) lib/code.ex:321: Code.load_file/2
+    robot_simulator_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable direction is unused
+  robot_simulator.exs:12
+
+[33mwarning: [0mvariable position is unused
+  robot_simulator.exs:12
+
+[33mwarning: [0mvariable instructions is unused
+  robot_simulator.exs:22
+
+[33mwarning: [0mvariable robot is unused
+  robot_simulator.exs:22
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create errors if invalid position given  * test create errors if invalid position given (skipped)
+  * test create errors if invalid direction given  * test create errors if invalid direction given (skipped)
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+  * test simulate robots  * test simulate robots (skipped)
+  * test create works with valid arguments  * test create works with valid arguments (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 798090
+[33mwarning: [0mvariable direction is unused
+  robot_simulator.exs:12
+
+[33mwarning: [0mvariable position is unused
+  robot_simulator.exs:12
+
+[33mwarning: [0mvariable instructions is unused
+  robot_simulator.exs:22
+
+[33mwarning: [0mvariable robot is unused
+  robot_simulator.exs:22
+
+
+RobotSimulatorTest
+  * test simulate robots  * test simulate robots (skipped)
+  * test create works with valid arguments[31m  * test create works with valid arguments (9.3ms)[0m
+
+  1) test create works with valid arguments (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:17[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.position(robot) == {-10, 0}
+     [36mlhs:  [0m{0, 0}
+     [36mrhs:  [0m{[32m-1[0m0, 0}
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:23: (test)
+
+  * test create errors if invalid position given  * test create errors if invalid position given (skipped)
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create errors if invalid direction given  * test create errors if invalid direction given (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 504524
+[33mwarning: [0mvariable direction is unused
+  robot_simulator.exs:12
+
+[33mwarning: [0mvariable position is unused
+  robot_simulator.exs:12
+
+[33mwarning: [0mvariable instructions is unused
+  robot_simulator.exs:22
+
+[33mwarning: [0mvariable robot is unused
+  robot_simulator.exs:22
+
+
+RobotSimulatorTest
+  * test create errors if invalid direction given  * test create errors if invalid direction given (skipped)
+  * test create works with valid arguments[31m  * test create works with valid arguments (4.0ms)[0m
+
+  1) test create works with valid arguments (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:17[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.position(robot) == {-10, 0}
+     [36mlhs:  [0m{0, 0}
+     [36mrhs:  [0m{[32m-1[0m0, 0}
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:23: (test)
+
+  * test create errors if invalid position given  * test create errors if invalid position given (skipped)
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test simulate robots  * test simulate robots (skipped)
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 242771
+[33mwarning: [0mvariable instructions is unused
+  robot_simulator.exs:22
+
+[33mwarning: [0mvariable robot is unused
+  robot_simulator.exs:22
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[31m  * test create has sensible defaults (4.8ms)[0m
+
+  1) test create has sensible defaults (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.position(robot) == {0, 0}
+     [36mlhs:  [0mnil
+     [36mrhs:  [0m{0, 0}
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:13: (test)
+
+  * test create errors if invalid direction given  * test create errors if invalid direction given (skipped)
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid position given  * test create errors if invalid position given (skipped)
+  * test simulate robots  * test simulate robots (skipped)
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 292631
+[33mwarning: [0mvariable instructions is unused
+  robot_simulator.exs:22
+
+[33mwarning: [0mvariable robot is unused
+  robot_simulator.exs:22
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test simulate robots  * test simulate robots (skipped)
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.00ms)[0m
+  * test create errors if invalid direction given  * test create errors if invalid direction given (skipped)
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+  * test create errors if invalid position given  * test create errors if invalid position given (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 937463
+[33mwarning: [0mvariable instructions is unused
+  robot_simulator.exs:22
+
+[33mwarning: [0mvariable robot is unused
+  robot_simulator.exs:22
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.00ms)[0m
+  * test create errors if invalid direction given  * test create errors if invalid direction given (skipped)
+  * test create errors if invalid position given  * test create errors if invalid position given (skipped)
+  * test simulate robots  * test simulate robots (skipped)
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable instructions is unused
+  robot_simulator.exs:22
+
+[33mwarning: [0mvariable robot is unused
+  robot_simulator.exs:22
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.00ms)[0m
+  * test create errors if invalid direction given[31m  * test create errors if invalid direction given (3.7ms)[0m
+
+  1) test create errors if invalid direction given (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:35[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.create(:invalid, position) == invalid_direction
+     [36mlhs:  [0m%Robot{direction: :invalid, position: {0, 0}}
+     [36mrhs:  [0m{:error, "invalid direction"}
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:39: (test)
+
+  * test create errors if invalid position given  * test create errors if invalid position given (skipped)
+  * test simulate robots  * test simulate robots (skipped)
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable instructions is unused
+  robot_simulator.exs:30
+
+[33mwarning: [0mvariable robot is unused
+  robot_simulator.exs:30
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.00ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given  * test create errors if invalid position given (skipped)
+  * test simulate robots  * test simulate robots (skipped)
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable instructions is unused
+  robot_simulator.exs:32
+
+[33mwarning: [0mvariable robot is unused
+  robot_simulator.exs:32
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[31m  * test create has sensible defaults (12.5ms)[0m
+
+  1) test create has sensible defaults (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:11[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for {0, 0}[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:2345: Enum.to_list/1
+       robot_simulator.exs:19: RobotSimulator.create/2
+       robot_simulator_test.exs:12: (test)
+
+  * test create works with valid arguments[31m  * test create works with valid arguments (4.2ms)[0m
+
+  2) test create works with valid arguments (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:17[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for {0, 0}[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:2345: Enum.to_list/1
+       robot_simulator.exs:19: RobotSimulator.create/2
+       robot_simulator_test.exs:18: (test)
+
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given  * test create errors if invalid position given (skipped)
+  * test simulate robots  * test simulate robots (skipped)
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m6 tests, 2 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable instructions is unused
+  robot_simulator.exs:32
+
+[33mwarning: [0mvariable robot is unused
+  robot_simulator.exs:32
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.00ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given  * test create errors if invalid position given (skipped)
+  * test simulate robots  * test simulate robots (skipped)
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable instructions is unused
+  robot_simulator.exs:32
+
+[33mwarning: [0mvariable robot is unused
+  robot_simulator.exs:32
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[31m  * test create errors if invalid position given (3.8ms)[0m
+
+  1) test create errors if invalid position given (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:44[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.create(direction, {0, 0, 0}) == invalid_position
+     [36mlhs:  [0m%Robot{direction: :north, position: {0, 0, 0}}
+     [36mrhs:  [0m{:error, "invalid position"}
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:48: (test)
+
+  * test simulate robots  * test simulate robots (skipped)
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable instructions is unused
+  robot_simulator.exs:32
+
+[33mwarning: [0mvariable robot is unused
+  robot_simulator.exs:32
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[31m  * test create errors if invalid position given (4.2ms)[0m
+
+  1) test create errors if invalid position given (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:44[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.create(direction, {0, 0, 0}) == invalid_position
+     [36mlhs:  [0m%Robot{direction: :north, position: {0, 0, 0}}
+     [36mrhs:  [0m{:error, "invalid position"}
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:48: (test)
+
+  * test simulate robots  * test simulate robots (skipped)
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable instructions is unused
+  robot_simulator.exs:32
+
+[33mwarning: [0mvariable robot is unused
+  robot_simulator.exs:32
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.00ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[31m  * test create errors if invalid position given (7.6ms)[0m
+
+  1) test create errors if invalid position given (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:44[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.tuple_to_list("invalid")
+       robot_simulator.exs:19: RobotSimulator.create/2
+       robot_simulator_test.exs:52: (test)
+
+  * test simulate robots  * test simulate robots (skipped)
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable instructions is unused
+  robot_simulator.exs:32
+
+[33mwarning: [0mvariable robot is unused
+  robot_simulator.exs:32
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.01ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots  * test simulate robots (skipped)
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable instructions is unused
+  robot_simulator.exs:32
+
+[33mwarning: [0mvariable robot is unused
+  robot_simulator.exs:32
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (8.4ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (UndefinedFunctionError) function nil.direction/0 is undefined or private[0m
+     [36mstacktrace:[0m
+       nil.direction()
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+** (SyntaxError) robot_simulator.exs:42: unexpected token: ")". "fn" starting at line 37 is missing terminator "end"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    robot_simulator_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) robot_simulator.exs:60: unexpected token: end
+    (elixir) lib/code.ex:321: Code.load_file/2
+    robot_simulator_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) robot_simulator.exs:54: syntax error before: position
+    (elixir) lib/code.ex:321: Code.load_file/2
+    robot_simulator_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mfunction directions/0 is unused
+  robot_simulator.exs:80
+
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+** (CompileError) robot_simulator.exs:33: undefined function direction/0
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mfunction directions/0 is unused
+  robot_simulator.exs:80
+
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+** (CompileError) robot_simulator.exs:33: undefined function direction/0
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mfunction directions/0 is unused
+  robot_simulator.exs:80
+
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+** (CompileError) robot_simulator.exs:33: undefined function direction/0
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mfunction directions/0 is unused
+  robot_simulator.exs:80
+
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[31m  * test create has sensible defaults (17.8ms)[0m
+
+  1) test create has sensible defaults (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:11[0m
+     [31m** (UndefinedFunctionError) function :error.position/1 is undefined (module :error is not available)[0m
+     [36mstacktrace:[0m
+       :error.position({:error, "invalid direction"})
+       robot_simulator_test.exs:13: (test)
+
+  * test create works with valid arguments[31m  * test create works with valid arguments (3.9ms)[0m
+
+  2) test create works with valid arguments (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:17[0m
+     [31m** (UndefinedFunctionError) function :error.position/1 is undefined (module :error is not available)[0m
+     [36mstacktrace:[0m
+       :error.position({:error, "invalid direction"})
+       robot_simulator_test.exs:19: (test)
+
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (4.4ms)[0m
+  * test create errors if invalid position given[31m  * test create errors if invalid position given (2.0ms)[0m
+
+  3) test create errors if invalid position given (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:44[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.create(direction, {0, 0, 0}) == invalid_position
+     [36mlhs:  [0m{:error, "invalid [31md[0mi[31mrec[0mtion"}
+     [36mrhs:  [0m{:error, "invalid [32mpos[0mition"}
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:48: (test)
+
+  * test simulate robots[31m  * test simulate robots (7.3ms)[0m
+
+  4) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (UndefinedFunctionError) function :error.direction/1 is undefined (module :error is not available)[0m
+     [36mstacktrace:[0m
+       :error.direction({:error, "invalid direction"})
+       anonymous fn/2 in RobotSimulator.simulate/2
+       (elixir) lib/enum.ex:865: anonymous fn/3 in Enum.find_index/2
+       (elixir) lib/enum.ex:2865: Enumerable.Map.do_reduce/3
+       (elixir) lib/enum.ex:864: Enum.find_index/2
+       robot_simulator.exs:33: RobotSimulator.simulate/2
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.2 seconds (0.1s on load, 0.03s on tests)
+[31m6 tests, 4 failures, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.04ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.02ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.04ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.03ms)[0m
+  * test simulate robots[31m  * test simulate robots (30.0ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       robot_simulator.exs:53: RobotSimulator.left/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.03s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.03ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.02ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.03ms)[0m
+  * test simulate robots[31m  * test simulate robots (21.5ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       robot_simulator.exs:53: RobotSimulator.left/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.02s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.01ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (24.4ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (UndefinedFunctionError) function Enum.at/1 is undefined or private. Did you mean one of:
+     
+           * at/2
+           * at/3
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.at(0)
+       robot_simulator.exs:54: RobotSimulator.left/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.02s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.00ms)[0m
+  * test simulate robots[31m  * test simulate robots (19.7ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (UndefinedFunctionError) function Enum.at/1 is undefined or private. Did you mean one of:
+     
+           * at/2
+           * at/3
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.at(0)
+       robot_simulator.exs:54: RobotSimulator.left/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.02s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.02ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.02ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.02ms)[0m
+  * test simulate robots[31m  * test simulate robots (38.3ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (Protocol.UndefinedError) protocol Collectable not implemented for %Robot{direction: :north, position: {0, 0}}[0m
+     [36mstacktrace:[0m
+       (elixir) lib/collectable.ex:1: Collectable.impl_for!/1
+       (elixir) lib/collectable.ex:46: Collectable.into/1
+       (elixir) lib/enum.ex:1086: Enum.do_into/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.03s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.00ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.00ms)[0m
+  * test simulate robots[31m  * test simulate robots (14.0ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (Protocol.UndefinedError) protocol Collectable not implemented for %Robot{direction: :north, position: {0, 0}}[0m
+     [36mstacktrace:[0m
+       (elixir) lib/collectable.ex:1: Collectable.impl_for!/1
+       (elixir) lib/collectable.ex:46: Collectable.into/1
+       (elixir) lib/enum.ex:1086: Enum.do_into/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.01ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.02ms)[0m
+  * test simulate robots[31m  * test simulate robots (14.8ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (Protocol.UndefinedError) protocol Collectable not implemented for %Robot{direction: :north, position: {0, 0}}[0m
+     [36mstacktrace:[0m
+       (elixir) lib/collectable.ex:1: Collectable.impl_for!/1
+       (elixir) lib/collectable.ex:46: Collectable.into/1
+       (elixir) lib/enum.ex:1086: Enum.do_into/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+** (SyntaxError) robot_simulator.exs:54: unexpected token: "}". "(" starting at line 54 is missing terminator ")"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    robot_simulator_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (17.5ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (UndefinedFunctionError) function Map.update/3 is undefined or private. Did you mean one of:
+     
+           * update/4
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Map.update(%Robot{direction: :north, position: {0, 0}}, :position, :east)
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.01ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.00ms)[0m
+  * test simulate robots[31m  * test simulate robots (12.3ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (UndefinedFunctionError) function Map.update/3 is undefined or private. Did you mean one of:
+     
+           * update/4
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Map.update(%Robot{direction: :north, position: {0, 0}}, :position, :east)
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.00ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.00ms)[0m
+  * test simulate robots[31m  * test simulate robots (8.8ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (BadFunctionError) expected a function, got: :east[0m
+     [36mstacktrace:[0m
+       (elixir) lib/map.ex:513: Map.update!/3
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.02ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (16.9ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (MatchError) no match of right hand side value: :east[0m
+     [36mstacktrace:[0m
+       robot_simulator.exs:48: RobotSimulator.forward/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.00ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.00ms)[0m
+  * test simulate robots[31m  * test simulate robots (8.1ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (MatchError) no match of right hand side value: :east[0m
+     [36mstacktrace:[0m
+       robot_simulator.exs:48: RobotSimulator.forward/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (12.3ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (MatchError) no match of right hand side value: :east[0m
+     [36mstacktrace:[0m
+       robot_simulator.exs:48: RobotSimulator.forward/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.01ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (13.7ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (MatchError) no match of right hand side value: :east[0m
+     [36mstacktrace:[0m
+       robot_simulator.exs:48: RobotSimulator.forward/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (9.4ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (UndefinedFunctionError) function Map.put/2 is undefined or private. Did you mean one of:
+     
+           * put/3
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Map.put(%Robot{direction: :east, position: {0, 0}}, [position: {1, 1}])
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (9.1ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.01ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (17.5ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.01ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (9.1ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:south
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.00ms)[0m
+  * test simulate robots[31m  * test simulate robots (12.8ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (MatchError) no match of right hand side value: nil[0m
+     [36mstacktrace:[0m
+       robot_simulator.exs:47: RobotSimulator.forward/1
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.01ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (8.9ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.00ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.00ms)[0m
+  * test simulate robots[31m  * test simulate robots (8.1ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.01ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (9.4ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.01ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.00ms)[0m
+  * test simulate robots[31m  * test simulate robots (11.6ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.00ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.00ms)[0m
+  * test simulate robots[31m  * test simulate robots (8.8ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.04ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.02ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.03ms)[0m
+  * test simulate robots[31m  * test simulate robots (15.1ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (9.6ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+:east
+
+RobotSimulatorTest
+:north
+  * test create has sensible defaults:east
+[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (10.9ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+:east
+  * test create has sensible defaults:north
+:east
+[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (9.9ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+:east
+  * test create has sensible defaults:north
+:east
+[32m  * test create has sensible defaults (0.01ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (9.6ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+:east
+  * test create has sensible defaults:north
+:east
+[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.04ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (14.0ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+:east
+
+RobotSimulatorTest
+:north
+:east
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (9.9ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+1
+  * test create has sensible defaults:east
+:north
+[32m  * test create has sensible defaults (0.00ms)[0m
+1
+  * test create works with valid arguments:east
+[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (13.6ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+:north
+1
+  * test create has sensible defaults:east
+:north
+[32m  * test create has sensible defaults (0.00ms)[0m
+:north
+  * test create works with valid arguments1
+:east
+[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (13.4ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+
+RobotSimulatorTest
+direction: north
+  * test create has sensible defaults1
+:east
+[32m  * test create has sensible defaults (0.00ms)[0m
+:north
+  * test create works with valid argumentsdirection: north
+1
+:east
+[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (13.1ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable currentDirection is unused
+  robot_simulator.exs:33
+
+direction: north
+
+RobotSimulatorTest
+  * test create has sensible defaults1
+[32m  * test create has sensible defaults (0.00ms)[0m
+:east
+  * test create works with valid argumentsdirection: east
+[32m  * test create works with valid arguments (0.01ms)[0m
+:north
+  * test create errors if invalid direction givendirection: north
+1
+[32m  * test create errors if invalid direction given (0.00ms)[0m
+:east
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (11.7ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.direction(robot1) == :west
+     [36mlhs:  [0m:east
+     [36mrhs:  [0m:west
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:60: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+direction: north
+0
+:west
+
+RobotSimulatorTest
+direction: west
+:north
+direction: north
+0
+:west
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.01ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (10.4ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.position(robot1) == {-4, 1}
+     [36mlhs:  [0m{4, [31m5[0m}
+     [36mrhs:  [0m{[32m-[0m4, [32m1[0m}
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:61: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+direction: north
+
+RobotSimulatorTest
+0
+  * test create has sensible defaults:west
+direction: west
+[32m  * test create has sensible defaults (0.00ms)[0m
+:north
+  * test create works with valid argumentsdirection: north
+0
+:west
+[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (8.9ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.position(robot1) == {-4, 1}
+     [36mlhs:  [0m{4, 1}
+     [36mrhs:  [0m{[32m-[0m4, 1}
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:61: (test)
+
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m6 tests, 1 failure, 1 skipped[0m
+
+Randomized with seed 0
+direction: north
+
+RobotSimulatorTest
+  * test create has sensible defaults0
+:west
+[32m  * test create has sensible defaults (0.01ms)[0m
+direction: west
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+:north
+  * test create errors if invalid direction givendirection: north
+0
+:west
+direction: east
+:south
+direction: south
+:west
+direction: west
+3
+:south
+direction: south
+2
+:east
+direction: east
+:south
+direction: south
+:west
+direction: west
+:north
+direction: north
+0
+:west
+direction: west
+3
+:south
+direction: south
+2
+:east
+direction: east
+1
+:north
+[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[32m  * test simulate robots (7.4ms)[0m
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+
+RobotSimulatorTest
+:north
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.01ms)[0m
+:south
+  * test create works with valid arguments:west
+[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given:south
+:west
+[32m  * test create errors if invalid direction given (0.01ms)[0m
+:north
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[32m  * test simulate robots (6.5ms)[0m
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.02ms)[0m
+  * test simulate robots[32m  * test simulate robots (4.6ms)[0m
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.01ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[32m  * test simulate robots (4.5ms)[0m
+  * test simulate errors on invalid instructions  * test simulate errors on invalid instructions (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m6 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.00ms)[0m
+  * test simulate robots[32m  * test simulate robots (3.5ms)[0m
+  * test simulate errors on invalid instructions[31m  * test simulate errors on invalid instructions (3.5ms)[0m
+
+  1) test simulate errors on invalid instructions (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:72[0m
+     [31m** (CaseClauseError) no case clause matching: 85[0m
+     [36mstacktrace:[0m
+       robot_simulator.exs:36: anonymous fn/2 in RobotSimulator.simulate/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:73: (test)
+
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m6 tests, 1 failure[0m
+
+Randomized with seed 0
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.01ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[32m  * test simulate robots (3.8ms)[0m
+  * test simulate errors on invalid instructions[31m  * test simulate errors on invalid instructions (3.6ms)[0m
+
+  1) test simulate errors on invalid instructions (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:72[0m
+     [31m** (CaseClauseError) no case clause matching: 85[0m
+     [36mstacktrace:[0m
+       robot_simulator.exs:36: anonymous fn/2 in RobotSimulator.simulate/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       robot_simulator_test.exs:73: (test)
+
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m6 tests, 1 failure[0m
+
+Randomized with seed 0
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.01ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (6.4ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (UndefinedFunctionError) function Regex.match/2 is undefined or private. Did you mean one of:
+     
+           * match?/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Regex.match(~r/^[ALR]+$/, "LAAARALA")
+       robot_simulator.exs:34: RobotSimulator.simulate/2
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions[31m  * test simulate errors on invalid instructions (1.0ms)[0m
+
+  2) test simulate errors on invalid instructions (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:72[0m
+     [31m** (UndefinedFunctionError) function Regex.match/2 is undefined or private. Did you mean one of:
+     
+           * match?/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Regex.match(~r/^[ALR]+$/, "UUDDLRLRBASTART")
+       robot_simulator.exs:34: RobotSimulator.simulate/2
+       robot_simulator_test.exs:73: (test)
+
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m6 tests, 2 failures[0m
+
+Randomized with seed 0
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[31m  * test simulate robots (4.8ms)[0m
+
+  1) test simulate robots (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:58[0m
+     [31m** (UndefinedFunctionError) function Regex.match/2 is undefined or private. Did you mean one of:
+     
+           * match?/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Regex.match(~r/^[ALR]+$/, "LAAARALA")
+       robot_simulator.exs:34: RobotSimulator.simulate/2
+       robot_simulator_test.exs:59: (test)
+
+  * test simulate errors on invalid instructions[31m  * test simulate errors on invalid instructions (0.7ms)[0m
+
+  2) test simulate errors on invalid instructions (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:72[0m
+     [31m** (UndefinedFunctionError) function Regex.match/2 is undefined or private. Did you mean one of:
+     
+           * match?/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Regex.match(~r/^[ALR]+$/, "UUDDLRLRBASTART")
+       robot_simulator.exs:34: RobotSimulator.simulate/2
+       robot_simulator_test.exs:73: (test)
+
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m6 tests, 2 failures[0m
+
+Randomized with seed 0
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.00ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.01ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.00ms)[0m
+  * test simulate robots[32m  * test simulate robots (3.4ms)[0m
+  * test simulate errors on invalid instructions[31m  * test simulate errors on invalid instructions (3.2ms)[0m
+
+  1) test simulate errors on invalid instructions (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:72[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mRobotSimulator.create() |> RobotSimulator.simulate("UUDDLRLRBASTART") == {:error, "invalid instruction"}
+     [36mlhs:  [0m{:error, "[31mI[0mnvalid [31mI[0mnstruction[31ms[0m"}
+     [36mrhs:  [0m{:error, "[32mi[0mnvalid [32mi[0mnstruction"}
+     [36mstacktrace:[0m
+       robot_simulator_test.exs:73: (test)
+
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m6 tests, 1 failure[0m
+
+Randomized with seed 0
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.01ms)[0m
+  * test simulate robots[32m  * test simulate robots (3.4ms)[0m
+  * test simulate errors on invalid instructions[32m  * test simulate errors on invalid instructions (0.01ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m6 tests, 0 failures[0m
+
+Randomized with seed 0
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.00ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.00ms)[0m
+  * test create errors if invalid position given[31m  * test create errors if invalid position given (4.1ms)[0m
+
+  1) test create errors if invalid position given (RobotSimulatorTest)
+     [1m[30mrobot_simulator_test.exs:44[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.tuple_to_list("invalid")
+       robot_simulator.exs:16: RobotSimulator.create/2
+       robot_simulator_test.exs:52: (test)
+
+  * test simulate robots[32m  * test simulate robots (2.7ms)[0m
+  * test simulate errors on invalid instructions[32m  * test simulate errors on invalid instructions (0.01ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m6 tests, 1 failure[0m
+
+Randomized with seed 0
+
+RobotSimulatorTest
+  * test create has sensible defaults[32m  * test create has sensible defaults (0.01ms)[0m
+  * test create works with valid arguments[32m  * test create works with valid arguments (0.01ms)[0m
+  * test create errors if invalid direction given[32m  * test create errors if invalid direction given (0.02ms)[0m
+  * test create errors if invalid position given[32m  * test create errors if invalid position given (0.02ms)[0m
+  * test simulate robots[32m  * test simulate robots (3.4ms)[0m
+  * test simulate errors on invalid instructions[32m  * test simulate errors on invalid instructions (0.02ms)[0m
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m6 tests, 0 failures[0m
+
+Randomized with seed 0
