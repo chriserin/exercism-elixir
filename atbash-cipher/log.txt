@@ -1,0 +1,583 @@
+
+AtbashTest
+  * test encode OMG  * test encode OMG (skipped)
+  * test encode numbers  * test encode numbers (skipped)
+  * test encode all the things  * test encode all the things (skipped)
+  * test encode yes  * test encode yes (skipped)
+  * test encode O M G  * test encode O M G (skipped)
+  * test encode long word  * test encode long word (skipped)
+  * test encode no[31m  * test encode no (18.7ms)[0m
+
+  1) test encode no (AtbashTest)
+     [1m[30matbash_cipher_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mAtbash.encode("no") == "ml"
+     [36mlhs:  [0m"[31mn[0mm"
+     [36mrhs:  [0m"m[32ml[0m"
+     [36mstacktrace:[0m
+       atbash_cipher_test.exs:12: (test)
+
+  * test encode sentence  * test encode sentence (skipped)
+
+
+Finished in 0.08 seconds (0.06s on load, 0.02s on tests)
+[31m8 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 567226
+
+AtbashTest
+  * test encode no[32m  * test encode no (13.0ms)[0m
+  * test encode sentence  * test encode sentence (skipped)
+  * test encode long word  * test encode long word (skipped)
+  * test encode all the things  * test encode all the things (skipped)
+  * test encode numbers  * test encode numbers (skipped)
+  * test encode O M G  * test encode O M G (skipped)
+  * test encode yes  * test encode yes (skipped)
+  * test encode OMG  * test encode OMG (skipped)
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[32m8 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 86920
+
+AtbashTest
+  * test encode numbers  * test encode numbers (skipped)
+  * test encode long word  * test encode long word (skipped)
+  * test encode O M G  * test encode O M G (skipped)
+  * test encode OMG  * test encode OMG (skipped)
+  * test encode all the things  * test encode all the things (skipped)
+  * test encode yes[32m  * test encode yes (11.4ms)[0m
+  * test encode no[32m  * test encode no (1.1ms)[0m
+  * test encode sentence  * test encode sentence (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m8 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 115910
+
+AtbashTest
+  * test encode no[32m  * test encode no (10.5ms)[0m
+  * test encode yes[32m  * test encode yes (0.9ms)[0m
+  * test encode OMG[32m  * test encode OMG (0.8ms)[0m
+  * test encode O M G  * test encode O M G (skipped)
+  * test encode long word  * test encode long word (skipped)
+  * test encode numbers  * test encode numbers (skipped)
+  * test encode sentence  * test encode sentence (skipped)
+  * test encode all the things  * test encode all the things (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m8 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+
+AtbashTest
+  * test encode no[32m  * test encode no (10.9ms)[0m
+  * test encode yes[32m  * test encode yes (0.8ms)[0m
+  * test encode OMG[32m  * test encode OMG (0.8ms)[0m
+  * test encode O M G[32m  * test encode O M G (0.05ms)[0m
+  * test encode long word  * test encode long word (skipped)
+  * test encode numbers  * test encode numbers (skipped)
+  * test encode sentence  * test encode sentence (skipped)
+  * test encode all the things  * test encode all the things (skipped)
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[32m8 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+
+AtbashTest
+  * test encode no[32m  * test encode no (10.6ms)[0m
+  * test encode yes[32m  * test encode yes (0.8ms)[0m
+  * test encode OMG[32m  * test encode OMG (0.7ms)[0m
+  * test encode O M G[32m  * test encode O M G (1.1ms)[0m
+  * test encode long word[31m  * test encode long word (2.4ms)[0m
+
+  1) test encode long word (AtbashTest)
+     [1m[30matbash_cipher_test.exs:27[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mAtbash.encode("mindblowingly") == "nrmwy oldrm tob"
+     [36mlhs:  [0m"nrmw [31m121[0moldr [31m109[0mtob"
+     [36mrhs:  [0m"nrmw[32my[0m oldr[32mm[0m tob"
+     [36mstacktrace:[0m
+       atbash_cipher_test.exs:28: (test)
+
+  * test encode numbers  * test encode numbers (skipped)
+  * test encode sentence  * test encode sentence (skipped)
+  * test encode all the things  * test encode all the things (skipped)
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+
+AtbashTest
+  * test encode no[32m  * test encode no (10.2ms)[0m
+  * test encode yes[32m  * test encode yes (0.8ms)[0m
+  * test encode OMG[32m  * test encode OMG (1.0ms)[0m
+  * test encode O M G[32m  * test encode O M G (0.8ms)[0m
+  * test encode long word[31m  * test encode long word (2.1ms)[0m
+
+  1) test encode long word (AtbashTest)
+     [1m[30matbash_cipher_test.exs:27[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mAtbash.encode("mindblowingly") == "nrmwy oldrm tob"
+     [36mlhs:  [0m"nrmw [31m121[0moldr [31m109[0mtob"
+     [36mrhs:  [0m"nrmw[32my[0m oldr[32mm[0m tob"
+     [36mstacktrace:[0m
+       atbash_cipher_test.exs:28: (test)
+
+  * test encode numbers  * test encode numbers (skipped)
+  * test encode sentence  * test encode sentence (skipped)
+  * test encode all the things  * test encode all the things (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+
+AtbashTest
+  * test encode no[32m  * test encode no (10.6ms)[0m
+  * test encode yes[32m  * test encode yes (0.8ms)[0m
+  * test encode OMG[32m  * test encode OMG (0.8ms)[0m
+  * test encode O M G[32m  * test encode O M G (0.05ms)[0m
+  * test encode long word[31m  * test encode long word (2.9ms)[0m
+
+  1) test encode long word (AtbashTest)
+     [1m[30matbash_cipher_test.exs:27[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mAtbash.encode("mindblowingly") == "nrmwy oldrm tob"
+     [36mlhs:  [0m"nrmw[31m [0myoldr[31m [0mmtob"
+     [36mrhs:  [0m"nrmwy[32m [0moldrm[32m [0mtob"
+     [36mstacktrace:[0m
+       atbash_cipher_test.exs:28: (test)
+
+  * test encode numbers  * test encode numbers (skipped)
+  * test encode sentence  * test encode sentence (skipped)
+  * test encode all the things  * test encode all the things (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+
+AtbashTest
+  * test encode no[31m  * test encode no (20.3ms)[0m
+
+  1) test encode no (AtbashTest)
+     [1m[30matbash_cipher_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mAtbash.encode("no") == "ml"
+     [36mlhs:  [0m"[31m [0mml"
+     [36mrhs:  [0m"ml"
+     [36mstacktrace:[0m
+       atbash_cipher_test.exs:12: (test)
+
+  * test encode yes[31m  * test encode yes (0.9ms)[0m
+
+  2) test encode yes (AtbashTest)
+     [1m[30matbash_cipher_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mAtbash.encode("yes") == "bvh"
+     [36mlhs:  [0m"[31m [0mbvh"
+     [36mrhs:  [0m"bvh"
+     [36mstacktrace:[0m
+       atbash_cipher_test.exs:16: (test)
+
+  * test encode OMG[31m  * test encode OMG (0.06ms)[0m
+
+  3) test encode OMG (AtbashTest)
+     [1m[30matbash_cipher_test.exs:19[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mAtbash.encode("OMG") == "lnt"
+     [36mlhs:  [0m"[31m [0mlnt"
+     [36mrhs:  [0m"lnt"
+     [36mstacktrace:[0m
+       atbash_cipher_test.exs:20: (test)
+
+  * test encode O M G[31m  * test encode O M G (1.3ms)[0m
+
+  4) test encode O M G (AtbashTest)
+     [1m[30matbash_cipher_test.exs:23[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mAtbash.encode("O M G") == "lnt"
+     [36mlhs:  [0m"[31m [0mlnt"
+     [36mrhs:  [0m"lnt"
+     [36mstacktrace:[0m
+       atbash_cipher_test.exs:24: (test)
+
+  * test encode long word[31m  * test encode long word (0.06ms)[0m
+
+  5) test encode long word (AtbashTest)
+     [1m[30matbash_cipher_test.exs:27[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mAtbash.encode("mindblowingly") == "nrmwy oldrm tob"
+     [36mlhs:  [0m"[31m [0mnrmwy oldrm tob"
+     [36mrhs:  [0m"nrmwy oldrm tob"
+     [36mstacktrace:[0m
+       atbash_cipher_test.exs:28: (test)
+
+  * test encode numbers  * test encode numbers (skipped)
+  * test encode sentence  * test encode sentence (skipped)
+  * test encode all the things  * test encode all the things (skipped)
+
+
+Finished in 0.07 seconds (0.05s on load, 0.02s on tests)
+[31m8 tests, 5 failures, 3 skipped[0m
+
+Randomized with seed 0
+
+AtbashTest
+  * test encode no[32m  * test encode no (16.5ms)[0m
+  * test encode yes[32m  * test encode yes (1.8ms)[0m
+  * test encode OMG[32m  * test encode OMG (1.3ms)[0m
+  * test encode O M G[32m  * test encode O M G (1.3ms)[0m
+  * test encode long word[31m  * test encode long word (3.2ms)[0m
+
+  1) test encode long word (AtbashTest)
+     [1m[30matbash_cipher_test.exs:27[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mAtbash.encode("mindblowingly") == "nrmwy oldrm tob"
+     [36mlhs:  [0m"nrmw[31m [0myoldr[31m [0mmtob"
+     [36mrhs:  [0m"nrmwy[32m [0moldrm[32m [0mtob"
+     [36mstacktrace:[0m
+       atbash_cipher_test.exs:28: (test)
+
+  * test encode numbers  * test encode numbers (skipped)
+  * test encode sentence  * test encode sentence (skipped)
+  * test encode all the things  * test encode all the things (skipped)
+
+
+Finished in 0.1 seconds (0.08s on load, 0.02s on tests)
+[31m8 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+
+AtbashTest
+  * test encode no[32m  * test encode no (10.7ms)[0m
+  * test encode yes[32m  * test encode yes (0.8ms)[0m
+  * test encode OMG[32m  * test encode OMG (0.9ms)[0m
+  * test encode O M G[32m  * test encode O M G (1.0ms)[0m
+  * test encode long word[32m  * test encode long word (0.05ms)[0m
+  * test encode numbers  * test encode numbers (skipped)
+  * test encode sentence  * test encode sentence (skipped)
+  * test encode all the things  * test encode all the things (skipped)
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[32m8 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+
+AtbashTest
+  * test encode no[32m  * test encode no (10.5ms)[0m
+  * test encode yes[32m  * test encode yes (0.9ms)[0m
+  * test encode OMG[32m  * test encode OMG (0.8ms)[0m
+  * test encode O M G[32m  * test encode O M G (1.0ms)[0m
+  * test encode long word[32m  * test encode long word (0.04ms)[0m
+  * test encode numbers[31m  * test encode numbers (3.1ms)[0m
+
+  1) test encode numbers (AtbashTest)
+     [1m[30matbash_cipher_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mAtbash.encode("Testing, 1 2 3, testing.") == "gvhgr mt123 gvhgr mt"
+     [36mlhs:  [0m"gvhgr mt[31mª©¨[0m gvhgr mt"
+     [36mrhs:  [0m"gvhgr mt[32m123[0m gvhgr mt"
+     [36mstacktrace:[0m
+       atbash_cipher_test.exs:32: (test)
+
+  * test encode sentence  * test encode sentence (skipped)
+  * test encode all the things  * test encode all the things (skipped)
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+** (SyntaxError) atbash.exs:22: unexpected token: ")". "fn" starting at line 17 is missing terminator "end"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    atbash_cipher_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) atbash.exs:22: unexpected token: ")". "fn" starting at line 17 is missing terminator "end"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    atbash_cipher_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) atbash.exs:20: syntax error before: '->'
+    (elixir) lib/code.ex:321: Code.load_file/2
+    atbash_cipher_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+
+AtbashTest
+  * test encode no[31m  * test encode no (27.3ms)[0m
+
+  1) test encode no (AtbashTest)
+     [1m[30matbash_cipher_test.exs:11[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [#Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       atbash_cipher_test.exs:12: (test)
+
+  * test encode yes[31m  * test encode yes (1.6ms)[0m
+
+  2) test encode yes (AtbashTest)
+     [1m[30matbash_cipher_test.exs:15[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [#Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       atbash_cipher_test.exs:16: (test)
+
+  * test encode OMG[31m  * test encode OMG (0.1ms)[0m
+
+  3) test encode OMG (AtbashTest)
+     [1m[30matbash_cipher_test.exs:19[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [#Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       atbash_cipher_test.exs:20: (test)
+
+  * test encode O M G[31m  * test encode O M G (1.0ms)[0m
+
+  4) test encode O M G (AtbashTest)
+     [1m[30matbash_cipher_test.exs:23[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [#Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       atbash_cipher_test.exs:24: (test)
+
+  * test encode long word[31m  * test encode long word (1.7ms)[0m
+
+  5) test encode long word (AtbashTest)
+     [1m[30matbash_cipher_test.exs:27[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [#Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>, [#Function<2.128878394/1 in Atbash.encode/1>, ' '], #Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>, [#Function<2.128878394/1 in Atbash.encode/1>, ' '], #Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       atbash_cipher_test.exs:28: (test)
+
+  * test encode numbers[31m  * test encode numbers (1.9ms)[0m
+
+  6) test encode numbers (AtbashTest)
+     [1m[30matbash_cipher_test.exs:31[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [#Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>, [#Function<2.128878394/1 in Atbash.encode/1>, ' '], #Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>, 49, 50, [51, ' '], #Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>, [#Function<2.128878394/1 in Atbash.encode/1>, ' '], #Function<2.128878394/1 in Atbash.encode/1>, #Function<2.128878394/1 in Atbash.encode/1>]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       atbash_cipher_test.exs:32: (test)
+
+  * test encode sentence  * test encode sentence (skipped)
+  * test encode all the things  * test encode all the things (skipped)
+
+
+Finished in 0.09 seconds (0.06s on load, 0.03s on tests)
+[31m8 tests, 6 failures, 2 skipped[0m
+
+Randomized with seed 0
+** (CompileError) atbash.exs:19: unhandled &1 outside of a capture
+    (stdlib) lists.erl:1353: :lists.mapfoldl/3
+    (stdlib) lists.erl:1353: :lists.mapfoldl/3
+
+
+AtbashTest
+  * test encode no[32m  * test encode no (10.3ms)[0m
+  * test encode yes[32m  * test encode yes (0.8ms)[0m
+  * test encode OMG[32m  * test encode OMG (0.9ms)[0m
+  * test encode O M G[32m  * test encode O M G (1.1ms)[0m
+  * test encode long word[32m  * test encode long word (0.05ms)[0m
+  * test encode numbers[32m  * test encode numbers (0.06ms)[0m
+  * test encode sentence  * test encode sentence (skipped)
+  * test encode all the things  * test encode all the things (skipped)
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[32m8 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+
+AtbashTest
+  * test encode no[32m  * test encode no (11.5ms)[0m
+  * test encode yes[32m  * test encode yes (0.9ms)[0m
+  * test encode OMG[32m  * test encode OMG (1.0ms)[0m
+  * test encode O M G[32m  * test encode O M G (1.1ms)[0m
+  * test encode long word[32m  * test encode long word (0.05ms)[0m
+  * test encode numbers[32m  * test encode numbers (0.06ms)[0m
+  * test encode sentence[32m  * test encode sentence (0.04ms)[0m
+  * test encode all the things  * test encode all the things (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m8 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+
+AtbashTest
+  * test encode no[32m  * test encode no (10.8ms)[0m
+  * test encode yes[32m  * test encode yes (0.7ms)[0m
+  * test encode OMG[32m  * test encode OMG (0.8ms)[0m
+  * test encode O M G[32m  * test encode O M G (0.05ms)[0m
+  * test encode long word[32m  * test encode long word (0.9ms)[0m
+  * test encode numbers[32m  * test encode numbers (0.06ms)[0m
+  * test encode sentence[32m  * test encode sentence (0.05ms)[0m
+  * test encode all the things[31m  * test encode all the things (2.4ms)[0m
+
+  1) test encode all the things (AtbashTest)
+     [1m[30matbash_cipher_test.exs:39[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mAtbash.encode(plaintext) == cipher
+     [36mlhs:  [0m"gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt[31m [0m"
+     [36mrhs:  [0m"gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt"
+     [36mstacktrace:[0m
+       atbash_cipher_test.exs:42: (test)
+
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[31m8 tests, 1 failure[0m
+
+Randomized with seed 0
+
+AtbashTest
+  * test encode no[32m  * test encode no (13.7ms)[0m
+  * test encode yes[32m  * test encode yes (0.9ms)[0m
+  * test encode OMG[32m  * test encode OMG (0.04ms)[0m
+  * test encode O M G[32m  * test encode O M G (1.0ms)[0m
+  * test encode long word[32m  * test encode long word (0.05ms)[0m
+  * test encode numbers[32m  * test encode numbers (0.1ms)[0m
+  * test encode sentence[32m  * test encode sentence (0.05ms)[0m
+  * test encode all the things[32m  * test encode all the things (0.1ms)[0m
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[32m8 tests, 0 failures[0m
+
+Randomized with seed 0
+** (SyntaxError) atbash.exs:30: unexpected token: "end". "(" starting at line 25 is missing terminator ")"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    atbash_cipher_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) atbash.exs:30: unexpected token: "end". "(" starting at line 25 is missing terminator ")"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    atbash_cipher_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) atbash.exs:30: unexpected token: "end". "(" starting at line 25 is missing terminator ")"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    atbash_cipher_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) atbash.exs:32: unexpected token: "end". "(" starting at line 25 is missing terminator ")"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    atbash_cipher_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable i is unused
+  atbash.exs:29
+
+
+AtbashTest
+  * test encode no[32m  * test encode no (24.9ms)[0m
+  * test encode yes[32m  * test encode yes (1.0ms)[0m
+  * test encode OMG[32m  * test encode OMG (0.04ms)[0m
+  * test encode O M G[32m  * test encode O M G (0.9ms)[0m
+  * test encode long word[32m  * test encode long word (0.06ms)[0m
+  * test encode numbers[32m  * test encode numbers (0.07ms)[0m
+  * test encode sentence[32m  * test encode sentence (0.05ms)[0m
+  * test encode all the things[32m  * test encode all the things (0.08ms)[0m
+
+
+Finished in 0.08 seconds (0.06s on load, 0.02s on tests)
+[32m8 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable i is unused
+  atbash.exs:27
+
+
+AtbashTest
+  * test encode no[32m  * test encode no (13.1ms)[0m
+  * test encode yes[32m  * test encode yes (0.9ms)[0m
+  * test encode OMG[32m  * test encode OMG (1.1ms)[0m
+  * test encode O M G[32m  * test encode O M G (0.05ms)[0m
+  * test encode long word[32m  * test encode long word (0.03ms)[0m
+  * test encode numbers[32m  * test encode numbers (0.06ms)[0m
+  * test encode sentence[32m  * test encode sentence (0.08ms)[0m
+  * test encode all the things[32m  * test encode all the things (0.1ms)[0m
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[32m8 tests, 0 failures[0m
+
+Randomized with seed 0
