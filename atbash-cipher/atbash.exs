@@ -20,13 +20,8 @@ defmodule Atbash do
       (x) ->
         x
     end)
-    |> Enum.with_index
-    |> Enum.map(
-    fn
-      ({x, i}) when rem(i + 1, 5) == 0 -> [x, ' ']
-      ({x, i})                         -> x
-    end)
-    |> List.to_string
-    |> String.trim
+    |> Enum.chunk(5, 5, [])
+    |> Enum.map(&List.to_string/1)
+    |> Enum.join " "
   end
 end

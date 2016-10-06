@@ -581,3 +581,674 @@ Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
 [32m8 tests, 0 failures[0m
 
 Randomized with seed 0
+[33mwarning: [0mparentheses are required when piping into a function call. For example:
+
+    foo 1 |> bar 2 |> baz 3
+
+is ambiguous and should be written as
+
+    foo(1) |> bar(2) |> baz(3)
+
+Ambiguous pipe found at:
+  atbash.exs:26
+
+
+AtbashTest
+  * test encode no[31m  * test encode no (18.0ms)[0m
+
+  1) test encode no (AtbashTest)
+     [1m[30matbash_cipher_test.exs:11[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [{109, 0}, {108, 1}]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       atbash.exs:25: Atbash.encode/1
+       atbash_cipher_test.exs:12: (test)
+
+  * test encode yes[31m  * test encode yes (3.0ms)[0m
+
+  2) test encode yes (AtbashTest)
+     [1m[30matbash_cipher_test.exs:15[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [{98, 0}, {118, 1}, {104, 2}]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       atbash.exs:25: Atbash.encode/1
+       atbash_cipher_test.exs:16: (test)
+
+  * test encode OMG[31m  * test encode OMG (1.7ms)[0m
+
+  3) test encode OMG (AtbashTest)
+     [1m[30matbash_cipher_test.exs:19[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [{108, 0}, {110, 1}, {116, 2}]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       atbash.exs:25: Atbash.encode/1
+       atbash_cipher_test.exs:20: (test)
+
+  * test encode O M G[31m  * test encode O M G (1.3ms)[0m
+
+  4) test encode O M G (AtbashTest)
+     [1m[30matbash_cipher_test.exs:23[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [{108, 0}, {110, 1}, {116, 2}]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       atbash.exs:25: Atbash.encode/1
+       atbash_cipher_test.exs:24: (test)
+
+  * test encode long word[31m  * test encode long word (0.2ms)[0m
+
+  5) test encode long word (AtbashTest)
+     [1m[30matbash_cipher_test.exs:27[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [{110, 0}, {114, 1}, {109, 2}, {119, 3}, {121, 4}]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       atbash.exs:25: Atbash.encode/1
+       atbash_cipher_test.exs:28: (test)
+
+  * test encode numbers[31m  * test encode numbers (0.3ms)[0m
+
+  6) test encode numbers (AtbashTest)
+     [1m[30matbash_cipher_test.exs:31[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [{103, 0}, {118, 1}, {104, 2}, {103, 3}, {114, 4}]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       atbash.exs:25: Atbash.encode/1
+       atbash_cipher_test.exs:32: (test)
+
+  * test encode sentence[31m  * test encode sentence (0.2ms)[0m
+
+  7) test encode sentence (AtbashTest)
+     [1m[30matbash_cipher_test.exs:35[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [{103, 0}, {105, 1}, {102, 2}, {103, 3}, {115, 4}]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       atbash.exs:25: Atbash.encode/1
+       atbash_cipher_test.exs:36: (test)
+
+  * test encode all the things[31m  * test encode all the things (0.2ms)[0m
+
+  8) test encode all the things (AtbashTest)
+     [1m[30matbash_cipher_test.exs:39[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [{103, 0}, {115, 1}, {118, 2}, {106, 3}, {102, 4}]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       atbash.exs:25: Atbash.encode/1
+       atbash_cipher_test.exs:42: (test)
+
+
+
+Finished in 0.1 seconds (0.08s on load, 0.02s on tests)
+[31m8 tests, 8 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mparentheses are required when piping into a function call. For example:
+
+    foo 1 |> bar 2 |> baz 3
+
+is ambiguous and should be written as
+
+    foo(1) |> bar(2) |> baz(3)
+
+Ambiguous pipe found at:
+  atbash.exs:27
+
+
+AtbashTest
+  * test encode no[[{109, 0}, {108, 1}]]
+[31m  * test encode no (19.1ms)[0m
+[[{98, 0}, {118, 1}, {104, 2}]]
+[[{108, 0}, {110, 1}, {116, 2}]]
+
+  1) test encode no (AtbashTest)
+     [1m[30matbash_cipher_test.exs:11[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [{109, 0}, {108, 1}]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       atbash.exs:26: Atbash.encode/1
+       atbash_cipher_test.exs:12: (test)
+
+  * test encode yes[[{108, 0}, {110, 1}, {116, 2}]]
+[31m  * test encode yes (3.1ms)[0m
+
+  2) test encode yes (AtbashTest)
+     [1m[30matbash_cipher_test.exs:15[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [{98, 0}, {118, 1}, {104, 2}]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       atbash.exs:26: Atbash.encode/1
+       atbash_cipher_test.exs:16: (test)
+
+[[{110, 0}, {114, 1}, {109, 2}, {119, 3}, {121, 4}],
+ [{111, 5}, {108, 6}, {100, 7}, {114, 8}, {109, 9}],
+ [{116, 10}, {111, 11}, {98, 12}]]
+  * test encode OMG[31m  * test encode OMG (2.8ms)[0m
+
+[[{103, 0}, {118, 1}, {104, 2}, {103, 3}, {114, 4}],
+ [{109, 5}, {116, 6}, {49, 7}, {50, 8}, {51, 9}],
+ [{103, 10}, {118, 11}, {104, 12}, {103, 13}, {114, 14}],
+ [{109, 15}, {116, 16}]]
+  3) test encode OMG (AtbashTest)
+     [1m[30matbash_cipher_test.exs:19[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [{108, 0}, {110, 1}, {116, 2}]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       atbash.exs:26: Atbash.encode/1
+       atbash_cipher_test.exs:20: (test)
+
+  * test encode O M G[31m  * test encode O M G (0.2ms)[0m
+
+  4) test encode O M G (AtbashTest)
+     [1m[30matbash_cipher_test.exs:23[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [{108, 0}, {110, 1}, {116, 2}]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       atbash.exs:26: Atbash.encode/1
+       atbash_cipher_test.exs:24: (test)
+
+  * test encode long word[31m  * test encode long word (0.5ms)[0m
+[[{103, 0}, {105, 1}, {102, 2}, {103, 3}, {115, 4}],
+ [{114, 5}, {104, 6}, {117, 7}, {114, 8}, {120, 9}],
+ [{103, 10}, {114, 11}, {108, 12}, {109, 13}]]
+
+  5) test encode long word (AtbashTest)
+     [1m[30matbash_cipher_test.exs:27[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [{110, 0}, {114, 1}, {109, 2}, {119, 3}, {121, 4}]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       atbash.exs:26: Atbash.encode/1
+       atbash_cipher_test.exs:28: (test)
+
+  * test encode numbers[31m  * test encode numbers (1.1ms)[0m
+
+  6) test encode numbers (AtbashTest)
+     [1m[30matbash_cipher_test.exs:31[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [{103, 0}, {118, 1}, {104, 2}, {103, 3}, {114, 4}]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       atbash.exs:26: Atbash.encode/1
+       atbash_cipher_test.exs:32: (test)
+
+  * test encode sentence[31m  * test encode sentence (1.1ms)[0m
+[[{103, 0}, {115, 1}, {118, 2}, {106, 3}, {102, 4}],
+ [{114, 5}, {120, 6}, {112, 7}, {121, 8}, {105, 9}],
+ [{108, 10}, {100, 11}, {109, 12}, {117, 13}, {108, 14}],
+ [{99, 15}, {113, 16}, {102, 17}, {110, 18}, {107, 19}],
+ [{104, 20}, {108, 21}, {101, 22}, {118, 23}, {105, 24}],
+ [{103, 25}, {115, 26}, {118, 27}, {111, 28}, {122, 29}],
+ [{97, 30}, {98, 31}, {119, 32}, {108, 33}, {116, 34}]]
+
+  7) test encode sentence (AtbashTest)
+     [1m[30matbash_cipher_test.exs:35[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [{103, 0}, {105, 1}, {102, 2}, {103, 3}, {115, 4}]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       atbash.exs:26: Atbash.encode/1
+       atbash_cipher_test.exs:36: (test)
+
+  * test encode all the things[31m  * test encode all the things (1.6ms)[0m
+
+  8) test encode all the things (AtbashTest)
+     [1m[30matbash_cipher_test.exs:39[0m
+     [31m** (ArgumentError) cannot convert the given list to a string.
+     
+     To be converted to a string, a list must contain only:
+     
+       * strings
+       * integers representing Unicode codepoints
+       * or a list containing one of these three elements
+     
+     Please check the given list or call inspect/1 to get the list representation, got:
+     
+     [{103, 0}, {115, 1}, {118, 2}, {106, 3}, {102, 4}]
+     [0m
+     [36mstacktrace:[0m
+       (elixir) lib/list.ex:624: List.to_string/1
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       atbash.exs:26: Atbash.encode/1
+       atbash_cipher_test.exs:42: (test)
+
+
+
+Finished in 0.1 seconds (0.08s on load, 0.03s on tests)
+[31m8 tests, 8 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mparentheses are required when piping into a function call. For example:
+
+    foo 1 |> bar 2 |> baz 3
+
+is ambiguous and should be written as
+
+    foo(1) |> bar(2) |> baz(3)
+
+Ambiguous pipe found at:
+  atbash.exs:26
+
+
+AtbashTest
+  * test encode no['ml']
+['bvh']
+[31m  * test encode no (43.3ms)[0m
+['lnt']
+['lnt']
+['nrmwy', 'oldrm', 'tob']
+
+  1) test encode no (AtbashTest)
+     [1m[30matbash_cipher_test.exs:11[0m
+     [31m** (UndefinedFunctionError) function String.join/2 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.join(["ml"], " ")
+       atbash_cipher_test.exs:12: (test)
+
+['gvhgr', 'mt123', 'gvhgr', 'mt']
+  * test encode yes[31m  * test encode yes (1.7ms)[0m
+['gifgs', 'rhurx', 'grlm']
+['gsvjf', 'rxpyi', 'ldmul', 'cqfnk', 'hlevi', 'gsvoz', 'abwlt']
+
+  2) test encode yes (AtbashTest)
+     [1m[30matbash_cipher_test.exs:15[0m
+     [31m** (UndefinedFunctionError) function String.join/2 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.join(["bvh"], " ")
+       atbash_cipher_test.exs:16: (test)
+
+  * test encode OMG[31m  * test encode OMG (2.0ms)[0m
+
+  3) test encode OMG (AtbashTest)
+     [1m[30matbash_cipher_test.exs:19[0m
+     [31m** (UndefinedFunctionError) function String.join/2 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.join(["lnt"], " ")
+       atbash_cipher_test.exs:20: (test)
+
+  * test encode O M G[31m  * test encode O M G (6.0ms)[0m
+
+  4) test encode O M G (AtbashTest)
+     [1m[30matbash_cipher_test.exs:23[0m
+     [31m** (UndefinedFunctionError) function String.join/2 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.join(["lnt"], " ")
+       atbash_cipher_test.exs:24: (test)
+
+  * test encode long word[31m  * test encode long word (0.5ms)[0m
+
+  5) test encode long word (AtbashTest)
+     [1m[30matbash_cipher_test.exs:27[0m
+     [31m** (UndefinedFunctionError) function String.join/2 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.join(["nrmwy", "oldrm", "tob"], " ")
+       atbash_cipher_test.exs:28: (test)
+
+  * test encode numbers[31m  * test encode numbers (2.1ms)[0m
+
+  6) test encode numbers (AtbashTest)
+     [1m[30matbash_cipher_test.exs:31[0m
+     [31m** (UndefinedFunctionError) function String.join/2 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.join(["gvhgr", "mt123", "gvhgr", "mt"], " ")
+       atbash_cipher_test.exs:32: (test)
+
+  * test encode sentence[31m  * test encode sentence (0.1ms)[0m
+
+  7) test encode sentence (AtbashTest)
+     [1m[30matbash_cipher_test.exs:35[0m
+     [31m** (UndefinedFunctionError) function String.join/2 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.join(["gifgs", "rhurx", "grlm"], " ")
+       atbash_cipher_test.exs:36: (test)
+
+  * test encode all the things[31m  * test encode all the things (0.2ms)[0m
+
+  8) test encode all the things (AtbashTest)
+     [1m[30matbash_cipher_test.exs:39[0m
+     [31m** (UndefinedFunctionError) function String.join/2 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.join(["gsvjf", "rxpyi", "ldmul", "cqfnk", "hlevi", "gsvoz", "abwlt"], " ")
+       atbash_cipher_test.exs:42: (test)
+
+
+
+Finished in 0.1 seconds (0.09s on load, 0.05s on tests)
+[31m8 tests, 8 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mparentheses are required when piping into a function call. For example:
+
+    foo 1 |> bar 2 |> baz 3
+
+is ambiguous and should be written as
+
+    foo(1) |> bar(2) |> baz(3)
+
+Ambiguous pipe found at:
+  atbash.exs:26
+
+
+AtbashTest
+  * test encode no['ml']
+[31m  * test encode no (17.6ms)[0m
+['bvh']
+['lnt']
+['lnt']
+['nrmwy', 'oldrm', 'tob']
+
+  1) test encode no (AtbashTest)
+     [1m[30matbash_cipher_test.exs:11[0m
+     [31m** (UndefinedFunctionError) function List.join/2 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) List.join(["ml"], " ")
+       atbash_cipher_test.exs:12: (test)
+
+  * test encode yes['gvhgr', 'mt123', 'gvhgr', 'mt']
+[31m  * test encode yes (2.6ms)[0m
+['gifgs', 'rhurx', 'grlm']
+['gsvjf', 'rxpyi', 'ldmul', 'cqfnk', 'hlevi', 'gsvoz', 'abwlt']
+
+  2) test encode yes (AtbashTest)
+     [1m[30matbash_cipher_test.exs:15[0m
+     [31m** (UndefinedFunctionError) function List.join/2 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) List.join(["bvh"], " ")
+       atbash_cipher_test.exs:16: (test)
+
+  * test encode OMG[31m  * test encode OMG (1.3ms)[0m
+
+  3) test encode OMG (AtbashTest)
+     [1m[30matbash_cipher_test.exs:19[0m
+     [31m** (UndefinedFunctionError) function List.join/2 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) List.join(["lnt"], " ")
+       atbash_cipher_test.exs:20: (test)
+
+  * test encode O M G[31m  * test encode O M G (2.3ms)[0m
+
+  4) test encode O M G (AtbashTest)
+     [1m[30matbash_cipher_test.exs:23[0m
+     [31m** (UndefinedFunctionError) function List.join/2 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) List.join(["lnt"], " ")
+       atbash_cipher_test.exs:24: (test)
+
+  * test encode long word[31m  * test encode long word (0.1ms)[0m
+
+  5) test encode long word (AtbashTest)
+     [1m[30matbash_cipher_test.exs:27[0m
+     [31m** (UndefinedFunctionError) function List.join/2 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) List.join(["nrmwy", "oldrm", "tob"], " ")
+       atbash_cipher_test.exs:28: (test)
+
+  * test encode numbers[31m  * test encode numbers (1.1ms)[0m
+
+  6) test encode numbers (AtbashTest)
+     [1m[30matbash_cipher_test.exs:31[0m
+     [31m** (UndefinedFunctionError) function List.join/2 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) List.join(["gvhgr", "mt123", "gvhgr", "mt"], " ")
+       atbash_cipher_test.exs:32: (test)
+
+  * test encode sentence[31m  * test encode sentence (0.1ms)[0m
+
+  7) test encode sentence (AtbashTest)
+     [1m[30matbash_cipher_test.exs:35[0m
+     [31m** (UndefinedFunctionError) function List.join/2 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) List.join(["gifgs", "rhurx", "grlm"], " ")
+       atbash_cipher_test.exs:36: (test)
+
+  * test encode all the things[31m  * test encode all the things (0.2ms)[0m
+
+  8) test encode all the things (AtbashTest)
+     [1m[30matbash_cipher_test.exs:39[0m
+     [31m** (UndefinedFunctionError) function List.join/2 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) List.join(["gsvjf", "rxpyi", "ldmul", "cqfnk", "hlevi", "gsvoz", "abwlt"], " ")
+       atbash_cipher_test.exs:42: (test)
+
+
+
+Finished in 0.1 seconds (0.09s on load, 0.02s on tests)
+[31m8 tests, 8 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mparentheses are required when piping into a function call. For example:
+
+    foo 1 |> bar 2 |> baz 3
+
+is ambiguous and should be written as
+
+    foo(1) |> bar(2) |> baz(3)
+
+Ambiguous pipe found at:
+  atbash.exs:26
+
+
+AtbashTest
+  * test encode no['ml']
+[32m  * test encode no (15.3ms)[0m
+  * test encode yes['bvh']
+[32m  * test encode yes (1.1ms)[0m
+  * test encode OMG['lnt']
+[32m  * test encode OMG (0.09ms)[0m
+  * test encode O M G['lnt']
+[32m  * test encode O M G (0.1ms)[0m
+  * test encode long word['nrmwy', 'oldrm', 'tob']
+[32m  * test encode long word (0.1ms)[0m
+  * test encode numbers['gvhgr', 'mt123', 'gvhgr', 'mt']
+[32m  * test encode numbers (0.1ms)[0m
+  * test encode sentence['gifgs', 'rhurx', 'grlm']
+[32m  * test encode sentence (0.1ms)[0m
+  * test encode all the things['gsvjf', 'rxpyi', 'ldmul', 'cqfnk', 'hlevi', 'gsvoz', 'abwlt']
+[32m  * test encode all the things (0.2ms)[0m
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[32m8 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mparentheses are required when piping into a function call. For example:
+
+    foo 1 |> bar 2 |> baz 3
+
+is ambiguous and should be written as
+
+    foo(1) |> bar(2) |> baz(3)
+
+Ambiguous pipe found at:
+  atbash.exs:25
+
+
+AtbashTest
+  * test encode no[32m  * test encode no (15.1ms)[0m
+  * test encode yes[32m  * test encode yes (1.0ms)[0m
+  * test encode OMG[32m  * test encode OMG (1.1ms)[0m
+  * test encode O M G[32m  * test encode O M G (1.1ms)[0m
+  * test encode long word[32m  * test encode long word (0.07ms)[0m
+  * test encode numbers[32m  * test encode numbers (0.08ms)[0m
+  * test encode sentence[32m  * test encode sentence (0.05ms)[0m
+  * test encode all the things[32m  * test encode all the things (0.08ms)[0m
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[32m8 tests, 0 failures[0m
+
+Randomized with seed 0
