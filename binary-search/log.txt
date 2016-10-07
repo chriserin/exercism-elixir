@@ -153936,3 +153936,41 @@ Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
 [32m8 tests, 0 failures[0m
 
 Randomized with seed 0
+[33mwarning: [0mdefinitions with multiple clauses and default values require a function head. Instead of:
+
+    def foo(:first_clause, b \\ :default) do ... end
+    def foo(:second_clause, b) do ... end
+
+one should write:
+
+    def foo(a, b \\ :default)
+    def foo(:first_clause, b) do ... end
+    def foo(:second_clause, b) do ... end
+
+def bsearch/3 has multiple clauses and defines defaults in a clause with a body
+  binary_search.exs:30
+
+[33mwarning: [0mvariable key is unused
+  binary_search.exs:29
+
+[33mwarning: [0mvariable offset is unused
+  binary_search.exs:29
+
+Excluding tags: [:pending]
+
+
+BinarySearchTest
+  * test returns :not_found on empty list[32m  * test returns :not_found on empty list (0.00ms)[0m
+  * test raises ArgumentError for unsorted list[32m  * test raises ArgumentError for unsorted list (3.0ms)[0m
+  * test returns :not_found when key is not in the list[32m  * test returns :not_found when key is not in the list (0.00ms)[0m
+  * test finds key in a list with a single item[32m  * test finds key in a list with a single item (0.00ms)[0m
+  * test finds key when it is the first element in list[32m  * test finds key when it is the first element in list (0.00ms)[0m
+  * test finds key when it is in the middle of the list[32m  * test finds key when it is in the middle of the list (0.00ms)[0m
+  * test finds key when it is the last element in list[32m  * test finds key when it is the last element in list (0.00ms)[0m
+  * test finds key in a list with an even number of elements[32m  * test finds key in a list with an even number of elements (0.00ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m8 tests, 0 failures[0m
+
+Randomized with seed 0

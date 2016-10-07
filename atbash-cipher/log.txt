@@ -1252,3 +1252,30 @@ Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
 [32m8 tests, 0 failures[0m
 
 Randomized with seed 0
+[33mwarning: [0mparentheses are required when piping into a function call. For example:
+
+    foo 1 |> bar 2 |> baz 3
+
+is ambiguous and should be written as
+
+    foo(1) |> bar(2) |> baz(3)
+
+Ambiguous pipe found at:
+  atbash.exs:25
+
+
+AtbashTest
+  * test encode no[32m  * test encode no (10.6ms)[0m
+  * test encode yes[32m  * test encode yes (0.8ms)[0m
+  * test encode OMG[32m  * test encode OMG (0.8ms)[0m
+  * test encode O M G[32m  * test encode O M G (1.0ms)[0m
+  * test encode long word[32m  * test encode long word (0.07ms)[0m
+  * test encode numbers[32m  * test encode numbers (0.06ms)[0m
+  * test encode sentence[32m  * test encode sentence (0.06ms)[0m
+  * test encode all the things[32m  * test encode all the things (0.09ms)[0m
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[32m8 tests, 0 failures[0m
+
+Randomized with seed 0

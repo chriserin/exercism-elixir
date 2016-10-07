@@ -1978,3 +1978,20 @@ Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
 [32m9 tests, 0 failures[0m
 
 Randomized with seed 0
+
+MarkdownTest
+  * test parses normal text as a paragraph[32m  * test parses normal text as a paragraph (4.9ms)[0m
+  * test parsing italics[32m  * test parsing italics (0.8ms)[0m
+  * test parsing bold text[32m  * test parsing bold text (1.0ms)[0m
+  * test mixed normal, italics and bold text[32m  * test mixed normal, italics and bold text (0.09ms)[0m
+  * test with h1 header level[32m  * test with h1 header level (1.1ms)[0m
+  * test with h2 header level[32m  * test with h2 header level (0.1ms)[0m
+  * test with h6 header level[32m  * test with h6 header level (0.1ms)[0m
+  * test unordered lists[32m  * test unordered lists (0.05ms)[0m
+  * test with a little bit of everything[32m  * test with a little bit of everything (0.1ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m9 tests, 0 failures[0m
+
+Randomized with seed 0
