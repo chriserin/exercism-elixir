@@ -1,0 +1,2144 @@
+[33mwarning: [0mparentheses are required when piping into a function call. For example:
+
+    foo 1 |> bar 2 |> baz 3
+
+is ambiguous and should be written as
+
+    foo(1) |> bar(2) |> baz(3)
+
+Ambiguous pipe found at:
+  largest_series_product.exs:11
+
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[31m  * test largest product of 2 (7.7ms)[0m
+
+  1) test largest product of 2 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:12[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for 1[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1310: Enum.max_by/2
+       largest_series_product.exs:12: Series.largest_product/2
+       largest_series_product_test.exs:13: (test)
+
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+** (SyntaxError) largest_series_product.exs:12: unexpected token: ")". "[" starting at line 12 is missing terminator "]"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    largest_series_product_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mparentheses are required when piping into a function call. For example:
+
+    foo 1 |> bar 2 |> baz 3
+
+is ambiguous and should be written as
+
+    foo(1) |> bar(2) |> baz(3)
+
+Ambiguous pipe found at:
+  largest_series_product.exs:11
+
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[31m  * test largest product of 2 (6.8ms)[0m
+
+  1) test largest product of 2 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:12[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for 1[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1310: Enum.max_by/2
+       largest_series_product.exs:12: Series.largest_product/2
+       largest_series_product_test.exs:13: (test)
+
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mparentheses are required when piping into a function call. For example:
+
+    foo 1 |> bar 2 |> baz 3
+
+is ambiguous and should be written as
+
+    foo(1) |> bar(2) |> baz(3)
+
+Ambiguous pipe found at:
+  largest_series_product.exs:11
+
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 21
+[31m  * test largest product of 2 (7.0ms)[0m
+
+  1) test largest product of 2 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:12[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for 1[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1310: Enum.max_by/2
+       largest_series_product.exs:13: Series.largest_product/2
+       largest_series_product_test.exs:13: (test)
+
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mparentheses are required when piping into a function call. For example:
+
+    foo 1 |> bar 2 |> baz 3
+
+is ambiguous and should be written as
+
+    foo(1) |> bar(2) |> baz(3)
+
+Ambiguous pipe found at:
+  largest_series_product.exs:12
+
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[1, 2, 3, 4, 5, 6, 7, 8, 9]
+1
+[31m  * test largest product of 2 (7.8ms)[0m
+
+  1) test largest product of 2 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:12[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for 1[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1310: Enum.max_by/2
+       largest_series_product.exs:14: Series.largest_product/2
+       largest_series_product_test.exs:13: (test)
+
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mparentheses are required when piping into a function call. For example:
+
+    foo 1 |> bar 2 |> baz 3
+
+is ambiguous and should be written as
+
+    foo(1) |> bar(2) |> baz(3)
+
+Ambiguous pipe found at:
+  largest_series_product.exs:11
+
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[31m  * test largest product of 2 (6.6ms)[0m
+
+  1) test largest product of 2 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:12[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for 1[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1310: Enum.max_by/2
+       largest_series_product.exs:12: Series.largest_product/2
+       largest_series_product_test.exs:13: (test)
+
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mparentheses are required when piping into a function call. For example:
+
+    foo 1 |> bar 2 |> baz 3
+
+is ambiguous and should be written as
+
+    foo(1) |> bar(2) |> baz(3)
+
+Ambiguous pipe found at:
+  largest_series_product.exs:11
+
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 21
+[31m  * test largest product of 2 (9.1ms)[0m
+
+  1) test largest product of 2 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:12[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for 1[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1310: Enum.max_by/2
+       largest_series_product.exs:13: Series.largest_product/2
+       largest_series_product_test.exs:13: (test)
+
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[[1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7], '\a\b', '\b\t']
+[31m  * test largest product of 2 (5.8ms)[0m
+
+  1) test largest product of 2 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:12[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("0123456789", 2) == 72
+     [36mlhs:  [0m'\b\t'
+     [36mrhs:  [0m72
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:13: (test)
+
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[31m  * test largest product of 2 (2.8ms)[0m
+
+  1) test largest product of 2 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:12[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("0123456789", 2) == 72
+     [36mlhs:  [0m'\b\t'
+     [36mrhs:  [0m72
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:13: (test)
+
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[31m  * test largest product of 2 (2.4ms)[0m
+
+  1) test largest product of 2 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:12[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("0123456789", 2) == 72
+     [36mlhs:  [0m[2, 6, 12, 20, 30, 42, 56, 72]
+     [36mrhs:  [0m72
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:13: (test)
+
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.02ms)[0m
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m16 tests, 0 failures, 15 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[31m  * test largest product of 2 (4.1ms)[0m
+
+  1) test largest product of 2 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:12[0m
+     [31m** (FunctionClauseError) no function clause matching in Series.product/1[0m
+     [36mstacktrace:[0m
+       largest_series_product.exs:17: Series.product([1, 2])
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       largest_series_product.exs:12: Series.largest_product/2
+       largest_series_product_test.exs:13: (test)
+
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[31m  * test largest product of 2 (2.6ms)[0m
+
+  1) test largest product of 2 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:12[0m
+     [31m** (FunctionClauseError) no function clause matching in Series.product/1[0m
+     [36mstacktrace:[0m
+       largest_series_product.exs:17: Series.product([1, 2])
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       largest_series_product.exs:12: Series.largest_product/2
+       largest_series_product_test.exs:13: (test)
+
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[31m  * test largest product of 2 (2.6ms)[0m
+
+  1) test largest product of 2 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:12[0m
+     [31m** (FunctionClauseError) no function clause matching in Series.product/1[0m
+     [36mstacktrace:[0m
+       largest_series_product.exs:17: Series.product([1, 2])
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       largest_series_product.exs:12: Series.largest_product/2
+       largest_series_product_test.exs:13: (test)
+
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 1 failure, 15 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.02ms)[0m
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m16 tests, 0 failures, 15 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.02ms)[0m
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m16 tests, 0 failures, 15 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.02ms)[0m
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m16 tests, 0 failures, 15 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.02ms)[0m
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m16 tests, 0 failures, 15 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.01ms)[0m
+  * test largest product of a tiny number  * test largest product of a tiny number (skipped)
+  * test another tiny number  * test another tiny number (skipped)
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m16 tests, 0 failures, 15 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.02ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.00ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.00ms)[0m
+  * test largest product of 2 shuffled  * test largest product of 2 shuffled (skipped)
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m16 tests, 0 failures, 13 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.01ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.00ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.00ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3  * test largest product of 3 (skipped)
+  * test largest product of 3 shuffled  * test largest product of 3 shuffled (skipped)
+  * test largest product of 5  * test largest product of 5 (skipped)
+  * test some big number  * test some big number (skipped)
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m16 tests, 0 failures, 12 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.02ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.00ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.00ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.01ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.01ms)[0m
+  * test some big number[32m  * test some big number (0.2ms)[0m
+  * test some other big number  * test some other big number (skipped)
+  * test number with all zeroes  * test number with all zeroes (skipped)
+  * test number where all products are zero  * test number where all products are zero (skipped)
+  * test identity with empty string  * test identity with empty string (skipped)
+  * test identity with non-empty string  * test identity with non-empty string (skipped)
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m16 tests, 0 failures, 8 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.02ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.00ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.01ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.01ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.01ms)[0m
+  * test some big number[32m  * test some big number (0.06ms)[0m
+  * test some other big number[32m  * test some other big number (0.1ms)[0m
+  * test number with all zeroes[31m  * test number with all zeroes (3.7ms)[0m
+
+  1) test number with all zeroes (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:48[0m
+     [31m** (Enum.EmptyError) empty error[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1589: Enum.reduce/2
+       largest_series_product_test.exs:49: (test)
+
+  * test number where all products are zero[32m  * test number where all products are zero (0.02ms)[0m
+  * test identity with empty string[31m  * test identity with empty string (1.5ms)[0m
+
+  2) test identity with empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:56[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.binary_to_integer("")
+       largest_series_product.exs:13: Series.largest_product/2
+       largest_series_product_test.exs:57: (test)
+
+  * test identity with non-empty string[31m  * test identity with non-empty string (0.03ms)[0m
+
+  3) test identity with non-empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:60[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk([1, 2, 3], 0, 1, nil)
+       largest_series_product.exs:15: Series.largest_product/2
+       largest_series_product_test.exs:61: (test)
+
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 3 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.03ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.00ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.01ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.02ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.01ms)[0m
+  * test some big number[32m  * test some big number (0.1ms)[0m
+  * test some other big number[32m  * test some other big number (0.09ms)[0m
+  * test number with all zeroes[31m  * test number with all zeroes (3.0ms)[0m
+
+  1) test number with all zeroes (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:48[0m
+     [31m** (Enum.EmptyError) empty error[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1589: Enum.reduce/2
+       largest_series_product_test.exs:49: (test)
+
+  * test number where all products are zero[32m  * test number where all products are zero (0.02ms)[0m
+  * test identity with empty string[31m  * test identity with empty string (1.3ms)[0m
+
+  2) test identity with empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:56[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.binary_to_integer("")
+       largest_series_product.exs:13: Series.largest_product/2
+       largest_series_product_test.exs:57: (test)
+
+  * test identity with non-empty string[31m  * test identity with non-empty string (0.03ms)[0m
+
+  3) test identity with non-empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:60[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk([1, 2, 3], 0, 1, nil)
+       largest_series_product.exs:15: Series.largest_product/2
+       largest_series_product_test.exs:61: (test)
+
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 3 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.02ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.01ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.01ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.01ms)[0m
+  * test some big number[32m  * test some big number (0.06ms)[0m
+  * test some other big number[32m  * test some other big number (0.05ms)[0m
+  * test number with all zeroes[31m  * test number with all zeroes (2.6ms)[0m
+
+  1) test number with all zeroes (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:48[0m
+     [31m** (Enum.EmptyError) empty error[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1589: Enum.reduce/2
+       largest_series_product_test.exs:49: (test)
+
+  * test number where all products are zero[32m  * test number where all products are zero (0.02ms)[0m
+  * test identity with empty string[31m  * test identity with empty string (1.3ms)[0m
+
+  2) test identity with empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:56[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.binary_to_integer("")
+       largest_series_product.exs:13: Series.largest_product/2
+       largest_series_product_test.exs:57: (test)
+
+  * test identity with non-empty string[31m  * test identity with non-empty string (0.03ms)[0m
+
+  3) test identity with non-empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:60[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk([1, 2, 3], 0, 1, nil)
+       largest_series_product.exs:15: Series.largest_product/2
+       largest_series_product_test.exs:61: (test)
+
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 3 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.04ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.00ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.02ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.01ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.02ms)[0m
+  * test some big number[32m  * test some big number (0.1ms)[0m
+  * test some other big number[32m  * test some other big number (0.05ms)[0m
+  * test number with all zeroes[31m  * test number with all zeroes (2.6ms)[0m
+
+  1) test number with all zeroes (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:48[0m
+     [31m** (Enum.EmptyError) empty error[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1589: Enum.reduce/2
+       largest_series_product_test.exs:49: (test)
+
+  * test number where all products are zero[32m  * test number where all products are zero (0.01ms)[0m
+  * test identity with empty string[31m  * test identity with empty string (1.2ms)[0m
+
+  2) test identity with empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:56[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.binary_to_integer("")
+       largest_series_product.exs:13: Series.largest_product/2
+       largest_series_product_test.exs:57: (test)
+
+  * test identity with non-empty string[31m  * test identity with non-empty string (0.02ms)[0m
+
+  3) test identity with non-empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:60[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk([1, 2, 3], 0, 1, nil)
+       largest_series_product.exs:15: Series.largest_product/2
+       largest_series_product_test.exs:61: (test)
+
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 3 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.02ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.01ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.02ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.01ms)[0m
+  * test some big number[32m  * test some big number (0.07ms)[0m
+  * test some other big number[32m  * test some other big number (0.06ms)[0m
+  * test number with all zeroes[31m  * test number with all zeroes (2.5ms)[0m
+
+  1) test number with all zeroes (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:48[0m
+     [31m** (Enum.EmptyError) empty error[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1589: Enum.reduce/2
+       largest_series_product_test.exs:49: (test)
+
+  * test number where all products are zero[32m  * test number where all products are zero (0.1ms)[0m
+  * test identity with empty string[31m  * test identity with empty string (1.3ms)[0m
+
+  2) test identity with empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:56[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.binary_to_integer("")
+       largest_series_product.exs:13: Series.largest_product/2
+       largest_series_product_test.exs:57: (test)
+
+  * test identity with non-empty string[31m  * test identity with non-empty string (0.04ms)[0m
+
+  3) test identity with non-empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:60[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk([1, 2, 3], 0, 1, nil)
+       largest_series_product.exs:15: Series.largest_product/2
+       largest_series_product_test.exs:61: (test)
+
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 3 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.02ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.00ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.01ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.01ms)[0m
+  * test some big number[32m  * test some big number (0.07ms)[0m
+  * test some other big number[32m  * test some other big number (0.1ms)[0m
+  * test number with all zeroes[31m  * test number with all zeroes (2.6ms)[0m
+
+  1) test number with all zeroes (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:48[0m
+     [31m** (Enum.EmptyError) empty error[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1589: Enum.reduce/2
+       largest_series_product_test.exs:49: (test)
+
+  * test number where all products are zero[32m  * test number where all products are zero (0.01ms)[0m
+  * test identity with empty string[31m  * test identity with empty string (1.4ms)[0m
+
+  2) test identity with empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:56[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.binary_to_integer("")
+       largest_series_product.exs:13: Series.largest_product/2
+       largest_series_product_test.exs:57: (test)
+
+  * test identity with non-empty string[31m  * test identity with non-empty string (0.02ms)[0m
+
+  3) test identity with non-empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:60[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk([1, 2, 3], 0, 1, nil)
+       largest_series_product.exs:15: Series.largest_product/2
+       largest_series_product_test.exs:61: (test)
+
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 3 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.02ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.00ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.01ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.02ms)[0m
+  * test some big number[32m  * test some big number (0.08ms)[0m
+  * test some other big number[32m  * test some other big number (0.06ms)[0m
+  * test number with all zeroes[31m  * test number with all zeroes (2.4ms)[0m
+
+  1) test number with all zeroes (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:48[0m
+     [31m** (Enum.EmptyError) empty error[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1589: Enum.reduce/2
+       largest_series_product_test.exs:49: (test)
+
+  * test number where all products are zero[32m  * test number where all products are zero (0.01ms)[0m
+  * test identity with empty string[31m  * test identity with empty string (1.3ms)[0m
+
+  2) test identity with empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:56[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.binary_to_integer("")
+       largest_series_product.exs:17: Series.largest_product/2
+       largest_series_product_test.exs:57: (test)
+
+  * test identity with non-empty string[31m  * test identity with non-empty string (0.03ms)[0m
+
+  3) test identity with non-empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:60[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk([1, 2, 3], 0, 1, nil)
+       largest_series_product.exs:19: Series.largest_product/2
+       largest_series_product_test.exs:61: (test)
+
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m16 tests, 3 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.02ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.00ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.01ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.01ms)[0m
+  * test some big number[32m  * test some big number (0.09ms)[0m
+  * test some other big number[32m  * test some other big number (0.07ms)[0m
+  * test number with all zeroes[31m  * test number with all zeroes (2.7ms)[0m
+
+  1) test number with all zeroes (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:48[0m
+     [31m** (Enum.EmptyError) empty error[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1589: Enum.reduce/2
+       largest_series_product_test.exs:49: (test)
+
+  * test number where all products are zero[32m  * test number where all products are zero (0.01ms)[0m
+  * test identity with empty string[31m  * test identity with empty string (1.4ms)[0m
+
+  2) test identity with empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:56[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.binary_to_integer("")
+       largest_series_product.exs:17: Series.largest_product/2
+       largest_series_product_test.exs:57: (test)
+
+  * test identity with non-empty string[31m  * test identity with non-empty string (0.03ms)[0m
+
+  3) test identity with non-empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:60[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk([1, 2, 3], 0, 1, nil)
+       largest_series_product.exs:19: Series.largest_product/2
+       largest_series_product_test.exs:61: (test)
+
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 3 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[[1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7], '\a\b', '\b\t']
+[32m  * test largest product of 2 (2.2ms)[0m
+[[1, 2]]
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.9ms)[0m
+[[1, 9]]
+  * test another tiny number[32m  * test another tiny number (0.08ms)[0m
+  * test largest product of 2 shuffled[[5, 7], [7, 6], [6, 8], [8, 0], [0, 2], [2, 1], [1, 4], [4, 3]]
+[32m  * test largest product of 2 shuffled (0.2ms)[0m
+  * test largest product of 3[[1, 2, 3], [2, 3, 4], [3, 4, 5], [4, 5, 6], [5, 6, 7], [6, 7, 8], '\a\b\t']
+[32m  * test largest product of 3 (0.2ms)[0m
+  * test largest product of 3 shuffled[[1, 0, 2], [0, 2, 7], [2, 7, 8], [7, 8, 3], [8, 3, 9], [3, 9, 5], [9, 5, 6],
+ [5, 6, 4]]
+[32m  * test largest product of 3 shuffled (0.2ms)[0m
+  * test largest product of 5[[1, 2, 3, 4, 5], [2, 3, 4, 5, 6], [3, 4, 5, 6, 7], [4, 5, 6, 7, 8],
+ [5, 6, 7, 8, 9]]
+[32m  * test largest product of 5 (0.3ms)[0m
+  * test some big number[[7, 3, 1, 6, 7, 1], [3, 1, 6, 7, 1, 7], [1, 6, 7, 1, 7, 6], [6, 7, 1, 7, 6, 5],
+ [7, 1, 7, 6, 5, 3], [1, 7, 6, 5, 3, 1], [7, 6, 5, 3, 1, 3], [6, 5, 3, 1, 3, 3],
+ [5, 3, 1, 3, 3, 0], [3, 1, 3, 3, 0, 6], [1, 3, 3, 0, 6, 2], [3, 3, 0, 6, 2, 4],
+ [3, 0, 6, 2, 4, 9], [0, 6, 2, 4, 9, 1], [6, 2, 4, 9, 1, 9], [2, 4, 9, 1, 9, 2],
+ [4, 9, 1, 9, 2, 2], [9, 1, 9, 2, 2, 5], [1, 9, 2, 2, 5, 1], [9, 2, 2, 5, 1, 1],
+ [2, 2, 5, 1, 1, 9], [2, 5, 1, 1, 9, 6], [5, 1, 1, 9, 6, 7], [1, 1, 9, 6, 7, 4],
+ [1, 9, 6, 7, 4, 4], [9, 6, 7, 4, 4, 2], [6, 7, 4, 4, 2, 6], [7, 4, 4, 2, 6, 5],
+ [4, 4, 2, 6, 5, 7], [4, 2, 6, 5, 7, 4], [2, 6, 5, 7, 4, 7], [6, 5, 7, 4, 7, 4],
+ [5, 7, 4, 7, 4, 2], [7, 4, 7, 4, 2, 3], [4, 7, 4, 2, 3, 5], [7, 4, 2, 3, 5, 5],
+ [4, 2, 3, 5, 5, 3], [2, 3, 5, 5, 3, 4], [3, 5, 5, 3, 4, 9], [5, 5, 3, 4, 9, 1],
+ [5, 3, 4, 9, 1, 9], [3, 4, 9, 1, 9, 4], [4, 9, 1, 9, 4, 9], [9, 1, 9, 4, 9, 3],
+ [1, 9, 4, 9, 3, 4]]
+[32m  * test some big number (1.2ms)[0m
+  * test some other big number[[5, 2, 6, 7, 7, 7], [2, 6, 7, 7, 7, 4], [6, 7, 7, 7, 4, 1], [7, 7, 7, 4, 1, 2],
+ [7, 7, 4, 1, 2, 3], [7, 4, 1, 2, 3, 4], [4, 1, 2, 3, 4, 3], [1, 2, 3, 4, 3, 1],
+ [2, 3, 4, 3, 1, 4], [3, 4, 3, 1, 4, 2], [4, 3, 1, 4, 2, 3], [3, 1, 4, 2, 3, 7],
+ [1, 4, 2, 3, 7, 5], [4, 2, 3, 7, 5, 6], [2, 3, 7, 5, 6, 6], [3, 7, 5, 6, 6, 4],
+ [7, 5, 6, 6, 4, 1], [5, 6, 6, 4, 1, 4], [6, 6, 4, 1, 4, 9], [6, 4, 1, 4, 9, 0],
+ [4, 1, 4, 9, 0, 2], [1, 4, 9, 0, 2, 5], [4, 9, 0, 2, 5, 9], [9, 0, 2, 5, 9, 3],
+ [0, 2, 5, 9, 3, 4], [2, 5, 9, 3, 4, 6], [5, 9, 3, 4, 6, 1], [9, 3, 4, 6, 1, 5],
+ [3, 4, 6, 1, 5, 9], [4, 6, 1, 5, 9, 5], [6, 1, 5, 9, 5, 3], [1, 5, 9, 5, 3, 7],
+ [5, 9, 5, 3, 7, 6], [9, 5, 3, 7, 6, 3], [5, 3, 7, 6, 3, 1], [3, 7, 6, 3, 1, 9],
+ [7, 6, 3, 1, 9, 4], [6, 3, 1, 9, 4, 1], [3, 1, 9, 4, 1, 9], [1, 9, 4, 1, 9, 1],
+ [9, 4, 1, 9, 1, 3], [4, 1, 9, 1, 3, 9], [1, 9, 1, 3, 9, 4], [9, 1, 3, 9, 4, 2],
+ [1, 3, 9, 4, 2, 7]]
+[]
+[32m  * test some other big number (1.3ms)[0m
+  * test number with all zeroes[31m  * test number with all zeroes (2.8ms)[0m
+[[9, 9, 0], [9, 0, 9], [0, 9, 9]]
+
+  1) test number with all zeroes (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:48[0m
+     [31m** (Enum.EmptyError) empty error[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1589: Enum.reduce/2
+       largest_series_product_test.exs:49: (test)
+
+  * test number where all products are zero[32m  * test number where all products are zero (0.2ms)[0m
+  * test identity with empty string[31m  * test identity with empty string (1.4ms)[0m
+
+  2) test identity with empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:56[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.binary_to_integer("")
+       largest_series_product.exs:17: Series.largest_product/2
+       largest_series_product_test.exs:57: (test)
+
+  * test identity with non-empty string[31m  * test identity with non-empty string (0.03ms)[0m
+
+  3) test identity with non-empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:60[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk([1, 2, 3], 0, 1, nil)
+       largest_series_product.exs:19: Series.largest_product/2
+       largest_series_product_test.exs:61: (test)
+
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[31m16 tests, 3 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mparentheses are required when piping into a function call. For example:
+
+    foo 1 |> bar 2 |> baz 3
+
+is ambiguous and should be written as
+
+    foo(1) |> bar(2) |> baz(3)
+
+Ambiguous pipe found at:
+  largest_series_product.exs:22
+
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[2, 6, 12, 20, 30, 42, 56, 72]
+[2]
+[31m  * test largest product of 2 (3.6ms)[0m
+'\t'
+[35, 42, 48, 0, 0, 2, 4, 12]
+[6, 24, 60, 120, 210, 336, 504]
+
+  1) test largest product of 2 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:12[0m
+     [31m** (UndefinedFunctionError) function Enum.max/2 is undefined or private. Did you mean one of:
+     
+           * max/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.max([2, 6, 12, 20, 30, 42, 56, 72], 0)
+       largest_series_product_test.exs:13: (test)
+
+  * test largest product of a tiny number[31m  * test largest product of a tiny number (0.8ms)[0m
+[0, 0, 112, 168, 216, 135, 270, 120]
+[120, 720, 2520, 6720, 15120]
+
+  2) test largest product of a tiny number (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:16[0m
+     [31m** (UndefinedFunctionError) function Enum.max/2 is undefined or private. Did you mean one of:
+     
+           * max/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.max([2], 0)
+       largest_series_product_test.exs:17: (test)
+
+  * test another tiny number[31m  * test another tiny number (1.5ms)[0m
+[882, 882, 1764, 8820, 4410, 630, 1890, 810, 0, 0, 0, 0, 0, 0, 3888, 1296, 1296,
+ 1620, 180, 180, 180, 540, 1890, 1512, 6048, 12096, 8064, 6720, 6720, 6720,
+ 11760, 23520, 7840, 4704, 3360, 4200, 1800, 1800, 8100, 2700, 4860, 3888,
+ 11664, 8748, 3888]
+
+  3) test another tiny number (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:20[0m
+     [31m** (UndefinedFunctionError) function Enum.max/2 is undefined or private. Did you mean one of:
+     
+           * max/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.max('\t', 0)
+       largest_series_product_test.exs:21: (test)
+
+  * test largest product of 2 shuffled[31m  * test largest product of 2 shuffled (4.3ms)[0m
+[20580, 16464, 8232, 2744, 1176, 672, 288, 72, 288, 288, 288, 504, 840, 5040,
+ 7560, 15120, 5040, 2880, 5184, 0, 0, 0, 0, 0, 0, 6480, 3240, 3240, 3240, 5400,
+ 4050, 4725, 28350, 17010, 1890, 3402, 4536, 648, 972, 324, 972, 972, 972, 1944,
+ 1512]
+
+  4) test largest product of 2 shuffled (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:24[0m
+     [31m** (UndefinedFunctionError) function Enum.max/2 is undefined or private. Did you mean one of:
+     
+           * max/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.max([35, 42, 48, 0, 0, 2, 4, 12], 0)
+       largest_series_product_test.exs:25: (test)
+
+  * test largest product of 3[31m  * test largest product of 3 (0.1ms)[0m
+[]
+[0, 0, 0]
+
+  5) test largest product of 3 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:28[0m
+     [31m** (UndefinedFunctionError) function Enum.max/2 is undefined or private. Did you mean one of:
+     
+           * max/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.max([6, 24, 60, 120, 210, 336, 504], 0)
+       largest_series_product_test.exs:29: (test)
+
+  * test largest product of 3 shuffled[31m  * test largest product of 3 shuffled (0.1ms)[0m
+
+  6) test largest product of 3 shuffled (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:32[0m
+     [31m** (UndefinedFunctionError) function Enum.max/2 is undefined or private. Did you mean one of:
+     
+           * max/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.max([0, 0, 112, 168, 216, 135, 270, 120], 0)
+       largest_series_product_test.exs:33: (test)
+
+  * test largest product of 5[31m  * test largest product of 5 (0.1ms)[0m
+
+  7) test largest product of 5 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:36[0m
+     [31m** (UndefinedFunctionError) function Enum.max/2 is undefined or private. Did you mean one of:
+     
+           * max/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.max([120, 720, 2520, 6720, 15120], 0)
+       largest_series_product_test.exs:37: (test)
+
+  * test some big number[31m  * test some big number (0.6ms)[0m
+
+  8) test some big number (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:40[0m
+     [31m** (UndefinedFunctionError) function Enum.max/2 is undefined or private. Did you mean one of:
+     
+           * max/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.max([882, 882, 1764, 8820, 4410, 630, 1890, 810, 0, 0, 0, 0, 0, 0, 3888, 1296, 1296, 1620, 180, 180, 180, 540, 1890, 1512, 6048, 12096, 8064, 6720, 6720, 6720, 11760, 23520, 7840, 4704, 3360, 4200, 1800, 1800, 8100, 2700, 4860, 3888, 11664, 8748, 3888], 0)
+       largest_series_product_test.exs:41: (test)
+
+  * test some other big number[31m  * test some other big number (0.4ms)[0m
+
+  9) test some other big number (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:44[0m
+     [31m** (UndefinedFunctionError) function Enum.max/2 is undefined or private. Did you mean one of:
+     
+           * max/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.max([20580, 16464, 8232, 2744, 1176, 672, 288, 72, 288, 288, 288, 504, 840, 5040, 7560, 15120, 5040, 2880, 5184, 0, 0, 0, 0, 0, 0, 6480, 3240, 3240, 3240, 5400, 4050, 4725, 28350, 17010, 1890, 3402, 4536, 648, 972, 324, 972, 972, 972, 1944, 1512], 0)
+       largest_series_product_test.exs:45: (test)
+
+  * test number with all zeroes[31m  * test number with all zeroes (0.06ms)[0m
+
+ 10) test number with all zeroes (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:48[0m
+     [31m** (UndefinedFunctionError) function Enum.max/2 is undefined or private. Did you mean one of:
+     
+           * max/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.max([], 0)
+       largest_series_product_test.exs:49: (test)
+
+  * test number where all products are zero[31m  * test number where all products are zero (0.07ms)[0m
+
+ 11) test number where all products are zero (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:52[0m
+     [31m** (UndefinedFunctionError) function Enum.max/2 is undefined or private. Did you mean one of:
+     
+           * max/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.max([0, 0, 0], 0)
+       largest_series_product_test.exs:53: (test)
+
+  * test identity with empty string[31m  * test identity with empty string (0.01ms)[0m
+
+ 12) test identity with empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:56[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.binary_to_integer("")
+       largest_series_product.exs:17: Series.largest_product/2
+       largest_series_product_test.exs:57: (test)
+
+  * test identity with non-empty string[31m  * test identity with non-empty string (0.02ms)[0m
+
+ 13) test identity with non-empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:60[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk([1, 2, 3], 0, 1, nil)
+       largest_series_product.exs:19: Series.largest_product/2
+       largest_series_product_test.exs:61: (test)
+
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[31m16 tests, 13 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.02ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.00ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.00ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.01ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.01ms)[0m
+  * test some big number[32m  * test some big number (0.1ms)[0m
+  * test some other big number[32m  * test some other big number (0.09ms)[0m
+  * test number with all zeroes[31m  * test number with all zeroes (7.4ms)[0m
+
+  1) test number with all zeroes (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:48[0m
+     [31m** (Enum.EmptyError) empty error[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1589: Enum.reduce/2
+       largest_series_product_test.exs:49: (test)
+
+  * test number where all products are zero[32m  * test number where all products are zero (0.02ms)[0m
+  * test identity with empty string[31m  * test identity with empty string (4.2ms)[0m
+
+  2) test identity with empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:56[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.binary_to_integer("")
+       largest_series_product.exs:16: Series.largest_product/2
+       largest_series_product_test.exs:57: (test)
+
+  * test identity with non-empty string[31m  * test identity with non-empty string (0.03ms)[0m
+
+  3) test identity with non-empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:60[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk([1, 2, 3], 0, 1, nil)
+       largest_series_product.exs:18: Series.largest_product/2
+       largest_series_product_test.exs:61: (test)
+
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m16 tests, 3 failures, 3 skipped[0m
+
+Randomized with seed 0
+** (TokenMissingError) largest_series_product.exs:30: missing terminator: end (for "do" starting at line 1)
+    (elixir) lib/code.ex:321: Code.load_file/2
+    largest_series_product_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable size is unused
+  largest_series_product.exs:14
+
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.02ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.00ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.00ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.02ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.01ms)[0m
+  * test some big number[32m  * test some big number (0.06ms)[0m
+  * test some other big number[32m  * test some other big number (0.08ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.00ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.01ms)[0m
+  * test identity with empty string[31m  * test identity with empty string (4.0ms)[0m
+
+  1) test identity with empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:56[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("", 0) == 1
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m1[0m
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:57: (test)
+
+  * test identity with non-empty string[31m  * test identity with non-empty string (1.4ms)[0m
+
+  2) test identity with non-empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:60[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk([1, 2, 3], 0, 1, nil)
+       largest_series_product.exs:20: Series.largest_product/2
+       largest_series_product_test.exs:61: (test)
+
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m16 tests, 2 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable size is unused
+  largest_series_product.exs:14
+
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.02ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.00ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.00ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.01ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.01ms)[0m
+  * test some big number[32m  * test some big number (0.06ms)[0m
+  * test some other big number[32m  * test some other big number (0.07ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.00ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.01ms)[0m
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[31m  * test identity with non-empty string (3.3ms)[0m
+
+  1) test identity with non-empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:60[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk([1, 2, 3], 0, 1, nil)
+       largest_series_product.exs:20: Series.largest_product/2
+       largest_series_product_test.exs:61: (test)
+
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.02ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.00ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.02ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.02ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.02ms)[0m
+  * test some big number[32m  * test some big number (0.1ms)[0m
+  * test some other big number[32m  * test some other big number (0.08ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.00ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.01ms)[0m
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large  * test raises if span is too large (skipped)
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m16 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (0.03ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.00ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.00ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.02ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.01ms)[0m
+  * test some big number[32m  * test some big number (0.1ms)[0m
+  * test some other big number[32m  * test some other big number (0.09ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.00ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.01ms)[0m
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[31m  * test raises if span is too large (3.3ms)[0m
+
+  1) test raises if span is too large (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:64[0m
+     [31mExpected exception ArgumentError but nothing was raised[0m
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:65: (test)
+
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[31m  * test largest product of 2 (3.0ms)[0m
+
+  1) test largest product of 2 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:12[0m
+     [31m** (UndefinedFunctionError) function String.lenth/1 is undefined or private. Did you mean one of:
+     
+           * length/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.lenth("0123456789")
+       largest_series_product.exs:18: Series.largest_product/2
+       largest_series_product_test.exs:13: (test)
+
+  * test largest product of a tiny number[31m  * test largest product of a tiny number (0.03ms)[0m
+
+  2) test largest product of a tiny number (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:16[0m
+     [31m** (UndefinedFunctionError) function String.lenth/1 is undefined or private. Did you mean one of:
+     
+           * length/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.lenth("12")
+       largest_series_product.exs:18: Series.largest_product/2
+       largest_series_product_test.exs:17: (test)
+
+  * test another tiny number[31m  * test another tiny number (0.01ms)[0m
+
+  3) test another tiny number (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:20[0m
+     [31m** (UndefinedFunctionError) function String.lenth/1 is undefined or private. Did you mean one of:
+     
+           * length/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.lenth("19")
+       largest_series_product.exs:18: Series.largest_product/2
+       largest_series_product_test.exs:21: (test)
+
+  * test largest product of 2 shuffled[31m  * test largest product of 2 shuffled (0.02ms)[0m
+
+  4) test largest product of 2 shuffled (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:24[0m
+     [31m** (UndefinedFunctionError) function String.lenth/1 is undefined or private. Did you mean one of:
+     
+           * length/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.lenth("576802143")
+       largest_series_product.exs:18: Series.largest_product/2
+       largest_series_product_test.exs:25: (test)
+
+  * test largest product of 3[31m  * test largest product of 3 (0.01ms)[0m
+
+  5) test largest product of 3 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:28[0m
+     [31m** (UndefinedFunctionError) function String.lenth/1 is undefined or private. Did you mean one of:
+     
+           * length/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.lenth("0123456789")
+       largest_series_product.exs:18: Series.largest_product/2
+       largest_series_product_test.exs:29: (test)
+
+  * test largest product of 3 shuffled[31m  * test largest product of 3 shuffled (0.01ms)[0m
+
+  6) test largest product of 3 shuffled (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:32[0m
+     [31m** (UndefinedFunctionError) function String.lenth/1 is undefined or private. Did you mean one of:
+     
+           * length/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.lenth("1027839564")
+       largest_series_product.exs:18: Series.largest_product/2
+       largest_series_product_test.exs:33: (test)
+
+  * test largest product of 5[31m  * test largest product of 5 (0.02ms)[0m
+
+  7) test largest product of 5 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:36[0m
+     [31m** (UndefinedFunctionError) function String.lenth/1 is undefined or private. Did you mean one of:
+     
+           * length/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.lenth("0123456789")
+       largest_series_product.exs:18: Series.largest_product/2
+       largest_series_product_test.exs:37: (test)
+
+  * test some big number[31m  * test some big number (1.5ms)[0m
+
+  8) test some big number (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:40[0m
+     [31m** (UndefinedFunctionError) function String.lenth/1 is undefined or private. Did you mean one of:
+     
+           * length/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.lenth("73167176531330624919225119674426574742355349194934")
+       largest_series_product.exs:18: Series.largest_product/2
+       largest_series_product_test.exs:41: (test)
+
+  * test some other big number[31m  * test some other big number (2.3ms)[0m
+
+  9) test some other big number (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:44[0m
+     [31m** (UndefinedFunctionError) function String.lenth/1 is undefined or private. Did you mean one of:
+     
+           * length/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.lenth("52677741234314237566414902593461595376319419139427")
+       largest_series_product.exs:18: Series.largest_product/2
+       largest_series_product_test.exs:45: (test)
+
+  * test number with all zeroes[31m  * test number with all zeroes (0.02ms)[0m
+
+ 10) test number with all zeroes (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:48[0m
+     [31m** (UndefinedFunctionError) function String.lenth/1 is undefined or private. Did you mean one of:
+     
+           * length/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.lenth("0000")
+       largest_series_product.exs:18: Series.largest_product/2
+       largest_series_product_test.exs:49: (test)
+
+  * test number where all products are zero[31m  * test number where all products are zero (0.02ms)[0m
+
+ 11) test number where all products are zero (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:52[0m
+     [31m** (UndefinedFunctionError) function String.lenth/1 is undefined or private. Did you mean one of:
+     
+           * length/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.lenth("99099")
+       largest_series_product.exs:18: Series.largest_product/2
+       largest_series_product_test.exs:53: (test)
+
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[31m  * test raises if span is too large (3.6ms)[0m
+
+ 12) test raises if span is too large (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:64[0m
+     [31mExpected exception ArgumentError but got UndefinedFunctionError (function String.lenth/1 is undefined or private. Did you mean one of:
+     
+           * length/1
+     )[0m
+     [36mstacktrace:[0m
+       (elixir) String.lenth("123")
+       largest_series_product.exs:18: Series.largest_product/2
+       largest_series_product_test.exs:65: (test)
+
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.01s on tests)
+[31m16 tests, 12 failures, 2 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (2.7ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.01ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.02ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.02ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.03ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.05ms)[0m
+  * test some big number[32m  * test some big number (0.1ms)[0m
+  * test some other big number[32m  * test some other big number (0.1ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.01ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.01ms)[0m
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (1.9ms)[0m
+  * test raises with empty string but non-zero span size  * test raises with empty string but non-zero span size (skipped)
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m16 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+** (SyntaxError) largest_series_product.exs:15: syntax error before: 'when'
+    (elixir) lib/code.ex:321: Code.load_file/2
+    largest_series_product_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) largest_series_product.exs:15: syntax error before: 'when'
+    (elixir) lib/code.ex:321: Code.load_file/2
+    largest_series_product_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (2.7ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.00ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.02ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.02ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.02ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.02ms)[0m
+  * test some big number[32m  * test some big number (0.1ms)[0m
+  * test some other big number[32m  * test some other big number (0.1ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.01ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.01ms)[0m
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (1.9ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.02ms)[0m
+  * test raises with non-empty string and negative span size  * test raises with non-empty string and negative span size (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m16 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (2.4ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.00ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.00ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.02ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.02ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.02ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.02ms)[0m
+  * test some big number[32m  * test some big number (0.06ms)[0m
+  * test some other big number[32m  * test some other big number (0.1ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.01ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.01ms)[0m
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (1.9ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.01ms)[0m
+  * test raises with non-empty string and negative span size[32m  * test raises with non-empty string and negative span size (0.01ms)[0m
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m16 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (2.4ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.01ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.01ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.01ms)[0m
+  * test some big number[32m  * test some big number (0.07ms)[0m
+  * test some other big number[32m  * test some other big number (0.1ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.01ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.01ms)[0m
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (1.8ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.01ms)[0m
+  * test raises with non-empty string and negative span size[31m  * test raises with non-empty string and negative span size (3.3ms)[0m
+
+  1) test raises with non-empty string and negative span size (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:76[0m
+     [31mExpected exception ArgumentError but got FunctionClauseError (no function clause matching in Enum.chunk/4)[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk([1, 2, 3, 4], -1, 1, nil)
+       largest_series_product.exs:24: Series.largest_product/2
+       largest_series_product_test.exs:77: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m16 tests, 1 failure[0m
+
+Randomized with seed 0
+** (TokenMissingError) largest_series_product.exs:48: missing terminator: end (for "do" starting at line 1)
+    (elixir) lib/code.ex:321: Code.load_file/2
+    largest_series_product_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[31m  * test largest product of 2 (5.2ms)[0m
+
+  1) test largest product of 2 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:12[0m
+     [31m** (CondClauseError) no cond clause evaluated to a true value[0m
+     [36mstacktrace:[0m
+       Series.largest_product/2
+       largest_series_product_test.exs:13: (test)
+
+  * test largest product of a tiny number[31m  * test largest product of a tiny number (0.02ms)[0m
+
+  2) test largest product of a tiny number (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:16[0m
+     [31m** (CondClauseError) no cond clause evaluated to a true value[0m
+     [36mstacktrace:[0m
+       Series.largest_product/2
+       largest_series_product_test.exs:17: (test)
+
+  * test another tiny number[31m  * test another tiny number (0.01ms)[0m
+
+  3) test another tiny number (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:20[0m
+     [31m** (CondClauseError) no cond clause evaluated to a true value[0m
+     [36mstacktrace:[0m
+       Series.largest_product/2
+       largest_series_product_test.exs:21: (test)
+
+  * test largest product of 2 shuffled[31m  * test largest product of 2 shuffled (0.01ms)[0m
+
+  4) test largest product of 2 shuffled (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:24[0m
+     [31m** (CondClauseError) no cond clause evaluated to a true value[0m
+     [36mstacktrace:[0m
+       Series.largest_product/2
+       largest_series_product_test.exs:25: (test)
+
+  * test largest product of 3[31m  * test largest product of 3 (0.01ms)[0m
+
+  5) test largest product of 3 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:28[0m
+     [31m** (CondClauseError) no cond clause evaluated to a true value[0m
+     [36mstacktrace:[0m
+       Series.largest_product/2
+       largest_series_product_test.exs:29: (test)
+
+  * test largest product of 3 shuffled[31m  * test largest product of 3 shuffled (0.01ms)[0m
+
+  6) test largest product of 3 shuffled (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:32[0m
+     [31m** (CondClauseError) no cond clause evaluated to a true value[0m
+     [36mstacktrace:[0m
+       Series.largest_product/2
+       largest_series_product_test.exs:33: (test)
+
+  * test largest product of 5[31m  * test largest product of 5 (0.01ms)[0m
+
+  7) test largest product of 5 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:36[0m
+     [31m** (CondClauseError) no cond clause evaluated to a true value[0m
+     [36mstacktrace:[0m
+       Series.largest_product/2
+       largest_series_product_test.exs:37: (test)
+
+  * test some big number[31m  * test some big number (0.02ms)[0m
+
+  8) test some big number (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:40[0m
+     [31m** (CondClauseError) no cond clause evaluated to a true value[0m
+     [36mstacktrace:[0m
+       Series.largest_product/2
+       largest_series_product_test.exs:41: (test)
+
+  * test some other big number[31m  * test some other big number (0.01ms)[0m
+
+  9) test some other big number (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:44[0m
+     [31m** (CondClauseError) no cond clause evaluated to a true value[0m
+     [36mstacktrace:[0m
+       Series.largest_product/2
+       largest_series_product_test.exs:45: (test)
+
+  * test number with all zeroes[31m  * test number with all zeroes (0.01ms)[0m
+
+ 10) test number with all zeroes (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:48[0m
+     [31m** (CondClauseError) no cond clause evaluated to a true value[0m
+     [36mstacktrace:[0m
+       Series.largest_product/2
+       largest_series_product_test.exs:49: (test)
+
+  * test number where all products are zero[31m  * test number where all products are zero (0.01ms)[0m
+
+ 11) test number where all products are zero (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:52[0m
+     [31m** (CondClauseError) no cond clause evaluated to a true value[0m
+     [36mstacktrace:[0m
+       Series.largest_product/2
+       largest_series_product_test.exs:53: (test)
+
+  * test identity with empty string[31m  * test identity with empty string (0.01ms)[0m
+
+ 12) test identity with empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:56[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.binary_to_integer("")
+       largest_series_product.exs:28: Series.find_largest_product/2
+       largest_series_product_test.exs:57: (test)
+
+  * test identity with non-empty string[31m  * test identity with non-empty string (0.02ms)[0m
+
+ 13) test identity with non-empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:60[0m
+     [31m** (FunctionClauseError) no function clause matching in Enum.chunk/4[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:367: Enum.chunk([1, 2, 3], 0, 1, nil)
+       largest_series_product.exs:30: Series.find_largest_product/2
+       largest_series_product_test.exs:61: (test)
+
+  * test raises if span is too large[32m  * test raises if span is too large (0.02ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.01ms)[0m
+  * test raises with non-empty string and negative span size[32m  * test raises with non-empty string and negative span size (0.01ms)[0m
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 13 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (2.5ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.01ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.02ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.02ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.02ms)[0m
+  * test some big number[32m  * test some big number (0.1ms)[0m
+  * test some other big number[32m  * test some other big number (0.08ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.00ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.00ms)[0m
+  * test identity with empty string[31m  * test identity with empty string (2.7ms)[0m
+
+  1) test identity with empty string (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:56[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("", 0) == 1
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m1[0m
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:57: (test)
+
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (0.02ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.02ms)[0m
+  * test raises with non-empty string and negative span size[32m  * test raises with non-empty string and negative span size (0.01ms)[0m
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 1 failure[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (2.4ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.01ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.02ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.02ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.02ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.01ms)[0m
+  * test some big number[32m  * test some big number (0.1ms)[0m
+  * test some other big number[32m  * test some other big number (0.07ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.01ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.01ms)[0m
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (1.9ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.02ms)[0m
+  * test raises with non-empty string and negative span size[32m  * test raises with non-empty string and negative span size (0.02ms)[0m
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m16 tests, 0 failures[0m
+
+Randomized with seed 0
