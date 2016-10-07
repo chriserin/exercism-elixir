@@ -2142,3 +2142,458 @@ Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
 [32m16 tests, 0 failures[0m
 
 Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (10.1ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.09ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.07ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.08ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.08ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.1ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.7ms)[0m
+  * test some big number[32m  * test some big number (0.5ms)[0m
+  * test some other big number[32m  * test some other big number (0.1ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.01ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.01ms)[0m
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (8.3ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.04ms)[0m
+  * test raises with non-empty string and negative span size[32m  * test raises with non-empty string and negative span size (0.02ms)[0m
+
+
+Finished in 0.1 seconds (0.1s on load, 0.02s on tests)
+[32m16 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (2.2ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.01ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.02ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.02ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.02ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.01ms)[0m
+  * test some big number[32m  * test some big number (0.1ms)[0m
+  * test some other big number[32m  * test some other big number (0.07ms)[0m
+  * test number with all zeroes[31m  * test number with all zeroes (4.2ms)[0m
+
+  1) test number with all zeroes (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:48[0m
+     [31m** (Enum.EmptyError) empty error[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1589: Enum.reduce/2
+       largest_series_product_test.exs:49: (test)
+
+  * test number where all products are zero[32m  * test number where all products are zero (0.02ms)[0m
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (0.03ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.01ms)[0m
+  * test raises with non-empty string and negative span size[32m  * test raises with non-empty string and negative span size (0.01ms)[0m
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m16 tests, 1 failure[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (2.7ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.01ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.02ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.02ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.02ms)[0m
+  * test some big number[32m  * test some big number (0.1ms)[0m
+  * test some other big number[32m  * test some other big number (0.1ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.00ms)[0m
+  * test number where all products are zero[31m  * test number where all products are zero (3.4ms)[0m
+
+  1) test number where all products are zero (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:52[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("99099", 3) == 0
+     [36mlhs:  [0m[31m81[0m
+     [36mrhs:  [0m[32m0[0m
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:53: (test)
+
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (0.02ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.02ms)[0m
+  * test raises with non-empty string and negative span size[32m  * test raises with non-empty string and negative span size (0.01ms)[0m
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m16 tests, 1 failure[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (2.6ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.01ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.02ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.02ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.02ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.02ms)[0m
+  * test some big number[32m  * test some big number (0.1ms)[0m
+  * test some other big number[32m  * test some other big number (0.1ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.00ms)[0m
+  * test number where all products are zero[31m  * test number where all products are zero (2.3ms)[0m
+
+  1) test number where all products are zero (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:52[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("99099", 3) == 0
+     [36mlhs:  [0m[31m81[0m
+     [36mrhs:  [0m[32m0[0m
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:53: (test)
+
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (0.02ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.01ms)[0m
+  * test raises with non-empty string and negative span size[32m  * test raises with non-empty string and negative span size (0.02ms)[0m
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 1 failure[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (2.5ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.00ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.01ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.02ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.02ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.03ms)[0m
+  * test some big number[32m  * test some big number (0.06ms)[0m
+  * test some other big number[32m  * test some other big number (0.05ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.03ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.06ms)[0m
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (2.0ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.02ms)[0m
+  * test raises with non-empty string and negative span size[32m  * test raises with non-empty string and negative span size (0.01ms)[0m
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m16 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (2.2ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.01ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.02ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.02ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.01ms)[0m
+  * test some big number[32m  * test some big number (0.07ms)[0m
+  * test some other big number[32m  * test some other big number (0.1ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.02ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.02ms)[0m
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (2.0ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.02ms)[0m
+  * test raises with non-empty string and negative span size[32m  * test raises with non-empty string and negative span size (0.01ms)[0m
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m16 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[31m  * test largest product of 2 (4.3ms)[0m
+
+  1) test largest product of 2 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:12[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("0123456789", 2) == 72
+     [36mlhs:  [0m'\b\t'
+     [36mrhs:  [0m72
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:13: (test)
+
+  * test largest product of a tiny number[31m  * test largest product of a tiny number (0.02ms)[0m
+
+  2) test largest product of a tiny number (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("12", 2) == 2
+     [36mlhs:  [0m[1, 2]
+     [36mrhs:  [0m2
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:17: (test)
+
+  * test another tiny number[31m  * test another tiny number (0.01ms)[0m
+
+  3) test another tiny number (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:20[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("19", 2) == 9
+     [36mlhs:  [0m[1, 9]
+     [36mrhs:  [0m9
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:21: (test)
+
+  * test largest product of 2 shuffled[31m  * test largest product of 2 shuffled (0.03ms)[0m
+
+  4) test largest product of 2 shuffled (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:24[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("576802143", 2) == 48
+     [36mlhs:  [0m[6, 8]
+     [36mrhs:  [0m48
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:25: (test)
+
+  * test largest product of 3[31m  * test largest product of 3 (0.02ms)[0m
+
+  5) test largest product of 3 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:28[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("0123456789", 3) == 504
+     [36mlhs:  [0m'\a\b\t'
+     [36mrhs:  [0m504
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:29: (test)
+
+  * test largest product of 3 shuffled[31m  * test largest product of 3 shuffled (0.02ms)[0m
+
+  6) test largest product of 3 shuffled (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:32[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("1027839564", 3) == 270
+     [36mlhs:  [0m[9, 5, 6]
+     [36mrhs:  [0m270
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:33: (test)
+
+  * test largest product of 5[31m  * test largest product of 5 (0.02ms)[0m
+
+  7) test largest product of 5 (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:36[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("0123456789", 5) == 15120
+     [36mlhs:  [0m[5, 6, 7, 8, 9]
+     [36mrhs:  [0m15120
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:37: (test)
+
+  * test some big number[31m  * test some big number (0.06ms)[0m
+
+  8) test some big number (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:40[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("73167176531330624919225119674426574742355349194934", 6) == 23520
+     [36mlhs:  [0m[6, 5, 7, 4, 7, 4]
+     [36mrhs:  [0m23520
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:41: (test)
+
+  * test some other big number[31m  * test some other big number (0.05ms)[0m
+
+  9) test some other big number (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:44[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("52677741234314237566414902593461595376319419139427", 6) == 28350
+     [36mlhs:  [0m[5, 9, 5, 3, 7, 6]
+     [36mrhs:  [0m28350
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:45: (test)
+
+  * test number with all zeroes[31m  * test number with all zeroes (0.02ms)[0m
+
+ 10) test number with all zeroes (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:48[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("0000", 2) == 0
+     [36mlhs:  [0m[0, 0]
+     [36mrhs:  [0m0
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:49: (test)
+
+  * test number where all products are zero[31m  * test number where all products are zero (0.02ms)[0m
+
+ 11) test number where all products are zero (LargestSeriesProductTest)
+     [1m[30mlargest_series_product_test.exs:52[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSeries.largest_product("99099", 3) == 0
+     [36mlhs:  [0m[9, 9, 0]
+     [36mrhs:  [0m0
+     [36mstacktrace:[0m
+       largest_series_product_test.exs:53: (test)
+
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (0.01ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.00ms)[0m
+  * test raises with non-empty string and negative span size[32m  * test raises with non-empty string and negative span size (0.00ms)[0m
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m16 tests, 11 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (2.4ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.00ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.01ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.02ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.01ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.01ms)[0m
+  * test some big number[32m  * test some big number (0.06ms)[0m
+  * test some other big number[32m  * test some other big number (0.05ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.00ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.01ms)[0m
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (1.6ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.02ms)[0m
+  * test raises with non-empty string and negative span size[32m  * test raises with non-empty string and negative span size (0.01ms)[0m
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m16 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (2.5ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.01ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.01ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.02ms)[0m
+  * test some big number[32m  * test some big number (0.06ms)[0m
+  * test some other big number[32m  * test some other big number (0.07ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.01ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.01ms)[0m
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (1.7ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.02ms)[0m
+  * test raises with non-empty string and negative span size[32m  * test raises with non-empty string and negative span size (0.01ms)[0m
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m16 tests, 0 failures[0m
+
+Randomized with seed 0
+** (SyntaxError) largest_series_product.exs:28: unexpected token: "end". "(" starting at line 28 is missing terminator ")"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    largest_series_product_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (2.1ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.00ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.01ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.02ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.02ms)[0m
+  * test some big number[32m  * test some big number (0.1ms)[0m
+  * test some other big number[32m  * test some other big number (0.08ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.01ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.02ms)[0m
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (1.9ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.02ms)[0m
+  * test raises with non-empty string and negative span size[32m  * test raises with non-empty string and negative span size (0.01ms)[0m
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m16 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (2.4ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.00ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.02ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.02ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.02ms)[0m
+  * test some big number[32m  * test some big number (0.09ms)[0m
+  * test some other big number[32m  * test some other big number (0.09ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.01ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.01ms)[0m
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (1.5ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.01ms)[0m
+  * test raises with non-empty string and negative span size[32m  * test raises with non-empty string and negative span size (0.01ms)[0m
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m16 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+LargestSeriesProductTest
+  * test largest product of 2[32m  * test largest product of 2 (2.7ms)[0m
+  * test largest product of a tiny number[32m  * test largest product of a tiny number (0.01ms)[0m
+  * test another tiny number[32m  * test another tiny number (0.01ms)[0m
+  * test largest product of 2 shuffled[32m  * test largest product of 2 shuffled (0.01ms)[0m
+  * test largest product of 3[32m  * test largest product of 3 (0.01ms)[0m
+  * test largest product of 3 shuffled[32m  * test largest product of 3 shuffled (0.01ms)[0m
+  * test largest product of 5[32m  * test largest product of 5 (0.01ms)[0m
+  * test some big number[32m  * test some big number (0.1ms)[0m
+  * test some other big number[32m  * test some other big number (0.05ms)[0m
+  * test number with all zeroes[32m  * test number with all zeroes (0.00ms)[0m
+  * test number where all products are zero[32m  * test number where all products are zero (0.00ms)[0m
+  * test identity with empty string[32m  * test identity with empty string (0.00ms)[0m
+  * test identity with non-empty string[32m  * test identity with non-empty string (0.00ms)[0m
+  * test raises if span is too large[32m  * test raises if span is too large (2.0ms)[0m
+  * test raises with empty string but non-zero span size[32m  * test raises with empty string but non-zero span size (0.02ms)[0m
+  * test raises with non-empty string and negative span size[32m  * test raises with non-empty string and negative span size (0.01ms)[0m
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m16 tests, 0 failures[0m
+
+Randomized with seed 0
