@@ -12,7 +12,7 @@ defmodule Atbash do
     plaintext
     |> String.replace(~r/\W/, "")
     |> String.downcase
-    |> to_charlist
+    |> to_char_list
     |> Enum.map(
     fn
       (x) when x >= 97 and x <= 123 ->

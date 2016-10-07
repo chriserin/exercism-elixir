@@ -22,25 +22,22 @@ defmodule Markdown do
 
   defp process(["*" <> _ | _] = lines) do
     "<ul>#{
-      process(lines, 1)
+      Enum.map(lines, fn("* " <> line)->
+        "<li>#{do_inlines(line)}</li>"
+      end)
     }</ul>"
   end
 
-  defp process(lines, _ \\ 1) do
+  defp process(lines) do
     lines
     |> Enum.map(&do_inlines/1)
     |> Enum.map(&wrap/1)
-
   end
 
   defp wrap("#" <> _ = markdown) do
     [_, pounds, copy] = Regex.run(~r/^(#+) (.+)/, markdown)
     h_num = String.length(pounds)
     "<h#{h_num}>#{copy}</h#{h_num}>"
-  end
-
-  defp wrap("* " <> markdown) do
-    "<li>#{markdown}</li>"
   end
 
   defp wrap(markdown) do
