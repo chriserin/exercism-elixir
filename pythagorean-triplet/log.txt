@@ -1,0 +1,4887 @@
+[33mwarning: [0mvariable triplet is unused
+  pythagorean_triplet.exs:15
+
+[33mwarning: [0mvariable a is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable b is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable c is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:39
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test product  * test product (skipped)
+  * test sum[31m  * test sum (2.0ms)[0m
+
+  1) test sum (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mTriplet.sum(triplet) == 12
+     [36mlhs:  [0m[31m60[0m
+     [36mrhs:  [0m[32m12[0m
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:13: (test)
+
+  * test triplets up to 10  * test triplets up to 10 (skipped)
+  * test pythagorean  * test pythagorean (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+  * test not pythagorean  * test not pythagorean (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 269295
+[33mwarning: [0mvariable triplet is unused
+  pythagorean_triplet.exs:15
+
+[33mwarning: [0mvariable a is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable b is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable c is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:39
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[31m  * test sum (1.6ms)[0m
+
+  1) test sum (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mTriplet.sum(triplet) == 12
+     [36mlhs:  [0m[31m60[0m
+     [36mrhs:  [0m[32m12[0m
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:13: (test)
+
+  * test product  * test product (skipped)
+  * test pythagorean  * test pythagorean (skipped)
+  * test not pythagorean  * test not pythagorean (skipped)
+  * test triplets up to 10  * test triplets up to 10 (skipped)
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable triplet is unused
+  pythagorean_triplet.exs:15
+
+[33mwarning: [0mvariable a is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable b is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable c is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:39
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[31m  * test sum (1.8ms)[0m
+
+  1) test sum (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mTriplet.sum(triplet) == 12
+     [36mlhs:  [0m[31m60[0m
+     [36mrhs:  [0m[32m12[0m
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:13: (test)
+
+  * test product  * test product (skipped)
+  * test pythagorean  * test pythagorean (skipped)
+  * test not pythagorean  * test not pythagorean (skipped)
+  * test triplets up to 10  * test triplets up to 10 (skipped)
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable triplet is unused
+  pythagorean_triplet.exs:15
+
+[33mwarning: [0mvariable a is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable b is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable c is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:39
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[31m  * test sum (1.8ms)[0m
+
+  1) test sum (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mTriplet.sum(triplet) == 12
+     [36mlhs:  [0m1[31m3[0m
+     [36mrhs:  [0m1[32m2[0m
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:13: (test)
+
+  * test product  * test product (skipped)
+  * test pythagorean  * test pythagorean (skipped)
+  * test not pythagorean  * test not pythagorean (skipped)
+  * test triplets up to 10  * test triplets up to 10 (skipped)
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable triplet is unused
+  pythagorean_triplet.exs:15
+
+[33mwarning: [0mvariable a is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable b is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable c is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:39
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product  * test product (skipped)
+  * test pythagorean  * test pythagorean (skipped)
+  * test not pythagorean  * test not pythagorean (skipped)
+  * test triplets up to 10  * test triplets up to 10 (skipped)
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable a is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable b is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable c is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:39
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product  * test product (skipped)
+  * test pythagorean  * test pythagorean (skipped)
+  * test not pythagorean  * test not pythagorean (skipped)
+  * test triplets up to 10  * test triplets up to 10 (skipped)
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable a is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable b is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable c is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:39
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean  * test pythagorean (skipped)
+  * test not pythagorean  * test not pythagorean (skipped)
+  * test triplets up to 10  * test triplets up to 10 (skipped)
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable a is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable b is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable c is unused
+  pythagorean_triplet.exs:23
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:39
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[31m  * test pythagorean (3.0ms)[0m
+
+  1) test pythagorean (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:21[0m
+     [31mExpected truthy, got nil[0m
+     [36mcode: [0mTriplet.pythagorean?(triplet)
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:23: (test)
+
+  * test not pythagorean  * test not pythagorean (skipped)
+  * test triplets up to 10  * test triplets up to 10 (skipped)
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:39
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean  * test not pythagorean (skipped)
+  * test triplets up to 10  * test triplets up to 10 (skipped)
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:39
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10  * test triplets up to 10 (skipped)
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:31
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:39
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:39
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[31m  * test triplets up to 10 (9.3ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for nil[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1187: Enum.map/2
+       pythagorean_triplet_test.exs:33: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:41
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:41
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:41
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[31m  * test triplets up to 10 (5.3ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[60]
+     [36mrhs:  [0m[60[32m, [0m[32m480[0m]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:33: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:42
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:42
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:42
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.02ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[[1, 2, 3], [2, 3, 4], [3, 4, 5], [4, 5, 6], [5, 6, 7], [6, 7, 8], '\a\b\t',
+ '\b\t\n']
+[31m  * test triplets up to 10 (8.3ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[60]
+     [36mrhs:  [0m[60[32m, [0m[32m480[0m]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:33: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:42
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:42
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:42
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[31m  * test triplets up to 10 (5.5ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[]
+     [36mrhs:  [0m[[32m60[0m[32m, [0m[32m480[0m]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:33: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+** (SyntaxError) pythagorean_triplet.exs:40: unexpected token: ")". "fn" starting at line 40 is missing terminator "end"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    pythagorean_triplet_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) pythagorean_triplet.exs:40: unexpected token: ")". "fn" starting at line 40 is missing terminator "end"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    pythagorean_triplet_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) pythagorean_triplet.exs:40: unexpected token: ")". "fn" starting at line 40 is missing terminator "end"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    pythagorean_triplet_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:49
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:49
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:49
+
+** (CompileError) pythagorean_triplet.exs:40: undefined function sqaures/0
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:49
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:49
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:49
+
+** (CompileError) pythagorean_triplet.exs:40: undefined function sqaures/0
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:49
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:49
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:49
+
+** (CompileError) pythagorean_triplet.exs:41: undefined function trun/1
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:49
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:49
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:49
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.00ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[31m  * test triplets up to 10 (6.7ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31m** (BadArityError) #Function<1.126521892/1 in Triplet.generate/2> with arity 1 called with 2 arguments (1, [])[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       pythagorean_triplet.exs:36: Triplet.generate/2
+       pythagorean_triplet_test.exs:32: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:49
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:49
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:49
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[31m  * test triplets up to 10 (6.6ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31m** (BadArityError) #Function<1.126521892/1 in Triplet.generate/2> with arity 1 called with 2 arguments (1, [])[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       pythagorean_triplet.exs:36: Triplet.generate/2
+       pythagorean_triplet_test.exs:32: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:49
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:49
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:49
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[31m  * test triplets up to 10 (9.7ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31m** (BadArityError) #Function<1.126521892/1 in Triplet.generate/2> with arity 1 called with 2 arguments (1, [])[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       pythagorean_triplet.exs:36: Triplet.generate/2
+       pythagorean_triplet_test.exs:32: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:49
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:49
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:49
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[31m  * test triplets up to 10 (5.6ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31m** (BadArityError) #Function<1.126521892/1 in Triplet.generate/2> with arity 1 called with 2 arguments (1, [])[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       pythagorean_triplet.exs:36: Triplet.generate/2
+       pythagorean_triplet_test.exs:32: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:52
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:52
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:52
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[31m  * test triplets up to 10 (7.6ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31m** (FunctionClauseError) no function clause matching in anonymous fn/1 in Triplet.generate/2[0m
+     [36mstacktrace:[0m
+       pythagorean_triplet.exs:43: anonymous fn([{100, 1}, {100, 4}, {100, 9}, {100, 16}, {100, 25}, {100, 36}, {100, 49}, {100, 64}, {100, 81}, {100, 100}]) in Triplet.generate/2
+       (elixir) lib/enum.ex:787: anonymous fn/3 in Enum.filter/2
+       (elixir) lib/enum.ex:1622: Enum."-reduce/3-lists^foldl/2-0-"/3
+       (elixir) lib/enum.ex:787: Enum.filter/2
+       pythagorean_triplet.exs:43: Triplet.generate/2
+       pythagorean_triplet_test.exs:32: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+** (SyntaxError) pythagorean_triplet.exs:40: syntax error before: ','
+    (elixir) lib/code.ex:321: Code.load_file/2
+    pythagorean_triplet_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:50
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:50
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:50
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[31m  * test triplets up to 10 (6.9ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31m** (BadArityError) #Function<3.118637972/2 in Triplet.generate/2> with arity 2 called with 1 argument ({9, 25})[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1183: Enum."-map/2-lists^map/1-0-"/2
+       pythagorean_triplet_test.exs:32: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:50
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:50
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:50
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.04ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[31m  * test triplets up to 10 (7.2ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[[31m75[0m, [31m12[0m0[31m, [0m[31m660[0m[31m, [0m[31m960[0m]
+     [36mrhs:  [0m[[32m60[0m, [32m48[0m0]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:33: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:50
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:50
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:50
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+[[3, 5, 5], [4, 5, 6], [6, 10, 11], '\b\n\f']
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[31m  * test triplets up to 10 (8.1ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[[31m75[0m, [31m12[0m0[31m, [0m[31m660[0m[31m, [0m[31m960[0m]
+     [36mrhs:  [0m[[32m60[0m, [32m48[0m0]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:34: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:50
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:50
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:50
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.00ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+[[3, 5, 5], [4, 5, 6], [6, 10, 11], '\b\n\f']
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[31m  * test triplets up to 10 (6.2ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[[31m75[0m, [31m12[0m0[31m, [0m[31m660[0m[31m, [0m[31m960[0m]
+     [36mrhs:  [0m[[32m60[0m, [32m48[0m0]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:34: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:50
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:50
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:50
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+[[3, 5, 5], [4, 5, 6], [6, 10, 11], '\b\n\f']
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[31m  * test triplets up to 10 (7.3ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[[31m75[0m, [31m12[0m0[31m, [0m[31m660[0m[31m, [0m[31m960[0m]
+     [36mrhs:  [0m[[32m60[0m, [32m48[0m0]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:34: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:50
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:50
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:50
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[[3, 5, 5], [4, 5, 6], [6, 10, 11], '\b\n\f']
+[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[31m  * test triplets up to 10 (7.8ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[[31m75[0m, [31m12[0m0[31m, [0m[31m660[0m[31m, [0m[31m960[0m]
+     [36mrhs:  [0m[[32m60[0m, [32m48[0m0]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:34: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:50
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:50
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:50
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+[[3, 5, 5], [4, 5, 6], [6, 10, 11], '\b\n\f']
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[31m  * test triplets up to 10 (42.2ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[[31m75[0m, [31m12[0m0[31m, [0m[31m660[0m[31m, [0m[31m960[0m]
+     [36mrhs:  [0m[[32m60[0m, [32m48[0m0]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:34: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.2 seconds (0.2s on load, 0.04s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:51
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.02ms)[0m
+  * test product[32m  * test product (0.02ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.04ms)[0m
+[{9, 25}, {16, 25}, {36, 100}, {64, 100}]
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[[3, 5, 5], [4, 5, 6], [6, 10, 11], '\b\n\f']
+[31m  * test triplets up to 10 (74.1ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[[31m75[0m, [31m12[0m0[31m, [0m[31m660[0m[31m, [0m[31m960[0m]
+     [36mrhs:  [0m[[32m60[0m, [32m48[0m0]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:34: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.2 seconds (0.1s on load, 0.07s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:51
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+0
+  * test product0
+0
+[32m  * test product (0.00ms)[0m
+0
+  * test pythagorean0
+0
+0
+[32m  * test pythagorean (0.01ms)[0m
+0
+  * test not pythagorean0
+0
+[32m  * test not pythagorean (0.00ms)[0m
+3
+  * test triplets up to 103
+3
+3
+3
+3
+3
+3
+3
+3
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+48
+48
+48
+48
+48
+48
+48
+48
+48
+48
+63
+63
+63
+63
+63
+63
+63
+63
+63
+63
+80
+80
+80
+80
+80
+80
+80
+80
+80
+80
+99
+99
+99
+99
+99
+99
+99
+99
+99
+99
+-3
+-3
+-3
+-3
+-3
+-3
+-3
+-3
+-3
+-3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+32
+32
+32
+32
+32
+32
+32
+32
+32
+32
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+60
+60
+60
+60
+60
+60
+60
+60
+60
+60
+77
+77
+77
+77
+77
+77
+77
+77
+77
+77
+96
+96
+96
+96
+96
+96
+96
+96
+96
+96
+-8
+-8
+-8
+-8
+-8
+-8
+-8
+-8
+-8
+-8
+-5
+-5
+-5
+-5
+-5
+-5
+-5
+-5
+-5
+-5
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+16
+16
+16
+16
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+55
+55
+55
+55
+55
+55
+55
+55
+55
+55
+72
+72
+72
+72
+72
+72
+72
+72
+72
+72
+91
+91
+91
+91
+91
+91
+91
+91
+91
+91
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-12
+-12
+-12
+-12
+-12
+-12
+-12
+-12
+-12
+-12
+-7
+-7
+-7
+-7
+-7
+-7
+-7
+-7
+-7
+-7
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+9
+9
+9
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+48
+48
+48
+48
+48
+48
+48
+48
+48
+48
+65
+65
+65
+65
+65
+65
+65
+65
+65
+65
+84
+84
+84
+84
+84
+84
+84
+84
+84
+84
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-21
+-21
+-21
+-21
+-21
+-21
+-21
+-21
+-21
+-21
+-16
+-16
+-16
+-16
+-16
+-16
+-16
+-16
+-16
+-16
+-9
+-9
+-9
+-9
+-9
+-9
+-9
+-9
+-9
+-9
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+39
+39
+39
+39
+39
+39
+39
+39
+39
+39
+56
+56
+56
+56
+56
+56
+56
+56
+56
+56
+75
+75
+75
+75
+75
+75
+75
+75
+75
+75
+-35
+-35
+-35
+-35
+-35
+-35
+-35
+-35
+-35
+-35
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-27
+-27
+-27
+-27
+-27
+-27
+-27
+-27
+-27
+-27
+-20
+-20
+-20
+-20
+-20
+-20
+-20
+-20
+-20
+-20
+-11
+-11
+-11
+-11
+-11
+-11
+-11
+-11
+-11
+-11
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+28
+28
+28
+28
+28
+28
+28
+28
+28
+28
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+64
+64
+64
+64
+64
+64
+64
+64
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-40
+-40
+-40
+-40
+-40
+-40
+-40
+-40
+-40
+-40
+-33
+-33
+-33
+-33
+-33
+-33
+-33
+-33
+-33
+-33
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-13
+-13
+-13
+-13
+-13
+-13
+-13
+-13
+-13
+-13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+32
+32
+32
+32
+32
+32
+32
+32
+32
+32
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+-63
+-63
+-63
+-63
+-63
+-63
+-63
+-63
+-63
+-63
+-60
+-60
+-60
+-60
+-60
+-60
+-60
+-60
+-60
+-60
+-55
+-55
+-55
+-55
+-55
+-55
+-55
+-55
+-55
+-55
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-39
+-39
+-39
+-39
+-39
+-39
+-39
+-39
+-39
+-39
+-28
+-28
+-28
+-28
+-28
+-28
+-28
+-28
+-28
+-28
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+36
+36
+36
+36
+36
+36
+-80
+-80
+-80
+-80
+-80
+-80
+-80
+-80
+-80
+-80
+-77
+-77
+-77
+-77
+-77
+-77
+-77
+-77
+-77
+-77
+-72
+-72
+-72
+-72
+-72
+-72
+-72
+-72
+-72
+-72
+-65
+-65
+-65
+-65
+-65
+-65
+-65
+-65
+-65
+-65
+-56
+-56
+-56
+-56
+-56
+-56
+-56
+-56
+-56
+-56
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-17
+-17
+-17
+-17
+-17
+-17
+-17
+-17
+-17
+-17
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+-99
+-99
+-99
+-99
+-99
+-99
+-99
+-99
+-99
+-99
+-96
+-96
+-96
+-96
+-96
+-96
+-96
+-96
+-96
+-96
+-91
+-91
+-91
+-91
+-91
+-91
+-91
+-91
+-91
+-91
+-84
+-84
+-84
+-84
+-84
+-84
+-84
+-84
+-84
+-84
+-75
+-75
+-75
+-75
+-75
+-75
+-75
+-75
+-75
+-75
+-64
+-64
+-64
+-64
+-64
+-64
+-64
+-64
+-64
+-64
+-51
+-51
+-51
+-51
+-51
+-51
+-51
+-51
+-51
+-51
+-36
+-36
+-36
+-36
+-36
+-36
+-36
+-36
+-36
+-36
+-19
+-19
+-19
+-19
+-19
+-19
+-19
+-19
+-19
+-19
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+[{9, 25}, {16, 25}, {36, 100}, {64, 100}]
+[[3, 5, 5], [4, 5, 6], [6, 10, 11], '\b\n\f']
+[31m  * test triplets up to 10 (295.5ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[[31m75[0m, [31m12[0m0[31m, [0m[31m660[0m[31m, [0m[31m960[0m]
+     [36mrhs:  [0m[[32m60[0m, [32m48[0m0]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:34: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.5 seconds (0.2s on load, 0.2s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:51
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+0
+  * test product0
+0
+[32m  * test product (0.00ms)[0m
+0
+  * test pythagorean0
+0
+0
+[32m  * test pythagorean (0.01ms)[0m
+0
+  * test not pythagorean0
+0
+[32m  * test not pythagorean (0.00ms)[0m
+3
+  * test triplets up to 103
+3
+3
+3
+3
+3
+3
+3
+3
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+48
+48
+48
+48
+48
+48
+48
+48
+48
+48
+63
+63
+63
+63
+63
+63
+63
+63
+63
+63
+80
+80
+80
+80
+80
+80
+80
+80
+80
+80
+99
+99
+99
+99
+99
+99
+99
+99
+99
+99
+-3
+-3
+-3
+-3
+-3
+-3
+-3
+-3
+-3
+-3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+32
+32
+32
+32
+32
+32
+32
+32
+32
+32
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+60
+60
+60
+60
+60
+60
+60
+60
+60
+60
+77
+77
+77
+77
+77
+77
+77
+77
+77
+77
+96
+96
+96
+96
+96
+96
+96
+96
+96
+96
+-8
+-8
+-8
+-8
+-8
+-8
+-8
+-8
+-8
+-8
+-5
+-5
+-5
+-5
+-5
+-5
+-5
+-5
+-5
+-5
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+16
+16
+16
+16
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+55
+55
+55
+55
+55
+55
+55
+55
+55
+55
+72
+72
+72
+72
+72
+72
+72
+72
+72
+72
+91
+91
+91
+91
+91
+91
+91
+91
+91
+91
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-12
+-12
+-12
+-12
+-12
+-12
+-12
+-12
+-12
+-12
+-7
+-7
+-7
+-7
+-7
+-7
+-7
+-7
+-7
+-7
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+9
+9
+9
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+48
+48
+48
+48
+48
+48
+48
+48
+48
+48
+65
+65
+65
+65
+65
+65
+65
+65
+65
+65
+84
+84
+84
+84
+84
+84
+84
+84
+84
+84
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-21
+-21
+-21
+-21
+-21
+-21
+-21
+-21
+-21
+-21
+-16
+-16
+-16
+-16
+-16
+-16
+-16
+-16
+-16
+-16
+-9
+-9
+-9
+-9
+-9
+-9
+-9
+-9
+-9
+-9
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+39
+39
+39
+39
+39
+39
+39
+39
+39
+39
+56
+56
+56
+56
+56
+56
+56
+56
+56
+56
+75
+75
+75
+75
+75
+75
+75
+75
+75
+75
+-35
+-35
+-35
+-35
+-35
+-35
+-35
+-35
+-35
+-35
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-27
+-27
+-27
+-27
+-27
+-27
+-27
+-27
+-27
+-27
+-20
+-20
+-20
+-20
+-20
+-20
+-20
+-20
+-20
+-20
+-11
+-11
+-11
+-11
+-11
+-11
+-11
+-11
+-11
+-11
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+28
+28
+28
+28
+28
+28
+28
+28
+28
+28
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+64
+64
+64
+64
+64
+64
+64
+64
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-40
+-40
+-40
+-40
+-40
+-40
+-40
+-40
+-40
+-40
+-33
+-33
+-33
+-33
+-33
+-33
+-33
+-33
+-33
+-33
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-13
+-13
+-13
+-13
+-13
+-13
+-13
+-13
+-13
+-13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+32
+32
+32
+32
+32
+32
+32
+32
+32
+32
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+-63
+-63
+-63
+-63
+-63
+-63
+-63
+-63
+-63
+-63
+-60
+-60
+-60
+-60
+-60
+-60
+-60
+-60
+-60
+-60
+-55
+-55
+-55
+-55
+-55
+-55
+-55
+-55
+-55
+-55
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-39
+-39
+-39
+-39
+-39
+-39
+-39
+-39
+-39
+-39
+-28
+-28
+-28
+-28
+-28
+-28
+-28
+-28
+-28
+-28
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+36
+36
+36
+36
+36
+36
+-80
+-80
+-80
+-80
+-80
+-80
+-80
+-80
+-80
+-80
+-77
+-77
+-77
+-77
+-77
+-77
+-77
+-77
+-77
+-77
+-72
+-72
+-72
+-72
+-72
+-72
+-72
+-72
+-72
+-72
+-65
+-65
+-65
+-65
+-65
+-65
+-65
+-65
+-65
+-65
+-56
+-56
+-56
+-56
+-56
+-56
+-56
+-56
+-56
+-56
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-17
+-17
+-17
+-17
+-17
+-17
+-17
+-17
+-17
+-17
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+-99
+-99
+-99
+-99
+-99
+-99
+-99
+-99
+-99
+-99
+-96
+-96
+-96
+-96
+-96
+-96
+-96
+-96
+-96
+-96
+-91
+-91
+-91
+-91
+-91
+-91
+-91
+-91
+-91
+-91
+-84
+-84
+-84
+-84
+-84
+-84
+-84
+-84
+-84
+-84
+-75
+-75
+-75
+-75
+-75
+-75
+-75
+-75
+-75
+-75
+-64
+-64
+-64
+-64
+-64
+-64
+-64
+-64
+-64
+-64
+-51
+-51
+-51
+-51
+-51
+-51
+-51
+-51
+-51
+-51
+-36
+-36
+-36
+-36
+-36
+-36
+-36
+-36
+-36
+-36
+-19
+-19
+-19
+-19
+-19
+-19
+-19
+-19
+-19
+-19
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+[{9, 25}, {16, 25}, {36, 100}, {64, 100}]
+[[3, 5, 5], [4, 5, 6], [6, 10, 11], '\b\n\f']
+[31m  * test triplets up to 10 (25.2ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[[31m75[0m, [31m12[0m0[31m, [0m[31m660[0m[31m, [0m[31m960[0m]
+     [36mrhs:  [0m[[32m60[0m, [32m48[0m0]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:34: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.02s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:51
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+0
+  * test product0
+0
+[32m  * test product (0.00ms)[0m
+0
+  * test pythagorean0
+0
+0
+[32m  * test pythagorean (0.01ms)[0m
+0
+  * test not pythagorean0
+0
+[32m  * test not pythagorean (0.00ms)[0m
+3
+  * test triplets up to 103
+3
+3
+3
+3
+3
+3
+3
+3
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+48
+48
+48
+48
+48
+48
+48
+48
+48
+48
+63
+63
+63
+63
+63
+63
+63
+63
+63
+63
+80
+80
+80
+80
+80
+80
+80
+80
+80
+80
+99
+99
+99
+99
+99
+99
+99
+99
+99
+99
+-3
+-3
+-3
+-3
+-3
+-3
+-3
+-3
+-3
+-3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+32
+32
+32
+32
+32
+32
+32
+32
+32
+32
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+60
+60
+60
+60
+60
+60
+60
+60
+60
+60
+77
+77
+77
+77
+77
+77
+77
+77
+77
+77
+96
+96
+96
+96
+96
+96
+96
+96
+96
+96
+-8
+-8
+-8
+-8
+-8
+-8
+-8
+-8
+-8
+-8
+-5
+-5
+-5
+-5
+-5
+-5
+-5
+-5
+-5
+-5
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+16
+16
+16
+16
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+55
+55
+55
+55
+55
+55
+55
+55
+55
+55
+72
+72
+72
+72
+72
+72
+72
+72
+72
+72
+91
+91
+91
+91
+91
+91
+91
+91
+91
+91
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-12
+-12
+-12
+-12
+-12
+-12
+-12
+-12
+-12
+-12
+-7
+-7
+-7
+-7
+-7
+-7
+-7
+-7
+-7
+-7
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+9
+9
+9
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+48
+48
+48
+48
+48
+48
+48
+48
+48
+48
+65
+65
+65
+65
+65
+65
+65
+65
+65
+65
+84
+84
+84
+84
+84
+84
+84
+84
+84
+84
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-21
+-21
+-21
+-21
+-21
+-21
+-21
+-21
+-21
+-21
+-16
+-16
+-16
+-16
+-16
+-16
+-16
+-16
+-16
+-16
+-9
+-9
+-9
+-9
+-9
+-9
+-9
+-9
+-9
+-9
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+39
+39
+39
+39
+39
+39
+39
+39
+39
+39
+56
+56
+56
+56
+56
+56
+56
+56
+56
+56
+75
+75
+75
+75
+75
+75
+75
+75
+75
+75
+-35
+-35
+-35
+-35
+-35
+-35
+-35
+-35
+-35
+-35
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-27
+-27
+-27
+-27
+-27
+-27
+-27
+-27
+-27
+-27
+-20
+-20
+-20
+-20
+-20
+-20
+-20
+-20
+-20
+-20
+-11
+-11
+-11
+-11
+-11
+-11
+-11
+-11
+-11
+-11
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+28
+28
+28
+28
+28
+28
+28
+28
+28
+28
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+64
+64
+64
+64
+64
+64
+64
+64
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-40
+-40
+-40
+-40
+-40
+-40
+-40
+-40
+-40
+-40
+-33
+-33
+-33
+-33
+-33
+-33
+-33
+-33
+-33
+-33
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-24
+-13
+-13
+-13
+-13
+-13
+-13
+-13
+-13
+-13
+-13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+32
+32
+32
+32
+32
+32
+32
+32
+32
+32
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+-63
+-63
+-63
+-63
+-63
+-63
+-63
+-63
+-63
+-63
+-60
+-60
+-60
+-60
+-60
+-60
+-60
+-60
+-60
+-60
+-55
+-55
+-55
+-55
+-55
+-55
+-55
+-55
+-55
+-55
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-48
+-39
+-39
+-39
+-39
+-39
+-39
+-39
+-39
+-39
+-39
+-28
+-28
+-28
+-28
+-28
+-28
+-28
+-28
+-28
+-28
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+-15
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+36
+36
+36
+36
+36
+36
+-80
+-80
+-80
+-80
+-80
+-80
+-80
+-80
+-80
+-80
+-77
+-77
+-77
+-77
+-77
+-77
+-77
+-77
+-77
+-77
+-72
+-72
+-72
+-72
+-72
+-72
+-72
+-72
+-72
+-72
+-65
+-65
+-65
+-65
+-65
+-65
+-65
+-65
+-65
+-65
+-56
+-56
+-56
+-56
+-56
+-56
+-56
+-56
+-56
+-56
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-45
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-32
+-17
+-17
+-17
+-17
+-17
+-17
+-17
+-17
+-17
+-17
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+-99
+-99
+-99
+-99
+-99
+-99
+-99
+-99
+-99
+-99
+-96
+-96
+-96
+-96
+-96
+-96
+-96
+-96
+-96
+-96
+-91
+-91
+-91
+-91
+-91
+-91
+-91
+-91
+-91
+-91
+-84
+-84
+-84
+-84
+-84
+-84
+-84
+-84
+-84
+-84
+-75
+-75
+-75
+-75
+-75
+-75
+-75
+-75
+-75
+-75
+-64
+-64
+-64
+-64
+-64
+-64
+-64
+-64
+-64
+-64
+-51
+-51
+-51
+-51
+-51
+-51
+-51
+-51
+-51
+-51
+-36
+-36
+-36
+-36
+-36
+-36
+-36
+-36
+-36
+-36
+-19
+-19
+-19
+-19
+-19
+-19
+-19
+-19
+-19
+-19
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+[{9, 25}, {16, 25}, {36, 100}, {64, 100}]
+[[3, 5, 5], [4, 5, 6], [6, 10, 11], '\b\n\f']
+[31m  * test triplets up to 10 (23.0ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[[31m75[0m, [31m12[0m0[31m, [0m[31m660[0m[31m, [0m[31m960[0m]
+     [36mrhs:  [0m[[32m60[0m, [32m48[0m0]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:34: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.1 seconds (0.09s on load, 0.02s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:51
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[{25, 9}, {25, 16}, {100, 36}, {100, 64}]
+[[5, 3, 5], [5, 4, 6], [10, 6, 11], '\n\b\f']
+[31m  * test triplets up to 10 (7.8ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[[31m75[0m, [31m12[0m0[31m, [0m[31m660[0m[31m, [0m[31m960[0m]
+     [36mrhs:  [0m[[32m60[0m, [32m48[0m0]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:34: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:53
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:53
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:53
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+[32m  * test pythagorean (0.02ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[{25, 9}, {25, 16}, {100, 36}, {100, 64}]
+[[5, 3, 5], [5, 4, 6], [10, 6, 11], '\n\b\f']
+[31m  * test triplets up to 10 (10.2ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[[31m75[0m, [31m12[0m0[31m, [0m[31m660[0m[31m, [0m[31m960[0m]
+     [36mrhs:  [0m[[32m60[0m, [32m48[0m0]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:34: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:54
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:54
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:54
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sumgetting squares
+[32m  * test sum (0.00ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[{25, 9}, {25, 16}, {100, 36}, {100, 64}]
+[[5, 3, 5], [5, 4, 6], [10, 6, 11], '\n\b\f']
+[31m  * test triplets up to 10 (7.8ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[[31m75[0m, [31m12[0m0[31m, [0m[31m660[0m[31m, [0m[31m960[0m]
+     [36mrhs:  [0m[[32m60[0m, [32m48[0m0]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:34: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:54
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:54
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:54
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sumgetting squares
+[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[{25, 9}, {25, 16}, {100, 36}, {100, 64}]
+[[5, 3, 5], [5, 4, 6], [10, 6, 11], '\n\b\f']
+[31m  * test triplets up to 10 (8.5ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[[31m75[0m, [31m12[0m0[31m, [0m[31m660[0m[31m, [0m[31m960[0m]
+     [36mrhs:  [0m[[32m60[0m, [32m48[0m0]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:34: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+** (SyntaxError) pythagorean_triplet.exs:46: syntax error before: trunc
+    (elixir) lib/code.ex:321: Code.load_file/2
+    pythagorean_triplet_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:54
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:54
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:54
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sumgetting squares
+[32m  * test sum (0.00ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[{25, 9}, {25, 16}, {100, 36}, {100, 64}]
+{25, 9}
+{25, 16}
+{100, 36}
+{100, 64}
+[[5, 3, 5], [5, 4, 6], [10, 6, 11], '\n\b\f']
+[31m  * test triplets up to 10 (8.5ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[[31m75[0m, [31m12[0m0[31m, [0m[31m660[0m[31m, [0m[31m960[0m]
+     [36mrhs:  [0m[[32m60[0m, [32m48[0m0]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:34: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:54
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:54
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:54
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.05ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagoreangetting squares
+[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+[{25, 9}, {25, 16}, {100, 36}, {100, 64}]
+[[5, 4, 3], [5, 3, 4], [10, 8, 6], [10, 6, 8]]
+[31m  * test triplets up to 10 (8.9ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[60, [31m6[0m0[31m, [0m[31m480[0m[31m, [0m[31m480[0m]
+     [36mrhs:  [0m[60, [32m48[0m0]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:34: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:55
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:55
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:55
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sumgetting squares
+[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[{25, 9}, {25, 16}, {100, 36}, {100, 64}]
+[[5, 4, 3], [5, 3, 4], [10, 8, 6], [10, 6, 8]]
+[31m  * test triplets up to 10 (26.8ms)[0m
+
+  1) test triplets up to 10 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:31[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [60, 480]
+     [36mlhs:  [0m[60, [31m6[0m0[31m, [0m[31m480[0m[31m, [0m[31m480[0m]
+     [36mrhs:  [0m[60, [32m48[0m0]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:34: (test)
+
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.09 seconds (0.07s on load, 0.02s on tests)
+[31m7 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:55
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:55
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:55
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sumgetting squares
+[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[{25, 9}, {25, 16}, {100, 36}, {100, 64}]
+[[3, 4, 5], [6, 8, 10]]
+[32m  * test triplets up to 10 (10.8ms)[0m
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m7 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:51
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.00ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[[3, 4, 5], [6, 8, 10]]
+[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[32m  * test triplets up to 10 (3.8ms)[0m
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:51
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[32m  * test triplets up to 10 (4.6ms)[0m
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:51
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[32m  * test triplets up to 10 (3.1ms)[0m
+  * test triplets from 11 up to 20  * test triplets from 11 up to 20 (skipped)
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:51
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[32m  * test triplets up to 10 (3.3ms)[0m
+  * test triplets from 11 up to 20[32m  * test triplets from 11 up to 20 (0.1ms)[0m
+  * test triplets where sum is 180 and max factor is 100  * test triplets where sum is 180 and max factor is 100 (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m7 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable max is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable min is unused
+  pythagorean_triplet.exs:51
+
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:51
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[32m  * test triplets up to 10 (2.9ms)[0m
+  * test triplets from 11 up to 20[32m  * test triplets from 11 up to 20 (0.1ms)[0m
+  * test triplets where sum is 180 and max factor is 100[31m  * test triplets where sum is 180 and max factor is 100 (6.5ms)[0m
+
+  1) test triplets where sum is 180 and max factor is 100 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:41[0m
+     [31m** (Protocol.UndefinedError) protocol Enumerable not implemented for nil[0m
+     [36mstacktrace:[0m
+       (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+       (elixir) lib/enum.ex:116: Enumerable.reduce/3
+       (elixir) lib/enum.ex:1635: Enum.reduce/3
+       (elixir) lib/enum.ex:1187: Enum.map/2
+       pythagorean_triplet_test.exs:43: (test)
+
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m7 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mthis clause cannot match because a previous clause at line 42 always matches
+  pythagorean_triplet.exs:46
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[33mwarning: [0mthis clause cannot match because a previous clause at line 42 always matches
+  pythagorean_triplet.exs:46
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[32m  * test triplets up to 10 (3.2ms)[0m
+  * test triplets from 11 up to 20[32m  * test triplets from 11 up to 20 (0.1ms)[0m
+  * test triplets where sum is 180 and max factor is 100[31m  * test triplets where sum is 180 and max factor is 100 (9.8ms)[0m
+
+  1) test triplets where sum is 180 and max factor is 100 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:41[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [118080, 168480, 202500]
+     [36mlhs:  [0m[[31m936[0m]
+     [36mrhs:  [0m[[32m118080[0m[32m, [0m[32m168480[0m[32m, [0m[32m202500[0m]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:43: (test)
+
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m7 tests, 1 failure[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[32m  * test triplets up to 10 (3.0ms)[0m
+  * test triplets from 11 up to 20ok generating list
+[32m  * test triplets from 11 up to 20 (0.1ms)[0m
+  * test triplets where sum is 180 and max factor is 100[31m  * test triplets where sum is 180 and max factor is 100 (13.1ms)[0m
+
+  1) test triplets where sum is 180 and max factor is 100 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:41[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [118080, 168480, 202500]
+     [36mlhs:  [0m[[31m936[0m]
+     [36mrhs:  [0m[[32m118080[0m[32m, [0m[32m168480[0m[32m, [0m[32m202500[0m]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:43: (test)
+
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[31m7 tests, 1 failure[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.05ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[32m  * test triplets up to 10 (2.9ms)[0m
+  * test triplets from 11 up to 20ok generating list
+[32m  * test triplets from 11 up to 20 (0.1ms)[0m
+  * test triplets where sum is 180 and max factor is 100[31m  * test triplets where sum is 180 and max factor is 100 (9.4ms)[0m
+
+  1) test triplets where sum is 180 and max factor is 100 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:41[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [118080, 168480, 202500]
+     [36mlhs:  [0m[[31m936[0m]
+     [36mrhs:  [0m[[32m118080[0m[32m, [0m[32m168480[0m[32m, [0m[32m202500[0m]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:43: (test)
+
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m7 tests, 1 failure[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.01ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[32m  * test triplets up to 10 (3.1ms)[0m
+  * test triplets from 11 up to 20ok generating list with 180
+[32m  * test triplets from 11 up to 20 (0.1ms)[0m
+  * test triplets where sum is 180 and max factor is 100[31m  * test triplets where sum is 180 and max factor is 100 (8.7ms)[0m
+
+  1) test triplets where sum is 180 and max factor is 100 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:41[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [118080, 168480, 202500]
+     [36mlhs:  [0m[[31m936[0m]
+     [36mrhs:  [0m[[32m118080[0m[32m, [0m[32m168480[0m[32m, [0m[32m202500[0m]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:43: (test)
+
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m7 tests, 1 failure[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagoreanok generating list with 180
+[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[32m  * test triplets up to 10 (2.5ms)[0m
+  * test triplets from 11 up to 20[32m  * test triplets from 11 up to 20 (0.2ms)[0m
+  * test triplets where sum is 180 and max factor is 100[[6, 12, 13]]
+[31m  * test triplets where sum is 180 and max factor is 100 (9.1ms)[0m
+
+  1) test triplets where sum is 180 and max factor is 100 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:41[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [118080, 168480, 202500]
+     [36mlhs:  [0m[[31m936[0m]
+     [36mrhs:  [0m[[32m118080[0m[32m, [0m[32m168480[0m[32m, [0m[32m202500[0m]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:44: (test)
+
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[31m7 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:50
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[32m  * test triplets up to 10 (2.9ms)[0m
+  * test triplets from 11 up to 20[32m  * test triplets from 11 up to 20 (0.1ms)[0m
+  * test triplets where sum is 180 and max factor is 100['-<K', [30, 72, 78], [18, 80, 82]]
+[31m  * test triplets where sum is 180 and max factor is 100 (59.0ms)[0m
+
+  1) test triplets where sum is 180 and max factor is 100 (PythagoreanTripletTest)
+     [1m[30mpythagorean_triplet_test.exs:41[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.map(triplets, &Triplet.product/1) == [118080, 168480, 202500]
+     [36mlhs:  [0m[[31m2[0m0[31m25[0m0[31m0[0m, 168480, [31m118[0m0[31m8[0m0]
+     [36mrhs:  [0m[[32m118[0m0[32m8[0m0, 168480, [32m2[0m0[32m25[0m0[32m0[0m]
+     [36mstacktrace:[0m
+       pythagorean_triplet_test.exs:44: (test)
+
+
+
+Finished in 0.1 seconds (0.09s on load, 0.06s on tests)
+[31m7 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:50
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[32m  * test triplets up to 10 (3.5ms)[0m
+  * test triplets from 11 up to 20[32m  * test triplets from 11 up to 20 (0.1ms)[0m
+  * test triplets where sum is 180 and max factor is 100[[18, 80, 82], [30, 72, 78], '-<K']
+[32m  * test triplets where sum is 180 and max factor is 100 (61.0ms)[0m
+
+
+Finished in 0.1 seconds (0.07s on load, 0.06s on tests)
+[32m7 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable sum is unused
+  pythagorean_triplet.exs:50
+
+Excluding tags: [:pending]
+
+
+PythagoreanTripletTest
+  * test sum[32m  * test sum (0.01ms)[0m
+  * test product[32m  * test product (0.00ms)[0m
+  * test pythagorean[32m  * test pythagorean (0.01ms)[0m
+  * test not pythagorean[32m  * test not pythagorean (0.00ms)[0m
+  * test triplets up to 10[32m  * test triplets up to 10 (3.2ms)[0m
+  * test triplets from 11 up to 20[32m  * test triplets from 11 up to 20 (0.2ms)[0m
+  * test triplets where sum is 180 and max factor is 100[32m  * test triplets where sum is 180 and max factor is 100 (51.7ms)[0m
+
+
+Finished in 0.1 seconds (0.1s on load, 0.05s on tests)
+[32m7 tests, 0 failures[0m
+
+Randomized with seed 0
