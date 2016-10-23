@@ -1,0 +1,533 @@
+[33mwarning: [0mvariable k is unused
+  allergies.exs:19
+
+[33mwarning: [0mvariable flags is unused
+  allergies.exs:27
+
+[33mwarning: [0mvariable item is unused
+  allergies.exs:27
+
+** (CompileError) allergies.exs:19: undefined function &&&/2
+    (stdlib) lists.erl:1338: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mvariable k is unused
+  allergies.exs:20
+
+[33mwarning: [0mvariable flags is unused
+  allergies.exs:28
+
+[33mwarning: [0mvariable item is unused
+  allergies.exs:28
+
+Excluding tags: [:pending]
+
+
+AllergiesTest
+  * test no_allergies_at_all[31m  * test no_allergies_at_all (2.9ms)[0m
+
+  1) test no_allergies_at_all (AllergiesTest)
+     [1m[30mallergies_test.exs:12[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       allergies.exs:20: anonymous fn/2 in Allergies.list/1
+       (elixir) lib/enum.ex:791: anonymous fn/3 in Enum.filter/2
+       (stdlib) lists.erl:1263: :lists.foldl/3
+       (elixir) lib/enum.ex:791: Enum.filter/2
+       allergies.exs:20: Allergies.list/1
+       allergies_test.exs:13: (test)
+
+  * test allergic_to_just_eggs  * test allergic_to_just_eggs (skipped)
+  * test allergic_to_just_peanuts  * test allergic_to_just_peanuts (skipped)
+  * test allergic_to_just_strawberries  * test allergic_to_just_strawberries (skipped)
+  * test allergic_to_eggs_and_peanuts  * test allergic_to_eggs_and_peanuts (skipped)
+  * test allergic_to_more_than_eggs_but_not_peanuts  * test allergic_to_more_than_eggs_but_not_peanuts (skipped)
+  * test allergic_to_lots_of_stuff  * test allergic_to_lots_of_stuff (skipped)
+  * test allergic_to_everything  * test allergic_to_everything (skipped)
+  * test no_allergies_means_not_allergic  * test no_allergies_means_not_allergic (skipped)
+  * test is_allergic_to_eggs  * test is_allergic_to_eggs (skipped)
+  * test allergic_to_eggs_in_addition_to_other_stuff  * test allergic_to_eggs_in_addition_to_other_stuff (skipped)
+  * test ignore_non_allergen_score_parts  * test ignore_non_allergen_score_parts (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m12 tests, 1 failure, 11 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable k is unused
+  allergies.exs:20
+
+[33mwarning: [0mvariable flags is unused
+  allergies.exs:28
+
+[33mwarning: [0mvariable item is unused
+  allergies.exs:28
+
+Excluding tags: [:pending]
+
+
+AllergiesTest
+  * test no_allergies_at_all128
+[31m  * test no_allergies_at_all (3.5ms)[0m
+
+  1) test no_allergies_at_all (AllergiesTest)
+     [1m[30mallergies_test.exs:12[0m
+     [31m** (ArithmeticError) bad argument in arithmetic expression[0m
+     [36mstacktrace:[0m
+       allergies.exs:20: anonymous fn/2 in Allergies.list/1
+       (elixir) lib/enum.ex:791: anonymous fn/3 in Enum.filter/2
+       (stdlib) lists.erl:1263: :lists.foldl/3
+       (elixir) lib/enum.ex:791: Enum.filter/2
+       allergies.exs:20: Allergies.list/1
+       allergies_test.exs:13: (test)
+
+  * test allergic_to_just_eggs  * test allergic_to_just_eggs (skipped)
+  * test allergic_to_just_peanuts  * test allergic_to_just_peanuts (skipped)
+  * test allergic_to_just_strawberries  * test allergic_to_just_strawberries (skipped)
+  * test allergic_to_eggs_and_peanuts  * test allergic_to_eggs_and_peanuts (skipped)
+  * test allergic_to_more_than_eggs_but_not_peanuts  * test allergic_to_more_than_eggs_but_not_peanuts (skipped)
+  * test allergic_to_lots_of_stuff  * test allergic_to_lots_of_stuff (skipped)
+  * test allergic_to_everything  * test allergic_to_everything (skipped)
+  * test no_allergies_means_not_allergic  * test no_allergies_means_not_allergic (skipped)
+  * test is_allergic_to_eggs  * test is_allergic_to_eggs (skipped)
+  * test allergic_to_eggs_in_addition_to_other_stuff  * test allergic_to_eggs_in_addition_to_other_stuff (skipped)
+  * test ignore_non_allergen_score_parts  * test ignore_non_allergen_score_parts (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m12 tests, 1 failure, 11 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable k is unused
+  allergies.exs:20
+
+[33mwarning: [0mvariable flags is unused
+  allergies.exs:28
+
+[33mwarning: [0mvariable item is unused
+  allergies.exs:28
+
+Excluding tags: [:pending]
+
+
+AllergiesTest
+  * test no_allergies_at_all[31m  * test no_allergies_at_all (3.6ms)[0m
+
+  1) test no_allergies_at_all (AllergiesTest)
+     [1m[30mallergies_test.exs:12[0m
+     [31m** (BadMapError) expected a map, got: [][0m
+     [36mstacktrace:[0m
+       (stdlib) :maps.keys([])
+       allergies.exs:21: Allergies.list/1
+       allergies_test.exs:13: (test)
+
+  * test allergic_to_just_eggs  * test allergic_to_just_eggs (skipped)
+  * test allergic_to_just_peanuts  * test allergic_to_just_peanuts (skipped)
+  * test allergic_to_just_strawberries  * test allergic_to_just_strawberries (skipped)
+  * test allergic_to_eggs_and_peanuts  * test allergic_to_eggs_and_peanuts (skipped)
+  * test allergic_to_more_than_eggs_but_not_peanuts  * test allergic_to_more_than_eggs_but_not_peanuts (skipped)
+  * test allergic_to_lots_of_stuff  * test allergic_to_lots_of_stuff (skipped)
+  * test allergic_to_everything  * test allergic_to_everything (skipped)
+  * test no_allergies_means_not_allergic  * test no_allergies_means_not_allergic (skipped)
+  * test is_allergic_to_eggs  * test is_allergic_to_eggs (skipped)
+  * test allergic_to_eggs_in_addition_to_other_stuff  * test allergic_to_eggs_in_addition_to_other_stuff (skipped)
+  * test ignore_non_allergen_score_parts  * test ignore_non_allergen_score_parts (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m12 tests, 1 failure, 11 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable k is unused
+  allergies.exs:20
+
+[33mwarning: [0mvariable flags is unused
+  allergies.exs:29
+
+[33mwarning: [0mvariable item is unused
+  allergies.exs:29
+
+Excluding tags: [:pending]
+
+
+AllergiesTest
+  * test no_allergies_at_all[32m  * test no_allergies_at_all (3.6ms)[0m
+  * test allergic_to_just_eggs  * test allergic_to_just_eggs (skipped)
+  * test allergic_to_just_peanuts  * test allergic_to_just_peanuts (skipped)
+  * test allergic_to_just_strawberries  * test allergic_to_just_strawberries (skipped)
+  * test allergic_to_eggs_and_peanuts  * test allergic_to_eggs_and_peanuts (skipped)
+  * test allergic_to_more_than_eggs_but_not_peanuts  * test allergic_to_more_than_eggs_but_not_peanuts (skipped)
+  * test allergic_to_lots_of_stuff  * test allergic_to_lots_of_stuff (skipped)
+  * test allergic_to_everything  * test allergic_to_everything (skipped)
+  * test no_allergies_means_not_allergic  * test no_allergies_means_not_allergic (skipped)
+  * test is_allergic_to_eggs  * test is_allergic_to_eggs (skipped)
+  * test allergic_to_eggs_in_addition_to_other_stuff  * test allergic_to_eggs_in_addition_to_other_stuff (skipped)
+  * test ignore_non_allergen_score_parts  * test ignore_non_allergen_score_parts (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 11 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable k is unused
+  allergies.exs:20
+
+[33mwarning: [0mvariable flags is unused
+  allergies.exs:29
+
+[33mwarning: [0mvariable item is unused
+  allergies.exs:29
+
+Excluding tags: [:pending]
+
+
+AllergiesTest
+  * test no_allergies_at_all[32m  * test no_allergies_at_all (4.1ms)[0m
+  * test allergic_to_just_eggs[32m  * test allergic_to_just_eggs (2.0ms)[0m
+  * test allergic_to_just_peanuts  * test allergic_to_just_peanuts (skipped)
+  * test allergic_to_just_strawberries  * test allergic_to_just_strawberries (skipped)
+  * test allergic_to_eggs_and_peanuts  * test allergic_to_eggs_and_peanuts (skipped)
+  * test allergic_to_more_than_eggs_but_not_peanuts  * test allergic_to_more_than_eggs_but_not_peanuts (skipped)
+  * test allergic_to_lots_of_stuff  * test allergic_to_lots_of_stuff (skipped)
+  * test allergic_to_everything  * test allergic_to_everything (skipped)
+  * test no_allergies_means_not_allergic  * test no_allergies_means_not_allergic (skipped)
+  * test is_allergic_to_eggs  * test is_allergic_to_eggs (skipped)
+  * test allergic_to_eggs_in_addition_to_other_stuff  * test allergic_to_eggs_in_addition_to_other_stuff (skipped)
+  * test ignore_non_allergen_score_parts  * test ignore_non_allergen_score_parts (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 10 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable k is unused
+  allergies.exs:20
+
+[33mwarning: [0mvariable flags is unused
+  allergies.exs:29
+
+[33mwarning: [0mvariable item is unused
+  allergies.exs:29
+
+Excluding tags: [:pending]
+
+
+AllergiesTest
+  * test no_allergies_at_all[32m  * test no_allergies_at_all (3.9ms)[0m
+  * test allergic_to_just_eggs[32m  * test allergic_to_just_eggs (1.8ms)[0m
+  * test allergic_to_just_peanuts[32m  * test allergic_to_just_peanuts (0.09ms)[0m
+  * test allergic_to_just_strawberries  * test allergic_to_just_strawberries (skipped)
+  * test allergic_to_eggs_and_peanuts  * test allergic_to_eggs_and_peanuts (skipped)
+  * test allergic_to_more_than_eggs_but_not_peanuts  * test allergic_to_more_than_eggs_but_not_peanuts (skipped)
+  * test allergic_to_lots_of_stuff  * test allergic_to_lots_of_stuff (skipped)
+  * test allergic_to_everything  * test allergic_to_everything (skipped)
+  * test no_allergies_means_not_allergic  * test no_allergies_means_not_allergic (skipped)
+  * test is_allergic_to_eggs  * test is_allergic_to_eggs (skipped)
+  * test allergic_to_eggs_in_addition_to_other_stuff  * test allergic_to_eggs_in_addition_to_other_stuff (skipped)
+  * test ignore_non_allergen_score_parts  * test ignore_non_allergen_score_parts (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 9 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable k is unused
+  allergies.exs:20
+
+[33mwarning: [0mvariable flags is unused
+  allergies.exs:29
+
+[33mwarning: [0mvariable item is unused
+  allergies.exs:29
+
+Excluding tags: [:pending]
+
+
+AllergiesTest
+  * test no_allergies_at_all[32m  * test no_allergies_at_all (5.2ms)[0m
+  * test allergic_to_just_eggs[32m  * test allergic_to_just_eggs (2.0ms)[0m
+  * test allergic_to_just_peanuts[32m  * test allergic_to_just_peanuts (0.1ms)[0m
+  * test allergic_to_just_strawberries[32m  * test allergic_to_just_strawberries (0.1ms)[0m
+  * test allergic_to_eggs_and_peanuts  * test allergic_to_eggs_and_peanuts (skipped)
+  * test allergic_to_more_than_eggs_but_not_peanuts  * test allergic_to_more_than_eggs_but_not_peanuts (skipped)
+  * test allergic_to_lots_of_stuff  * test allergic_to_lots_of_stuff (skipped)
+  * test allergic_to_everything  * test allergic_to_everything (skipped)
+  * test no_allergies_means_not_allergic  * test no_allergies_means_not_allergic (skipped)
+  * test is_allergic_to_eggs  * test is_allergic_to_eggs (skipped)
+  * test allergic_to_eggs_in_addition_to_other_stuff  * test allergic_to_eggs_in_addition_to_other_stuff (skipped)
+  * test ignore_non_allergen_score_parts  * test ignore_non_allergen_score_parts (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 8 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable k is unused
+  allergies.exs:20
+
+[33mwarning: [0mvariable flags is unused
+  allergies.exs:29
+
+[33mwarning: [0mvariable item is unused
+  allergies.exs:29
+
+Excluding tags: [:pending]
+
+
+AllergiesTest
+  * test no_allergies_at_all[32m  * test no_allergies_at_all (3.9ms)[0m
+  * test allergic_to_just_eggs[32m  * test allergic_to_just_eggs (2.0ms)[0m
+  * test allergic_to_just_peanuts[32m  * test allergic_to_just_peanuts (0.1ms)[0m
+  * test allergic_to_just_strawberries[32m  * test allergic_to_just_strawberries (0.1ms)[0m
+  * test allergic_to_eggs_and_peanuts[32m  * test allergic_to_eggs_and_peanuts (0.1ms)[0m
+  * test allergic_to_more_than_eggs_but_not_peanuts  * test allergic_to_more_than_eggs_but_not_peanuts (skipped)
+  * test allergic_to_lots_of_stuff  * test allergic_to_lots_of_stuff (skipped)
+  * test allergic_to_everything  * test allergic_to_everything (skipped)
+  * test no_allergies_means_not_allergic  * test no_allergies_means_not_allergic (skipped)
+  * test is_allergic_to_eggs  * test is_allergic_to_eggs (skipped)
+  * test allergic_to_eggs_in_addition_to_other_stuff  * test allergic_to_eggs_in_addition_to_other_stuff (skipped)
+  * test ignore_non_allergen_score_parts  * test ignore_non_allergen_score_parts (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable k is unused
+  allergies.exs:20
+
+[33mwarning: [0mvariable flags is unused
+  allergies.exs:29
+
+[33mwarning: [0mvariable item is unused
+  allergies.exs:29
+
+Excluding tags: [:pending]
+
+
+AllergiesTest
+  * test no_allergies_at_all[32m  * test no_allergies_at_all (3.2ms)[0m
+  * test allergic_to_just_eggs[32m  * test allergic_to_just_eggs (2.5ms)[0m
+  * test allergic_to_just_peanuts[32m  * test allergic_to_just_peanuts (0.08ms)[0m
+  * test allergic_to_just_strawberries[32m  * test allergic_to_just_strawberries (0.08ms)[0m
+  * test allergic_to_eggs_and_peanuts[32m  * test allergic_to_eggs_and_peanuts (0.1ms)[0m
+  * test allergic_to_more_than_eggs_but_not_peanuts[32m  * test allergic_to_more_than_eggs_but_not_peanuts (0.2ms)[0m
+  * test allergic_to_lots_of_stuff  * test allergic_to_lots_of_stuff (skipped)
+  * test allergic_to_everything  * test allergic_to_everything (skipped)
+  * test no_allergies_means_not_allergic  * test no_allergies_means_not_allergic (skipped)
+  * test is_allergic_to_eggs  * test is_allergic_to_eggs (skipped)
+  * test allergic_to_eggs_in_addition_to_other_stuff  * test allergic_to_eggs_in_addition_to_other_stuff (skipped)
+  * test ignore_non_allergen_score_parts  * test ignore_non_allergen_score_parts (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable k is unused
+  allergies.exs:20
+
+[33mwarning: [0mvariable flags is unused
+  allergies.exs:29
+
+[33mwarning: [0mvariable item is unused
+  allergies.exs:29
+
+Excluding tags: [:pending]
+
+
+AllergiesTest
+  * test no_allergies_at_all[32m  * test no_allergies_at_all (3.4ms)[0m
+  * test allergic_to_just_eggs[32m  * test allergic_to_just_eggs (1.9ms)[0m
+  * test allergic_to_just_peanuts[32m  * test allergic_to_just_peanuts (0.1ms)[0m
+  * test allergic_to_just_strawberries[32m  * test allergic_to_just_strawberries (0.07ms)[0m
+  * test allergic_to_eggs_and_peanuts[32m  * test allergic_to_eggs_and_peanuts (0.1ms)[0m
+  * test allergic_to_more_than_eggs_but_not_peanuts[32m  * test allergic_to_more_than_eggs_but_not_peanuts (0.1ms)[0m
+  * test allergic_to_lots_of_stuff[32m  * test allergic_to_lots_of_stuff (0.2ms)[0m
+  * test allergic_to_everything  * test allergic_to_everything (skipped)
+  * test no_allergies_means_not_allergic  * test no_allergies_means_not_allergic (skipped)
+  * test is_allergic_to_eggs  * test is_allergic_to_eggs (skipped)
+  * test allergic_to_eggs_in_addition_to_other_stuff  * test allergic_to_eggs_in_addition_to_other_stuff (skipped)
+  * test ignore_non_allergen_score_parts  * test ignore_non_allergen_score_parts (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable k is unused
+  allergies.exs:20
+
+[33mwarning: [0mvariable flags is unused
+  allergies.exs:29
+
+[33mwarning: [0mvariable item is unused
+  allergies.exs:29
+
+Excluding tags: [:pending]
+
+
+AllergiesTest
+  * test no_allergies_at_all[32m  * test no_allergies_at_all (3.8ms)[0m
+  * test allergic_to_just_eggs[32m  * test allergic_to_just_eggs (2.0ms)[0m
+  * test allergic_to_just_peanuts[32m  * test allergic_to_just_peanuts (0.09ms)[0m
+  * test allergic_to_just_strawberries[32m  * test allergic_to_just_strawberries (0.09ms)[0m
+  * test allergic_to_eggs_and_peanuts[32m  * test allergic_to_eggs_and_peanuts (0.1ms)[0m
+  * test allergic_to_more_than_eggs_but_not_peanuts[32m  * test allergic_to_more_than_eggs_but_not_peanuts (0.1ms)[0m
+  * test allergic_to_lots_of_stuff[32m  * test allergic_to_lots_of_stuff (0.3ms)[0m
+  * test allergic_to_everything[32m  * test allergic_to_everything (0.3ms)[0m
+  * test no_allergies_means_not_allergic  * test no_allergies_means_not_allergic (skipped)
+  * test is_allergic_to_eggs  * test is_allergic_to_eggs (skipped)
+  * test allergic_to_eggs_in_addition_to_other_stuff  * test allergic_to_eggs_in_addition_to_other_stuff (skipped)
+  * test ignore_non_allergen_score_parts  * test ignore_non_allergen_score_parts (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable k is unused
+  allergies.exs:20
+
+[33mwarning: [0mvariable flags is unused
+  allergies.exs:29
+
+[33mwarning: [0mvariable item is unused
+  allergies.exs:29
+
+Excluding tags: [:pending]
+
+
+AllergiesTest
+  * test no_allergies_at_all[32m  * test no_allergies_at_all (4.1ms)[0m
+  * test allergic_to_just_eggs[32m  * test allergic_to_just_eggs (1.8ms)[0m
+  * test allergic_to_just_peanuts[32m  * test allergic_to_just_peanuts (0.1ms)[0m
+  * test allergic_to_just_strawberries[32m  * test allergic_to_just_strawberries (0.09ms)[0m
+  * test allergic_to_eggs_and_peanuts[32m  * test allergic_to_eggs_and_peanuts (0.2ms)[0m
+  * test allergic_to_more_than_eggs_but_not_peanuts[32m  * test allergic_to_more_than_eggs_but_not_peanuts (0.1ms)[0m
+  * test allergic_to_lots_of_stuff[32m  * test allergic_to_lots_of_stuff (0.2ms)[0m
+  * test allergic_to_everything[32m  * test allergic_to_everything (0.3ms)[0m
+  * test no_allergies_means_not_allergic[32m  * test no_allergies_means_not_allergic (0.00ms)[0m
+  * test is_allergic_to_eggs  * test is_allergic_to_eggs (skipped)
+  * test allergic_to_eggs_in_addition_to_other_stuff  * test allergic_to_eggs_in_addition_to_other_stuff (skipped)
+  * test ignore_non_allergen_score_parts  * test ignore_non_allergen_score_parts (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable k is unused
+  allergies.exs:20
+
+[33mwarning: [0mvariable flags is unused
+  allergies.exs:29
+
+[33mwarning: [0mvariable item is unused
+  allergies.exs:29
+
+Excluding tags: [:pending]
+
+
+AllergiesTest
+  * test no_allergies_at_all[32m  * test no_allergies_at_all (3.6ms)[0m
+  * test allergic_to_just_eggs[32m  * test allergic_to_just_eggs (2.0ms)[0m
+  * test allergic_to_just_peanuts[32m  * test allergic_to_just_peanuts (0.1ms)[0m
+  * test allergic_to_just_strawberries[32m  * test allergic_to_just_strawberries (0.1ms)[0m
+  * test allergic_to_eggs_and_peanuts[32m  * test allergic_to_eggs_and_peanuts (0.1ms)[0m
+  * test allergic_to_more_than_eggs_but_not_peanuts[32m  * test allergic_to_more_than_eggs_but_not_peanuts (0.1ms)[0m
+  * test allergic_to_lots_of_stuff[32m  * test allergic_to_lots_of_stuff (0.2ms)[0m
+  * test allergic_to_everything[32m  * test allergic_to_everything (0.3ms)[0m
+  * test no_allergies_means_not_allergic[32m  * test no_allergies_means_not_allergic (0.00ms)[0m
+  * test is_allergic_to_eggs[31m  * test is_allergic_to_eggs (2.5ms)[0m
+
+  1) test is_allergic_to_eggs (AllergiesTest)
+     [1m[30mallergies_test.exs:50[0m
+     [31mExpected truthy, got nil[0m
+     [36mcode: [0mAllergies.allergic_to?(1, "eggs")
+     [36mstacktrace:[0m
+       allergies_test.exs:51: (test)
+
+  * test allergic_to_eggs_in_addition_to_other_stuff  * test allergic_to_eggs_in_addition_to_other_stuff (skipped)
+  * test ignore_non_allergen_score_parts  * test ignore_non_allergen_score_parts (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[31m12 tests, 1 failure, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable k is unused
+  allergies.exs:20
+
+Excluding tags: [:pending]
+
+
+AllergiesTest
+  * test no_allergies_at_all[32m  * test no_allergies_at_all (3.1ms)[0m
+  * test allergic_to_just_eggs[32m  * test allergic_to_just_eggs (2.0ms)[0m
+  * test allergic_to_just_peanuts[32m  * test allergic_to_just_peanuts (0.09ms)[0m
+  * test allergic_to_just_strawberries[32m  * test allergic_to_just_strawberries (0.07ms)[0m
+  * test allergic_to_eggs_and_peanuts[32m  * test allergic_to_eggs_and_peanuts (0.09ms)[0m
+  * test allergic_to_more_than_eggs_but_not_peanuts[32m  * test allergic_to_more_than_eggs_but_not_peanuts (0.1ms)[0m
+  * test allergic_to_lots_of_stuff[32m  * test allergic_to_lots_of_stuff (0.2ms)[0m
+  * test allergic_to_everything[32m  * test allergic_to_everything (0.2ms)[0m
+  * test no_allergies_means_not_allergic[32m  * test no_allergies_means_not_allergic (0.01ms)[0m
+  * test is_allergic_to_eggs[32m  * test is_allergic_to_eggs (0.00ms)[0m
+  * test allergic_to_eggs_in_addition_to_other_stuff  * test allergic_to_eggs_in_addition_to_other_stuff (skipped)
+  * test ignore_non_allergen_score_parts  * test ignore_non_allergen_score_parts (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable k is unused
+  allergies.exs:20
+
+Excluding tags: [:pending]
+
+
+AllergiesTest
+  * test no_allergies_at_all[32m  * test no_allergies_at_all (4.0ms)[0m
+  * test allergic_to_just_eggs[32m  * test allergic_to_just_eggs (1.7ms)[0m
+  * test allergic_to_just_peanuts[32m  * test allergic_to_just_peanuts (0.1ms)[0m
+  * test allergic_to_just_strawberries[32m  * test allergic_to_just_strawberries (0.09ms)[0m
+  * test allergic_to_eggs_and_peanuts[32m  * test allergic_to_eggs_and_peanuts (0.1ms)[0m
+  * test allergic_to_more_than_eggs_but_not_peanuts[32m  * test allergic_to_more_than_eggs_but_not_peanuts (0.1ms)[0m
+  * test allergic_to_lots_of_stuff[32m  * test allergic_to_lots_of_stuff (0.3ms)[0m
+  * test allergic_to_everything[32m  * test allergic_to_everything (0.2ms)[0m
+  * test no_allergies_means_not_allergic[32m  * test no_allergies_means_not_allergic (0.02ms)[0m
+  * test is_allergic_to_eggs[32m  * test is_allergic_to_eggs (0.01ms)[0m
+  * test allergic_to_eggs_in_addition_to_other_stuff[32m  * test allergic_to_eggs_in_addition_to_other_stuff (0.01ms)[0m
+  * test ignore_non_allergen_score_parts  * test ignore_non_allergen_score_parts (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[32m12 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable k is unused
+  allergies.exs:20
+
+Excluding tags: [:pending]
+
+
+AllergiesTest
+  * test no_allergies_at_all[32m  * test no_allergies_at_all (11.6ms)[0m
+  * test allergic_to_just_eggs[32m  * test allergic_to_just_eggs (2.4ms)[0m
+  * test allergic_to_just_peanuts[32m  * test allergic_to_just_peanuts (0.1ms)[0m
+  * test allergic_to_just_strawberries[32m  * test allergic_to_just_strawberries (0.1ms)[0m
+  * test allergic_to_eggs_and_peanuts[32m  * test allergic_to_eggs_and_peanuts (0.1ms)[0m
+  * test allergic_to_more_than_eggs_but_not_peanuts[32m  * test allergic_to_more_than_eggs_but_not_peanuts (0.1ms)[0m
+  * test allergic_to_lots_of_stuff[32m  * test allergic_to_lots_of_stuff (0.2ms)[0m
+  * test allergic_to_everything[32m  * test allergic_to_everything (0.2ms)[0m
+  * test no_allergies_means_not_allergic[32m  * test no_allergies_means_not_allergic (0.01ms)[0m
+  * test is_allergic_to_eggs[32m  * test is_allergic_to_eggs (0.00ms)[0m
+  * test allergic_to_eggs_in_addition_to_other_stuff[32m  * test allergic_to_eggs_in_addition_to_other_stuff (0.00ms)[0m
+  * test ignore_non_allergen_score_parts[32m  * test ignore_non_allergen_score_parts (0.2ms)[0m
+
+
+Finished in 0.1 seconds (0.1s on load, 0.01s on tests)
+[32m12 tests, 0 failures[0m
+
+Randomized with seed 0
