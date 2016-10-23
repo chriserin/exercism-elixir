@@ -1,0 +1,222 @@
+** (SyntaxError) palindrome_products.exs:8: unexpected token "do". In case you wanted to write a "do" expression, you must either separate the keyword argument with comma or use do-blocks. For example, the following construct:
+
+    if some_condition? do
+      :this
+    else
+      :that
+    end
+
+is syntax sugar for the Elixir construct:
+
+    if(some_condition?, do: :this, else: :that)
+
+where "some_condition?" is the first argument and the second argument is a keyword list.
+
+Syntax error before: do
+    (elixir) lib/code.ex:321: Code.load_file/2
+    palindrome_products_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) palindrome_products.exs:21: unexpected token: "end". "(" starting at line 21 is missing terminator ")"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    palindrome_products_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+[33mwarning: [0mvariable y is unused
+  palindrome_products.exs:21
+
+Excluding tags: [:pending]
+
+
+PalindromeProductsTest
+  * test largest palindrome from single digit factors[31m  * test largest palindrome from single digit factors (6.9ms)[0m
+
+  1) test largest palindrome from single digit factors (PalindromeProductsTest)
+     [1m[30mpalindrome_products_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.sort(palindromes'\t') == [[1, 9], [3, 3]]
+     [36mlhs:  [0m[[31m{9, [1, 9]}[0m, [31m{9, [3, 3]}[0m[31m, [0m[31m{9, [9, 1]}[0m]
+     [36mrhs:  [0m[[32m[1, 9][0m, [32m[3, 3][0m]
+     [36mstacktrace:[0m
+       palindrome_products_test.exs:14: (test)
+
+  * test largest palindrome from double digit factors  * test largest palindrome from double digit factors (skipped)
+  * test smallest palindrome from double digit factors  * test smallest palindrome from double digit factors (skipped)
+  * test largest palindrome from triple digit factors  * test largest palindrome from triple digit factors (skipped)
+  * test smallest palindromes from triple digit factors  * test smallest palindromes from triple digit factors (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m5 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable y is unused
+  palindrome_products.exs:21
+
+Excluding tags: [:pending]
+
+
+PalindromeProductsTest
+  * test largest palindrome from single digit factors[31m  * test largest palindrome from single digit factors (18.9ms)[0m
+
+  1) test largest palindrome from single digit factors (PalindromeProductsTest)
+     [1m[30mpalindrome_products_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.sort(palindromes'\t') == [[1, 9], [3, 3]]
+     [36mlhs:  [0m[[31m{9, [1, 9]}[0m, [31m{9, [1, 9]}[0m[31m, [0m[31m{9, [3, 3]}[0m]
+     [36mrhs:  [0m[[32m[1, 9][0m, [32m[3, 3][0m]
+     [36mstacktrace:[0m
+       palindrome_products_test.exs:14: (test)
+
+  * test largest palindrome from double digit factors  * test largest palindrome from double digit factors (skipped)
+  * test smallest palindrome from double digit factors  * test smallest palindrome from double digit factors (skipped)
+  * test largest palindrome from triple digit factors  * test largest palindrome from triple digit factors (skipped)
+  * test smallest palindromes from triple digit factors  * test smallest palindromes from triple digit factors (skipped)
+
+
+Finished in 0.08 seconds (0.06s on load, 0.02s on tests)
+[31m5 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PalindromeProductsTest
+  * test largest palindrome from single digit factors[31m  * test largest palindrome from single digit factors (6.2ms)[0m
+
+  1) test largest palindrome from single digit factors (PalindromeProductsTest)
+     [1m[30mpalindrome_products_test.exs:11[0m
+     [31m** (UndefinedFunctionError) function Map.put/2 is undefined or private. Did you mean one of:
+     
+           * put/3
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Map.put(1, [[1, 1]])
+       (elixir) lib/enum.ex:1623: Enum."-reduce/3-lists^foldl/2-0-"/3
+       palindrome_products_test.exs:12: (test)
+
+  * test largest palindrome from double digit factors  * test largest palindrome from double digit factors (skipped)
+  * test smallest palindrome from double digit factors  * test smallest palindrome from double digit factors (skipped)
+  * test largest palindrome from triple digit factors  * test largest palindrome from triple digit factors (skipped)
+  * test smallest palindromes from triple digit factors  * test smallest palindromes from triple digit factors (skipped)
+
+
+Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
+[31m5 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PalindromeProductsTest
+  * test largest palindrome from single digit factors[31m  * test largest palindrome from single digit factors (7.0ms)[0m
+
+  1) test largest palindrome from single digit factors (PalindromeProductsTest)
+     [1m[30mpalindrome_products_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mEnum.sort(palindromes'\t') == [[1, 9], [3, 3]]
+     [36mlhs:  [0m[[1, 9], [[31m1[0m, [31m9[0m][31m, [0m[31m[3, 3][0m]
+     [36mrhs:  [0m[[1, 9], [[32m3[0m, [32m3[0m]]
+     [36mstacktrace:[0m
+       palindrome_products_test.exs:14: (test)
+
+  * test largest palindrome from double digit factors  * test largest palindrome from double digit factors (skipped)
+  * test smallest palindrome from double digit factors  * test smallest palindrome from double digit factors (skipped)
+  * test largest palindrome from triple digit factors  * test largest palindrome from triple digit factors (skipped)
+  * test smallest palindromes from triple digit factors  * test smallest palindromes from triple digit factors (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m5 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PalindromeProductsTest
+  * test largest palindrome from single digit factors[32m  * test largest palindrome from single digit factors (4.6ms)[0m
+  * test largest palindrome from double digit factors  * test largest palindrome from double digit factors (skipped)
+  * test smallest palindrome from double digit factors  * test smallest palindrome from double digit factors (skipped)
+  * test largest palindrome from triple digit factors  * test largest palindrome from triple digit factors (skipped)
+  * test smallest palindromes from triple digit factors  * test smallest palindromes from triple digit factors (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m5 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PalindromeProductsTest
+  * test largest palindrome from single digit factors[32m  * test largest palindrome from single digit factors (4.1ms)[0m
+  * test largest palindrome from double digit factors[32m  * test largest palindrome from double digit factors (8.8ms)[0m
+  * test smallest palindrome from double digit factors  * test smallest palindrome from double digit factors (skipped)
+  * test largest palindrome from triple digit factors  * test largest palindrome from triple digit factors (skipped)
+  * test smallest palindromes from triple digit factors  * test smallest palindromes from triple digit factors (skipped)
+
+
+Finished in 0.05 seconds (0.04s on load, 0.01s on tests)
+[32m5 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PalindromeProductsTest
+  * test largest palindrome from single digit factors[32m  * test largest palindrome from single digit factors (4.3ms)[0m
+  * test largest palindrome from double digit factors[32m  * test largest palindrome from double digit factors (11.4ms)[0m
+  * test smallest palindrome from double digit factors[32m  * test smallest palindrome from double digit factors (10.0ms)[0m
+  * test largest palindrome from triple digit factors  * test largest palindrome from triple digit factors (skipped)
+  * test smallest palindromes from triple digit factors  * test smallest palindromes from triple digit factors (skipped)
+
+
+Finished in 0.06 seconds (0.04s on load, 0.02s on tests)
+[32m5 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PalindromeProductsTest
+  * test largest palindrome from single digit factors[32m  * test largest palindrome from single digit factors (4.5ms)[0m
+  * test largest palindrome from double digit factors[32m  * test largest palindrome from double digit factors (11.5ms)[0m
+  * test smallest palindrome from double digit factors[32m  * test smallest palindrome from double digit factors (12.0ms)[0m
+  * test largest palindrome from triple digit factors[32m  * test largest palindrome from triple digit factors (1082.9ms)[0m
+  * test smallest palindromes from triple digit factors  * test smallest palindromes from triple digit factors (skipped)
+
+
+Finished in 1.1 seconds (0.04s on load, 1.1s on tests)
+[32m5 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PalindromeProductsTest
+  * test largest palindrome from single digit factors[32m  * test largest palindrome from single digit factors (4.5ms)[0m
+  * test largest palindrome from double digit factors[32m  * test largest palindrome from double digit factors (9.5ms)[0m
+  * test smallest palindrome from double digit factors[32m  * test smallest palindrome from double digit factors (15.8ms)[0m
+  * test largest palindrome from triple digit factors[32m  * test largest palindrome from triple digit factors (1206.7ms)[0m
+  * test smallest palindromes from triple digit factors[32m  * test smallest palindromes from triple digit factors (1169.1ms)[0m
+
+
+Finished in 2.4 seconds (0.04s on load, 2.4s on tests)
+[32m5 tests, 0 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PalindromeProductsTest
+  * test largest palindrome from single digit factors[32m  * test largest palindrome from single digit factors (4.8ms)[0m
+  * test largest palindrome from double digit factors[32m  * test largest palindrome from double digit factors (9.3ms)[0m
+  * test smallest palindrome from double digit factors[32m  * test smallest palindrome from double digit factors (9.2ms)[0m
+  * test largest palindrome from triple digit factors[32m  * test largest palindrome from triple digit factors (1187.1ms)[0m
+  * test smallest palindromes from triple digit factors[32m  * test smallest palindromes from triple digit factors (1224.1ms)[0m
+
+
+Finished in 2.4 seconds (0.04s on load, 2.4s on tests)
+[32m5 tests, 0 failures[0m
+
+Randomized with seed 0
