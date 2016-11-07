@@ -5,34 +5,27 @@ defmodule Minesweeper do
   """
   @spec annotate([String.t]) :: [String.t]
   def annotate(board) do
-    new_board = replace_space(board)
+    new_board = transform(board)
+
     new_board
-    |> Enum.map(fn(row) -> String.replace(row, "X", " ") end)
+    |> Enum.map(fn({x, y, v}) ->
+      {x, y, count_bombs(board, {x, y, v})}
+    end)
+    |> Enum.reduce(List.duplicate([], length(board)), fn({x, y, v}, acc) ->
+      List.replace_at(acc, y, [v | Enum.at(acc, y)])
+    end)
+    |> Enum.map(&Enum.join/1)
   end
 
-  defp replace_space(board) do
-    space_coords = List.first(find_spaces(board))
-
-    cond do
-      space_coords == nil ->
-        board
-      space_coords ->
-        horiz_bombs = count_bombs(board, space_coords)
-        replace_space_w_count(board, horiz_bombs + 0, space_coords)
-        |> replace_space
-    end
-  end
-
-  defp find_spaces(board) do
+  defp transform(board) do
     for {row, i} <- Enum.with_index(board),
         {col, j} <- Enum.with_index(String.graphemes(row)) do
       {j, i, col}
     end
-    |> Enum.filter(fn({_, _, col})-> col == " " end)
-    |> Enum.map(fn({x, y, col})-> {x, y} end)
   end
 
-  defp count_bombs(board, {x, y}) do
+  defp count_bombs(board, {x, y, "*"}), do: "*"
+  defp count_bombs(board, {x, y, v}) do
     neighbor_rows = Enum.with_index(board)
     |> Enum.filter(fn ({_, i})-> abs(i - y) <= 1 end)
 
@@ -45,24 +38,9 @@ defmodule Minesweeper do
       end)
     end
     |> Enum.sum
-  end
-
-  defp replace_space_w_count(board, count, {x, y}) do
-    replacement_char = if count == 0 do
-      "X"
-    else
-      count
+    |> case do
+      0 -> " "
+      a -> a
     end
-
-    board
-    |> Enum.with_index
-    |> Enum.map(fn({row, i}) ->
-        cond do
-          y == i ->
-            List.replace_at(String.graphemes(row), x, replacement_char) |> Enum.join
-          true ->
-            row
-        end
-    end)
   end
 end
