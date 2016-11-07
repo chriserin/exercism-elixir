@@ -10,6 +10,7 @@ defmodule Minesweeper do
       List.replace_at(acc, y, [v | Enum.at(acc, y)])
     end)
     |> Enum.map(&Enum.join/1)
+    |> Enum.map(&(String.replace(&1, "0", " ")))
   end
 
   defp transform(board) do
@@ -25,9 +26,5 @@ defmodule Minesweeper do
       abs(bx - x) <= 1 && abs(by - y) <= 1 && bv == "*"
     end)
     |> length
-    |> case do
-      0 -> " "
-      a -> a
-    end
   end
 end
