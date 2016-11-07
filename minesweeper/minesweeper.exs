@@ -1,15 +1,10 @@
 defmodule Minesweeper do
-
-  @doc """
-  Annotate empty spots next to mines with the number of mines next to them.
-  """
-  @spec annotate([String.t]) :: [String.t]
   def annotate(board) do
-    new_board = transform(board)
+    transformed_board = transform(board)
 
-    new_board
+    transformed_board
     |> Enum.map(fn({x, y, v}) ->
-      {x, y, count_bombs(board, {x, y, v})}
+      {x, y, count_bombs(transformed_board, {x, y, v})}
     end)
     |> Enum.reduce(List.duplicate([], length(board)), fn({x, y, v}, acc) ->
       List.replace_at(acc, y, [v | Enum.at(acc, y)])
@@ -26,18 +21,14 @@ defmodule Minesweeper do
 
   defp count_bombs(board, {x, y, "*"}), do: "*"
   defp count_bombs(board, {x, y, v}) do
-    neighbor_rows = Enum.with_index(board)
-    |> Enum.filter(fn ({_, i})-> abs(i - y) <= 1 end)
-
-    for {n_row, _} <- neighbor_rows do
-      n_row
-      |> String.graphemes
-      |> Enum.with_index
-      |> Enum.count(fn({s, i}) ->
-        s == "*" && abs(i - x) <= 1
-      end)
+    for {bx, by, bv} <- board do
+      cond do
+        abs(bx - x) <= 1 && abs(by - y) <= 1 && bv == "*" -> "*"
+        true -> ""
+      end
     end
-    |> Enum.sum
+    |> Enum.join
+    |> String.length
     |> case do
       0 -> " "
       a -> a
