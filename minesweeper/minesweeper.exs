@@ -11,41 +11,25 @@ defmodule Minesweeper do
   end
 
   defp replace_space(board) do
-    space_coords = find_first_space(board)
+    space_coords = List.first(find_spaces(board))
 
     cond do
-      {nil, -1} == space_coords ->
+      space_coords == nil ->
         board
       space_coords ->
         horiz_bombs = count_bombs(board, space_coords)
         replace_space_w_count(board, horiz_bombs + 0, space_coords)
         |> replace_space
-      true ->
-        board
     end
   end
 
-  defp find_first_space(board) do
-    {row, row_index} = find_row_with_space(board)
-
-    column_index = row
-    |> String.graphemes
-    |> Enum.find_index(fn (x)-> x == " " end)
-
-    {column_index, row_index}
-  end
-
-  defp find_row_with_space(board) do
-    found_value = board
-    |> Enum.with_index
-    |> Enum.find(fn({row, _}) -> String.contains?(row, " ") end)
-
-    case found_value do
-      nil ->
-        {"", -1}
-      {_, _} ->
-        found_value
+  defp find_spaces(board) do
+    for {row, i} <- Enum.with_index(board),
+        {col, j} <- Enum.with_index(String.graphemes(row)) do
+      {j, i, col}
     end
+    |> Enum.filter(fn({_, _, col})-> col == " " end)
+    |> Enum.map(fn({x, y, col})-> {x, y} end)
   end
 
   defp count_bombs(board, {x, y}) do
