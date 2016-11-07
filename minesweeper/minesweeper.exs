@@ -21,14 +21,10 @@ defmodule Minesweeper do
 
   defp count_bombs(board, {x, y, "*"}), do: "*"
   defp count_bombs(board, {x, y, v}) do
-    for {bx, by, bv} <- board do
-      cond do
-        abs(bx - x) <= 1 && abs(by - y) <= 1 && bv == "*" -> "*"
-        true -> ""
-      end
-    end
-    |> Enum.join
-    |> String.length
+    Enum.filter(board, fn({bx, by, bv}) ->
+      abs(bx - x) <= 1 && abs(by - y) <= 1 && bv == "*"
+    end)
+    |> length
     |> case do
       0 -> " "
       a -> a
