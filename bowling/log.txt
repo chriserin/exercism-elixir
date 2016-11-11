@@ -1,0 +1,298 @@
+[33mwarning: [0mvariable game is unused
+  bowling.exs:20
+
+[33mwarning: [0mvariable game is unused
+  bowling.exs:36
+
+Excluding tags: [:pending]
+
+
+BowlingTest
+  * test can score all 0s[31m  * test can score all 0s (3.9ms)[0m
+
+  1) test can score all 0s (BowlingTest)
+     [1m[30mbowling_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBowling.score(game) == 0
+     [36mlhs:  [0mnil
+     [36mrhs:  [0m0
+     [36mstacktrace:[0m
+       bowling_test.exs:28: (test)
+
+  * test can score a game with no strikes or spares  * test can score a game with no strikes or spares (skipped)
+  * test spare followed by all 0s is worth 10 points  * test spare followed by all 0s is worth 10 points (skipped)
+  * test points scored in the roll after the spare are counted twice  * test points scored in the roll after the spare are counted twice (skipped)
+  * test consecutive spares each get a one roll bonus  * test consecutive spares each get a one roll bonus (skipped)
+  * test a spare in the last frame gets a one roll bonus that is counted once  * test a spare in the last frame gets a one roll bonus that is counted once (skipped)
+  * test a strike earns ten points in frame with a single roll  * test a strike earns ten points in frame with a single roll (skipped)
+  * test points scored in the two rolls after a strike are counted twice as a bonus  * test points scored in the two rolls after a strike are counted twice as a bonus (skipped)
+  * test consecutive strikes each get the two roll bonus  * test consecutive strikes each get the two roll bonus (skipped)
+  * test a strike in the last frame gets a two roll bonus that is counted once  * test a strike in the last frame gets a two roll bonus that is counted once (skipped)
+  * test rolling a spare with the two roll bonus does not get a bonus roll  * test rolling a spare with the two roll bonus does not get a bonus roll (skipped)
+  * test strikes with the two roll bonus do not get bonus rolls  * test strikes with the two roll bonus do not get bonus rolls (skipped)
+  * test a strike with the one roll bonus after a spare in the last frame does not get a bonus  * test a strike with the one roll bonus after a spare in the last frame does not get a bonus (skipped)
+  * test all strikes is a perfect game  * test all strikes is a perfect game (skipped)
+  * test rolls can not score negative points  * test rolls can not score negative points (skipped)
+  * test a roll can not score more than 10 points  * test a roll can not score more than 10 points (skipped)
+  * test two rolls in a frame can not score more than 10 points  * test two rolls in a frame can not score more than 10 points (skipped)
+  * test two bonus rolls after a strike in the last frame can not score more than 10 points  * test two bonus rolls after a strike in the last frame can not score more than 10 points (skipped)
+  * test an unstarted game can not be scored  * test an unstarted game can not be scored (skipped)
+  * test score cannot be taken until the end of the game  * test score cannot be taken until the end of the game (skipped)
+  * test a game with more than ten frames can not be scored  * test a game with more than ten frames can not be scored (skipped)
+  * test bonus rolls for a strike in the last frame must be rolled before score can be calculated  * test bonus rolls for a strike in the last frame must be rolled before score can be calculated (skipped)
+  * test both bonus rolls for a strike in the last frame must be rolled before score can be calculated  * test both bonus rolls for a strike in the last frame must be rolled before score can be calculated (skipped)
+  * test bonus roll for a spare in the last frame must be rolled before score can be calculated  * test bonus roll for a spare in the last frame must be rolled before score can be calculated (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m24 tests, 1 failure, 23 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable game is unused
+  bowling.exs:20
+
+[33mwarning: [0mvariable game is unused
+  bowling.exs:36
+
+Excluding tags: [:pending]
+
+
+BowlingTest
+  * test can score all 0s[31m  * test can score all 0s (2.2ms)[0m
+
+  1) test can score all 0s (BowlingTest)
+     [1m[30mbowling_test.exs:15[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mBowling.score(game) == 0
+     [36mlhs:  [0mnil
+     [36mrhs:  [0m0
+     [36mstacktrace:[0m
+       bowling_test.exs:28: (test)
+
+  * test can score a game with no strikes or spares  * test can score a game with no strikes or spares (skipped)
+  * test spare followed by all 0s is worth 10 points  * test spare followed by all 0s is worth 10 points (skipped)
+  * test points scored in the roll after the spare are counted twice  * test points scored in the roll after the spare are counted twice (skipped)
+  * test consecutive spares each get a one roll bonus  * test consecutive spares each get a one roll bonus (skipped)
+  * test a spare in the last frame gets a one roll bonus that is counted once  * test a spare in the last frame gets a one roll bonus that is counted once (skipped)
+  * test a strike earns ten points in frame with a single roll  * test a strike earns ten points in frame with a single roll (skipped)
+  * test points scored in the two rolls after a strike are counted twice as a bonus  * test points scored in the two rolls after a strike are counted twice as a bonus (skipped)
+  * test consecutive strikes each get the two roll bonus  * test consecutive strikes each get the two roll bonus (skipped)
+  * test a strike in the last frame gets a two roll bonus that is counted once  * test a strike in the last frame gets a two roll bonus that is counted once (skipped)
+  * test rolling a spare with the two roll bonus does not get a bonus roll  * test rolling a spare with the two roll bonus does not get a bonus roll (skipped)
+  * test strikes with the two roll bonus do not get bonus rolls  * test strikes with the two roll bonus do not get bonus rolls (skipped)
+  * test a strike with the one roll bonus after a spare in the last frame does not get a bonus  * test a strike with the one roll bonus after a spare in the last frame does not get a bonus (skipped)
+  * test all strikes is a perfect game  * test all strikes is a perfect game (skipped)
+  * test rolls can not score negative points  * test rolls can not score negative points (skipped)
+  * test a roll can not score more than 10 points  * test a roll can not score more than 10 points (skipped)
+  * test two rolls in a frame can not score more than 10 points  * test two rolls in a frame can not score more than 10 points (skipped)
+  * test two bonus rolls after a strike in the last frame can not score more than 10 points  * test two bonus rolls after a strike in the last frame can not score more than 10 points (skipped)
+  * test an unstarted game can not be scored  * test an unstarted game can not be scored (skipped)
+  * test score cannot be taken until the end of the game  * test score cannot be taken until the end of the game (skipped)
+  * test a game with more than ten frames can not be scored  * test a game with more than ten frames can not be scored (skipped)
+  * test bonus rolls for a strike in the last frame must be rolled before score can be calculated  * test bonus rolls for a strike in the last frame must be rolled before score can be calculated (skipped)
+  * test both bonus rolls for a strike in the last frame must be rolled before score can be calculated  * test both bonus rolls for a strike in the last frame must be rolled before score can be calculated (skipped)
+  * test bonus roll for a spare in the last frame must be rolled before score can be calculated  * test bonus roll for a spare in the last frame must be rolled before score can be calculated (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m24 tests, 1 failure, 23 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable game is unused
+  bowling.exs:6
+
+[33mwarning: [0mvariable game is unused
+  bowling.exs:16
+
+Excluding tags: [:pending]
+
+
+BowlingTest
+  * test can score all 0s[31m  * test can score all 0s (3.0ms)[0m
+
+  1) test can score all 0s (BowlingTest)
+     [1m[30mbowling_test.exs:15[0m
+     [31m** (UndefinedFunctionError) function Enum.map/1 is undefined or private. Did you mean one of:
+     
+           * map/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.map(#Function<0.42797863/1 in Bowling.score/1>)
+       bowling.exs:17: Bowling.score/1
+       bowling_test.exs:28: (test)
+
+  * test can score a game with no strikes or spares  * test can score a game with no strikes or spares (skipped)
+  * test spare followed by all 0s is worth 10 points  * test spare followed by all 0s is worth 10 points (skipped)
+  * test points scored in the roll after the spare are counted twice  * test points scored in the roll after the spare are counted twice (skipped)
+  * test consecutive spares each get a one roll bonus  * test consecutive spares each get a one roll bonus (skipped)
+  * test a spare in the last frame gets a one roll bonus that is counted once  * test a spare in the last frame gets a one roll bonus that is counted once (skipped)
+  * test a strike earns ten points in frame with a single roll  * test a strike earns ten points in frame with a single roll (skipped)
+  * test points scored in the two rolls after a strike are counted twice as a bonus  * test points scored in the two rolls after a strike are counted twice as a bonus (skipped)
+  * test consecutive strikes each get the two roll bonus  * test consecutive strikes each get the two roll bonus (skipped)
+  * test a strike in the last frame gets a two roll bonus that is counted once  * test a strike in the last frame gets a two roll bonus that is counted once (skipped)
+  * test rolling a spare with the two roll bonus does not get a bonus roll  * test rolling a spare with the two roll bonus does not get a bonus roll (skipped)
+  * test strikes with the two roll bonus do not get bonus rolls  * test strikes with the two roll bonus do not get bonus rolls (skipped)
+  * test a strike with the one roll bonus after a spare in the last frame does not get a bonus  * test a strike with the one roll bonus after a spare in the last frame does not get a bonus (skipped)
+  * test all strikes is a perfect game  * test all strikes is a perfect game (skipped)
+  * test rolls can not score negative points  * test rolls can not score negative points (skipped)
+  * test a roll can not score more than 10 points  * test a roll can not score more than 10 points (skipped)
+  * test two rolls in a frame can not score more than 10 points  * test two rolls in a frame can not score more than 10 points (skipped)
+  * test two bonus rolls after a strike in the last frame can not score more than 10 points  * test two bonus rolls after a strike in the last frame can not score more than 10 points (skipped)
+  * test an unstarted game can not be scored  * test an unstarted game can not be scored (skipped)
+  * test score cannot be taken until the end of the game  * test score cannot be taken until the end of the game (skipped)
+  * test a game with more than ten frames can not be scored  * test a game with more than ten frames can not be scored (skipped)
+  * test bonus rolls for a strike in the last frame must be rolled before score can be calculated  * test bonus rolls for a strike in the last frame must be rolled before score can be calculated (skipped)
+  * test both bonus rolls for a strike in the last frame must be rolled before score can be calculated  * test both bonus rolls for a strike in the last frame must be rolled before score can be calculated (skipped)
+  * test bonus roll for a spare in the last frame must be rolled before score can be calculated  * test bonus roll for a spare in the last frame must be rolled before score can be calculated (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m24 tests, 1 failure, 23 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable game is unused
+  bowling.exs:6
+
+[33mwarning: [0mvariable game is unused
+  bowling.exs:16
+
+Excluding tags: [:pending]
+
+
+BowlingTest
+  * test can score all 0s[31m  * test can score all 0s (2.2ms)[0m
+
+  1) test can score all 0s (BowlingTest)
+     [1m[30mbowling_test.exs:15[0m
+     [31m** (UndefinedFunctionError) function Enum.map/1 is undefined or private. Did you mean one of:
+     
+           * map/2
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.map(#Function<0.42797863/1 in Bowling.score/1>)
+       bowling.exs:17: Bowling.score/1
+       bowling_test.exs:28: (test)
+
+  * test can score a game with no strikes or spares  * test can score a game with no strikes or spares (skipped)
+  * test spare followed by all 0s is worth 10 points  * test spare followed by all 0s is worth 10 points (skipped)
+  * test points scored in the roll after the spare are counted twice  * test points scored in the roll after the spare are counted twice (skipped)
+  * test consecutive spares each get a one roll bonus  * test consecutive spares each get a one roll bonus (skipped)
+  * test a spare in the last frame gets a one roll bonus that is counted once  * test a spare in the last frame gets a one roll bonus that is counted once (skipped)
+  * test a strike earns ten points in frame with a single roll  * test a strike earns ten points in frame with a single roll (skipped)
+  * test points scored in the two rolls after a strike are counted twice as a bonus  * test points scored in the two rolls after a strike are counted twice as a bonus (skipped)
+  * test consecutive strikes each get the two roll bonus  * test consecutive strikes each get the two roll bonus (skipped)
+  * test a strike in the last frame gets a two roll bonus that is counted once  * test a strike in the last frame gets a two roll bonus that is counted once (skipped)
+  * test rolling a spare with the two roll bonus does not get a bonus roll  * test rolling a spare with the two roll bonus does not get a bonus roll (skipped)
+  * test strikes with the two roll bonus do not get bonus rolls  * test strikes with the two roll bonus do not get bonus rolls (skipped)
+  * test a strike with the one roll bonus after a spare in the last frame does not get a bonus  * test a strike with the one roll bonus after a spare in the last frame does not get a bonus (skipped)
+  * test all strikes is a perfect game  * test all strikes is a perfect game (skipped)
+  * test rolls can not score negative points  * test rolls can not score negative points (skipped)
+  * test a roll can not score more than 10 points  * test a roll can not score more than 10 points (skipped)
+  * test two rolls in a frame can not score more than 10 points  * test two rolls in a frame can not score more than 10 points (skipped)
+  * test two bonus rolls after a strike in the last frame can not score more than 10 points  * test two bonus rolls after a strike in the last frame can not score more than 10 points (skipped)
+  * test an unstarted game can not be scored  * test an unstarted game can not be scored (skipped)
+  * test score cannot be taken until the end of the game  * test score cannot be taken until the end of the game (skipped)
+  * test a game with more than ten frames can not be scored  * test a game with more than ten frames can not be scored (skipped)
+  * test bonus rolls for a strike in the last frame must be rolled before score can be calculated  * test bonus rolls for a strike in the last frame must be rolled before score can be calculated (skipped)
+  * test both bonus rolls for a strike in the last frame must be rolled before score can be calculated  * test both bonus rolls for a strike in the last frame must be rolled before score can be calculated (skipped)
+  * test bonus roll for a spare in the last frame must be rolled before score can be calculated  * test bonus roll for a spare in the last frame must be rolled before score can be calculated (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m24 tests, 1 failure, 23 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable game is unused
+  bowling.exs:6
+
+Excluding tags: [:pending]
+
+
+BowlingTest
+  * test can score all 0s[31m  * test can score all 0s (2.4ms)[0m
+
+  1) test can score all 0s (BowlingTest)
+     [1m[30mbowling_test.exs:15[0m
+     [31m** (FunctionClauseError) no function clause matching in anonymous fn/1 in Bowling.score/1[0m
+     [36mstacktrace:[0m
+       bowling.exs:18: anonymous fn({}) in Bowling.score/1
+       (elixir) lib/enum.ex:1184: Enum."-map/2-lists^map/1-0-"/2
+       bowling.exs:18: Bowling.score/1
+       bowling_test.exs:28: (test)
+
+  * test can score a game with no strikes or spares  * test can score a game with no strikes or spares (skipped)
+  * test spare followed by all 0s is worth 10 points  * test spare followed by all 0s is worth 10 points (skipped)
+  * test points scored in the roll after the spare are counted twice  * test points scored in the roll after the spare are counted twice (skipped)
+  * test consecutive spares each get a one roll bonus  * test consecutive spares each get a one roll bonus (skipped)
+  * test a spare in the last frame gets a one roll bonus that is counted once  * test a spare in the last frame gets a one roll bonus that is counted once (skipped)
+  * test a strike earns ten points in frame with a single roll  * test a strike earns ten points in frame with a single roll (skipped)
+  * test points scored in the two rolls after a strike are counted twice as a bonus  * test points scored in the two rolls after a strike are counted twice as a bonus (skipped)
+  * test consecutive strikes each get the two roll bonus  * test consecutive strikes each get the two roll bonus (skipped)
+  * test a strike in the last frame gets a two roll bonus that is counted once  * test a strike in the last frame gets a two roll bonus that is counted once (skipped)
+  * test rolling a spare with the two roll bonus does not get a bonus roll  * test rolling a spare with the two roll bonus does not get a bonus roll (skipped)
+  * test strikes with the two roll bonus do not get bonus rolls  * test strikes with the two roll bonus do not get bonus rolls (skipped)
+  * test a strike with the one roll bonus after a spare in the last frame does not get a bonus  * test a strike with the one roll bonus after a spare in the last frame does not get a bonus (skipped)
+  * test all strikes is a perfect game  * test all strikes is a perfect game (skipped)
+  * test rolls can not score negative points  * test rolls can not score negative points (skipped)
+  * test a roll can not score more than 10 points  * test a roll can not score more than 10 points (skipped)
+  * test two rolls in a frame can not score more than 10 points  * test two rolls in a frame can not score more than 10 points (skipped)
+  * test two bonus rolls after a strike in the last frame can not score more than 10 points  * test two bonus rolls after a strike in the last frame can not score more than 10 points (skipped)
+  * test an unstarted game can not be scored  * test an unstarted game can not be scored (skipped)
+  * test score cannot be taken until the end of the game  * test score cannot be taken until the end of the game (skipped)
+  * test a game with more than ten frames can not be scored  * test a game with more than ten frames can not be scored (skipped)
+  * test bonus rolls for a strike in the last frame must be rolled before score can be calculated  * test bonus rolls for a strike in the last frame must be rolled before score can be calculated (skipped)
+  * test both bonus rolls for a strike in the last frame must be rolled before score can be calculated  * test both bonus rolls for a strike in the last frame must be rolled before score can be calculated (skipped)
+  * test bonus roll for a spare in the last frame must be rolled before score can be calculated  * test bonus roll for a spare in the last frame must be rolled before score can be calculated (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m24 tests, 1 failure, 23 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable game is unused
+  bowling.exs:6
+
+Excluding tags: [:pending]
+
+
+BowlingTest
+  * test can score all 0s[31m  * test can score all 0s (3.1ms)[0m
+
+  1) test can score all 0s (BowlingTest)
+     [1m[30mbowling_test.exs:15[0m
+     [31m** (FunctionClauseError) no function clause matching in anonymous fn/1 in Bowling.score/1[0m
+     [36mstacktrace:[0m
+       bowling.exs:18: anonymous fn({}) in Bowling.score/1
+       (elixir) lib/enum.ex:1184: Enum."-map/2-lists^map/1-0-"/2
+       bowling.exs:18: Bowling.score/1
+       bowling_test.exs:28: (test)
+
+  * test can score a game with no strikes or spares  * test can score a game with no strikes or spares (skipped)
+  * test spare followed by all 0s is worth 10 points  * test spare followed by all 0s is worth 10 points (skipped)
+  * test points scored in the roll after the spare are counted twice  * test points scored in the roll after the spare are counted twice (skipped)
+  * test consecutive spares each get a one roll bonus  * test consecutive spares each get a one roll bonus (skipped)
+  * test a spare in the last frame gets a one roll bonus that is counted once  * test a spare in the last frame gets a one roll bonus that is counted once (skipped)
+  * test a strike earns ten points in frame with a single roll  * test a strike earns ten points in frame with a single roll (skipped)
+  * test points scored in the two rolls after a strike are counted twice as a bonus  * test points scored in the two rolls after a strike are counted twice as a bonus (skipped)
+  * test consecutive strikes each get the two roll bonus  * test consecutive strikes each get the two roll bonus (skipped)
+  * test a strike in the last frame gets a two roll bonus that is counted once  * test a strike in the last frame gets a two roll bonus that is counted once (skipped)
+  * test rolling a spare with the two roll bonus does not get a bonus roll  * test rolling a spare with the two roll bonus does not get a bonus roll (skipped)
+  * test strikes with the two roll bonus do not get bonus rolls  * test strikes with the two roll bonus do not get bonus rolls (skipped)
+  * test a strike with the one roll bonus after a spare in the last frame does not get a bonus  * test a strike with the one roll bonus after a spare in the last frame does not get a bonus (skipped)
+  * test all strikes is a perfect game  * test all strikes is a perfect game (skipped)
+  * test rolls can not score negative points  * test rolls can not score negative points (skipped)
+  * test a roll can not score more than 10 points  * test a roll can not score more than 10 points (skipped)
+  * test two rolls in a frame can not score more than 10 points  * test two rolls in a frame can not score more than 10 points (skipped)
+  * test two bonus rolls after a strike in the last frame can not score more than 10 points  * test two bonus rolls after a strike in the last frame can not score more than 10 points (skipped)
+  * test an unstarted game can not be scored  * test an unstarted game can not be scored (skipped)
+  * test score cannot be taken until the end of the game  * test score cannot be taken until the end of the game (skipped)
+  * test a game with more than ten frames can not be scored  * test a game with more than ten frames can not be scored (skipped)
+  * test bonus rolls for a strike in the last frame must be rolled before score can be calculated  * test bonus rolls for a strike in the last frame must be rolled before score can be calculated (skipped)
+  * test both bonus rolls for a strike in the last frame must be rolled before score can be calculated  * test both bonus rolls for a strike in the last frame must be rolled before score can be calculated (skipped)
+  * test bonus roll for a spare in the last frame must be rolled before score can be calculated  * test bonus roll for a spare in the last frame must be rolled before score can be calculated (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m24 tests, 1 failure, 23 skipped[0m
+
+Randomized with seed 0
