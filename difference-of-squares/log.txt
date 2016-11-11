@@ -1,0 +1,461 @@
+[33mwarning: [0mvariable number is unused
+  difference_of_squares.exs:18
+
+[33mwarning: [0mvariable number is unused
+  difference_of_squares.exs:26
+
+Excluding tags: [:pending]
+
+
+DifferenceOfSquaresTest
+  * test square of sums to 5[31m  * test square of sums to 5 (3.3ms)[0m
+
+  1) test square of sums to 5 (DifferenceOfSquaresTest)
+     [1m[30mdifference_of_squares_test.exs:12[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSquares.square_of_sums(5) == 225
+     [36mlhs:  [0mnil
+     [36mrhs:  [0m225
+     [36mstacktrace:[0m
+       difference_of_squares_test.exs:13: (test)
+
+  * test sum of squares to 5  * test sum of squares to 5 (skipped)
+  * test difference of sums to 5  * test difference of sums to 5 (skipped)
+  * test square of sums to 10  * test square of sums to 10 (skipped)
+  * test sum of squares to 10  * test sum of squares to 10 (skipped)
+  * test difference of sums to 10  * test difference of sums to 10 (skipped)
+  * test square of sums to 100  * test square of sums to 100 (skipped)
+  * test sum of squares to 100  * test sum of squares to 100 (skipped)
+  * test difference of sums to 100  * test difference of sums to 100 (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 8 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable n is unused
+  difference_of_squares.exs:19
+
+[33mwarning: [0mvariable number is unused
+  difference_of_squares.exs:26
+
+** (CompileError) difference_of_squares.exs:19: undefined function sum_of_squares/0
+    (stdlib) lists.erl:1338: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mvariable n is unused
+  difference_of_squares.exs:19
+
+[33mwarning: [0mvariable number is unused
+  difference_of_squares.exs:26
+
+Excluding tags: [:pending]
+
+
+DifferenceOfSquaresTest
+  * test square of sums to 5[31m  * test square of sums to 5 (5.0ms)[0m
+
+  1) test square of sums to 5 (DifferenceOfSquaresTest)
+     [1m[30mdifference_of_squares_test.exs:12[0m
+     [31m** (UndefinedFunctionError) function Enum.sum/2 is undefined or private. Did you mean one of:
+     
+           * sum/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) Enum.sum(0..5, #Function<0.52651805/1 in Squares.square_of_sums/1>)
+       difference_of_squares_test.exs:13: (test)
+
+  * test sum of squares to 5  * test sum of squares to 5 (skipped)
+  * test difference of sums to 5  * test difference of sums to 5 (skipped)
+  * test square of sums to 10  * test square of sums to 10 (skipped)
+  * test sum of squares to 10  * test sum of squares to 10 (skipped)
+  * test difference of sums to 10  * test difference of sums to 10 (skipped)
+  * test square of sums to 100  * test square of sums to 100 (skipped)
+  * test sum of squares to 100  * test sum of squares to 100 (skipped)
+  * test difference of sums to 100  * test difference of sums to 100 (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 8 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable n is unused
+  difference_of_squares.exs:19
+
+[33mwarning: [0mvariable number is unused
+  difference_of_squares.exs:26
+
+Excluding tags: [:pending]
+
+
+DifferenceOfSquaresTest
+  * test square of sums to 5[31m  * test square of sums to 5 (6.9ms)[0m
+
+  1) test square of sums to 5 (DifferenceOfSquaresTest)
+     [1m[30mdifference_of_squares_test.exs:12[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSquares.square_of_sums(5) == 225
+     [36mlhs:  [0m[31m0[0m
+     [36mrhs:  [0m[32m225[0m
+     [36mstacktrace:[0m
+       difference_of_squares_test.exs:13: (test)
+
+  * test sum of squares to 5  * test sum of squares to 5 (skipped)
+  * test difference of sums to 5  * test difference of sums to 5 (skipped)
+  * test square of sums to 10  * test square of sums to 10 (skipped)
+  * test sum of squares to 10  * test sum of squares to 10 (skipped)
+  * test difference of sums to 10  * test difference of sums to 10 (skipped)
+  * test square of sums to 100  * test square of sums to 100 (skipped)
+  * test sum of squares to 100  * test sum of squares to 100 (skipped)
+  * test difference of sums to 100  * test difference of sums to 100 (skipped)
+
+
+Finished in 0.06 seconds (0.05s on load, 0.01s on tests)
+[31m9 tests, 1 failure, 8 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable n is unused
+  difference_of_squares.exs:19
+
+[33mwarning: [0mvariable number is unused
+  difference_of_squares.exs:26
+
+Excluding tags: [:pending]
+
+
+DifferenceOfSquaresTest
+  * test square of sums to 5[31m  * test square of sums to 5 (4.4ms)[0m
+
+  1) test square of sums to 5 (DifferenceOfSquaresTest)
+     [1m[30mdifference_of_squares_test.exs:12[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSquares.square_of_sums(5) == 225
+     [36mlhs:  [0m5
+     [36mrhs:  [0m[32m22[0m5
+     [36mstacktrace:[0m
+       difference_of_squares_test.exs:13: (test)
+
+  * test sum of squares to 5  * test sum of squares to 5 (skipped)
+  * test difference of sums to 5  * test difference of sums to 5 (skipped)
+  * test square of sums to 10  * test square of sums to 10 (skipped)
+  * test sum of squares to 10  * test sum of squares to 10 (skipped)
+  * test difference of sums to 10  * test difference of sums to 10 (skipped)
+  * test square of sums to 100  * test square of sums to 100 (skipped)
+  * test sum of squares to 100  * test sum of squares to 100 (skipped)
+  * test difference of sums to 100  * test difference of sums to 100 (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 8 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable number is unused
+  difference_of_squares.exs:26
+
+Excluding tags: [:pending]
+
+
+DifferenceOfSquaresTest
+  * test square of sums to 5[31m  * test square of sums to 5 (4.4ms)[0m
+
+  1) test square of sums to 5 (DifferenceOfSquaresTest)
+     [1m[30mdifference_of_squares_test.exs:12[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSquares.square_of_sums(5) == 225
+     [36mlhs:  [0m[31m10[0m5
+     [36mrhs:  [0m[32m22[0m5
+     [36mstacktrace:[0m
+       difference_of_squares_test.exs:13: (test)
+
+  * test sum of squares to 5  * test sum of squares to 5 (skipped)
+  * test difference of sums to 5  * test difference of sums to 5 (skipped)
+  * test square of sums to 10  * test square of sums to 10 (skipped)
+  * test sum of squares to 10  * test sum of squares to 10 (skipped)
+  * test difference of sums to 10  * test difference of sums to 10 (skipped)
+  * test square of sums to 100  * test square of sums to 100 (skipped)
+  * test sum of squares to 100  * test sum of squares to 100 (skipped)
+  * test difference of sums to 100  * test difference of sums to 100 (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 8 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable number is unused
+  difference_of_squares.exs:26
+
+Excluding tags: [:pending]
+
+
+DifferenceOfSquaresTest
+  * test square of sums to 5[31m  * test square of sums to 5 (4.1ms)[0m
+
+  1) test square of sums to 5 (DifferenceOfSquaresTest)
+     [1m[30mdifference_of_squares_test.exs:12[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSquares.square_of_sums(5) == 225
+     [36mlhs:  [0m[31m10[0m5
+     [36mrhs:  [0m[32m22[0m5
+     [36mstacktrace:[0m
+       difference_of_squares_test.exs:13: (test)
+
+  * test sum of squares to 5  * test sum of squares to 5 (skipped)
+  * test difference of sums to 5  * test difference of sums to 5 (skipped)
+  * test square of sums to 10  * test square of sums to 10 (skipped)
+  * test sum of squares to 10  * test sum of squares to 10 (skipped)
+  * test difference of sums to 10  * test difference of sums to 10 (skipped)
+  * test square of sums to 100  * test square of sums to 100 (skipped)
+  * test sum of squares to 100  * test sum of squares to 100 (skipped)
+  * test difference of sums to 100  * test difference of sums to 100 (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 8 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable number is unused
+  difference_of_squares.exs:26
+
+Excluding tags: [:pending]
+
+
+DifferenceOfSquaresTest
+  * test square of sums to 5[31m  * test square of sums to 5 (8.7ms)[0m
+
+  1) test square of sums to 5 (DifferenceOfSquaresTest)
+     [1m[30mdifference_of_squares_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSquares.square_of_sums(5) == 225
+     [36mlhs:  [0m[31m10[0m5
+     [36mrhs:  [0m[32m22[0m5
+     [36mstacktrace:[0m
+       difference_of_squares_test.exs:12: (test)
+
+  * test sum of squares to 5[32m  * test sum of squares to 5 (1.7ms)[0m
+  * test difference of sums to 5  * test difference of sums to 5 (skipped)
+  * test square of sums to 10  * test square of sums to 10 (skipped)
+  * test sum of squares to 10  * test sum of squares to 10 (skipped)
+  * test difference of sums to 10  * test difference of sums to 10 (skipped)
+  * test square of sums to 100  * test square of sums to 100 (skipped)
+  * test sum of squares to 100  * test sum of squares to 100 (skipped)
+  * test difference of sums to 100  * test difference of sums to 100 (skipped)
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[31m9 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable number is unused
+  difference_of_squares.exs:11
+
+Excluding tags: [:pending]
+
+
+DifferenceOfSquaresTest
+  * test square of sums to 5[31m  * test square of sums to 5 (4.3ms)[0m
+
+  1) test square of sums to 5 (DifferenceOfSquaresTest)
+     [1m[30mdifference_of_squares_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSquares.square_of_sums(5) == 225
+     [36mlhs:  [0m4147.0
+     [36mrhs:  [0m225
+     [36mstacktrace:[0m
+       difference_of_squares_test.exs:12: (test)
+
+  * test sum of squares to 5[32m  * test sum of squares to 5 (0.02ms)[0m
+  * test difference of sums to 5  * test difference of sums to 5 (skipped)
+  * test square of sums to 10  * test square of sums to 10 (skipped)
+  * test sum of squares to 10  * test sum of squares to 10 (skipped)
+  * test difference of sums to 10  * test difference of sums to 10 (skipped)
+  * test square of sums to 100  * test square of sums to 100 (skipped)
+  * test sum of squares to 100  * test sum of squares to 100 (skipped)
+  * test difference of sums to 100  * test difference of sums to 100 (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable number is unused
+  difference_of_squares.exs:7
+
+[33mwarning: [0mvariable number is unused
+  difference_of_squares.exs:11
+
+** (CompileError) difference_of_squares.exs:8: undefined function n/0
+    (stdlib) lists.erl:1338: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mvariable number is unused
+  difference_of_squares.exs:7
+
+[33mwarning: [0mvariable number is unused
+  difference_of_squares.exs:11
+
+** (CompileError) difference_of_squares.exs:8: undefined function n/0
+    (stdlib) lists.erl:1338: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mvariable number is unused
+  difference_of_squares.exs:11
+
+Excluding tags: [:pending]
+
+
+DifferenceOfSquaresTest
+  * test square of sums to 5[31m  * test square of sums to 5 (5.2ms)[0m
+
+  1) test square of sums to 5 (DifferenceOfSquaresTest)
+     [1m[30mdifference_of_squares_test.exs:11[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSquares.square_of_sums(5) == 225
+     [36mlhs:  [0m3025.0
+     [36mrhs:  [0m225
+     [36mstacktrace:[0m
+       difference_of_squares_test.exs:12: (test)
+
+  * test sum of squares to 5[32m  * test sum of squares to 5 (1.0ms)[0m
+  * test difference of sums to 5  * test difference of sums to 5 (skipped)
+  * test square of sums to 10  * test square of sums to 10 (skipped)
+  * test sum of squares to 10  * test sum of squares to 10 (skipped)
+  * test difference of sums to 10  * test difference of sums to 10 (skipped)
+  * test square of sums to 100  * test square of sums to 100 (skipped)
+  * test sum of squares to 100  * test sum of squares to 100 (skipped)
+  * test difference of sums to 100  * test difference of sums to 100 (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable number is unused
+  difference_of_squares.exs:12
+
+Excluding tags: [:pending]
+
+
+DifferenceOfSquaresTest
+  * test square of sums to 5[32m  * test square of sums to 5 (1.1ms)[0m
+  * test sum of squares to 5[32m  * test sum of squares to 5 (2.5ms)[0m
+  * test difference of sums to 5  * test difference of sums to 5 (skipped)
+  * test square of sums to 10  * test square of sums to 10 (skipped)
+  * test sum of squares to 10  * test sum of squares to 10 (skipped)
+  * test difference of sums to 10  * test difference of sums to 10 (skipped)
+  * test square of sums to 100  * test square of sums to 100 (skipped)
+  * test sum of squares to 100  * test sum of squares to 100 (skipped)
+  * test difference of sums to 100  * test difference of sums to 100 (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m9 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable number is unused
+  difference_of_squares.exs:12
+
+Excluding tags: [:pending]
+
+
+DifferenceOfSquaresTest
+  * test square of sums to 5[32m  * test square of sums to 5 (0.9ms)[0m
+  * test sum of squares to 5[32m  * test sum of squares to 5 (2.0ms)[0m
+  * test difference of sums to 5[31m  * test difference of sums to 5 (2.5ms)[0m
+
+  1) test difference of sums to 5 (DifferenceOfSquaresTest)
+     [1m[30mdifference_of_squares_test.exs:19[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mSquares.difference(5) == 170
+     [36mlhs:  [0mnil
+     [36mrhs:  [0m170
+     [36mstacktrace:[0m
+       difference_of_squares_test.exs:20: (test)
+
+  * test square of sums to 10  * test square of sums to 10 (skipped)
+  * test sum of squares to 10  * test sum of squares to 10 (skipped)
+  * test difference of sums to 10  * test difference of sums to 10 (skipped)
+  * test square of sums to 100  * test square of sums to 100 (skipped)
+  * test sum of squares to 100  * test sum of squares to 100 (skipped)
+  * test difference of sums to 100  * test difference of sums to 100 (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m9 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+DifferenceOfSquaresTest
+  * test square of sums to 5[32m  * test square of sums to 5 (0.8ms)[0m
+  * test sum of squares to 5[32m  * test sum of squares to 5 (2.3ms)[0m
+  * test difference of sums to 5[32m  * test difference of sums to 5 (0.03ms)[0m
+  * test square of sums to 10  * test square of sums to 10 (skipped)
+  * test sum of squares to 10  * test sum of squares to 10 (skipped)
+  * test difference of sums to 10  * test difference of sums to 10 (skipped)
+  * test square of sums to 100  * test square of sums to 100 (skipped)
+  * test sum of squares to 100  * test sum of squares to 100 (skipped)
+  * test difference of sums to 100  * test difference of sums to 100 (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m9 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+DifferenceOfSquaresTest
+  * test square of sums to 5[32m  * test square of sums to 5 (1.2ms)[0m
+  * test sum of squares to 5[32m  * test sum of squares to 5 (2.1ms)[0m
+  * test difference of sums to 5[32m  * test difference of sums to 5 (0.03ms)[0m
+  * test square of sums to 10[32m  * test square of sums to 10 (0.00ms)[0m
+  * test sum of squares to 10[32m  * test sum of squares to 10 (0.04ms)[0m
+  * test difference of sums to 10  * test difference of sums to 10 (skipped)
+  * test square of sums to 100  * test square of sums to 100 (skipped)
+  * test sum of squares to 100  * test sum of squares to 100 (skipped)
+  * test difference of sums to 100  * test difference of sums to 100 (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m9 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+DifferenceOfSquaresTest
+  * test square of sums to 5[32m  * test square of sums to 5 (0.9ms)[0m
+  * test sum of squares to 5[32m  * test sum of squares to 5 (2.3ms)[0m
+  * test difference of sums to 5[32m  * test difference of sums to 5 (0.02ms)[0m
+  * test square of sums to 10[32m  * test square of sums to 10 (0.00ms)[0m
+  * test sum of squares to 10[32m  * test sum of squares to 10 (0.02ms)[0m
+  * test difference of sums to 10[32m  * test difference of sums to 10 (0.02ms)[0m
+  * test square of sums to 100[32m  * test square of sums to 100 (0.00ms)[0m
+  * test sum of squares to 100  * test sum of squares to 100 (skipped)
+  * test difference of sums to 100  * test difference of sums to 100 (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m9 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+DifferenceOfSquaresTest
+  * test square of sums to 5[32m  * test square of sums to 5 (0.9ms)[0m
+  * test sum of squares to 5[32m  * test sum of squares to 5 (3.6ms)[0m
+  * test difference of sums to 5[32m  * test difference of sums to 5 (0.02ms)[0m
+  * test square of sums to 10[32m  * test square of sums to 10 (0.00ms)[0m
+  * test sum of squares to 10[32m  * test sum of squares to 10 (0.02ms)[0m
+  * test difference of sums to 10[32m  * test difference of sums to 10 (0.02ms)[0m
+  * test square of sums to 100[32m  * test square of sums to 100 (0.00ms)[0m
+  * test sum of squares to 100[32m  * test sum of squares to 100 (0.04ms)[0m
+  * test difference of sums to 100[32m  * test difference of sums to 100 (0.04ms)[0m
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[32m9 tests, 0 failures[0m
+
+Randomized with seed 0
