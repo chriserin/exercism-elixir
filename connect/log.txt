@@ -1,0 +1,5864 @@
+[33mwarning: [0mvariable board is unused
+  connect.exs:8
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test 1x1 board with white stone  * test 1x1 board with white stone (skipped)
+  * test convulted path  * test convulted path (skipped)
+  * test empty board has no winner[31m  * test empty board has no winner (3.4ms)[0m
+
+  1) test empty board has no winner (ConnectTest)
+     [1m[30mconnect_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :none
+     [36mlhs:  [0mnil
+     [36mrhs:  [0m:none
+     [36mstacktrace:[0m
+       connect_test.exs:24: (test)
+
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test 1x1 board with black stone  * test 1x1 board with black stone (skipped)
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 416577
+[33mwarning: [0mvariable board is unused
+  connect.exs:8
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[31m  * test empty board has no winner (2.6ms)[0m
+
+  1) test empty board has no winner (ConnectTest)
+     [1m[30mconnect_test.exs:16[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :none
+     [36mlhs:  [0mnil
+     [36mrhs:  [0m:none
+     [36mstacktrace:[0m
+       connect_test.exs:24: (test)
+
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+  * test 1x1 board with black stone  * test 1x1 board with black stone (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test convulted path  * test convulted path (skipped)
+  * test 1x1 board with white stone  * test 1x1 board with white stone (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 10034
+** (SyntaxError) connect.exs:15: syntax error before: '->'
+    (elixir) lib/code.ex:321: Code.load_file/2
+    connect_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) connect.exs:15: syntax error before: '->'
+    (elixir) lib/code.ex:321: Code.load_file/2
+    connect_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (CompileError) connect.exs:12: cannot invoke local path/1 inside match, called as: path(:erlang./(/, []))
+    (stdlib) lists.erl:1354: :lists.mapfoldl/3
+    (stdlib) lists.erl:1355: :lists.mapfoldl/3
+
+** (SyntaxError) connect.exs:12: unexpected token: "]". "(" starting at line 12 is missing terminator ")"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    connect_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (CompileError) connect.exs:13: cannot invoke local path/1 inside match, called as: path(:erlang./(/, []))
+    (stdlib) lists.erl:1354: :lists.mapfoldl/3
+    (stdlib) lists.erl:1355: :lists.mapfoldl/3
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:22
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:34
+
+** (CompileError) connect.exs:30: undefined function success/0
+    (stdlib) lists.erl:1338: :lists.foreach/2
+    (stdlib) erl_eval.erl:670: :erl_eval.do_apply/6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:34
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test 1x1 board with black stone  * test 1x1 board with black stone (skipped)
+  * test convulted path  * test convulted path (skipped)
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test 1x1 board with white stone  * test 1x1 board with white stone (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test empty board has no winner[32m  * test empty board has no winner (2.1ms)[0m
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m8 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 126952
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:34
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (1.8ms)[0m
+  * test 1x1 board with black stone  * test 1x1 board with black stone (skipped)
+  * test 1x1 board with white stone  * test 1x1 board with white stone (skipped)
+  * test convulted path  * test convulted path (skipped)
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[32m8 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:34
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (2.0ms)[0m
+  * test 1x1 board with black stone[31m  * test 1x1 board with black stone (2.7ms)[0m
+
+  1) test 1x1 board with black stone (ConnectTest)
+     [1m[30mconnect_test.exs:26[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.length("X")
+       connect.exs:7: anonymous fn/2 in Connect.result_for/1
+       (elixir) lib/enum.ex:2511: Enum.do_any?/2
+       connect.exs:15: Connect.follow/4
+       connect.exs:7: Connect.result_for/1
+       connect_test.exs:28: (test)
+
+  * test 1x1 board with white stone  * test 1x1 board with white stone (skipped)
+  * test convulted path  * test convulted path (skipped)
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:35
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (2.1ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stone[31m  * test 1x1 board with black stone (5.5ms)[0m
+
+  1) test 1x1 board with black stone (ConnectTest)
+     [1m[30mconnect_test.exs:26[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.length("X")
+       connect.exs:7: anonymous fn/2 in Connect.result_for/1
+       (elixir) lib/enum.ex:2511: Enum.do_any?/2
+       connect.exs:16: Connect.follow/4
+       connect.exs:7: Connect.result_for/1
+       connect_test.exs:28: (test)
+
+  * test 1x1 board with white stone  * test 1x1 board with white stone (skipped)
+  * test convulted path  * test convulted path (skipped)
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:35
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (1.9ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stone[31m  * test 1x1 board with black stone (5.2ms)[0m
+
+  1) test 1x1 board with black stone (ConnectTest)
+     [1m[30mconnect_test.exs:26[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.length("X")
+       connect.exs:7: anonymous fn/2 in Connect.result_for/1
+       (elixir) lib/enum.ex:2511: Enum.do_any?/2
+       connect.exs:16: Connect.follow/4
+       connect.exs:7: Connect.result_for/1
+       connect_test.exs:28: (test)
+
+  * test 1x1 board with white stone  * test 1x1 board with white stone (skipped)
+  * test convulted path  * test convulted path (skipped)
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:35
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (2.3ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stone[31m  * test 1x1 board with black stone (5.3ms)[0m
+
+  1) test 1x1 board with black stone (ConnectTest)
+     [1m[30mconnect_test.exs:26[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.length("X")
+       connect.exs:7: anonymous fn/2 in Connect.result_for/1
+       (elixir) lib/enum.ex:2511: Enum.do_any?/2
+       connect.exs:16: Connect.follow/4
+       connect.exs:7: Connect.result_for/1
+       connect_test.exs:28: (test)
+
+  * test 1x1 board with white stone  * test 1x1 board with white stone (skipped)
+  * test convulted path  * test convulted path (skipped)
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:35
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (2.1ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stone[31m  * test 1x1 board with black stone (5.0ms)[0m
+
+  1) test 1x1 board with black stone (ConnectTest)
+     [1m[30mconnect_test.exs:26[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.length("X")
+       connect.exs:7: anonymous fn/2 in Connect.result_for/1
+       (elixir) lib/enum.ex:2511: Enum.do_any?/2
+       connect.exs:16: Connect.follow/4
+       connect.exs:7: Connect.result_for/1
+       connect_test.exs:28: (test)
+
+  * test 1x1 board with white stone  * test 1x1 board with white stone (skipped)
+  * test convulted path  * test convulted path (skipped)
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:35
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (1.9ms)[0m
+  * test 1x1 board with black stone[{0, 0, "X"}]
+[31m  * test 1x1 board with black stone (5.1ms)[0m
+
+  1) test 1x1 board with black stone (ConnectTest)
+     [1m[30mconnect_test.exs:26[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.length("X")
+       connect.exs:7: anonymous fn/2 in Connect.result_for/1
+       (elixir) lib/enum.ex:2511: Enum.do_any?/2
+       connect.exs:16: Connect.follow/4
+       connect.exs:7: Connect.result_for/1
+       connect_test.exs:28: (test)
+
+  * test 1x1 board with white stone  * test 1x1 board with white stone (skipped)
+  * test convulted path  * test convulted path (skipped)
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.1 seconds (0.1s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:35
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (2.1ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stone[32m  * test 1x1 board with black stone (3.3ms)[0m
+  * test 1x1 board with white stone  * test 1x1 board with white stone (skipped)
+  * test convulted path  * test convulted path (skipped)
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m8 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:35
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (2.1ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stone[31m  * test 1x1 board with black stone (6.2ms)[0m
+
+  1) test 1x1 board with black stone (ConnectTest)
+     [1m[30mconnect_test.exs:26[0m
+     [31m** (ArgumentError) argument error[0m
+     [36mstacktrace:[0m
+       :erlang.length("X")
+       connect.exs:7: anonymous fn/2 in Connect.result_for/1
+       (elixir) lib/enum.ex:2511: Enum.do_any?/2
+       connect.exs:16: Connect.follow/4
+       connect.exs:7: Connect.result_for/1
+       connect_test.exs:28: (test)
+
+  * test 1x1 board with white stone  * test 1x1 board with white stone (skipped)
+  * test convulted path  * test convulted path (skipped)
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:35
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (1.8ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stone[32m  * test 1x1 board with black stone (3.3ms)[0m
+  * test 1x1 board with white stone  * test 1x1 board with white stone (skipped)
+  * test convulted path  * test convulted path (skipped)
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[32m8 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:34
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (4.9ms)[0m
+  * test 1x1 board with black stone[32m  * test 1x1 board with black stone (0.02ms)[0m
+  * test 1x1 board with white stone  * test 1x1 board with white stone (skipped)
+  * test convulted path  * test convulted path (skipped)
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m8 tests, 0 failures, 6 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:34
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (2.2ms)[0m
+  * test 1x1 board with black stone[32m  * test 1x1 board with black stone (0.00ms)[0m
+  * test 1x1 board with white stone[32m  * test 1x1 board with white stone (0.00ms)[0m
+  * test convulted path  * test convulted path (skipped)
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m8 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:34
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (2.1ms)[0m
+  * test 1x1 board with black stone[32m  * test 1x1 board with black stone (0.01ms)[0m
+  * test 1x1 board with white stone[32m  * test 1x1 board with white stone (0.00ms)[0m
+  * test convulted path[31m  * test convulted path (4.6ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:36[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:44: (test)
+
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.09 seconds (0.09s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:34
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (2.2ms)[0m
+  * test 1x1 board with black stone[32m  * test 1x1 board with black stone (0.01ms)[0m
+  * test 1x1 board with white stone[32m  * test 1x1 board with white stone (0.00ms)[0m
+  * test convulted path[31m  * test convulted path (2.6ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:36[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:44: (test)
+
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:34
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (2.0ms)[0m
+  * test 1x1 board with black stone[32m  * test 1x1 board with black stone (0.00ms)[0m
+  * test 1x1 board with white stone[32m  * test 1x1 board with white stone (0.00ms)[0m
+  * test convulted path[31m  * test convulted path (5.7ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:36[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:44: (test)
+
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.05 seconds (0.05s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:35
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (1.8ms)[0m
+  * test 1x1 board with black stone[{0, 0, "X"}]
+[32m  * test 1x1 board with black stone (3.1ms)[0m
+[{0, 0, "O"}]
+  * test 1x1 board with white stone[32m  * test 1x1 board with white stone (0.1ms)[0m
+[{0, 1, "X"}]
+  * test convulted path[{1, 2, "X"}]
+[{1, 3, "X"}, {2, 3, "X"}]
+[{2, 3, "X"}]
+[{1, 3, "X"}]
+[31m  * test convulted path (2.9ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:36[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:44: (test)
+
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:35
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (1.8ms)[0m
+  * test 1x1 board with black stone[{0, 0, "X"}]
+[{0, 0, "O"}]
+[32m  * test 1x1 board with black stone (3.4ms)[0m
+  * test 1x1 board with white stone[32m  * test 1x1 board with white stone (0.07ms)[0m
+  * test convulted path[{0, 1, "X"}]
+[{1, 2, "X"}]
+[{1, 3, "X"}, {2, 3, "X"}]
+[{2, 3, "X"}]
+[{1, 3, "X"}]
+[31m  * test convulted path (2.5ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:36[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:44: (test)
+
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:36
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winnernext
+[32m  * test empty board has no winner (2.9ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stonenext
+[32m  * test 1x1 board with black stone (4.9ms)[0m
+  * test 1x1 board with white stone[{0, 0, "O"}]
+next
+[32m  * test 1x1 board with white stone (0.1ms)[0m
+  * test convulted path[{0, 1, "X"}]
+next
+[{1, 2, "X"}]
+next
+[{1, 3, "X"}, {2, 3, "X"}]
+next
+[{2, 3, "X"}]
+next
+[{1, 3, "X"}]
+[31m  * test convulted path (7.8ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:36[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:44: (test)
+
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:38
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winnerstart
+start
+next
+[32m  * test empty board has no winner (2.0ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stonestart
+next
+[32m  * test 1x1 board with black stone (3.3ms)[0m
+  * test 1x1 board with white stone[{0, 0, "O"}]
+start
+next
+[32m  * test 1x1 board with white stone (0.1ms)[0m
+  * test convulted path[{0, 1, "X"}]
+next
+[{1, 2, "X"}]
+next
+[{1, 3, "X"}, {2, 3, "X"}]
+next
+[{2, 3, "X"}]
+next
+[{1, 3, "X"}]
+[31m  * test convulted path (2.9ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:36[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:44: (test)
+
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:39
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winnerstart
+start
+next
+[32m  * test empty board has no winner (2.3ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stone[]
+start
+next
+[32m  * test 1x1 board with black stone (4.2ms)[0m
+  * test 1x1 board with white stone[{0, 0, "O"}]
+[]
+start
+next
+[32m  * test 1x1 board with white stone (0.2ms)[0m
+  * test convulted path[{0, 1, "X"}]
+[]
+next
+[{1, 2, "X"}]
+[{0, 1, "X"}]
+next
+[{1, 3, "X"}, {2, 3, "X"}]
+[{1, 2, "X"}, {0, 1, "X"}]
+next
+[{2, 3, "X"}]
+[{1, 3, "X"}, {1, 2, "X"}, {0, 1, "X"}]
+next
+[{1, 3, "X"}]
+[{2, 3, "X"}, {1, 2, "X"}, {0, 1, "X"}]
+[31m  * test convulted path (4.7ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:36[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:44: (test)
+
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:39
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winnerstart
+start
+next
+[32m  * test empty board has no winner (2.0ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stone[]
+start
+next
+[32m  * test 1x1 board with black stone (5.6ms)[0m
+  * test 1x1 board with white stone[{0, 0, "O"}]
+[]
+start
+next
+[32m  * test 1x1 board with white stone (0.6ms)[0m
+  * test convulted path[{0, 1, "X"}]
+[]
+next
+[{1, 2, "X"}]
+[{0, 1, "X"}]
+next
+[{1, 3, "X"}, {2, 3, "X"}]
+[{1, 2, "X"}, {0, 1, "X"}]
+next
+[{2, 3, "X"}]
+[{1, 3, "X"}, {1, 2, "X"}, {0, 1, "X"}]
+next
+[{1, 3, "X"}]
+[{2, 3, "X"}, {1, 2, "X"}, {0, 1, "X"}]
+[31m  * test convulted path (5.2ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:36[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:44: (test)
+
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:39
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winnerstart
+start
+next
+[32m  * test empty board has no winner (2.2ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stone[]
+start
+next
+[32m  * test 1x1 board with black stone (3.4ms)[0m
+  * test 1x1 board with white stone[{0, 0, "O"}]
+[]
+start
+next
+[32m  * test 1x1 board with white stone (0.1ms)[0m
+  * test convulted path[{0, 1, "X"}]
+[]
+next
+[{1, 2, "X"}]
+[{0, 1, "X"}]
+next
+[{1, 3, "X"}, {2, 3, "X"}]
+[{1, 2, "X"}, {0, 1, "X"}]
+next
+[{2, 3, "X"}]
+[{1, 3, "X"}, {1, 2, "X"}, {0, 1, "X"}]
+next
+[{1, 3, "X"}]
+[{2, 3, "X"}, {1, 2, "X"}, {0, 1, "X"}]
+[31m  * test convulted path (2.8ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:36[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:44: (test)
+
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:39
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winnerstart
+start
+next
+[32m  * test empty board has no winner (2.1ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stone[]
+start
+next
+[32m  * test 1x1 board with black stone (3.5ms)[0m
+  * test 1x1 board with white stone[{0, 0, "O"}]
+[]
+start
+next
+[32m  * test 1x1 board with white stone (0.2ms)[0m
+  * test convulted path[{0, 1, "X"}]
+[]
+next
+[{1, 2, "X"}]
+[{0, 1, "X"}]
+next
+[{1, 3, "X"}, {2, 3, "X"}]
+[{1, 2, "X"}, {0, 1, "X"}]
+next
+[{2, 3, "X"}]
+[{1, 3, "X"}, {1, 2, "X"}, {0, 1, "X"}]
+next
+[{1, 3, "X"}]
+[{2, 3, "X"}, {1, 2, "X"}, {0, 1, "X"}]
+[31m  * test convulted path (3.5ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:36[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:44: (test)
+
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:39
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winnerstart
+start
+next
+[{0, 0, "X"}]
+[32m  * test empty board has no winner (1.8ms)[0m
+[]
+  * test 1x1 board with black stonestart
+next
+[32m  * test 1x1 board with black stone (3.0ms)[0m
+  * test 1x1 board with white stone[{0, 0, "O"}]
+[]
+start
+next
+[32m  * test 1x1 board with white stone (0.2ms)[0m
+  * test convulted path[{0, 1, "X"}]
+[]
+next
+[{1, 2, "X"}]
+[{0, 1, "X"}]
+next
+[{1, 3, "X"}, {2, 3, "X"}]
+[{1, 2, "X"}, {0, 1, "X"}]
+next
+[{2, 3, "X"}]
+[{1, 3, "X"}, {1, 2, "X"}, {0, 1, "X"}]
+next
+[{1, 3, "X"}]
+[{2, 3, "X"}, {1, 2, "X"}, {0, 1, "X"}]
+[31m  * test convulted path (3.2ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:36[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:44: (test)
+
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:41
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winnerstart
+start
+next
+[32m  * test empty board has no winner (3.1ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stone[]
+start
+next
+[32m  * test 1x1 board with black stone (3.6ms)[0m
+  * test 1x1 board with white stone[{0, 0, "O"}]
+[]
+start
+next
+[32m  * test 1x1 board with white stone (0.1ms)[0m
+  * test convulted path[{0, 1, "X"}]
+[]
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{-1, 1, "X"}
+investigating
+{0, 0, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 2, "X"}
+investigating
+{-1, 0, "X"}
+next
+[{1, 2, "X"}]
+[{0, 1, "X"}]
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{1, 1, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{0, 1, "X"}
+next
+[{1, 3, "X"}, {2, 3, "X"}]
+[{1, 2, "X"}, {0, 1, "X"}]
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+next
+[{2, 3, "X"}]
+[{1, 3, "X"}, {1, 2, "X"}, {0, 1, "X"}]
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{3, 3, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{1, 3, "X"}
+investigating
+{2, 2, "X"}
+investigating
+{3, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{1, 2, "X"}
+next
+[{1, 3, "X"}]
+[{2, 3, "X"}, {1, 2, "X"}, {0, 1, "X"}]
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+investigating
+{2, 3, "X"}
+investigating
+{1, 4, "X"}
+investigating
+{0, 3, "X"}
+investigating
+{1, 2, "X"}
+investigating
+{2, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 4, "X"}
+investigating
+{0, 2, "X"}
+[31m  * test convulted path (62.6ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:36[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:44: (test)
+
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.1 seconds (0.07s on load, 0.07s on tests)
+[31m8 tests, 1 failure, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:39
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winnerstart
+start
+next
+[32m  * test empty board has no winner (7.1ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stone[]
+start
+next
+[32m  * test 1x1 board with black stone (6.8ms)[0m
+  * test 1x1 board with white stone[{0, 0, "O"}]
+[]
+start
+next
+[32m  * test 1x1 board with white stone (0.2ms)[0m
+  * test convulted path[{1, 0, "O"}]
+  * test convulted path (skipped)
+[]
+  * test rectangle, black winsnext
+[{0, 1, "O"}]
+[{1, 0, "O"}]
+next
+[{0, 2, "O"}]
+[{0, 1, "O"}, {1, 0, "O"}]
+next
+[{0, 3, "X"}]
+[]
+[32m  * test rectangle, black wins (0.7ms)[0m
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m8 tests, 0 failures, 4 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:39
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winnerstart
+start
+next
+[32m  * test empty board has no winner (2.0ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stone[]
+start
+next
+[32m  * test 1x1 board with black stone (3.4ms)[0m
+  * test 1x1 board with white stone[{0, 0, "O"}]
+[]
+start
+next
+[32m  * test 1x1 board with white stone (0.1ms)[0m
+  * test convulted path[{1, 0, "O"}]
+  * test convulted path (skipped)
+[]
+  * test rectangle, black winsnext
+[{0, 1, "O"}]
+[{1, 0, "O"}]
+next
+[{0, 2, "O"}]
+[{0, 1, "O"}, {1, 0, "O"}]
+next
+[{0, 3, "X"}]
+[]
+start
+next
+[32m  * test rectangle, black wins (0.5ms)[0m
+  * test rectangle, white wins[{1, 0, "O"}]
+[]
+next
+[{0, 1, "O"}]
+[{1, 0, "O"}]
+next
+[{0, 2, "O"}, {1, 2, "O"}]
+[{0, 1, "O"}, {1, 0, "O"}]
+next
+[{1, 2, "O"}]
+[{0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{2, 2, "O"}, {2, 3, "O"}]
+[{1, 2, "O"}, {0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{2, 3, "O"}]
+[{2, 2, "O"}, {1, 2, "O"}, {0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{1, 4, "O"}]
+[{2, 3, "O"}, {2, 2, "O"}, {1, 2, "O"}, {0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{2, 2, "O"}, {1, 4, "O"}]
+[{2, 3, "O"}, {1, 2, "O"}, {0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{0, 2, "O"}, {2, 2, "O"}, {2, 3, "O"}]
+[{1, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{2, 3, "O"}]
+[{2, 2, "O"}, {1, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{1, 4, "O"}]
+[{2, 3, "O"}, {2, 2, "O"}, {1, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{2, 2, "O"}, {1, 4, "O"}]
+[{2, 3, "O"}, {1, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{0, 3, "X"}]
+[]
+[31m  * test rectangle, white wins (5.3ms)[0m
+
+  1) test rectangle, white wins (ConnectTest)
+     [1m[30mconnect_test.exs:59[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :white
+     [36mlhs:  [0m:black
+     [36mrhs:  [0m:white
+     [36mstacktrace:[0m
+       connect_test.exs:67: (test)
+
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.09 seconds (0.08s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:39
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winnerstart
+start
+next
+[32m  * test empty board has no winner (5.4ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stone[]
+start
+next
+[32m  * test 1x1 board with black stone (17.7ms)[0m
+  * test 1x1 board with white stone[{0, 0, "O"}]
+[]
+start
+next
+[32m  * test 1x1 board with white stone (0.3ms)[0m
+  * test convulted path[{1, 0, "O"}]
+  * test convulted path (skipped)
+[]
+  * test rectangle, black winsnext
+[{0, 1, "O"}]
+[{1, 0, "O"}]
+next
+[{0, 2, "O"}]
+[{0, 1, "O"}, {1, 0, "O"}]
+next
+[{0, 3, "X"}]
+[]
+start
+next
+[32m  * test rectangle, black wins (0.6ms)[0m
+  * test rectangle, white wins[{1, 0, "O"}]
+[]
+next
+[{0, 1, "O"}]
+[{1, 0, "O"}]
+next
+[{0, 2, "O"}, {1, 2, "O"}]
+[{0, 1, "O"}, {1, 0, "O"}]
+next
+[{1, 2, "O"}]
+[{0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{2, 2, "O"}, {2, 3, "O"}]
+[{1, 2, "O"}, {0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{2, 3, "O"}]
+[{2, 2, "O"}, {1, 2, "O"}, {0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{1, 4, "O"}]
+[{2, 3, "O"}, {2, 2, "O"}, {1, 2, "O"}, {0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{2, 2, "O"}, {1, 4, "O"}]
+[{2, 3, "O"}, {1, 2, "O"}, {0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{0, 2, "O"}, {2, 2, "O"}, {2, 3, "O"}]
+[{1, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{2, 3, "O"}]
+[{2, 2, "O"}, {1, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{1, 4, "O"}]
+[{2, 3, "O"}, {2, 2, "O"}, {1, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{2, 2, "O"}, {1, 4, "O"}]
+[{2, 3, "O"}, {1, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{0, 3, "X"}]
+[]
+[31m  * test rectangle, white wins (7.4ms)[0m
+
+  1) test rectangle, white wins (ConnectTest)
+     [1m[30mconnect_test.exs:59[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :white
+     [36mlhs:  [0m:black
+     [36mrhs:  [0m:white
+     [36mstacktrace:[0m
+       connect_test.exs:67: (test)
+
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.09 seconds (0.06s on load, 0.03s on tests)
+[31m8 tests, 1 failure, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:39
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winnerstart
+start
+next
+[32m  * test empty board has no winner (2.3ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stone[]
+start
+next
+[32m  * test 1x1 board with black stone (8.0ms)[0m
+  * test 1x1 board with white stone[{0, 0, "O"}]
+[]
+start
+next
+[32m  * test 1x1 board with white stone (0.4ms)[0m
+  * test convulted path[{1, 0, "O"}]
+  * test convulted path (skipped)
+[]
+  * test rectangle, black winsnext
+[{0, 1, "O"}]
+[{1, 0, "O"}]
+next
+[{0, 2, "O"}]
+[{0, 1, "O"}, {1, 0, "O"}]
+next
+[{0, 3, "X"}]
+[]
+next
+[{1, 3, "X"}]
+[{0, 3, "X"}]
+next
+[{1, 2, "X"}, {2, 4, "X"}]
+[{1, 3, "X"}, {0, 3, "X"}]
+next
+[{1, 1, "X"}]
+[{1, 2, "X"}, {1, 3, "X"}, {0, 3, "X"}]
+next
+[{2, 1, "X"}]
+[{1, 1, "X"}, {1, 2, "X"}, {1, 3, "X"}, {0, 3, "X"}]
+next
+[{3, 1, "X"}]
+[{2, 1, "X"}, {1, 1, "X"}, {1, 2, "X"}, {1, 3, "X"}, {0, 3, "X"}]
+start
+next
+[32m  * test rectangle, black wins (2.2ms)[0m
+  * test rectangle, white wins[{1, 0, "O"}]
+[]
+next
+[{0, 1, "O"}]
+[{1, 0, "O"}]
+next
+[{0, 2, "O"}, {1, 2, "O"}]
+[{0, 1, "O"}, {1, 0, "O"}]
+next
+[{1, 2, "O"}]
+[{0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{2, 2, "O"}, {2, 3, "O"}]
+[{1, 2, "O"}, {0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{2, 3, "O"}]
+[{2, 2, "O"}, {1, 2, "O"}, {0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{1, 4, "O"}]
+[{2, 3, "O"}, {2, 2, "O"}, {1, 2, "O"}, {0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+[32m  * test rectangle, white wins (1.7ms)[0m
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[32m8 tests, 0 failures, 3 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:9
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:14
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:39
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winnerstart
+start
+next
+[32m  * test empty board has no winner (2.1ms)[0m
+[{0, 0, "X"}]
+  * test 1x1 board with black stone[]
+start
+next
+[32m  * test 1x1 board with black stone (3.3ms)[0m
+  * test 1x1 board with white stone[{0, 0, "O"}]
+[]
+start
+next
+[32m  * test 1x1 board with white stone (0.1ms)[0m
+  * test convulted path[{1, 0, "O"}]
+  * test convulted path (skipped)
+[]
+  * test rectangle, black winsnext
+[{0, 1, "O"}]
+[{1, 0, "O"}]
+next
+[{0, 2, "O"}]
+[{0, 1, "O"}, {1, 0, "O"}]
+next
+[{0, 3, "X"}]
+[]
+next
+[{1, 3, "X"}]
+[{0, 3, "X"}]
+next
+[{1, 2, "X"}, {2, 4, "X"}]
+[{1, 3, "X"}, {0, 3, "X"}]
+next
+[{1, 1, "X"}]
+[{1, 2, "X"}, {1, 3, "X"}, {0, 3, "X"}]
+next
+[{2, 1, "X"}]
+[{1, 1, "X"}, {1, 2, "X"}, {1, 3, "X"}, {0, 3, "X"}]
+next
+[{3, 1, "X"}]
+[{2, 1, "X"}, {1, 1, "X"}, {1, 2, "X"}, {1, 3, "X"}, {0, 3, "X"}]
+start
+next
+[32m  * test rectangle, black wins (1.9ms)[0m
+  * test rectangle, white wins[{1, 0, "O"}]
+[]
+next
+[{0, 1, "O"}]
+[{1, 0, "O"}]
+next
+[{0, 2, "O"}, {1, 2, "O"}]
+[{0, 1, "O"}, {1, 0, "O"}]
+next
+[{1, 2, "O"}]
+[{0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{2, 2, "O"}, {2, 3, "O"}]
+[{1, 2, "O"}, {0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{2, 3, "O"}]
+[{2, 2, "O"}, {1, 2, "O"}, {0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+next
+[{1, 4, "O"}]
+[{2, 3, "O"}, {2, 2, "O"}, {1, 2, "O"}, {0, 2, "O"}, {0, 1, "O"}, {1, 0, "O"}]
+start
+next
+[32m  * test rectangle, white wins (1.5ms)[0m
+  * test spiral, black wins[{0, 0, "O"}]
+[]
+next
+[{0, 1, "O"}]
+[{0, 0, "O"}]
+next
+[{0, 2, "O"}]
+[{0, 1, "O"}, {0, 0, "O"}]
+next
+[{0, 3, "O"}]
+[{0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{0, 4, "O"}]
+[{0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{0, 5, "O"}]
+[{0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{0, 6, "O"}]
+[{0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{0, 7, "O"}, {1, 7, "O"}]
+[{0, 6, "O"}, {0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"},
+ {0, 0, "O"}]
+next
+[{1, 7, "O"}]
+[{0, 7, "O"}, {0, 6, "O"}, {0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"},
+ {0, 1, "O"}, {0, 0, "O"}]
+next
+[{2, 7, "O"}]
+[{1, 7, "O"}, {0, 7, "O"}, {0, 6, "O"}, {0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"},
+ {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{3, 7, "O"}]
+[{2, 7, "O"}, {1, 7, "O"}, {0, 7, "O"}, {0, 6, "O"}, {0, 5, "O"}, {0, 4, "O"},
+ {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{4, 7, "O"}]
+[{3, 7, "O"}, {2, 7, "O"}, {1, 7, "O"}, {0, 7, "O"}, {0, 6, "O"}, {0, 5, "O"},
+ {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{5, 7, "O"}]
+[{4, 7, "O"}, {3, 7, "O"}, {2, 7, "O"}, {1, 7, "O"}, {0, 7, "O"}, {0, 6, "O"},
+ {0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{6, 7, "O"}]
+[{5, 7, "O"}, {4, 7, "O"}, {3, 7, "O"}, {2, 7, "O"}, {1, 7, "O"}, {0, 7, "O"},
+ {0, 6, "O"}, {0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"},
+ {0, 0, "O"}]
+next
+[{6, 6, "O"}]
+[{6, 7, "O"}, {5, 7, "O"}, {4, 7, "O"}, {3, 7, "O"}, {2, 7, "O"}, {1, 7, "O"},
+ {0, 7, "O"}, {0, 6, "O"}, {0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"},
+ {0, 1, "O"}, {0, 0, "O"}]
+next
+[{6, 5, "O"}]
+[{6, 6, "O"}, {6, 7, "O"}, {5, 7, "O"}, {4, 7, "O"}, {3, 7, "O"}, {2, 7, "O"},
+ {1, 7, "O"}, {0, 7, "O"}, {0, 6, "O"}, {0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"},
+ {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{6, 4, "O"}]
+[{6, 5, "O"}, {6, 6, "O"}, {6, 7, "O"}, {5, 7, "O"}, {4, 7, "O"}, {3, 7, "O"},
+ {2, 7, "O"}, {1, 7, "O"}, {0, 7, "O"}, {0, 6, "O"}, {0, 5, "O"}, {0, 4, "O"},
+ {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{5, 3, "O"}, {6, 3, "O"}]
+[{6, 4, "O"}, {6, 5, "O"}, {6, 6, "O"}, {6, 7, "O"}, {5, 7, "O"}, {4, 7, "O"},
+ {3, 7, "O"}, {2, 7, "O"}, {1, 7, "O"}, {0, 7, "O"}, {0, 6, "O"}, {0, 5, "O"},
+ {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{4, 3, "O"}, {6, 3, "O"}]
+[{5, 3, "O"}, {6, 4, "O"}, {6, 5, "O"}, {6, 6, "O"}, {6, 7, "O"}, {5, 7, "O"},
+ {4, 7, "O"}, {3, 7, "O"}, {2, 7, "O"}, {1, 7, "O"}, {0, 7, "O"}, {0, 6, "O"},
+ {0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{5, 3, "O"}]
+[{6, 3, "O"}, {6, 4, "O"}, {6, 5, "O"}, {6, 6, "O"}, {6, 7, "O"}, {5, 7, "O"},
+ {4, 7, "O"}, {3, 7, "O"}, {2, 7, "O"}, {1, 7, "O"}, {0, 7, "O"}, {0, 6, "O"},
+ {0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{4, 3, "O"}]
+[{5, 3, "O"}, {6, 3, "O"}, {6, 4, "O"}, {6, 5, "O"}, {6, 6, "O"}, {6, 7, "O"},
+ {5, 7, "O"}, {4, 7, "O"}, {3, 7, "O"}, {2, 7, "O"}, {1, 7, "O"}, {0, 7, "O"},
+ {0, 6, "O"}, {0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"},
+ {0, 0, "O"}]
+next
+[{0, 7, "O"}, {2, 7, "O"}]
+[{1, 7, "O"}, {0, 6, "O"}, {0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"},
+ {0, 1, "O"}, {0, 0, "O"}]
+next
+[{3, 7, "O"}]
+[{2, 7, "O"}, {1, 7, "O"}, {0, 6, "O"}, {0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"},
+ {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{4, 7, "O"}]
+[{3, 7, "O"}, {2, 7, "O"}, {1, 7, "O"}, {0, 6, "O"}, {0, 5, "O"}, {0, 4, "O"},
+ {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{5, 7, "O"}]
+[{4, 7, "O"}, {3, 7, "O"}, {2, 7, "O"}, {1, 7, "O"}, {0, 6, "O"}, {0, 5, "O"},
+ {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{6, 7, "O"}]
+[{5, 7, "O"}, {4, 7, "O"}, {3, 7, "O"}, {2, 7, "O"}, {1, 7, "O"}, {0, 6, "O"},
+ {0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{6, 6, "O"}]
+[{6, 7, "O"}, {5, 7, "O"}, {4, 7, "O"}, {3, 7, "O"}, {2, 7, "O"}, {1, 7, "O"},
+ {0, 6, "O"}, {0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"},
+ {0, 0, "O"}]
+next
+[{6, 5, "O"}]
+[{6, 6, "O"}, {6, 7, "O"}, {5, 7, "O"}, {4, 7, "O"}, {3, 7, "O"}, {2, 7, "O"},
+ {1, 7, "O"}, {0, 6, "O"}, {0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"},
+ {0, 1, "O"}, {0, 0, "O"}]
+next
+[{6, 4, "O"}]
+[{6, 5, "O"}, {6, 6, "O"}, {6, 7, "O"}, {5, 7, "O"}, {4, 7, "O"}, {3, 7, "O"},
+ {2, 7, "O"}, {1, 7, "O"}, {0, 6, "O"}, {0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"},
+ {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{5, 3, "O"}, {6, 3, "O"}]
+[{6, 4, "O"}, {6, 5, "O"}, {6, 6, "O"}, {6, 7, "O"}, {5, 7, "O"}, {4, 7, "O"},
+ {3, 7, "O"}, {2, 7, "O"}, {1, 7, "O"}, {0, 6, "O"}, {0, 5, "O"}, {0, 4, "O"},
+ {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{4, 3, "O"}, {6, 3, "O"}]
+[{5, 3, "O"}, {6, 4, "O"}, {6, 5, "O"}, {6, 6, "O"}, {6, 7, "O"}, {5, 7, "O"},
+ {4, 7, "O"}, {3, 7, "O"}, {2, 7, "O"}, {1, 7, "O"}, {0, 6, "O"}, {0, 5, "O"},
+ {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{5, 3, "O"}]
+[{6, 3, "O"}, {6, 4, "O"}, {6, 5, "O"}, {6, 6, "O"}, {6, 7, "O"}, {5, 7, "O"},
+ {4, 7, "O"}, {3, 7, "O"}, {2, 7, "O"}, {1, 7, "O"}, {0, 6, "O"}, {0, 5, "O"},
+ {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{4, 3, "O"}]
+[{5, 3, "O"}, {6, 3, "O"}, {6, 4, "O"}, {6, 5, "O"}, {6, 6, "O"}, {6, 7, "O"},
+ {5, 7, "O"}, {4, 7, "O"}, {3, 7, "O"}, {2, 7, "O"}, {1, 7, "O"}, {0, 6, "O"},
+ {0, 5, "O"}, {0, 4, "O"}, {0, 3, "O"}, {0, 2, "O"}, {0, 1, "O"}, {0, 0, "O"}]
+next
+[{0, 8, "X"}]
+[]
+next
+[{1, 8, "X"}]
+[{0, 8, "X"}]
+next
+[{2, 8, "X"}]
+[{1, 8, "X"}, {0, 8, "X"}]
+next
+[{3, 8, "X"}]
+[{2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{4, 8, "X"}]
+[{3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{5, 8, "X"}]
+[{4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{6, 8, "X"}]
+[{5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{7, 8, "X"}]
+[{6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"},
+ {0, 8, "X"}]
+next
+[{7, 7, "X"}]
+[{7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"},
+ {1, 8, "X"}, {0, 8, "X"}]
+next
+[{7, 6, "X"}]
+[{7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"},
+ {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{7, 5, "X"}]
+[{7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"},
+ {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{7, 4, "X"}]
+[{7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"},
+ {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{7, 3, "X"}]
+[{7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"},
+ {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{6, 2, "X"}, {7, 2, "X"}]
+[{7, 3, "X"}, {7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"},
+ {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"},
+ {0, 8, "X"}]
+next
+[{5, 2, "X"}, {7, 2, "X"}]
+[{6, 2, "X"}, {7, 3, "X"}, {7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"},
+ {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"},
+ {1, 8, "X"}, {0, 8, "X"}]
+next
+[{4, 2, "X"}]
+[{5, 2, "X"}, {6, 2, "X"}, {7, 3, "X"}, {7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"},
+ {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"},
+ {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{3, 2, "X"}, {3, 3, "X"}]
+[{4, 2, "X"}, {5, 2, "X"}, {6, 2, "X"}, {7, 3, "X"}, {7, 4, "X"}, {7, 5, "X"},
+ {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"},
+ {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{3, 3, "X"}]
+[{3, 2, "X"}, {4, 2, "X"}, {5, 2, "X"}, {6, 2, "X"}, {7, 3, "X"}, {7, 4, "X"},
+ {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"},
+ {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{3, 4, "X"}, {4, 4, "X"}]
+[{3, 3, "X"}, {3, 2, "X"}, {4, 2, "X"}, {5, 2, "X"}, {6, 2, "X"}, {7, 3, "X"},
+ {7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"},
+ {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{4, 4, "X"}]
+[{3, 4, "X"}, {3, 3, "X"}, {3, 2, "X"}, {4, 2, "X"}, {5, 2, "X"}, {6, 2, "X"},
+ {7, 3, "X"}, {7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"},
+ {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"},
+ {0, 8, "X"}]
+next
+[{5, 4, "X"}, {5, 5, "X"}]
+[{4, 4, "X"}, {3, 4, "X"}, {3, 3, "X"}, {3, 2, "X"}, {4, 2, "X"}, {5, 2, "X"},
+ {6, 2, "X"}, {7, 3, "X"}, {7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"},
+ {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"},
+ {1, 8, "X"}, {0, 8, "X"}]
+next
+[{5, 5, "X"}]
+[{5, 4, "X"}, {4, 4, "X"}, {3, 4, "X"}, {3, 3, "X"}, {3, 2, "X"}, {4, 2, "X"},
+ {5, 2, "X"}, {6, 2, "X"}, {7, 3, "X"}, {7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"},
+ {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"},
+ {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{4, 6, "X"}, {5, 6, "X"}]
+[{5, 5, "X"}, {5, 4, "X"}, {4, 4, "X"}, {3, 4, "X"}, {3, 3, "X"}, {3, 2, "X"},
+ {4, 2, "X"}, {5, 2, "X"}, {6, 2, "X"}, {7, 3, "X"}, {7, 4, "X"}, {7, 5, "X"},
+ {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"},
+ {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{3, 6, "X"}, {5, 6, "X"}]
+[{4, 6, "X"}, {5, 5, "X"}, {5, 4, "X"}, {4, 4, "X"}, {3, 4, "X"}, {3, 3, "X"},
+ {3, 2, "X"}, {4, 2, "X"}, {5, 2, "X"}, {6, 2, "X"}, {7, 3, "X"}, {7, 4, "X"},
+ {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"},
+ {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{2, 6, "X"}]
+[{3, 6, "X"}, {4, 6, "X"}, {5, 5, "X"}, {5, 4, "X"}, {4, 4, "X"}, {3, 4, "X"},
+ {3, 3, "X"}, {3, 2, "X"}, {4, 2, "X"}, {5, 2, "X"}, {6, 2, "X"}, {7, 3, "X"},
+ {7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"},
+ {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{1, 5, "X"}, {1, 6, "X"}]
+[{2, 6, "X"}, {3, 6, "X"}, {4, 6, "X"}, {5, 5, "X"}, {5, 4, "X"}, {4, 4, "X"},
+ {3, 4, "X"}, {3, 3, "X"}, {3, 2, "X"}, {4, 2, "X"}, {5, 2, "X"}, {6, 2, "X"},
+ {7, 3, "X"}, {7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"},
+ {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"},
+ {0, 8, "X"}]
+next
+[{1, 4, "X"}, {1, 6, "X"}]
+[{1, 5, "X"}, {2, 6, "X"}, {3, 6, "X"}, {4, 6, "X"}, {5, 5, "X"}, {5, 4, "X"},
+ {4, 4, "X"}, {3, 4, "X"}, {3, 3, "X"}, {3, 2, "X"}, {4, 2, "X"}, {5, 2, "X"},
+ {6, 2, "X"}, {7, 3, "X"}, {7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"},
+ {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"},
+ {1, 8, "X"}, {0, 8, "X"}]
+next
+[{1, 3, "X"}]
+[{1, 4, "X"}, {1, 5, "X"}, {2, 6, "X"}, {3, 6, "X"}, {4, 6, "X"}, {5, 5, "X"},
+ {5, 4, "X"}, {4, 4, "X"}, {3, 4, "X"}, {3, 3, "X"}, {3, 2, "X"}, {4, 2, "X"},
+ {5, 2, "X"}, {6, 2, "X"}, {7, 3, "X"}, {7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"},
+ {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"},
+ {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{1, 2, "X"}]
+[{1, 3, "X"}, {1, 4, "X"}, {1, 5, "X"}, {2, 6, "X"}, {3, 6, "X"}, {4, 6, "X"},
+ {5, 5, "X"}, {5, 4, "X"}, {4, 4, "X"}, {3, 4, "X"}, {3, 3, "X"}, {3, 2, "X"},
+ {4, 2, "X"}, {5, 2, "X"}, {6, 2, "X"}, {7, 3, "X"}, {7, 4, "X"}, {7, 5, "X"},
+ {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"},
+ {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{1, 1, "X"}]
+[{1, 2, "X"}, {1, 3, "X"}, {1, 4, "X"}, {1, 5, "X"}, {2, 6, "X"}, {3, 6, "X"},
+ {4, 6, "X"}, {5, 5, "X"}, {5, 4, "X"}, {4, 4, "X"}, {3, 4, "X"}, {3, 3, "X"},
+ {3, 2, "X"}, {4, 2, "X"}, {5, 2, "X"}, {6, 2, "X"}, {7, 3, "X"}, {7, 4, "X"},
+ {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"},
+ {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{1, 0, "X"}]
+[{1, 1, "X"}, {1, 2, "X"}, {1, 3, "X"}, {1, 4, "X"}, {1, 5, "X"}, {2, 6, "X"},
+ {3, 6, "X"}, {4, 6, "X"}, {5, 5, "X"}, {5, 4, "X"}, {4, 4, "X"}, {3, 4, "X"},
+ {3, 3, "X"}, {3, 2, "X"}, {4, 2, "X"}, {5, 2, "X"}, {6, 2, "X"}, {7, 3, "X"},
+ {7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"},
+ {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{2, 0, "X"}]
+[{1, 0, "X"}, {1, 1, "X"}, {1, 2, "X"}, {1, 3, "X"}, {1, 4, "X"}, {1, 5, "X"},
+ {2, 6, "X"}, {3, 6, "X"}, {4, 6, "X"}, {5, 5, "X"}, {5, 4, "X"}, {4, 4, "X"},
+ {3, 4, "X"}, {3, 3, "X"}, {3, 2, "X"}, {4, 2, "X"}, {5, 2, "X"}, {6, 2, "X"},
+ {7, 3, "X"}, {7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"},
+ {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"},
+ {0, 8, "X"}]
+next
+[{3, 0, "X"}]
+[{2, 0, "X"}, {1, 0, "X"}, {1, 1, "X"}, {1, 2, "X"}, {1, 3, "X"}, {1, 4, "X"},
+ {1, 5, "X"}, {2, 6, "X"}, {3, 6, "X"}, {4, 6, "X"}, {5, 5, "X"}, {5, 4, "X"},
+ {4, 4, "X"}, {3, 4, "X"}, {3, 3, "X"}, {3, 2, "X"}, {4, 2, "X"}, {5, 2, "X"},
+ {6, 2, "X"}, {7, 3, "X"}, {7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"},
+ {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"},
+ {1, 8, "X"}, {0, 8, "X"}]
+next
+[{4, 0, "X"}]
+[{3, 0, "X"}, {2, 0, "X"}, {1, 0, "X"}, {1, 1, "X"}, {1, 2, "X"}, {1, 3, "X"},
+ {1, 4, "X"}, {1, 5, "X"}, {2, 6, "X"}, {3, 6, "X"}, {4, 6, "X"}, {5, 5, "X"},
+ {5, 4, "X"}, {4, 4, "X"}, {3, 4, "X"}, {3, 3, "X"}, {3, 2, "X"}, {4, 2, "X"},
+ {5, 2, "X"}, {6, 2, "X"}, {7, 3, "X"}, {7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"},
+ {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"},
+ {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{5, 0, "X"}]
+[{4, 0, "X"}, {3, 0, "X"}, {2, 0, "X"}, {1, 0, "X"}, {1, 1, "X"}, {1, 2, "X"},
+ {1, 3, "X"}, {1, 4, "X"}, {1, 5, "X"}, {2, 6, "X"}, {3, 6, "X"}, {4, 6, "X"},
+ {5, 5, "X"}, {5, 4, "X"}, {4, 4, "X"}, {3, 4, "X"}, {3, 3, "X"}, {3, 2, "X"},
+ {4, 2, "X"}, {5, 2, "X"}, {6, 2, "X"}, {7, 3, "X"}, {7, 4, "X"}, {7, 5, "X"},
+ {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"},
+ {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{6, 0, "X"}]
+[{5, 0, "X"}, {4, 0, "X"}, {3, 0, "X"}, {2, 0, "X"}, {1, 0, "X"}, {1, 1, "X"},
+ {1, 2, "X"}, {1, 3, "X"}, {1, 4, "X"}, {1, 5, "X"}, {2, 6, "X"}, {3, 6, "X"},
+ {4, 6, "X"}, {5, 5, "X"}, {5, 4, "X"}, {4, 4, "X"}, {3, 4, "X"}, {3, 3, "X"},
+ {3, 2, "X"}, {4, 2, "X"}, {5, 2, "X"}, {6, 2, "X"}, {7, 3, "X"}, {7, 4, "X"},
+ {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"}, {5, 8, "X"},
+ {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{7, 0, "X"}]
+[{6, 0, "X"}, {5, 0, "X"}, {4, 0, "X"}, {3, 0, "X"}, {2, 0, "X"}, {1, 0, "X"},
+ {1, 1, "X"}, {1, 2, "X"}, {1, 3, "X"}, {1, 4, "X"}, {1, 5, "X"}, {2, 6, "X"},
+ {3, 6, "X"}, {4, 6, "X"}, {5, 5, "X"}, {5, 4, "X"}, {4, 4, "X"}, {3, 4, "X"},
+ {3, 3, "X"}, {3, 2, "X"}, {4, 2, "X"}, {5, 2, "X"}, {6, 2, "X"}, {7, 3, "X"},
+ {7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"}, {6, 8, "X"},
+ {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"}, {0, 8, "X"}]
+next
+[{8, 0, "X"}]
+[{7, 0, "X"}, {6, 0, "X"}, {5, 0, "X"}, {4, 0, "X"}, {3, 0, "X"}, {2, 0, "X"},
+ {1, 0, "X"}, {1, 1, "X"}, {1, 2, "X"}, {1, 3, "X"}, {1, 4, "X"}, {1, 5, "X"},
+ {2, 6, "X"}, {3, 6, "X"}, {4, 6, "X"}, {5, 5, "X"}, {5, 4, "X"}, {4, 4, "X"},
+ {3, 4, "X"}, {3, 3, "X"}, {3, 2, "X"}, {4, 2, "X"}, {5, 2, "X"}, {6, 2, "X"},
+ {7, 3, "X"}, {7, 4, "X"}, {7, 5, "X"}, {7, 6, "X"}, {7, 7, "X"}, {7, 8, "X"},
+ {6, 8, "X"}, {5, 8, "X"}, {4, 8, "X"}, {3, 8, "X"}, {2, 8, "X"}, {1, 8, "X"},
+ {0, 8, "X"}]
+[32m  * test spiral, black wins (58.4ms)[0m
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.1 seconds (0.08s on load, 0.06s on tests)
+[32m8 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:34
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (4.8ms)[0m
+  * test 1x1 board with black stone[32m  * test 1x1 board with black stone (0.02ms)[0m
+  * test 1x1 board with white stone[32m  * test 1x1 board with white stone (0.01ms)[0m
+  * test convulted path  * test convulted path (skipped)
+  * test rectangle, black wins[32m  * test rectangle, black wins (0.4ms)[0m
+  * test rectangle, white wins[32m  * test rectangle, white wins (0.3ms)[0m
+  * test spiral, black wins[32m  * test spiral, black wins (10.6ms)[0m
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m8 tests, 0 failures, 2 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:34
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (2.6ms)[0m
+  * test 1x1 board with black stone[32m  * test 1x1 board with black stone (0.02ms)[0m
+  * test 1x1 board with white stone[32m  * test 1x1 board with white stone (0.02ms)[0m
+  * test convulted path  * test convulted path (skipped)
+  * test rectangle, black wins[32m  * test rectangle, black wins (0.5ms)[0m
+  * test rectangle, white wins[32m  * test rectangle, white wins (0.3ms)[0m
+  * test spiral, black wins[32m  * test spiral, black wins (8.0ms)[0m
+  * test spiral, nobody wins[32m  * test spiral, nobody wins (8.6ms)[0m
+
+
+Finished in 0.09 seconds (0.07s on load, 0.02s on tests)
+[32m8 tests, 0 failures, 1 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:34
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (2.1ms)[0m
+  * test 1x1 board with black stone[32m  * test 1x1 board with black stone (0.00ms)[0m
+  * test 1x1 board with white stone[32m  * test 1x1 board with white stone (0.00ms)[0m
+  * test convulted path[31m  * test convulted path (2.7ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:36[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:44: (test)
+
+  * test rectangle, black wins[32m  * test rectangle, black wins (0.3ms)[0m
+  * test rectangle, white wins[32m  * test rectangle, white wins (0.1ms)[0m
+  * test spiral, black wins[32m  * test spiral, black wins (6.0ms)[0m
+  * test spiral, nobody wins[32m  * test spiral, nobody wins (5.7ms)[0m
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[31m8 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:34
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (1.9ms)[0m
+  * test 1x1 board with black stone[32m  * test 1x1 board with black stone (0.00ms)[0m
+  * test 1x1 board with white stone[32m  * test 1x1 board with white stone (0.00ms)[0m
+  * test convulted path[31m  * test convulted path (2.9ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:36[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:44: (test)
+
+  * test rectangle, black wins[32m  * test rectangle, black wins (0.3ms)[0m
+  * test rectangle, white wins[32m  * test rectangle, white wins (0.2ms)[0m
+  * test spiral, black wins[32m  * test spiral, black wins (7.3ms)[0m
+  * test spiral, nobody wins[32m  * test spiral, nobody wins (5.5ms)[0m
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[31m8 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:35
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (7.7ms)[0m
+{0, 1, "X"}
+  * test 1x1 board with black stone{1, 2, "X"}
+[32m  * test 1x1 board with black stone (0.02ms)[0m
+  * test 1x1 board with white stone{1, 3, "X"}
+[32m  * test 1x1 board with white stone (0.02ms)[0m
+  * test convulted path{2, 3, "X"}
+{2, 3, "X"}
+{1, 3, "X"}
+[31m  * test convulted path (20.9ms)[0m
+{1, 0, "O"}
+{0, 1, "O"}
+{0, 2, "O"}
+{0, 3, "X"}
+{1, 3, "X"}
+{1, 2, "X"}
+{1, 1, "X"}
+
+{2, 1, "X"}
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:36[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:44: (test)
+
+  * test rectangle, black wins{1, 0, "O"}
+[32m  * test rectangle, black wins (16.9ms)[0m
+  * test rectangle, white wins{0, 1, "O"}
+{0, 2, "O"}
+{1, 2, "O"}
+{2, 2, "O"}
+{2, 3, "O"}
+[32m  * test rectangle, white wins (2.3ms)[0m
+{0, 0, "O"}
+  * test spiral, black wins{0, 1, "O"}
+{0, 2, "O"}
+{0, 3, "O"}
+{0, 4, "O"}
+{0, 5, "O"}
+{0, 6, "O"}
+{0, 7, "O"}
+{1, 7, "O"}
+{2, 7, "O"}
+{3, 7, "O"}
+{4, 7, "O"}
+{5, 7, "O"}
+{6, 7, "O"}
+{6, 6, "O"}
+{6, 5, "O"}
+{6, 4, "O"}
+{5, 3, "O"}
+{4, 3, "O"}
+{6, 3, "O"}
+{6, 3, "O"}
+{5, 3, "O"}
+{4, 3, "O"}
+{1, 7, "O"}
+{0, 7, "O"}
+{2, 7, "O"}
+{3, 7, "O"}
+{4, 7, "O"}
+{5, 7, "O"}
+{6, 7, "O"}
+{6, 6, "O"}
+{6, 5, "O"}
+{6, 4, "O"}
+{5, 3, "O"}
+{4, 3, "O"}
+{6, 3, "O"}
+{6, 3, "O"}
+{5, 3, "O"}
+{4, 3, "O"}
+{0, 8, "X"}
+{1, 8, "X"}
+{2, 8, "X"}
+{3, 8, "X"}
+{4, 8, "X"}
+{5, 8, "X"}
+{6, 8, "X"}
+{7, 8, "X"}
+{7, 7, "X"}
+{7, 6, "X"}
+{7, 5, "X"}
+{7, 4, "X"}
+{7, 3, "X"}
+{6, 2, "X"}
+{5, 2, "X"}
+{4, 2, "X"}
+{3, 2, "X"}
+{3, 3, "X"}
+{3, 4, "X"}
+{4, 4, "X"}
+{5, 4, "X"}
+{5, 5, "X"}
+{4, 6, "X"}
+{3, 6, "X"}
+{2, 6, "X"}
+{1, 5, "X"}
+{1, 4, "X"}
+{1, 3, "X"}
+{1, 2, "X"}
+{1, 1, "X"}
+{1, 0, "X"}
+{2, 0, "X"}
+{3, 0, "X"}
+{4, 0, "X"}
+{5, 0, "X"}
+{6, 0, "X"}
+{7, 0, "X"}
+[32m  * test spiral, black wins (54.7ms)[0m
+{0, 0, "O"}
+  * test spiral, nobody wins{0, 1, "O"}
+{0, 2, "O"}
+{0, 3, "O"}
+{0, 4, "O"}
+{0, 5, "O"}
+{0, 6, "O"}
+{0, 7, "O"}
+{1, 7, "O"}
+{2, 7, "O"}
+{3, 7, "O"}
+{4, 7, "O"}
+{5, 7, "O"}
+{6, 7, "O"}
+{6, 6, "O"}
+{6, 5, "O"}
+{6, 4, "O"}
+{5, 3, "O"}
+{4, 3, "O"}
+{6, 3, "O"}
+{6, 3, "O"}
+{5, 3, "O"}
+{4, 3, "O"}
+{1, 7, "O"}
+{0, 7, "O"}
+{2, 7, "O"}
+{3, 7, "O"}
+{4, 7, "O"}
+{5, 7, "O"}
+{6, 7, "O"}
+{6, 6, "O"}
+{6, 5, "O"}
+{6, 4, "O"}
+{5, 3, "O"}
+{4, 3, "O"}
+{6, 3, "O"}
+{6, 3, "O"}
+{5, 3, "O"}
+{4, 3, "O"}
+{0, 8, "X"}
+{1, 8, "X"}
+{2, 8, "X"}
+{3, 8, "X"}
+{4, 8, "X"}
+{5, 8, "X"}
+{6, 8, "X"}
+{7, 8, "X"}
+{7, 7, "X"}
+{7, 6, "X"}
+{7, 5, "X"}
+{7, 4, "X"}
+{7, 3, "X"}
+{6, 2, "X"}
+{5, 2, "X"}
+{4, 2, "X"}
+{3, 2, "X"}
+{3, 3, "X"}
+{3, 4, "X"}
+{3, 3, "X"}
+{3, 2, "X"}
+{3, 4, "X"}
+{7, 2, "X"}
+{7, 2, "X"}
+{6, 2, "X"}
+{5, 2, "X"}
+{4, 2, "X"}
+{3, 2, "X"}
+{3, 3, "X"}
+{3, 4, "X"}
+{3, 3, "X"}
+{3, 2, "X"}
+{3, 4, "X"}
+[32m  * test spiral, nobody wins (57.4ms)[0m
+
+
+Finished in 0.3 seconds (0.2s on load, 0.1s on tests)
+[31m8 tests, 1 failure[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:35
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner  * test empty board has no winner (skipped)
+  * test 1x1 board with black stone  * test 1x1 board with black stone (skipped)
+{0, 1, "X"}
+  * test 1x1 board with white stone  * test 1x1 board with white stone (skipped)
+  * test convulted path{1, 2, "X"}
+{1, 3, "X"}
+{2, 3, "X"}
+{2, 3, "X"}
+{1, 3, "X"}
+[31m  * test convulted path (31.6ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:39[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:47: (test)
+
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.2 seconds (0.2s on load, 0.03s on tests)
+[31m8 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:35
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner  * test empty board has no winner (skipped)
+  * test 1x1 board with black stone  * test 1x1 board with black stone (skipped)
+  * test 1x1 board with white stone{0, 1, "X"}
+  * test 1x1 board with white stone (skipped)
+  * test convulted path{1, 2, "X"}
+{1, 3, "X"}
+{2, 3, "X"}
+{2, 3, "X"}
+{1, 3, "X"}
+[31m  * test convulted path (13.3ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:39[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:47: (test)
+
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[31m8 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:35
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner  * test empty board has no winner (skipped)
+  * test 1x1 board with black stone  * test 1x1 board with black stone (skipped)
+[{0, 1, "X"}]
+  * test 1x1 board with white stone  * test 1x1 board with white stone (skipped)
+  * test convulted path[{1, 2, "X"}]
+[{1, 3, "X"}, {2, 3, "X"}]
+[{2, 3, "X"}]
+[{1, 3, "X"}]
+[31m  * test convulted path (7.4ms)[0m
+
+  1) test convulted path (ConnectTest)
+     [1m[30mconnect_test.exs:39[0m
+     [31mAssertion with == failed[0m
+     [36mcode: [0mConnect.result_for(board) == :black
+     [36mlhs:  [0m:none
+     [36mrhs:  [0m:black
+     [36mstacktrace:[0m
+       connect_test.exs:47: (test)
+
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[31m8 tests, 1 failure, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:35
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner  * test empty board has no winner (skipped)
+  * test 1x1 board with black stone  * test 1x1 board with black stone (skipped)
+[{0, 1, "X"}]
+  * test 1x1 board with white stone  * test 1x1 board with white stone (skipped)
+  * test convulted path[{1, 0, "X"}, {1, 2, "X"}]
+[{2, 0, "X"}, {2, 1, "X"}]
+[{2, 1, "X"}]
+[{1, 2, "X"}, {3, 2, "X"}]
+[{1, 3, "X"}, {2, 3, "X"}]
+[{2, 3, "X"}]
+[{3, 2, "X"}]
+[{4, 1, "X"}]
+[32m  * test convulted path (5.9ms)[0m
+  * test rectangle, black wins  * test rectangle, black wins (skipped)
+  * test rectangle, white wins  * test rectangle, white wins (skipped)
+  * test spiral, black wins  * test spiral, black wins (skipped)
+  * test spiral, nobody wins  * test spiral, nobody wins (skipped)
+
+
+Finished in 0.07 seconds (0.07s on load, 0.00s on tests)
+[32m8 tests, 0 failures, 7 skipped[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:35
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (2.2ms)[0m
+  * test 1x1 board with black stone[{0, 0, "X"}]
+[32m  * test 1x1 board with black stone (3.3ms)[0m
+[{0, 0, "O"}]
+  * test 1x1 board with white stone[32m  * test 1x1 board with white stone (0.1ms)[0m
+  * test convulted path[{0, 1, "X"}]
+[{1, 0, "X"}, {1, 2, "X"}]
+[{2, 0, "X"}, {2, 1, "X"}]
+[{2, 1, "X"}]
+[{1, 2, "X"}, {3, 2, "X"}]
+[{1, 3, "X"}, {2, 3, "X"}]
+[{2, 3, "X"}]
+[{3, 2, "X"}]
+[{4, 1, "X"}]
+[32m  * test convulted path (1.3ms)[0m
+  * test rectangle, black wins[{1, 0, "O"}]
+[{0, 1, "O"}]
+[{0, 2, "O"}]
+[{0, 3, "X"}]
+[{1, 2, "X"}, {1, 3, "X"}]
+[{1, 1, "X"}, {2, 1, "X"}, {1, 3, "X"}]
+[{2, 1, "X"}]
+[{3, 1, "X"}]
+[32m  * test rectangle, black wins (1.1ms)[0m
+  * test rectangle, white wins[{1, 0, "O"}]
+[{0, 1, "O"}]
+[{0, 2, "O"}, {1, 2, "O"}]
+[{1, 2, "O"}]
+[{2, 2, "O"}, {2, 3, "O"}]
+[{2, 3, "O"}]
+[{1, 4, "O"}]
+[32m  * test rectangle, white wins (0.9ms)[0m
+  * test spiral, black wins[{0, 0, "O"}]
+[{0, 1, "O"}]
+[{0, 2, "O"}]
+[{0, 3, "O"}]
+[{0, 4, "O"}]
+[{0, 5, "O"}]
+[{0, 6, "O"}]
+[{0, 7, "O"}, {1, 7, "O"}]
+[{1, 7, "O"}]
+[{2, 7, "O"}]
+[{3, 7, "O"}]
+[{4, 7, "O"}]
+[{5, 7, "O"}]
+[{6, 6, "O"}, {6, 7, "O"}]
+[{6, 5, "O"}, {6, 7, "O"}]
+[{6, 4, "O"}]
+[{5, 3, "O"}, {6, 3, "O"}]
+[{4, 3, "O"}, {6, 3, "O"}]
+[{5, 3, "O"}]
+[{4, 3, "O"}]
+[{6, 6, "O"}]
+[{6, 5, "O"}]
+[{6, 4, "O"}]
+[{5, 3, "O"}, {6, 3, "O"}]
+[{4, 3, "O"}, {6, 3, "O"}]
+[{5, 3, "O"}]
+[{4, 3, "O"}]
+[{0, 7, "O"}, {2, 7, "O"}]
+[{3, 7, "O"}]
+[{4, 7, "O"}]
+[{5, 7, "O"}]
+[{6, 6, "O"}, {6, 7, "O"}]
+[{6, 5, "O"}, {6, 7, "O"}]
+[{6, 4, "O"}]
+[{5, 3, "O"}, {6, 3, "O"}]
+[{4, 3, "O"}, {6, 3, "O"}]
+[{5, 3, "O"}]
+[{4, 3, "O"}]
+[{6, 6, "O"}]
+[{6, 5, "O"}]
+[{6, 4, "O"}]
+[{5, 3, "O"}, {6, 3, "O"}]
+[{4, 3, "O"}, {6, 3, "O"}]
+[{5, 3, "O"}]
+[{4, 3, "O"}]
+[{0, 8, "X"}]
+[{1, 8, "X"}]
+[{2, 8, "X"}]
+[{3, 8, "X"}]
+[{4, 8, "X"}]
+[{5, 8, "X"}]
+[{6, 8, "X"}]
+[{7, 7, "X"}, {7, 8, "X"}]
+[{7, 6, "X"}, {7, 8, "X"}]
+[{7, 5, "X"}]
+[{7, 4, "X"}]
+[{7, 3, "X"}]
+[{6, 2, "X"}, {7, 2, "X"}]
+[{5, 2, "X"}, {7, 2, "X"}]
+[{4, 2, "X"}]
+[{3, 2, "X"}, {3, 3, "X"}]
+[{3, 3, "X"}]
+[{3, 4, "X"}, {4, 4, "X"}]
+[{4, 4, "X"}]
+[{5, 4, "X"}, {5, 5, "X"}]
+[{5, 5, "X"}]
+[{4, 6, "X"}, {5, 6, "X"}]
+[{3, 6, "X"}, {5, 6, "X"}]
+[{2, 6, "X"}]
+[{1, 5, "X"}, {1, 6, "X"}]
+[{1, 4, "X"}, {1, 6, "X"}]
+[{1, 3, "X"}]
+[{1, 2, "X"}]
+[{1, 1, "X"}]
+[{1, 0, "X"}, {2, 0, "X"}]
+[{2, 0, "X"}]
+[{3, 0, "X"}]
+[{4, 0, "X"}]
+[{5, 0, "X"}]
+[{6, 0, "X"}]
+[{7, 0, "X"}]
+[{8, 0, "X"}]
+[32m  * test spiral, black wins (17.9ms)[0m
+  * test spiral, nobody wins[{0, 0, "O"}]
+[{0, 1, "O"}]
+[{0, 2, "O"}]
+[{0, 3, "O"}]
+[{0, 4, "O"}]
+[{0, 5, "O"}]
+[{0, 6, "O"}]
+[{0, 7, "O"}, {1, 7, "O"}]
+[{1, 7, "O"}]
+[{2, 7, "O"}]
+[{3, 7, "O"}]
+[{4, 7, "O"}]
+[{5, 7, "O"}]
+[{6, 6, "O"}, {6, 7, "O"}]
+[{6, 5, "O"}, {6, 7, "O"}]
+[{6, 4, "O"}]
+[{5, 3, "O"}, {6, 3, "O"}]
+[{4, 3, "O"}, {6, 3, "O"}]
+[{5, 3, "O"}]
+[{4, 3, "O"}]
+[{6, 6, "O"}]
+[{6, 5, "O"}]
+[{6, 4, "O"}]
+[{5, 3, "O"}, {6, 3, "O"}]
+[{4, 3, "O"}, {6, 3, "O"}]
+[{5, 3, "O"}]
+[{4, 3, "O"}]
+[{0, 7, "O"}, {2, 7, "O"}]
+[{3, 7, "O"}]
+[{4, 7, "O"}]
+[{5, 7, "O"}]
+[{6, 6, "O"}, {6, 7, "O"}]
+[{6, 5, "O"}, {6, 7, "O"}]
+[{6, 4, "O"}]
+[{5, 3, "O"}, {6, 3, "O"}]
+[{4, 3, "O"}, {6, 3, "O"}]
+[{5, 3, "O"}]
+[{4, 3, "O"}]
+[{6, 6, "O"}]
+[{6, 5, "O"}]
+[{6, 4, "O"}]
+[{5, 3, "O"}, {6, 3, "O"}]
+[{4, 3, "O"}, {6, 3, "O"}]
+[{5, 3, "O"}]
+[{4, 3, "O"}]
+[{0, 8, "X"}]
+[{1, 8, "X"}]
+[{2, 8, "X"}]
+[{3, 8, "X"}]
+[{4, 8, "X"}]
+[{5, 8, "X"}]
+[{6, 8, "X"}]
+[{7, 7, "X"}, {7, 8, "X"}]
+[{7, 6, "X"}, {7, 8, "X"}]
+[{7, 5, "X"}]
+[{7, 4, "X"}]
+[{7, 3, "X"}]
+[{6, 2, "X"}, {7, 2, "X"}]
+[{5, 2, "X"}, {7, 2, "X"}]
+[{4, 2, "X"}]
+[{3, 2, "X"}, {3, 3, "X"}]
+[{3, 3, "X"}]
+[{3, 4, "X"}]
+[{3, 2, "X"}, {3, 4, "X"}]
+[{6, 2, "X"}]
+[{5, 2, "X"}]
+[{4, 2, "X"}]
+[{3, 2, "X"}, {3, 3, "X"}]
+[{3, 3, "X"}]
+[{3, 4, "X"}]
+[{3, 2, "X"}, {3, 4, "X"}]
+[{7, 7, "X"}]
+[{7, 6, "X"}]
+[{7, 5, "X"}]
+[{7, 4, "X"}]
+[{7, 3, "X"}]
+[{6, 2, "X"}, {7, 2, "X"}]
+[{5, 2, "X"}, {7, 2, "X"}]
+[{4, 2, "X"}]
+[{3, 2, "X"}, {3, 3, "X"}]
+[{3, 3, "X"}]
+[{3, 4, "X"}]
+[{3, 2, "X"}, {3, 4, "X"}]
+[{6, 2, "X"}]
+[{5, 2, "X"}]
+[{4, 2, "X"}]
+[{3, 2, "X"}, {3, 3, "X"}]
+[{3, 3, "X"}]
+[{3, 4, "X"}]
+[{3, 2, "X"}, {3, 4, "X"}]
+[32m  * test spiral, nobody wins (26.7ms)[0m
+
+
+Finished in 0.1 seconds (0.07s on load, 0.05s on tests)
+[32m8 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:34
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (2.2ms)[0m
+  * test 1x1 board with black stone[32m  * test 1x1 board with black stone (0.01ms)[0m
+  * test 1x1 board with white stone[32m  * test 1x1 board with white stone (0.00ms)[0m
+  * test convulted path[32m  * test convulted path (0.4ms)[0m
+  * test rectangle, black wins[32m  * test rectangle, black wins (0.3ms)[0m
+  * test rectangle, white wins[32m  * test rectangle, white wins (0.2ms)[0m
+  * test spiral, black wins[32m  * test spiral, black wins (9.8ms)[0m
+  * test spiral, nobody wins[32m  * test spiral, nobody wins (21.6ms)[0m
+
+
+Finished in 0.1 seconds (0.08s on load, 0.03s on tests)
+[32m8 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:34
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (1.9ms)[0m
+  * test 1x1 board with black stone[32m  * test 1x1 board with black stone (0.01ms)[0m
+  * test 1x1 board with white stone[32m  * test 1x1 board with white stone (0.00ms)[0m
+  * test convulted path[32m  * test convulted path (0.4ms)[0m
+  * test rectangle, black wins[32m  * test rectangle, black wins (0.3ms)[0m
+  * test rectangle, white wins[32m  * test rectangle, white wins (0.2ms)[0m
+  * test spiral, black wins[32m  * test spiral, black wins (7.4ms)[0m
+  * test spiral, nobody wins[32m  * test spiral, nobody wins (16.4ms)[0m
+
+
+Finished in 0.07 seconds (0.05s on load, 0.02s on tests)
+[32m8 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:10
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:12
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:18
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:18
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:18
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:40
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (5.4ms)[0m
+  * test 1x1 board with black stone[32m  * test 1x1 board with black stone (0.04ms)[0m
+  * test 1x1 board with white stone[32m  * test 1x1 board with white stone (0.03ms)[0m
+  * test convulted path[32m  * test convulted path (0.5ms)[0m
+  * test rectangle, black wins[32m  * test rectangle, black wins (0.3ms)[0m
+  * test rectangle, white wins[32m  * test rectangle, white wins (0.1ms)[0m
+  * test spiral, black wins[32m  * test spiral, black wins (8.4ms)[0m
+  * test spiral, nobody wins[32m  * test spiral, nobody wins (9.3ms)[0m
+
+
+Finished in 0.09 seconds (0.07s on load, 0.02s on tests)
+[32m8 tests, 0 failures[0m
+
+Randomized with seed 0
+[33mwarning: [0mvariable x is unused
+  connect.exs:5
+
+[33mwarning: [0mvariable x is unused
+  connect.exs:6
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:7
+
+[33mwarning: [0mvariable y is unused
+  connect.exs:8
+
+[33mwarning: [0mvariable board is unused
+  connect.exs:17
+
+[33mwarning: [0mvariable path is unused
+  connect.exs:17
+
+[33mwarning: [0mvariable success_fn is unused
+  connect.exs:17
+
+[33mwarning: [0mvariable coords is unused
+  connect.exs:39
+
+Excluding tags: [:pending]
+
+
+ConnectTest
+  * test empty board has no winner[32m  * test empty board has no winner (2.6ms)[0m
+  * test 1x1 board with black stone[32m  * test 1x1 board with black stone (0.01ms)[0m
+  * test 1x1 board with white stone[32m  * test 1x1 board with white stone (0.00ms)[0m
+  * test convulted path[32m  * test convulted path (0.4ms)[0m
+  * test rectangle, black wins[32m  * test rectangle, black wins (0.3ms)[0m
+  * test rectangle, white wins[32m  * test rectangle, white wins (0.2ms)[0m
+  * test spiral, black wins[32m  * test spiral, black wins (7.5ms)[0m
+  * test spiral, nobody wins[32m  * test spiral, nobody wins (13.9ms)[0m
+
+
+Finished in 0.09 seconds (0.07s on load, 0.02s on tests)
+[32m8 tests, 0 failures[0m
+
+Randomized with seed 0
