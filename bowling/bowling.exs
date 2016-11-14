@@ -16,13 +16,17 @@ defmodule Bowling do
     end
   end
 
+  def roll(_, _) do
+    {:error, "Pins must have a value from 0 to 10"}
+  end
+
   def reduce_game_to_frames(game) do
     Enum.reverse(game)
     |> Enum.reduce([], fn(roll, frames)->
       current_frame = List.first(frames)
       cond do
         is_nil(current_frame) -> [{roll} | frames]
-        tuple_size(current_frame) == 1 and current_frame == {10} -> [{roll} | frames]
+        current_frame == {10} -> [{roll} | frames]
         tuple_size(current_frame) == 2 -> [{roll} | frames]
         tuple_size(current_frame) == 1 ->
           [{r1} | rest] = frames
@@ -31,72 +35,61 @@ defmodule Bowling do
     end)
   end
 
-  defp flatten
-
-  def roll(game, roll), do: {:error, "Pins must have a value from 0 to 10"}
-
   def score(game) do
-    frames = reduce_game_to_frames(game) |> Enum.reverse
+    frames = Enum.reverse(reduce_game_to_frames(game))
+
+    frame10 = Enum.at(frames, 9)
+    frame11 = Enum.at(frames, 10)
+    frame12 = Enum.at(frames, 11)
+
     cond do
       length(frames) < 10 -> {:error, "Score cannot be taken until the end of the game"}
-      length(frames) > 10 && Enum.sum(Tuple.to_list(Enum.at(frames, 9))) != 10 -> {:error, "Invalid game: too many frames"}
-      true -> reduce_game(Enum.reverse(game), 0, 0, 1)
-    end
-  end
-
-  defp reduce_game([10, 10], bonuses, score, 11), do: score + 10 * bonuses
-  defp reduce_game([r1, r2], bonuses, score, 11), do: score + r1 + r2
-  defp reduce_game([], bonuses, score, frames), do: score
-  defp reduce_game([r1, r2], _, _, 10) when r1 + r2 == 10, do: {:error, "Score cannot be taken until the end of the game"}
-  defp reduce_game([10, _], _, _, 10), do: {:error, "Score cannot be taken until the end of the game"}
-  defp reduce_game([r1, r2 | rolls], bonuses, score, frames) do
-    cond do
-      r1 == 10 ->
-        reduce_game([r2 | rolls], bonuses_for_strike(bonuses), score + apply_bonuses(r1, bonuses), frames + 1)
+      is_spare(frame10) and length(frames) < 11 -> {:error, "Score cannot be taken until the end of the game"}
+      frame10 == {10} and frame11 == {10} and is_nil(frame12) -> {:error, "Score cannot be taken until the end of the game"}
+      !is_spare(frame10) and frame10 != {10} and length(frames) > 10 -> {:error, "Invalid game: too many frames"}
       true ->
-        spare_bonus = if(r1 + r2 == 10, do: 1 , else: 0)
-        reduce_game(rolls, Enum.max([0, bonuses - 2]) + spare_bonus, score + apply_bonuses(r1, r2, bonuses), frames + 1)
+        score_game(frames)
     end
   end
 
-  defp reduce_game([r1], bonuses, score, 11), do: score + r1
-
-  defp reduce_game([10], _, _, 10) do
-    {:error, "Score cannot be taken until the end of the game"}
+  defp score_game(frames) do
+    [{0, 0}, {0,0} | frames]
+    |> Enum.chunk(3, 1)
+    |> Enum.with_index
+    |> Enum.map(&frame_score/1)
+    |> Enum.sum
   end
 
-
-  defp bonuses_for_strike(bonuses) do
-    if bonuses > 0 do
-      3
-    else
-      2
-    end
+  defp frame_score({[f1, f2, f3], 11}) do
+    score_with_multipliers(f3, 1, 1)
   end
 
-  defp apply_bonuses(r1, bonuses) do
-    cond do
-      bonuses >= 3 ->
-        r1 * 3
-      bonuses == 2 ->
-        r1 * 2
-      bonuses == 1 ->
-        r1 * 2
-      bonuses == 0 ->
-        r1
-    end
+  defp frame_score({[f1, f2, f3], 10}) do
+    m1 = 1
+    m1 = if({10} == f1, do: m1 + 1, else: m1)
+
+    score_with_multipliers(f3, m1, 1)
   end
 
-  defp apply_bonuses(r1, r2, bonuses) do
-    cond do
-      bonuses >= 3 ->
-        r1 * 3 + r2 * 2
-      bonuses == 2 ->
-        r1 * 2 + r2 * 2
-      bonuses == 1 ->
-        r1 * 2 + r2
-      bonuses == 0 ->
-        r1 + r2
-    end
+  defp frame_score({[f1, f2, f3], i}) do
+    m1 = 1
+    m1 = if({10} == f1, do: m1 + 1, else: m1)
+    m1 = if({10} == f2, do: m1 + 1, else: m1)
+    m1 = if(tuple_size(f2) == 2 && is_spare(f2), do: m1 + 1, else: m1)
+
+    m2 = 1
+    m2 = if({10} == f2, do: m2 + 1, else: m2)
+
+    score_with_multipliers(f3, m1, m2)
+  end
+
+  defp score_with_multipliers({r1, r2}, m1, m2) do
+    r1 * m1 + r2 * m2
+  end
+
+  defp score_with_multipliers({r1}, m1, m2), do: r1 * m1
+
+  defp is_spare(frame) do
+    Enum.sum(Tuple.to_list(frame)) == 10
   end
 end

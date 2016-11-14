@@ -3,7 +3,7 @@ if !System.get_env("EXERCISM_TEST_EXAMPLES") do
 end
 
 ExUnit.start
-ExUnit.configure exclude: :pending, include: :thisone, trace: true, seed: 0
+ExUnit.configure exclude: :pending, trace: true, seed: 0, max_cases: 1
 
 defmodule BowlingTest do
   use ExUnit.Case
