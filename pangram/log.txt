@@ -1,0 +1,650 @@
+** (SyntaxError) pangram.exs:18: unexpected token: ")". "fn" starting at line 18 is missing terminator "end"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    pangram_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+** (SyntaxError) pangram.exs:18: unexpected token: ")". "fn" starting at line 18 is missing terminator "end"
+    (elixir) lib/code.ex:321: Code.load_file/2
+    pangram_test.exs:2: (file)
+    (elixir) lib/code.ex:363: Code.require_file/2
+
+Excluding tags: [:pending]
+
+
+PangramTest
+  * test pangram with non ascii characters  * test pangram with non ascii characters (skipped)
+  * test pangram with underscores  * test pangram with underscores (skipped)
+  * test pangram with only lower case  * test pangram with only lower case (skipped)
+  * test empty sentence[32m  * test empty sentence (2.0ms)[0m
+  * test pangram with mixed case and punctuation  * test pangram with mixed case and punctuation (skipped)
+  * test another missing character 'x'  * test another missing character 'x' (skipped)
+  * test pangram in alphabet other than ASCII  * test pangram in alphabet other than ASCII (skipped)
+  * test pangram with numbers  * test pangram with numbers (skipped)
+  * test missing letters replaced by numbers  * test missing letters replaced by numbers (skipped)
+  * test missing character 'x'  * test missing character 'x' (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[32m10 tests, 0 failures, 9 skipped[0m
+
+Randomized with seed 589362
+Excluding tags: [:pending]
+
+
+PangramTest
+  * test empty sentence[32m  * test empty sentence (2.0ms)[0m
+  * test pangram with only lower case[31m  * test pangram with only lower case (8.2ms)[0m
+
+  1) test pangram with only lower case (PangramTest)
+     [1m[30mpangram_test.exs:15[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mPangram.pangram?("the quick brown fox jumps over the lazy dog")
+     [36mstacktrace:[0m
+       pangram_test.exs:16: (test)
+
+  * test missing character 'x'[32m  * test missing character 'x' (0.1ms)[0m
+  * test another missing character 'x'[32m  * test another missing character 'x' (0.07ms)[0m
+  * test pangram with underscores[31m  * test pangram with underscores (0.9ms)[0m
+
+  2) test pangram with underscores (PangramTest)
+     [1m[30mpangram_test.exs:27[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mPangram.pangram?("the_quick_brown_fox_jumps_over_the_lazy_dog")
+     [36mstacktrace:[0m
+       pangram_test.exs:28: (test)
+
+  * test pangram with numbers  * test pangram with numbers (skipped)
+  * test missing letters replaced by numbers  * test missing letters replaced by numbers (skipped)
+  * test pangram with mixed case and punctuation  * test pangram with mixed case and punctuation (skipped)
+  * test pangram with non ascii characters  * test pangram with non ascii characters (skipped)
+  * test pangram in alphabet other than ASCII  * test pangram in alphabet other than ASCII (skipped)
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[31m10 tests, 2 failures, 5 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PangramTest
+  * test empty sentence[32m  * test empty sentence (1.9ms)[0m
+  * test pangram with only lower case[31m  * test pangram with only lower case (2.8ms)[0m
+
+  1) test pangram with only lower case (PangramTest)
+     [1m[30mpangram_test.exs:15[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mPangram.pangram?("the quick brown fox jumps over the lazy dog")
+     [36mstacktrace:[0m
+       pangram_test.exs:16: (test)
+
+  * test missing character 'x'[32m  * test missing character 'x' (0.09ms)[0m
+  * test another missing character 'x'[32m  * test another missing character 'x' (0.07ms)[0m
+  * test pangram with underscores[31m  * test pangram with underscores (0.1ms)[0m
+
+  2) test pangram with underscores (PangramTest)
+     [1m[30mpangram_test.exs:27[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mPangram.pangram?("the_quick_brown_fox_jumps_over_the_lazy_dog")
+     [36mstacktrace:[0m
+       pangram_test.exs:28: (test)
+
+  * test pangram with numbers  * test pangram with numbers (skipped)
+  * test missing letters replaced by numbers  * test missing letters replaced by numbers (skipped)
+  * test pangram with mixed case and punctuation  * test pangram with mixed case and punctuation (skipped)
+  * test pangram with non ascii characters  * test pangram with non ascii characters (skipped)
+  * test pangram in alphabet other than ASCII  * test pangram in alphabet other than ASCII (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m10 tests, 2 failures, 5 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PangramTest
+  * test empty sentence[32m  * test empty sentence (6.7ms)[0m
+  * test pangram with only lower case[31m  * test pangram with only lower case (3.1ms)[0m
+
+  1) test pangram with only lower case (PangramTest)
+     [1m[30mpangram_test.exs:15[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mPangram.pangram?("the quick brown fox jumps over the lazy dog")
+     [36mstacktrace:[0m
+       pangram_test.exs:16: (test)
+
+  * test missing character 'x'[32m  * test missing character 'x' (0.1ms)[0m
+  * test another missing character 'x'[32m  * test another missing character 'x' (0.09ms)[0m
+  * test pangram with underscores[31m  * test pangram with underscores (1.4ms)[0m
+
+  2) test pangram with underscores (PangramTest)
+     [1m[30mpangram_test.exs:27[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mPangram.pangram?("the_quick_brown_fox_jumps_over_the_lazy_dog")
+     [36mstacktrace:[0m
+       pangram_test.exs:28: (test)
+
+  * test pangram with numbers  * test pangram with numbers (skipped)
+  * test missing letters replaced by numbers  * test missing letters replaced by numbers (skipped)
+  * test pangram with mixed case and punctuation  * test pangram with mixed case and punctuation (skipped)
+  * test pangram with non ascii characters  * test pangram with non ascii characters (skipped)
+  * test pangram in alphabet other than ASCII  * test pangram in alphabet other than ASCII (skipped)
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[31m10 tests, 2 failures, 5 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PangramTest
+  * test empty sentence"length 0"
+[32m  * test empty sentence (3.9ms)[0m
+"length 0"
+  * test pangram with only lower case"length 0"
+[31m  * test pangram with only lower case (2.3ms)[0m
+"length 0"
+"length 0"
+
+  1) test pangram with only lower case (PangramTest)
+     [1m[30mpangram_test.exs:15[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mPangram.pangram?("the quick brown fox jumps over the lazy dog")
+     [36mstacktrace:[0m
+       pangram_test.exs:16: (test)
+
+  * test missing character 'x'[32m  * test missing character 'x' (0.2ms)[0m
+  * test another missing character 'x'[32m  * test another missing character 'x' (0.1ms)[0m
+  * test pangram with underscores[31m  * test pangram with underscores (0.1ms)[0m
+
+  2) test pangram with underscores (PangramTest)
+     [1m[30mpangram_test.exs:27[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mPangram.pangram?("the_quick_brown_fox_jumps_over_the_lazy_dog")
+     [36mstacktrace:[0m
+       pangram_test.exs:28: (test)
+
+  * test pangram with numbers  * test pangram with numbers (skipped)
+  * test missing letters replaced by numbers  * test missing letters replaced by numbers (skipped)
+  * test pangram with mixed case and punctuation  * test pangram with mixed case and punctuation (skipped)
+  * test pangram with non ascii characters  * test pangram with non ascii characters (skipped)
+  * test pangram in alphabet other than ASCII  * test pangram in alphabet other than ASCII (skipped)
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m10 tests, 2 failures, 5 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PangramTest
+  * test empty sentence"length 0"
+"length 26"
+[32m  * test empty sentence (5.0ms)[0m
+  * test pangram with only lower case"length 25"
+[32m  * test pangram with only lower case (0.8ms)[0m
+  * test missing character 'x'"length 25"
+[32m  * test missing character 'x' (0.4ms)[0m
+"length 26"
+  * test another missing character 'x'[32m  * test another missing character 'x' (0.7ms)[0m
+  * test pangram with underscores[32m  * test pangram with underscores (0.5ms)[0m
+  * test pangram with numbers  * test pangram with numbers (skipped)
+  * test missing letters replaced by numbers  * test missing letters replaced by numbers (skipped)
+  * test pangram with mixed case and punctuation  * test pangram with mixed case and punctuation (skipped)
+  * test pangram with non ascii characters  * test pangram with non ascii characters (skipped)
+  * test pangram in alphabet other than ASCII  * test pangram in alphabet other than ASCII (skipped)
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[32m10 tests, 0 failures, 5 skipped[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PangramTest
+  * test empty sentence[32m  * test empty sentence (1.9ms)[0m
+  * test pangram with only lower case[32m  * test pangram with only lower case (0.1ms)[0m
+  * test missing character 'x'[32m  * test missing character 'x' (0.1ms)[0m
+  * test another missing character 'x'[32m  * test another missing character 'x' (0.1ms)[0m
+  * test pangram with underscores[32m  * test pangram with underscores (0.1ms)[0m
+  * test pangram with numbers[32m  * test pangram with numbers (0.1ms)[0m
+  * test missing letters replaced by numbers[32m  * test missing letters replaced by numbers (0.1ms)[0m
+  * test pangram with mixed case and punctuation[31m  * test pangram with mixed case and punctuation (2.2ms)[0m
+
+  1) test pangram with mixed case and punctuation (PangramTest)
+     [1m[30mpangram_test.exs:39[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mPangram.pangram?("Five quacking Zephyrs jolt my wax bed.")
+     [36mstacktrace:[0m
+       pangram_test.exs:40: (test)
+
+  * test pangram with non ascii characters[31m  * test pangram with non ascii characters (0.1ms)[0m
+
+  2) test pangram with non ascii characters (PangramTest)
+     [1m[30mpangram_test.exs:43[0m
+     [31mExpected truthy, got false[0m
+     [36mcode: [0mPangram.pangram?("Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich.")
+     [36mstacktrace:[0m
+       pangram_test.exs:44: (test)
+
+  * test pangram in alphabet other than ASCII[32m  * test pangram in alphabet other than ASCII (0.1ms)[0m
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m10 tests, 2 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PangramTest
+  * test empty sentence[31m  * test empty sentence (2.4ms)[0m
+
+  1) test empty sentence (PangramTest)
+     [1m[30mpangram_test.exs:11[0m
+     [31m** (UndefinedFunctionError) function String.downcase/0 is undefined or private. Did you mean one of:
+     
+           * downcase/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.downcase()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:12: (test)
+
+  * test pangram with only lower case[31m  * test pangram with only lower case (0.03ms)[0m
+
+  2) test pangram with only lower case (PangramTest)
+     [1m[30mpangram_test.exs:15[0m
+     [31m** (UndefinedFunctionError) function String.downcase/0 is undefined or private. Did you mean one of:
+     
+           * downcase/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.downcase()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:16: (test)
+
+  * test missing character 'x'[31m  * test missing character 'x' (0.7ms)[0m
+
+  3) test missing character 'x' (PangramTest)
+     [1m[30mpangram_test.exs:19[0m
+     [31m** (UndefinedFunctionError) function String.downcase/0 is undefined or private. Did you mean one of:
+     
+           * downcase/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.downcase()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:20: (test)
+
+  * test another missing character 'x'[31m  * test another missing character 'x' (0.01ms)[0m
+
+  4) test another missing character 'x' (PangramTest)
+     [1m[30mpangram_test.exs:23[0m
+     [31m** (UndefinedFunctionError) function String.downcase/0 is undefined or private. Did you mean one of:
+     
+           * downcase/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.downcase()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:24: (test)
+
+  * test pangram with underscores[31m  * test pangram with underscores (0.01ms)[0m
+
+  5) test pangram with underscores (PangramTest)
+     [1m[30mpangram_test.exs:27[0m
+     [31m** (UndefinedFunctionError) function String.downcase/0 is undefined or private. Did you mean one of:
+     
+           * downcase/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.downcase()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:28: (test)
+
+  * test pangram with numbers[31m  * test pangram with numbers (0.01ms)[0m
+
+  6) test pangram with numbers (PangramTest)
+     [1m[30mpangram_test.exs:31[0m
+     [31m** (UndefinedFunctionError) function String.downcase/0 is undefined or private. Did you mean one of:
+     
+           * downcase/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.downcase()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:32: (test)
+
+  * test missing letters replaced by numbers[31m  * test missing letters replaced by numbers (0.01ms)[0m
+
+  7) test missing letters replaced by numbers (PangramTest)
+     [1m[30mpangram_test.exs:35[0m
+     [31m** (UndefinedFunctionError) function String.downcase/0 is undefined or private. Did you mean one of:
+     
+           * downcase/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.downcase()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:36: (test)
+
+  * test pangram with mixed case and punctuation[31m  * test pangram with mixed case and punctuation (1.9ms)[0m
+
+  8) test pangram with mixed case and punctuation (PangramTest)
+     [1m[30mpangram_test.exs:39[0m
+     [31m** (UndefinedFunctionError) function String.downcase/0 is undefined or private. Did you mean one of:
+     
+           * downcase/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.downcase()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:40: (test)
+
+  * test pangram with non ascii characters[31m  * test pangram with non ascii characters (0.7ms)[0m
+
+  9) test pangram with non ascii characters (PangramTest)
+     [1m[30mpangram_test.exs:43[0m
+     [31m** (UndefinedFunctionError) function String.downcase/0 is undefined or private. Did you mean one of:
+     
+           * downcase/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.downcase()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:44: (test)
+
+  * test pangram in alphabet other than ASCII[31m  * test pangram in alphabet other than ASCII (0.01ms)[0m
+
+ 10) test pangram in alphabet other than ASCII (PangramTest)
+     [1m[30mpangram_test.exs:47[0m
+     [31m** (UndefinedFunctionError) function String.downcase/0 is undefined or private. Did you mean one of:
+     
+           * downcase/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.downcase()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:48: (test)
+
+
+
+Finished in 0.08 seconds (0.08s on load, 0.00s on tests)
+[31m10 tests, 10 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PangramTest
+  * test empty sentence[31m  * test empty sentence (2.2ms)[0m
+
+  1) test empty sentence (PangramTest)
+     [1m[30mpangram_test.exs:11[0m
+     [31m** (UndefinedFunctionError) function String.lower/0 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.lower()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:12: (test)
+
+  * test pangram with only lower case[31m  * test pangram with only lower case (0.01ms)[0m
+
+  2) test pangram with only lower case (PangramTest)
+     [1m[30mpangram_test.exs:15[0m
+     [31m** (UndefinedFunctionError) function String.lower/0 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.lower()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:16: (test)
+
+  * test missing character 'x'[31m  * test missing character 'x' (0.6ms)[0m
+
+  3) test missing character 'x' (PangramTest)
+     [1m[30mpangram_test.exs:19[0m
+     [31m** (UndefinedFunctionError) function String.lower/0 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.lower()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:20: (test)
+
+  * test another missing character 'x'[31m  * test another missing character 'x' (0.02ms)[0m
+
+  4) test another missing character 'x' (PangramTest)
+     [1m[30mpangram_test.exs:23[0m
+     [31m** (UndefinedFunctionError) function String.lower/0 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.lower()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:24: (test)
+
+  * test pangram with underscores[31m  * test pangram with underscores (0.02ms)[0m
+
+  5) test pangram with underscores (PangramTest)
+     [1m[30mpangram_test.exs:27[0m
+     [31m** (UndefinedFunctionError) function String.lower/0 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.lower()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:28: (test)
+
+  * test pangram with numbers[31m  * test pangram with numbers (0.02ms)[0m
+
+  6) test pangram with numbers (PangramTest)
+     [1m[30mpangram_test.exs:31[0m
+     [31m** (UndefinedFunctionError) function String.lower/0 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.lower()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:32: (test)
+
+  * test missing letters replaced by numbers[31m  * test missing letters replaced by numbers (0.01ms)[0m
+
+  7) test missing letters replaced by numbers (PangramTest)
+     [1m[30mpangram_test.exs:35[0m
+     [31m** (UndefinedFunctionError) function String.lower/0 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.lower()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:36: (test)
+
+  * test pangram with mixed case and punctuation[31m  * test pangram with mixed case and punctuation (1.0ms)[0m
+
+  8) test pangram with mixed case and punctuation (PangramTest)
+     [1m[30mpangram_test.exs:39[0m
+     [31m** (UndefinedFunctionError) function String.lower/0 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.lower()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:40: (test)
+
+  * test pangram with non ascii characters[31m  * test pangram with non ascii characters (1.9ms)[0m
+
+  9) test pangram with non ascii characters (PangramTest)
+     [1m[30mpangram_test.exs:43[0m
+     [31m** (UndefinedFunctionError) function String.lower/0 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.lower()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:44: (test)
+
+  * test pangram in alphabet other than ASCII[31m  * test pangram in alphabet other than ASCII (0.02ms)[0m
+
+ 10) test pangram in alphabet other than ASCII (PangramTest)
+     [1m[30mpangram_test.exs:47[0m
+     [31m** (UndefinedFunctionError) function String.lower/0 is undefined or private[0m
+     [36mstacktrace:[0m
+       (elixir) String.lower()
+       pangram.exs:17: Pangram.pangram?/1
+       pangram_test.exs:48: (test)
+
+
+
+Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
+[31m10 tests, 10 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PangramTest
+  * test empty sentence[31m  * test empty sentence (9.5ms)[0m
+
+  1) test empty sentence (PangramTest)
+     [1m[30mpangram_test.exs:11[0m
+     [31m** (UndefinedFunctionError) function String.graphemes/2 is undefined or private. Did you mean one of:
+     
+           * graphemes/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.graphemes("", "")
+       pangram.exs:18: Pangram.pangram?/1
+       pangram_test.exs:12: (test)
+
+  * test pangram with only lower case[31m  * test pangram with only lower case (0.7ms)[0m
+
+  2) test pangram with only lower case (PangramTest)
+     [1m[30mpangram_test.exs:15[0m
+     [31m** (UndefinedFunctionError) function String.graphemes/2 is undefined or private. Did you mean one of:
+     
+           * graphemes/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.graphemes("the quick brown fox jumps over the lazy dog", "the quick brown fox jumps over the lazy dog")
+       pangram.exs:18: Pangram.pangram?/1
+       pangram_test.exs:16: (test)
+
+  * test missing character 'x'[31m  * test missing character 'x' (0.03ms)[0m
+
+  3) test missing character 'x' (PangramTest)
+     [1m[30mpangram_test.exs:19[0m
+     [31m** (UndefinedFunctionError) function String.graphemes/2 is undefined or private. Did you mean one of:
+     
+           * graphemes/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.graphemes("a quick movement of the enemy will jeopardize five gunboats", "a quick movement of the enemy will jeopardize five gunboats")
+       pangram.exs:18: Pangram.pangram?/1
+       pangram_test.exs:20: (test)
+
+  * test another missing character 'x'[31m  * test another missing character 'x' (0.02ms)[0m
+
+  4) test another missing character 'x' (PangramTest)
+     [1m[30mpangram_test.exs:23[0m
+     [31m** (UndefinedFunctionError) function String.graphemes/2 is undefined or private. Did you mean one of:
+     
+           * graphemes/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.graphemes("the quick brown fish jumps over the lazy dog", "the quick brown fish jumps over the lazy dog")
+       pangram.exs:18: Pangram.pangram?/1
+       pangram_test.exs:24: (test)
+
+  * test pangram with underscores[31m  * test pangram with underscores (0.02ms)[0m
+
+  5) test pangram with underscores (PangramTest)
+     [1m[30mpangram_test.exs:27[0m
+     [31m** (UndefinedFunctionError) function String.graphemes/2 is undefined or private. Did you mean one of:
+     
+           * graphemes/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.graphemes("the_quick_brown_fox_jumps_over_the_lazy_dog", "the_quick_brown_fox_jumps_over_the_lazy_dog")
+       pangram.exs:18: Pangram.pangram?/1
+       pangram_test.exs:28: (test)
+
+  * test pangram with numbers[31m  * test pangram with numbers (0.02ms)[0m
+
+  6) test pangram with numbers (PangramTest)
+     [1m[30mpangram_test.exs:31[0m
+     [31m** (UndefinedFunctionError) function String.graphemes/2 is undefined or private. Did you mean one of:
+     
+           * graphemes/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.graphemes("the 1 quick brown fox jumps over the 2 lazy dogs", "the 1 quick brown fox jumps over the 2 lazy dogs")
+       pangram.exs:18: Pangram.pangram?/1
+       pangram_test.exs:32: (test)
+
+  * test missing letters replaced by numbers[31m  * test missing letters replaced by numbers (1.2ms)[0m
+
+  7) test missing letters replaced by numbers (PangramTest)
+     [1m[30mpangram_test.exs:35[0m
+     [31m** (UndefinedFunctionError) function String.graphemes/2 is undefined or private. Did you mean one of:
+     
+           * graphemes/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.graphemes("7h3 qu1ck brown fox jumps ov3r 7h3 lazy dog", "7h3 qu1ck brown fox jumps ov3r 7h3 lazy dog")
+       pangram.exs:18: Pangram.pangram?/1
+       pangram_test.exs:36: (test)
+
+  * test pangram with mixed case and punctuation[31m  * test pangram with mixed case and punctuation (0.7ms)[0m
+
+  8) test pangram with mixed case and punctuation (PangramTest)
+     [1m[30mpangram_test.exs:39[0m
+     [31m** (UndefinedFunctionError) function String.graphemes/2 is undefined or private. Did you mean one of:
+     
+           * graphemes/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.graphemes("five quacking zephyrs jolt my wax bed.", "Five quacking Zephyrs jolt my wax bed.")
+       pangram.exs:18: Pangram.pangram?/1
+       pangram_test.exs:40: (test)
+
+  * test pangram with non ascii characters[31m  * test pangram with non ascii characters (0.04ms)[0m
+
+  9) test pangram with non ascii characters (PangramTest)
+     [1m[30mpangram_test.exs:43[0m
+     [31m** (UndefinedFunctionError) function String.graphemes/2 is undefined or private. Did you mean one of:
+     
+           * graphemes/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.graphemes("victor jagt zwölf boxkämpfer quer über den großen sylter deich.", "Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich.")
+       pangram.exs:18: Pangram.pangram?/1
+       pangram_test.exs:44: (test)
+
+  * test pangram in alphabet other than ASCII[31m  * test pangram in alphabet other than ASCII (0.9ms)[0m
+
+ 10) test pangram in alphabet other than ASCII (PangramTest)
+     [1m[30mpangram_test.exs:47[0m
+     [31m** (UndefinedFunctionError) function String.graphemes/2 is undefined or private. Did you mean one of:
+     
+           * graphemes/1
+     [0m
+     [36mstacktrace:[0m
+       (elixir) String.graphemes("широкая электрификация южных губерний даст мощный толчок подъёму сельского хозяйства.", "Широкая электрификация южных губерний даст мощный толчок подъёму сельского хозяйства.")
+       pangram.exs:18: Pangram.pangram?/1
+       pangram_test.exs:48: (test)
+
+
+
+Finished in 0.08 seconds (0.07s on load, 0.01s on tests)
+[31m10 tests, 10 failures[0m
+
+Randomized with seed 0
+Excluding tags: [:pending]
+
+
+PangramTest
+  * test empty sentence[32m  * test empty sentence (9.1ms)[0m
+  * test pangram with only lower case[32m  * test pangram with only lower case (0.1ms)[0m
+  * test missing character 'x'[32m  * test missing character 'x' (0.1ms)[0m
+  * test another missing character 'x'[32m  * test another missing character 'x' (0.1ms)[0m
+  * test pangram with underscores[32m  * test pangram with underscores (0.1ms)[0m
+  * test pangram with numbers[32m  * test pangram with numbers (0.07ms)[0m
+  * test missing letters replaced by numbers[32m  * test missing letters replaced by numbers (0.08ms)[0m
+  * test pangram with mixed case and punctuation[32m  * test pangram with mixed case and punctuation (0.1ms)[0m
+  * test pangram with non ascii characters[32m  * test pangram with non ascii characters (0.1ms)[0m
+  * test pangram in alphabet other than ASCII[32m  * test pangram in alphabet other than ASCII (0.2ms)[0m
+
+
+Finished in 0.07 seconds (0.06s on load, 0.01s on tests)
+[32m10 tests, 0 failures[0m
+
+Randomized with seed 0
